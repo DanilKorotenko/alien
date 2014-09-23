@@ -20,5 +20,5 @@ dofile('alien.lua');
 main = room {
 	nam = 'Alien.',
 	dsc = "(С) September 2014. Danil Korotenko (danil.korotenko@gmail.com)",
-	obj = { vway("Next", "Click {there} to play.", 'spaceShip') },
+	obj = { vway("Next", "Click {there} to play.", 'HYPERSLEEP_VAULT') },
 };

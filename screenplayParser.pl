@@ -12,19 +12,13 @@ $currentLines = "";
 
 %rooms = ();
 
-@roomIDList = ();
-
 foreach $line (@allLines)
 {
 	if ($line =~ /\s*(INT|EXT)\.\s(.+)/)
 	{
 		$roomName = $2;
-		$roomID = $roomName;
-		$roomID =~ s/(\s+|\")/_/g;
-		$roomID =~ s/-/_/g;
-		$roomID =~ s/__/_/g;
-		push @roomIDList, $roomID;
 		chomp($roomName);
+		$roomName =~ s/\"/\'/g;
 		if($previousRoom ne $roomName)
 		{
 			$rooms{$roomName} .= "----------------------------------------------------------------\n";
@@ -42,9 +36,14 @@ foreach $line (@allLines)
 
 $roomIDSString = "";
 
-foreach $roomID (@roomIDList)
+foreach $roomName (keys %rooms)
 {
-	$roomIDSString .= "'$roomID' , "
+	$roomID = $roomName;
+	$roomID =~ s/(\s+|\")/_/g;
+	$roomID =~ s/-/_/g;
+	$roomID =~ s/\'/_/g;
+	$roomID =~ s/__/_/g;
+	$roomIDSString .= "'$roomID' , \n"
 }
 
 chop $roomIDSString;
@@ -55,8 +54,9 @@ foreach $roomName (keys %rooms)
 	$roomID = $roomName;
 	$roomID =~ s/(\s+|\")/_/g;
 	$roomID =~ s/-/_/g;
+	$roomID =~ s/\'/_/g;
 	$roomID =~ s/__/_/g;
-	print "$roomID = room\n{\n\tnam = \"$roomName\",\n\tdsc = \"[[^^$rooms{$roomName}]]\"\n\tway = {$roomIDSString}}\n\n";
+	print "$roomID = room\n{\n\tnam = \"$roomName\",\n\tdsc = [[$rooms{$roomName}]],\n\tway = {$roomIDSString}}\n\n";
 }
 
 #print $roomIDSString;
