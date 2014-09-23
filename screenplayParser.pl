@@ -6,7 +6,7 @@ open(screenplayFile, "<alienScreenPlay.txt") || die "Cannot open file.";
 
 close(screenplayFile);
 
-$previousRoom = "";
+$previousRoom = "intro";
 
 $currentLines = "";
 
@@ -19,13 +19,13 @@ foreach $line (@allLines)
 		$roomName = $2;
 		chomp($roomName);
 		$roomName =~ s/\"/\'/g;
-		if($previousRoom ne $roomName)
-		{
-			$rooms{$roomName} .= "----------------------------------------------------------------\n";
-			$rooms{$roomName} .= $currentLines;
-			$previousRoom = $roomName;
-			$currentLines = "";
-		}
+			if ($previousRoom ne $roomName)
+			{
+				$rooms{$previousRoom} .= "----------------------------------------------------------------\n";
+				$rooms{$previousRoom} .= $currentLines;
+				$previousRoom = $roomName;
+				$currentLines = "";
+			}
 	}
 	else
 	{
@@ -48,6 +48,7 @@ foreach $roomName (keys %rooms)
 
 chop $roomIDSString;
 chop $roomIDSString;
+chop $roomIDSString;
 
 foreach $roomName (keys %rooms)
 {
@@ -56,7 +57,7 @@ foreach $roomName (keys %rooms)
 	$roomID =~ s/-/_/g;
 	$roomID =~ s/\'/_/g;
 	$roomID =~ s/__/_/g;
-	print "$roomID = room\n{\n\tnam = \"$roomName\",\n\tdsc = [[$rooms{$roomName}]],\n\tway = {$roomIDSString}}\n\n";
+	print "$roomID = room\n{\n\tnam = \"$roomName\",\n\tdsc = [[$rooms{$roomName}]],\n\tway = {$roomIDSString}\n}\n\n";
 }
 
 #print $roomIDSString;
