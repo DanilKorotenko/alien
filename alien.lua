@@ -1,4104 +1,3 @@
-PLANET__DAY = room
-{
-	nam = "PLANET - DAY",
-	dsc = [[----------------------------------------------------------------
-
-        Dust clearing.
-        Three tiny figures against the landscape.
-
-   
-        Empty landscape.
-        Then Kane comes up over a rise startled by what he sees.
-        Suddenly the transmission is deafening.
-
-                                 KANE
-                  Jesus Christ.
-              
-        Dallas and Lambert join him equally startled.
-
-        THEIR P.O.V. - DAY
-
-        A gargantuan construction rising from the rock.
-        Clearly of nonhuman manufacture.
-
-
-        Noise still at shrill pitch.
-        All members of the party shouting into their voice-amps.
-
-                                 KANE
-                  Some kind of spaceship.
-
-                                 LAMBERT
-                  Are you sure.  It's weird...
-
-                                 DALLAS
-                  Ash, can you see this.
-
-----------------------------------------------------------------
-
-                                 ASH
-                         (voice over)
-                  It's putting out so much power
-                  I just can't get any reading.
-
-        Dallas shuts off his receiver.
-        Sudden quiet.
-        A long moment.
-
-                                 DALLAS
-                  It looks pretty dead from here.
-                  We'll approach the base.
-
-        They move toward the ship.
-
-]],
-	way = {'PLANET__DAY' , 
-'MAIN_AIR_LOCK__DAWN' , 
-'OILY_CORRIDOR__C_LEVEL' , 
-'LOCKER' , 
-'OILY_CORRIDOR__COMPANIONWAY' , 
-'PASSAGEWAYS__B_DECK' , 
-'ANOTHER_PASSAGEWAY__B_LEVEL' , 
-'CORRIDOR_OUTSIDE_INFIRMARY_WINDOW' , 
-'ASH_S_BLISTER__DAWN' , 
-'NARCISSUS' , 
-'SHIP' , 
-'ENGINE_ROOM' , 
-'AIR_LOCK_VESTIBULE' , 
-'AIR_LOCK' , 
-'INFIRMARY__A_LEVEL' , 
-'UNDERCARRIAGE_ROOM__C_LEVEL_' , 
-'_B_LEVEL__CORRIDOR' , 
-'CORRIDOR__OUTSIDE' , 
-'BLISTER' , 
-'STRUCTURE' , 
-'MAINTENANCE_AREA__C_DECK' , 
-'MAINTENANCE__C_LEVEL' , 
-'NOSTROMO__DAY' , 
-'COMPUTER_ANNEX' , 
-'FOOD_LOCKER_NUMBER_6__B_DECK' , 
-'PASSAGEWAY_OUTSIDE_INFIRMARY' , 
-'HYPERSLEEP_VAULT' , 
-'AIR_SHAFT' , 
-'THE_NOSTROMO__SUNSET' , 
-'PASSAGEWAY__B_LEVEL' , 
-'MESS' , 
-'ASH_S_BLISTER' , 
-'COMPANIONWAY_TO_OILY_CORRIDOR__E_LEVEL' , 
-'EQUIPMENT_MAINTENANCE_AREA__C_LEVEL' , 
-'BRIDGE__NIGHT' , 
-'BLISTER__DAWN' , 
-'NARCISSUS__OUTER_SPACE' , 
-'CORRIDOR__A_LEVEL' , 
-'ENGINE_ROOM_CUBICLE' , 
-'SPACE_SUIT_LOCKER' , 
-'COMPUTER_ROOM_ANNEX' , 
-'LANDING_LEG__NIGHT' , 
-'BLISTER__DAY' , 
-'CHAMBER_ABOVE' , 
-'INFIRMARY' , 
-'CHAMBER__DAY' , 
-'FOOD_LOCKER_NUMBER_6__B_LEVEL' , 
-'CORRIDOR_TO_BRIDGE' , 
-'ENTRANCE_TO_DERELICT__SUNSET' , 
-'SHIP__DAWN' , 
-'CORRIDOR_OUTSIDE_IMFIRMARY_WINDOW' , 
-'ENGINE_CUBICLE' , 
-'PLANET__NIGHT' , 
-'SECOND_LEVEL__C_DECK' , 
-'PASSAGEWAY_NEAR_AIR_LOCK__B_LEVEL' , 
-'ENGINE_ROOM__CUBICLE' , 
-'NOSTROMO' , 
-'BRIDGE' , 
-'CORRIDOR_TO_BRIDGE__A_LEVEL' , 
-'NOSTROMO__OUTER_SPACE' , 
-'GALLEY' , 
-'PLANET__SUNRISE' , 
-'OILY_CORRIDOR__C_DECK' , 
-'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
-'PASSAGEWAY__B_DECK' , 
-'PASSAGEWAY__C_LEVEL' , 
-'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
-'PLANET__DAWN' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_NARCISSUS' , 
-'STARBOARD_AIR_LOCK__VESTIBULE' , 
-'SHIP__NIGHT' , 
-'NARCISSUS__LATER' , 
-'_A_TO_B_LEVELS__COMPANIONWAY' , 
-'STRUCTURE__DAY' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12__B_LEVEL' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_AIR_LOCK' , 
-'FOOD_LOCKER_NUMBER_12' , 
-'AIR_SHAFT_DOUBLE_TIERED_PASSAGEWAY' , 
-'AIR_SHAFT__DOUBLE_TIERED_PASSAGEWAY' , 
-'ASH_S_BLISTER__DAY' , 
-'PASSAGEWAY_NEAR_AIR_LOCK' , 
-'VESTIBULE' ,  
-'HOLD' , 
-'OILY_CORRIDOR' , 
-'NOSTROMO_AND_REFINERY_APPROACHING_THE' , 
-'STRUCTURE_OPENING' , 
-'CORRIDOR__A_DECK' , 
-'AIR_LOCK__NARCISSUS' , 
-'SPACE' , 
-'CORRIDOR__B_DECK' , 
-'_B_LEVEL__COMPANIONWAY' , 
-'PLANET' , 
-'BRIDGE__SUNRISE' , 
-'FOOD_LOCKER_CORRIDOR__OUTSIDE' , 
-'AIR_LOCK__B_DECK' , 
-'OUTER_SPACE' , 
-'THE_NOSTROMO__SUNRISE' , 
-'PASSAGE_NEAR_AIR_LOCK__B_LEVEL' , 
-'BLISTER_STAIRCASE' , 
-'MAINTENANCE_LEVEL' , 
-'PASSAGEWAY__A_LEVEL' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12' , 
-'EQUIPMENT_MAINTENANCE_AREA' , 
-'BRIDGE__DAY' }
-}
-
-MAIN_AIR_LOCK__DAWN = room
-{
-	nam = "MAIN AIR LOCK - DAWN",
-	dsc = [[----------------------------------------------------------------
-
-        Dallas, Kane and Lambert enter the lock.
-        All wear gloves, boots, jackets.
-        Carry laser pistols.
-        Kane touches a button.
-        Servo whine.
-        Then the inner door slides quietly shut.
-        The trio pull on their helmets.
-
-                                 DALLAS
-                  I'm sending.  Do you hear me.
-
-                                 KANE
-                  Receiving.
-
-                                 LAMBERT
-                  Receiving.
-
-                                 DALLAS
-                  All right.  Keep away from the
-                  weapons unless I say otherwise.
-
-----------------------------------------------------------------
-
-                                 DALLAS
-                  Open the hatch.
-              
-        Another servo whine.
-        Ponderously, the outer lock hatch slides open.
-        Clouds of dust and steam swirl before the three crew members.
-        A mobile gangway slides out the open hatch.
-        Burnt orange sunlight beyond.
-
-]],
-	way = {'PLANET__DAY' , 
-'MAIN_AIR_LOCK__DAWN' , 
-'OILY_CORRIDOR__C_LEVEL' , 
-'LOCKER' , 
-'OILY_CORRIDOR__COMPANIONWAY' , 
-'PASSAGEWAYS__B_DECK' , 
-'ANOTHER_PASSAGEWAY__B_LEVEL' , 
-'CORRIDOR_OUTSIDE_INFIRMARY_WINDOW' , 
-'ASH_S_BLISTER__DAWN' , 
-'NARCISSUS' , 
-'SHIP' , 
-'ENGINE_ROOM' , 
-'AIR_LOCK_VESTIBULE' , 
-'AIR_LOCK' , 
-'INFIRMARY__A_LEVEL' , 
-'UNDERCARRIAGE_ROOM__C_LEVEL_' , 
-'_B_LEVEL__CORRIDOR' , 
-'CORRIDOR__OUTSIDE' , 
-'BLISTER' , 
-'STRUCTURE' , 
-'MAINTENANCE_AREA__C_DECK' , 
-'MAINTENANCE__C_LEVEL' , 
-'NOSTROMO__DAY' , 
-'COMPUTER_ANNEX' , 
-'FOOD_LOCKER_NUMBER_6__B_DECK' , 
-'PASSAGEWAY_OUTSIDE_INFIRMARY' , 
-'HYPERSLEEP_VAULT' , 
-'AIR_SHAFT' , 
-'THE_NOSTROMO__SUNSET' , 
-'PASSAGEWAY__B_LEVEL' , 
-'MESS' , 
-'ASH_S_BLISTER' , 
-'COMPANIONWAY_TO_OILY_CORRIDOR__E_LEVEL' , 
-'EQUIPMENT_MAINTENANCE_AREA__C_LEVEL' , 
-'BRIDGE__NIGHT' , 
-'BLISTER__DAWN' , 
-'NARCISSUS__OUTER_SPACE' , 
-'CORRIDOR__A_LEVEL' , 
-'ENGINE_ROOM_CUBICLE' , 
-'SPACE_SUIT_LOCKER' , 
-'COMPUTER_ROOM_ANNEX' , 
-'LANDING_LEG__NIGHT' , 
-'BLISTER__DAY' , 
-'CHAMBER_ABOVE' , 
-'INFIRMARY' , 
-'CHAMBER__DAY' , 
-'FOOD_LOCKER_NUMBER_6__B_LEVEL' , 
-'CORRIDOR_TO_BRIDGE' , 
-'ENTRANCE_TO_DERELICT__SUNSET' , 
-'SHIP__DAWN' , 
-'CORRIDOR_OUTSIDE_IMFIRMARY_WINDOW' , 
-'ENGINE_CUBICLE' , 
-'PLANET__NIGHT' , 
-'SECOND_LEVEL__C_DECK' , 
-'PASSAGEWAY_NEAR_AIR_LOCK__B_LEVEL' , 
-'ENGINE_ROOM__CUBICLE' , 
-'NOSTROMO' , 
-'BRIDGE' , 
-'CORRIDOR_TO_BRIDGE__A_LEVEL' , 
-'NOSTROMO__OUTER_SPACE' , 
-'GALLEY' , 
-'PLANET__SUNRISE' , 
-'OILY_CORRIDOR__C_DECK' , 
-'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
-'PASSAGEWAY__B_DECK' , 
-'PASSAGEWAY__C_LEVEL' , 
-'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
-'PLANET__DAWN' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_NARCISSUS' , 
-'STARBOARD_AIR_LOCK__VESTIBULE' , 
-'SHIP__NIGHT' , 
-'NARCISSUS__LATER' , 
-'_A_TO_B_LEVELS__COMPANIONWAY' , 
-'STRUCTURE__DAY' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12__B_LEVEL' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_AIR_LOCK' , 
-'FOOD_LOCKER_NUMBER_12' , 
-'AIR_SHAFT_DOUBLE_TIERED_PASSAGEWAY' , 
-'AIR_SHAFT__DOUBLE_TIERED_PASSAGEWAY' , 
-'ASH_S_BLISTER__DAY' , 
-'PASSAGEWAY_NEAR_AIR_LOCK' , 
-'VESTIBULE' ,  
-'HOLD' , 
-'OILY_CORRIDOR' , 
-'NOSTROMO_AND_REFINERY_APPROACHING_THE' , 
-'STRUCTURE_OPENING' , 
-'CORRIDOR__A_DECK' , 
-'AIR_LOCK__NARCISSUS' , 
-'SPACE' , 
-'CORRIDOR__B_DECK' , 
-'_B_LEVEL__COMPANIONWAY' , 
-'PLANET' , 
-'BRIDGE__SUNRISE' , 
-'FOOD_LOCKER_CORRIDOR__OUTSIDE' , 
-'AIR_LOCK__B_DECK' , 
-'OUTER_SPACE' , 
-'THE_NOSTROMO__SUNRISE' , 
-'PASSAGE_NEAR_AIR_LOCK__B_LEVEL' , 
-'BLISTER_STAIRCASE' , 
-'MAINTENANCE_LEVEL' , 
-'PASSAGEWAY__A_LEVEL' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12' , 
-'EQUIPMENT_MAINTENANCE_AREA' , 
-'BRIDGE__DAY' }
-}
-
-OILY_CORRIDOR__C_LEVEL = room
-{
-	nam = "OILY CORRIDOR - 'C' LEVEL",
-	dsc = [[----------------------------------------------------------------
-
-        Long, dark.
-        Empty.
-        Turbos throbbing.
-        No other movement.
-
-----------------------------------------------------------------
-
-                                 PARKER
-                  I want to know why they never
-                  come down here.  This is where
-                  the work is.
-              
-                                 BRETT
-                  Same reason we have half a
-                  share to their one, our time is
-                  their time, that's the way they
-                  see it.
-              
-                                 PARKER
-                  Well, I'll tell you
-                  something... it stinks.
-              
-        They move towards the companionway.
-                                                           
-----------------------------------------------------------------
-
-        Ripley emerges from below.
-        Gasps for breath.
-        Regains control of herself.
-
-----------------------------------------------------------------
-
-        Ripley running toward the "B" deck companionway.
-
-]],
-	way = {'PLANET__DAY' , 
-'MAIN_AIR_LOCK__DAWN' , 
-'OILY_CORRIDOR__C_LEVEL' , 
-'LOCKER' , 
-'OILY_CORRIDOR__COMPANIONWAY' , 
-'PASSAGEWAYS__B_DECK' , 
-'ANOTHER_PASSAGEWAY__B_LEVEL' , 
-'CORRIDOR_OUTSIDE_INFIRMARY_WINDOW' , 
-'ASH_S_BLISTER__DAWN' , 
-'NARCISSUS' , 
-'SHIP' , 
-'ENGINE_ROOM' , 
-'AIR_LOCK_VESTIBULE' , 
-'AIR_LOCK' , 
-'INFIRMARY__A_LEVEL' , 
-'UNDERCARRIAGE_ROOM__C_LEVEL_' , 
-'_B_LEVEL__CORRIDOR' , 
-'CORRIDOR__OUTSIDE' , 
-'BLISTER' , 
-'STRUCTURE' , 
-'MAINTENANCE_AREA__C_DECK' , 
-'MAINTENANCE__C_LEVEL' , 
-'NOSTROMO__DAY' , 
-'COMPUTER_ANNEX' , 
-'FOOD_LOCKER_NUMBER_6__B_DECK' , 
-'PASSAGEWAY_OUTSIDE_INFIRMARY' , 
-'HYPERSLEEP_VAULT' , 
-'AIR_SHAFT' , 
-'THE_NOSTROMO__SUNSET' , 
-'PASSAGEWAY__B_LEVEL' , 
-'MESS' , 
-'ASH_S_BLISTER' , 
-'COMPANIONWAY_TO_OILY_CORRIDOR__E_LEVEL' , 
-'EQUIPMENT_MAINTENANCE_AREA__C_LEVEL' , 
-'BRIDGE__NIGHT' , 
-'BLISTER__DAWN' , 
-'NARCISSUS__OUTER_SPACE' , 
-'CORRIDOR__A_LEVEL' , 
-'ENGINE_ROOM_CUBICLE' , 
-'SPACE_SUIT_LOCKER' , 
-'COMPUTER_ROOM_ANNEX' , 
-'LANDING_LEG__NIGHT' , 
-'BLISTER__DAY' , 
-'CHAMBER_ABOVE' , 
-'INFIRMARY' , 
-'CHAMBER__DAY' , 
-'FOOD_LOCKER_NUMBER_6__B_LEVEL' , 
-'CORRIDOR_TO_BRIDGE' , 
-'ENTRANCE_TO_DERELICT__SUNSET' , 
-'SHIP__DAWN' , 
-'CORRIDOR_OUTSIDE_IMFIRMARY_WINDOW' , 
-'ENGINE_CUBICLE' , 
-'PLANET__NIGHT' , 
-'SECOND_LEVEL__C_DECK' , 
-'PASSAGEWAY_NEAR_AIR_LOCK__B_LEVEL' , 
-'ENGINE_ROOM__CUBICLE' , 
-'NOSTROMO' , 
-'BRIDGE' , 
-'CORRIDOR_TO_BRIDGE__A_LEVEL' , 
-'NOSTROMO__OUTER_SPACE' , 
-'GALLEY' , 
-'PLANET__SUNRISE' , 
-'OILY_CORRIDOR__C_DECK' , 
-'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
-'PASSAGEWAY__B_DECK' , 
-'PASSAGEWAY__C_LEVEL' , 
-'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
-'PLANET__DAWN' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_NARCISSUS' , 
-'STARBOARD_AIR_LOCK__VESTIBULE' , 
-'SHIP__NIGHT' , 
-'NARCISSUS__LATER' , 
-'_A_TO_B_LEVELS__COMPANIONWAY' , 
-'STRUCTURE__DAY' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12__B_LEVEL' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_AIR_LOCK' , 
-'FOOD_LOCKER_NUMBER_12' , 
-'AIR_SHAFT_DOUBLE_TIERED_PASSAGEWAY' , 
-'AIR_SHAFT__DOUBLE_TIERED_PASSAGEWAY' , 
-'ASH_S_BLISTER__DAY' , 
-'PASSAGEWAY_NEAR_AIR_LOCK' , 
-'VESTIBULE' ,  
-'HOLD' , 
-'OILY_CORRIDOR' , 
-'NOSTROMO_AND_REFINERY_APPROACHING_THE' , 
-'STRUCTURE_OPENING' , 
-'CORRIDOR__A_DECK' , 
-'AIR_LOCK__NARCISSUS' , 
-'SPACE' , 
-'CORRIDOR__B_DECK' , 
-'_B_LEVEL__COMPANIONWAY' , 
-'PLANET' , 
-'BRIDGE__SUNRISE' , 
-'FOOD_LOCKER_CORRIDOR__OUTSIDE' , 
-'AIR_LOCK__B_DECK' , 
-'OUTER_SPACE' , 
-'THE_NOSTROMO__SUNRISE' , 
-'PASSAGE_NEAR_AIR_LOCK__B_LEVEL' , 
-'BLISTER_STAIRCASE' , 
-'MAINTENANCE_LEVEL' , 
-'PASSAGEWAY__A_LEVEL' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12' , 
-'EQUIPMENT_MAINTENANCE_AREA' , 
-'BRIDGE__DAY' }
-}
-
-LOCKER = room
-{
-	nam = "LOCKER",
-	dsc = [[----------------------------------------------------------------
-
-        A clear glass panel in the door.
-        The Alien puts its head up to the window.
-        Peers in at Ripley.
-        Their faces only two inches apart.
-        The Alien looking at Ripley almost in curiosity.
-        The moaning of the cat distracts it.
-
-----------------------------------------------------------------
-
-        Ripley knocks on the glass.
-        Trying to distract the Creature from the cat.
-        The Alien's face is instantly back at the window.
-        Getting no more interference from her, the Creature
-        returns to the cat box.
-        Ripley looks around.
-        Sees the pressure suit.
-        Quickly begins to pull it on.
-
-----------------------------------------------------------------
-
-        Ripley is halfway into a pressure suit.
-
-----------------------------------------------------------------
-
-        Ripley pulls on the helmet, latches it into place.
-        Turns the oxygen valve.
-        With a hiss, the suit fills itself.
-        A rack on the wall contains a long metal rod.
-        Ripley peels off the rubber tip.
-        Revealing a sharp metal point.
-
-]],
-	way = {'PLANET__DAY' , 
-'MAIN_AIR_LOCK__DAWN' , 
-'OILY_CORRIDOR__C_LEVEL' , 
-'LOCKER' , 
-'OILY_CORRIDOR__COMPANIONWAY' , 
-'PASSAGEWAYS__B_DECK' , 
-'ANOTHER_PASSAGEWAY__B_LEVEL' , 
-'CORRIDOR_OUTSIDE_INFIRMARY_WINDOW' , 
-'ASH_S_BLISTER__DAWN' , 
-'NARCISSUS' , 
-'SHIP' , 
-'ENGINE_ROOM' , 
-'AIR_LOCK_VESTIBULE' , 
-'AIR_LOCK' , 
-'INFIRMARY__A_LEVEL' , 
-'UNDERCARRIAGE_ROOM__C_LEVEL_' , 
-'_B_LEVEL__CORRIDOR' , 
-'CORRIDOR__OUTSIDE' , 
-'BLISTER' , 
-'STRUCTURE' , 
-'MAINTENANCE_AREA__C_DECK' , 
-'MAINTENANCE__C_LEVEL' , 
-'NOSTROMO__DAY' , 
-'COMPUTER_ANNEX' , 
-'FOOD_LOCKER_NUMBER_6__B_DECK' , 
-'PASSAGEWAY_OUTSIDE_INFIRMARY' , 
-'HYPERSLEEP_VAULT' , 
-'AIR_SHAFT' , 
-'THE_NOSTROMO__SUNSET' , 
-'PASSAGEWAY__B_LEVEL' , 
-'MESS' , 
-'ASH_S_BLISTER' , 
-'COMPANIONWAY_TO_OILY_CORRIDOR__E_LEVEL' , 
-'EQUIPMENT_MAINTENANCE_AREA__C_LEVEL' , 
-'BRIDGE__NIGHT' , 
-'BLISTER__DAWN' , 
-'NARCISSUS__OUTER_SPACE' , 
-'CORRIDOR__A_LEVEL' , 
-'ENGINE_ROOM_CUBICLE' , 
-'SPACE_SUIT_LOCKER' , 
-'COMPUTER_ROOM_ANNEX' , 
-'LANDING_LEG__NIGHT' , 
-'BLISTER__DAY' , 
-'CHAMBER_ABOVE' , 
-'INFIRMARY' , 
-'CHAMBER__DAY' , 
-'FOOD_LOCKER_NUMBER_6__B_LEVEL' , 
-'CORRIDOR_TO_BRIDGE' , 
-'ENTRANCE_TO_DERELICT__SUNSET' , 
-'SHIP__DAWN' , 
-'CORRIDOR_OUTSIDE_IMFIRMARY_WINDOW' , 
-'ENGINE_CUBICLE' , 
-'PLANET__NIGHT' , 
-'SECOND_LEVEL__C_DECK' , 
-'PASSAGEWAY_NEAR_AIR_LOCK__B_LEVEL' , 
-'ENGINE_ROOM__CUBICLE' , 
-'NOSTROMO' , 
-'BRIDGE' , 
-'CORRIDOR_TO_BRIDGE__A_LEVEL' , 
-'NOSTROMO__OUTER_SPACE' , 
-'GALLEY' , 
-'PLANET__SUNRISE' , 
-'OILY_CORRIDOR__C_DECK' , 
-'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
-'PASSAGEWAY__B_DECK' , 
-'PASSAGEWAY__C_LEVEL' , 
-'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
-'PLANET__DAWN' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_NARCISSUS' , 
-'STARBOARD_AIR_LOCK__VESTIBULE' , 
-'SHIP__NIGHT' , 
-'NARCISSUS__LATER' , 
-'_A_TO_B_LEVELS__COMPANIONWAY' , 
-'STRUCTURE__DAY' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12__B_LEVEL' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_AIR_LOCK' , 
-'FOOD_LOCKER_NUMBER_12' , 
-'AIR_SHAFT_DOUBLE_TIERED_PASSAGEWAY' , 
-'AIR_SHAFT__DOUBLE_TIERED_PASSAGEWAY' , 
-'ASH_S_BLISTER__DAY' , 
-'PASSAGEWAY_NEAR_AIR_LOCK' , 
-'VESTIBULE' ,  
-'HOLD' , 
-'OILY_CORRIDOR' , 
-'NOSTROMO_AND_REFINERY_APPROACHING_THE' , 
-'STRUCTURE_OPENING' , 
-'CORRIDOR__A_DECK' , 
-'AIR_LOCK__NARCISSUS' , 
-'SPACE' , 
-'CORRIDOR__B_DECK' , 
-'_B_LEVEL__COMPANIONWAY' , 
-'PLANET' , 
-'BRIDGE__SUNRISE' , 
-'FOOD_LOCKER_CORRIDOR__OUTSIDE' , 
-'AIR_LOCK__B_DECK' , 
-'OUTER_SPACE' , 
-'THE_NOSTROMO__SUNRISE' , 
-'PASSAGE_NEAR_AIR_LOCK__B_LEVEL' , 
-'BLISTER_STAIRCASE' , 
-'MAINTENANCE_LEVEL' , 
-'PASSAGEWAY__A_LEVEL' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12' , 
-'EQUIPMENT_MAINTENANCE_AREA' , 
-'BRIDGE__DAY' }
-}
-
-OILY_CORRIDOR__COMPANIONWAY = room
-{
-	nam = "OILY CORRIDOR - COMPANIONWAY",
-	dsc = [[----------------------------------------------------------------
-
-        Ripley runs back down the corridor.
-        Up the companionway, exhausted, stumbling...
-
-                                 MOTHER'S VOICE
-                         (o.s.)
-                  Attention.  Engines will overload
-                  in two minutes.
-
-]],
-	way = {'PLANET__DAY' , 
-'MAIN_AIR_LOCK__DAWN' , 
-'OILY_CORRIDOR__C_LEVEL' , 
-'LOCKER' , 
-'OILY_CORRIDOR__COMPANIONWAY' , 
-'PASSAGEWAYS__B_DECK' , 
-'ANOTHER_PASSAGEWAY__B_LEVEL' , 
-'CORRIDOR_OUTSIDE_INFIRMARY_WINDOW' , 
-'ASH_S_BLISTER__DAWN' , 
-'NARCISSUS' , 
-'SHIP' , 
-'ENGINE_ROOM' , 
-'AIR_LOCK_VESTIBULE' , 
-'AIR_LOCK' , 
-'INFIRMARY__A_LEVEL' , 
-'UNDERCARRIAGE_ROOM__C_LEVEL_' , 
-'_B_LEVEL__CORRIDOR' , 
-'CORRIDOR__OUTSIDE' , 
-'BLISTER' , 
-'STRUCTURE' , 
-'MAINTENANCE_AREA__C_DECK' , 
-'MAINTENANCE__C_LEVEL' , 
-'NOSTROMO__DAY' , 
-'COMPUTER_ANNEX' , 
-'FOOD_LOCKER_NUMBER_6__B_DECK' , 
-'PASSAGEWAY_OUTSIDE_INFIRMARY' , 
-'HYPERSLEEP_VAULT' , 
-'AIR_SHAFT' , 
-'THE_NOSTROMO__SUNSET' , 
-'PASSAGEWAY__B_LEVEL' , 
-'MESS' , 
-'ASH_S_BLISTER' , 
-'COMPANIONWAY_TO_OILY_CORRIDOR__E_LEVEL' , 
-'EQUIPMENT_MAINTENANCE_AREA__C_LEVEL' , 
-'BRIDGE__NIGHT' , 
-'BLISTER__DAWN' , 
-'NARCISSUS__OUTER_SPACE' , 
-'CORRIDOR__A_LEVEL' , 
-'ENGINE_ROOM_CUBICLE' , 
-'SPACE_SUIT_LOCKER' , 
-'COMPUTER_ROOM_ANNEX' , 
-'LANDING_LEG__NIGHT' , 
-'BLISTER__DAY' , 
-'CHAMBER_ABOVE' , 
-'INFIRMARY' , 
-'CHAMBER__DAY' , 
-'FOOD_LOCKER_NUMBER_6__B_LEVEL' , 
-'CORRIDOR_TO_BRIDGE' , 
-'ENTRANCE_TO_DERELICT__SUNSET' , 
-'SHIP__DAWN' , 
-'CORRIDOR_OUTSIDE_IMFIRMARY_WINDOW' , 
-'ENGINE_CUBICLE' , 
-'PLANET__NIGHT' , 
-'SECOND_LEVEL__C_DECK' , 
-'PASSAGEWAY_NEAR_AIR_LOCK__B_LEVEL' , 
-'ENGINE_ROOM__CUBICLE' , 
-'NOSTROMO' , 
-'BRIDGE' , 
-'CORRIDOR_TO_BRIDGE__A_LEVEL' , 
-'NOSTROMO__OUTER_SPACE' , 
-'GALLEY' , 
-'PLANET__SUNRISE' , 
-'OILY_CORRIDOR__C_DECK' , 
-'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
-'PASSAGEWAY__B_DECK' , 
-'PASSAGEWAY__C_LEVEL' , 
-'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
-'PLANET__DAWN' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_NARCISSUS' , 
-'STARBOARD_AIR_LOCK__VESTIBULE' , 
-'SHIP__NIGHT' , 
-'NARCISSUS__LATER' , 
-'_A_TO_B_LEVELS__COMPANIONWAY' , 
-'STRUCTURE__DAY' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12__B_LEVEL' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_AIR_LOCK' , 
-'FOOD_LOCKER_NUMBER_12' , 
-'AIR_SHAFT_DOUBLE_TIERED_PASSAGEWAY' , 
-'AIR_SHAFT__DOUBLE_TIERED_PASSAGEWAY' , 
-'ASH_S_BLISTER__DAY' , 
-'PASSAGEWAY_NEAR_AIR_LOCK' , 
-'VESTIBULE' ,  
-'HOLD' , 
-'OILY_CORRIDOR' , 
-'NOSTROMO_AND_REFINERY_APPROACHING_THE' , 
-'STRUCTURE_OPENING' , 
-'CORRIDOR__A_DECK' , 
-'AIR_LOCK__NARCISSUS' , 
-'SPACE' , 
-'CORRIDOR__B_DECK' , 
-'_B_LEVEL__COMPANIONWAY' , 
-'PLANET' , 
-'BRIDGE__SUNRISE' , 
-'FOOD_LOCKER_CORRIDOR__OUTSIDE' , 
-'AIR_LOCK__B_DECK' , 
-'OUTER_SPACE' , 
-'THE_NOSTROMO__SUNRISE' , 
-'PASSAGE_NEAR_AIR_LOCK__B_LEVEL' , 
-'BLISTER_STAIRCASE' , 
-'MAINTENANCE_LEVEL' , 
-'PASSAGEWAY__A_LEVEL' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12' , 
-'EQUIPMENT_MAINTENANCE_AREA' , 
-'BRIDGE__DAY' }
-}
-
-PASSAGEWAYS__B_DECK = room
-{
-	nam = "PASSAGEWAYS - 'B' DECK",
-	dsc = [[----------------------------------------------------------------
-
-        Ripley slams to a momentary halt against a bulkhead.
-        Regains her balance.
-        Starts running.
-
-]],
-	way = {'PLANET__DAY' , 
-'MAIN_AIR_LOCK__DAWN' , 
-'OILY_CORRIDOR__C_LEVEL' , 
-'LOCKER' , 
-'OILY_CORRIDOR__COMPANIONWAY' , 
-'PASSAGEWAYS__B_DECK' , 
-'ANOTHER_PASSAGEWAY__B_LEVEL' , 
-'CORRIDOR_OUTSIDE_INFIRMARY_WINDOW' , 
-'ASH_S_BLISTER__DAWN' , 
-'NARCISSUS' , 
-'SHIP' , 
-'ENGINE_ROOM' , 
-'AIR_LOCK_VESTIBULE' , 
-'AIR_LOCK' , 
-'INFIRMARY__A_LEVEL' , 
-'UNDERCARRIAGE_ROOM__C_LEVEL_' , 
-'_B_LEVEL__CORRIDOR' , 
-'CORRIDOR__OUTSIDE' , 
-'BLISTER' , 
-'STRUCTURE' , 
-'MAINTENANCE_AREA__C_DECK' , 
-'MAINTENANCE__C_LEVEL' , 
-'NOSTROMO__DAY' , 
-'COMPUTER_ANNEX' , 
-'FOOD_LOCKER_NUMBER_6__B_DECK' , 
-'PASSAGEWAY_OUTSIDE_INFIRMARY' , 
-'HYPERSLEEP_VAULT' , 
-'AIR_SHAFT' , 
-'THE_NOSTROMO__SUNSET' , 
-'PASSAGEWAY__B_LEVEL' , 
-'MESS' , 
-'ASH_S_BLISTER' , 
-'COMPANIONWAY_TO_OILY_CORRIDOR__E_LEVEL' , 
-'EQUIPMENT_MAINTENANCE_AREA__C_LEVEL' , 
-'BRIDGE__NIGHT' , 
-'BLISTER__DAWN' , 
-'NARCISSUS__OUTER_SPACE' , 
-'CORRIDOR__A_LEVEL' , 
-'ENGINE_ROOM_CUBICLE' , 
-'SPACE_SUIT_LOCKER' , 
-'COMPUTER_ROOM_ANNEX' , 
-'LANDING_LEG__NIGHT' , 
-'BLISTER__DAY' , 
-'CHAMBER_ABOVE' , 
-'INFIRMARY' , 
-'CHAMBER__DAY' , 
-'FOOD_LOCKER_NUMBER_6__B_LEVEL' , 
-'CORRIDOR_TO_BRIDGE' , 
-'ENTRANCE_TO_DERELICT__SUNSET' , 
-'SHIP__DAWN' , 
-'CORRIDOR_OUTSIDE_IMFIRMARY_WINDOW' , 
-'ENGINE_CUBICLE' , 
-'PLANET__NIGHT' , 
-'SECOND_LEVEL__C_DECK' , 
-'PASSAGEWAY_NEAR_AIR_LOCK__B_LEVEL' , 
-'ENGINE_ROOM__CUBICLE' , 
-'NOSTROMO' , 
-'BRIDGE' , 
-'CORRIDOR_TO_BRIDGE__A_LEVEL' , 
-'NOSTROMO__OUTER_SPACE' , 
-'GALLEY' , 
-'PLANET__SUNRISE' , 
-'OILY_CORRIDOR__C_DECK' , 
-'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
-'PASSAGEWAY__B_DECK' , 
-'PASSAGEWAY__C_LEVEL' , 
-'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
-'PLANET__DAWN' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_NARCISSUS' , 
-'STARBOARD_AIR_LOCK__VESTIBULE' , 
-'SHIP__NIGHT' , 
-'NARCISSUS__LATER' , 
-'_A_TO_B_LEVELS__COMPANIONWAY' , 
-'STRUCTURE__DAY' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12__B_LEVEL' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_AIR_LOCK' , 
-'FOOD_LOCKER_NUMBER_12' , 
-'AIR_SHAFT_DOUBLE_TIERED_PASSAGEWAY' , 
-'AIR_SHAFT__DOUBLE_TIERED_PASSAGEWAY' , 
-'ASH_S_BLISTER__DAY' , 
-'PASSAGEWAY_NEAR_AIR_LOCK' , 
-'VESTIBULE' ,  
-'HOLD' , 
-'OILY_CORRIDOR' , 
-'NOSTROMO_AND_REFINERY_APPROACHING_THE' , 
-'STRUCTURE_OPENING' , 
-'CORRIDOR__A_DECK' , 
-'AIR_LOCK__NARCISSUS' , 
-'SPACE' , 
-'CORRIDOR__B_DECK' , 
-'_B_LEVEL__COMPANIONWAY' , 
-'PLANET' , 
-'BRIDGE__SUNRISE' , 
-'FOOD_LOCKER_CORRIDOR__OUTSIDE' , 
-'AIR_LOCK__B_DECK' , 
-'OUTER_SPACE' , 
-'THE_NOSTROMO__SUNRISE' , 
-'PASSAGE_NEAR_AIR_LOCK__B_LEVEL' , 
-'BLISTER_STAIRCASE' , 
-'MAINTENANCE_LEVEL' , 
-'PASSAGEWAY__A_LEVEL' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12' , 
-'EQUIPMENT_MAINTENANCE_AREA' , 
-'BRIDGE__DAY' }
-}
-
-ANOTHER_PASSAGEWAY__B_LEVEL = room
-{
-	nam = "ANOTHER PASSAGEWAY - 'B' LEVEL",
-	dsc = [[----------------------------------------------------------------
-
-        Parker and Ripley move silently along.
-        Ripley ahead of them with the tracker by the stairwell.
-
-                                 RIPLEY
-                  Nothing.
-
-        The move on.
-        A small light flashes.
-
-                                 RIPLEY
-                  Hold it.  I've got something.
-
-        Parker and Brett grow tense.
-        Start looking around.
-
-                                 BRETT
-                  Where's it coming from.
-
-        Ripley peers closely at the tracker.
-
-                                 RIPLEY
-                  Machine's screwed up.  I can't
-                  tell.  Needle's spinning all
-                  over the dial.
-
-                                 BRETT
-                  Goddamn, malfunction.
-
-        Ripley turns the tracker on its side.
-        The needles stabilize.
-
-                                 RIPLEY
-                  No, just confused.  It's
-                  coming from below us.
-
-        They all look down at their feet.
-
-]],
-	way = {'PLANET__DAY' , 
-'MAIN_AIR_LOCK__DAWN' , 
-'OILY_CORRIDOR__C_LEVEL' , 
-'LOCKER' , 
-'OILY_CORRIDOR__COMPANIONWAY' , 
-'PASSAGEWAYS__B_DECK' , 
-'ANOTHER_PASSAGEWAY__B_LEVEL' , 
-'CORRIDOR_OUTSIDE_INFIRMARY_WINDOW' , 
-'ASH_S_BLISTER__DAWN' , 
-'NARCISSUS' , 
-'SHIP' , 
-'ENGINE_ROOM' , 
-'AIR_LOCK_VESTIBULE' , 
-'AIR_LOCK' , 
-'INFIRMARY__A_LEVEL' , 
-'UNDERCARRIAGE_ROOM__C_LEVEL_' , 
-'_B_LEVEL__CORRIDOR' , 
-'CORRIDOR__OUTSIDE' , 
-'BLISTER' , 
-'STRUCTURE' , 
-'MAINTENANCE_AREA__C_DECK' , 
-'MAINTENANCE__C_LEVEL' , 
-'NOSTROMO__DAY' , 
-'COMPUTER_ANNEX' , 
-'FOOD_LOCKER_NUMBER_6__B_DECK' , 
-'PASSAGEWAY_OUTSIDE_INFIRMARY' , 
-'HYPERSLEEP_VAULT' , 
-'AIR_SHAFT' , 
-'THE_NOSTROMO__SUNSET' , 
-'PASSAGEWAY__B_LEVEL' , 
-'MESS' , 
-'ASH_S_BLISTER' , 
-'COMPANIONWAY_TO_OILY_CORRIDOR__E_LEVEL' , 
-'EQUIPMENT_MAINTENANCE_AREA__C_LEVEL' , 
-'BRIDGE__NIGHT' , 
-'BLISTER__DAWN' , 
-'NARCISSUS__OUTER_SPACE' , 
-'CORRIDOR__A_LEVEL' , 
-'ENGINE_ROOM_CUBICLE' , 
-'SPACE_SUIT_LOCKER' , 
-'COMPUTER_ROOM_ANNEX' , 
-'LANDING_LEG__NIGHT' , 
-'BLISTER__DAY' , 
-'CHAMBER_ABOVE' , 
-'INFIRMARY' , 
-'CHAMBER__DAY' , 
-'FOOD_LOCKER_NUMBER_6__B_LEVEL' , 
-'CORRIDOR_TO_BRIDGE' , 
-'ENTRANCE_TO_DERELICT__SUNSET' , 
-'SHIP__DAWN' , 
-'CORRIDOR_OUTSIDE_IMFIRMARY_WINDOW' , 
-'ENGINE_CUBICLE' , 
-'PLANET__NIGHT' , 
-'SECOND_LEVEL__C_DECK' , 
-'PASSAGEWAY_NEAR_AIR_LOCK__B_LEVEL' , 
-'ENGINE_ROOM__CUBICLE' , 
-'NOSTROMO' , 
-'BRIDGE' , 
-'CORRIDOR_TO_BRIDGE__A_LEVEL' , 
-'NOSTROMO__OUTER_SPACE' , 
-'GALLEY' , 
-'PLANET__SUNRISE' , 
-'OILY_CORRIDOR__C_DECK' , 
-'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
-'PASSAGEWAY__B_DECK' , 
-'PASSAGEWAY__C_LEVEL' , 
-'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
-'PLANET__DAWN' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_NARCISSUS' , 
-'STARBOARD_AIR_LOCK__VESTIBULE' , 
-'SHIP__NIGHT' , 
-'NARCISSUS__LATER' , 
-'_A_TO_B_LEVELS__COMPANIONWAY' , 
-'STRUCTURE__DAY' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12__B_LEVEL' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_AIR_LOCK' , 
-'FOOD_LOCKER_NUMBER_12' , 
-'AIR_SHAFT_DOUBLE_TIERED_PASSAGEWAY' , 
-'AIR_SHAFT__DOUBLE_TIERED_PASSAGEWAY' , 
-'ASH_S_BLISTER__DAY' , 
-'PASSAGEWAY_NEAR_AIR_LOCK' , 
-'VESTIBULE' ,  
-'HOLD' , 
-'OILY_CORRIDOR' , 
-'NOSTROMO_AND_REFINERY_APPROACHING_THE' , 
-'STRUCTURE_OPENING' , 
-'CORRIDOR__A_DECK' , 
-'AIR_LOCK__NARCISSUS' , 
-'SPACE' , 
-'CORRIDOR__B_DECK' , 
-'_B_LEVEL__COMPANIONWAY' , 
-'PLANET' , 
-'BRIDGE__SUNRISE' , 
-'FOOD_LOCKER_CORRIDOR__OUTSIDE' , 
-'AIR_LOCK__B_DECK' , 
-'OUTER_SPACE' , 
-'THE_NOSTROMO__SUNRISE' , 
-'PASSAGE_NEAR_AIR_LOCK__B_LEVEL' , 
-'BLISTER_STAIRCASE' , 
-'MAINTENANCE_LEVEL' , 
-'PASSAGEWAY__A_LEVEL' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12' , 
-'EQUIPMENT_MAINTENANCE_AREA' , 
-'BRIDGE__DAY' }
-}
-
-CORRIDOR_OUTSIDE_INFIRMARY_WINDOW = room
-{
-	nam = "CORRIDOR OUTSIDE INFIRMARY WINDOW",
-	dsc = [[----------------------------------------------------------------
-
-        What they see is...Not what they expect.
-        Kane is sitting up in bed...wide awake.
-        They enter...
-
-                                 LAMBERT
-                  Kane...Are you all right.
-
-                                 KANE
-                  Mouth's dry...can I have some
-                  water.
-
-        Instantly, Ash brings him a plastic cup and water.
-        Kane gulps it down in a swallow.
-
-                                 KANE
-                  More.
-
-        Ripley quickly fills a much bigger container.
-        Hands it to Kane.
-        He greedily consumes the entire contents.
-        Then sags back, panting, on the bunk.
-
-                                 DALLAS
-                  How do you feel.
-
-                                 KANE
-                  Terrible.  What happened to me.  
-
-                                 ASH
-                  You don't remember.
-
-                                 KANE
-                  Don't remember anything.  I can
-                  barely remember my name.
-
-                                 PARKER
-                  Do you hurt.
-
-                                 KANE
-                  All over.  Feel like somebody's
-                  been beating me with a stick
-                  for about six years.
-                         (smiles)
-                  God, I'm hungry.
-
-                                 RIPLEY
-                  What's the last thing you can
-                  remember.
-
-                                 KANE
-                  I don't know.
-
-                                 DALLAS
-                  Do you remember what happened
-                  on the planet.
-
-                                 KANE
-                  Just some horrible dream              
-                  about smothering.  Where
-                  are we.
-   
-                                 RIPLEY
-                  We're on our way home.
-
-                                 BRETT
-                  Getting ready to go back into
-                  the freezers.
-
-                                 KANE
-                  I'm starving.  I want some food
-                  first.
-
-                                 PARKER
-                  I'm pretty hungry myself.
-
-                                 DALLAS
-                  One meal before bed.
-
-]],
-	way = {'PLANET__DAY' , 
-'MAIN_AIR_LOCK__DAWN' , 
-'OILY_CORRIDOR__C_LEVEL' , 
-'LOCKER' , 
-'OILY_CORRIDOR__COMPANIONWAY' , 
-'PASSAGEWAYS__B_DECK' , 
-'ANOTHER_PASSAGEWAY__B_LEVEL' , 
-'CORRIDOR_OUTSIDE_INFIRMARY_WINDOW' , 
-'ASH_S_BLISTER__DAWN' , 
-'NARCISSUS' , 
-'SHIP' , 
-'ENGINE_ROOM' , 
-'AIR_LOCK_VESTIBULE' , 
-'AIR_LOCK' , 
-'INFIRMARY__A_LEVEL' , 
-'UNDERCARRIAGE_ROOM__C_LEVEL_' , 
-'_B_LEVEL__CORRIDOR' , 
-'CORRIDOR__OUTSIDE' , 
-'BLISTER' , 
-'STRUCTURE' , 
-'MAINTENANCE_AREA__C_DECK' , 
-'MAINTENANCE__C_LEVEL' , 
-'NOSTROMO__DAY' , 
-'COMPUTER_ANNEX' , 
-'FOOD_LOCKER_NUMBER_6__B_DECK' , 
-'PASSAGEWAY_OUTSIDE_INFIRMARY' , 
-'HYPERSLEEP_VAULT' , 
-'AIR_SHAFT' , 
-'THE_NOSTROMO__SUNSET' , 
-'PASSAGEWAY__B_LEVEL' , 
-'MESS' , 
-'ASH_S_BLISTER' , 
-'COMPANIONWAY_TO_OILY_CORRIDOR__E_LEVEL' , 
-'EQUIPMENT_MAINTENANCE_AREA__C_LEVEL' , 
-'BRIDGE__NIGHT' , 
-'BLISTER__DAWN' , 
-'NARCISSUS__OUTER_SPACE' , 
-'CORRIDOR__A_LEVEL' , 
-'ENGINE_ROOM_CUBICLE' , 
-'SPACE_SUIT_LOCKER' , 
-'COMPUTER_ROOM_ANNEX' , 
-'LANDING_LEG__NIGHT' , 
-'BLISTER__DAY' , 
-'CHAMBER_ABOVE' , 
-'INFIRMARY' , 
-'CHAMBER__DAY' , 
-'FOOD_LOCKER_NUMBER_6__B_LEVEL' , 
-'CORRIDOR_TO_BRIDGE' , 
-'ENTRANCE_TO_DERELICT__SUNSET' , 
-'SHIP__DAWN' , 
-'CORRIDOR_OUTSIDE_IMFIRMARY_WINDOW' , 
-'ENGINE_CUBICLE' , 
-'PLANET__NIGHT' , 
-'SECOND_LEVEL__C_DECK' , 
-'PASSAGEWAY_NEAR_AIR_LOCK__B_LEVEL' , 
-'ENGINE_ROOM__CUBICLE' , 
-'NOSTROMO' , 
-'BRIDGE' , 
-'CORRIDOR_TO_BRIDGE__A_LEVEL' , 
-'NOSTROMO__OUTER_SPACE' , 
-'GALLEY' , 
-'PLANET__SUNRISE' , 
-'OILY_CORRIDOR__C_DECK' , 
-'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
-'PASSAGEWAY__B_DECK' , 
-'PASSAGEWAY__C_LEVEL' , 
-'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
-'PLANET__DAWN' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_NARCISSUS' , 
-'STARBOARD_AIR_LOCK__VESTIBULE' , 
-'SHIP__NIGHT' , 
-'NARCISSUS__LATER' , 
-'_A_TO_B_LEVELS__COMPANIONWAY' , 
-'STRUCTURE__DAY' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12__B_LEVEL' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_AIR_LOCK' , 
-'FOOD_LOCKER_NUMBER_12' , 
-'AIR_SHAFT_DOUBLE_TIERED_PASSAGEWAY' , 
-'AIR_SHAFT__DOUBLE_TIERED_PASSAGEWAY' , 
-'ASH_S_BLISTER__DAY' , 
-'PASSAGEWAY_NEAR_AIR_LOCK' , 
-'VESTIBULE' ,  
-'HOLD' , 
-'OILY_CORRIDOR' , 
-'NOSTROMO_AND_REFINERY_APPROACHING_THE' , 
-'STRUCTURE_OPENING' , 
-'CORRIDOR__A_DECK' , 
-'AIR_LOCK__NARCISSUS' , 
-'SPACE' , 
-'CORRIDOR__B_DECK' , 
-'_B_LEVEL__COMPANIONWAY' , 
-'PLANET' , 
-'BRIDGE__SUNRISE' , 
-'FOOD_LOCKER_CORRIDOR__OUTSIDE' , 
-'AIR_LOCK__B_DECK' , 
-'OUTER_SPACE' , 
-'THE_NOSTROMO__SUNRISE' , 
-'PASSAGE_NEAR_AIR_LOCK__B_LEVEL' , 
-'BLISTER_STAIRCASE' , 
-'MAINTENANCE_LEVEL' , 
-'PASSAGEWAY__A_LEVEL' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12' , 
-'EQUIPMENT_MAINTENANCE_AREA' , 
-'BRIDGE__DAY' }
-}
-
-ASH_S_BLISTER__DAWN = room
-{
-	nam = "ASH'S BLISTER - DAWN",
-	dsc = [[----------------------------------------------------------------
-
-        Ash descends companionway to blister.
-        Punches up screens and instrumentation.
-
-----------------------------------------------------------------
-
-        Ash leaning over his console.
-        Watches them beneath him.
-        Corresponding images on the screen in front of him.
-
-                                 ASH
-                  See you.  Read you.  Good contact
-                  on my board.
-                     
-                                 DALLAS
-                         (voice over)
-                  Getting you clear and free.  Let's
-                  keep the line open.
-              
-]],
-	way = {'PLANET__DAY' , 
-'MAIN_AIR_LOCK__DAWN' , 
-'OILY_CORRIDOR__C_LEVEL' , 
-'LOCKER' , 
-'OILY_CORRIDOR__COMPANIONWAY' , 
-'PASSAGEWAYS__B_DECK' , 
-'ANOTHER_PASSAGEWAY__B_LEVEL' , 
-'CORRIDOR_OUTSIDE_INFIRMARY_WINDOW' , 
-'ASH_S_BLISTER__DAWN' , 
-'NARCISSUS' , 
-'SHIP' , 
-'ENGINE_ROOM' , 
-'AIR_LOCK_VESTIBULE' , 
-'AIR_LOCK' , 
-'INFIRMARY__A_LEVEL' , 
-'UNDERCARRIAGE_ROOM__C_LEVEL_' , 
-'_B_LEVEL__CORRIDOR' , 
-'CORRIDOR__OUTSIDE' , 
-'BLISTER' , 
-'STRUCTURE' , 
-'MAINTENANCE_AREA__C_DECK' , 
-'MAINTENANCE__C_LEVEL' , 
-'NOSTROMO__DAY' , 
-'COMPUTER_ANNEX' , 
-'FOOD_LOCKER_NUMBER_6__B_DECK' , 
-'PASSAGEWAY_OUTSIDE_INFIRMARY' , 
-'HYPERSLEEP_VAULT' , 
-'AIR_SHAFT' , 
-'THE_NOSTROMO__SUNSET' , 
-'PASSAGEWAY__B_LEVEL' , 
-'MESS' , 
-'ASH_S_BLISTER' , 
-'COMPANIONWAY_TO_OILY_CORRIDOR__E_LEVEL' , 
-'EQUIPMENT_MAINTENANCE_AREA__C_LEVEL' , 
-'BRIDGE__NIGHT' , 
-'BLISTER__DAWN' , 
-'NARCISSUS__OUTER_SPACE' , 
-'CORRIDOR__A_LEVEL' , 
-'ENGINE_ROOM_CUBICLE' , 
-'SPACE_SUIT_LOCKER' , 
-'COMPUTER_ROOM_ANNEX' , 
-'LANDING_LEG__NIGHT' , 
-'BLISTER__DAY' , 
-'CHAMBER_ABOVE' , 
-'INFIRMARY' , 
-'CHAMBER__DAY' , 
-'FOOD_LOCKER_NUMBER_6__B_LEVEL' , 
-'CORRIDOR_TO_BRIDGE' , 
-'ENTRANCE_TO_DERELICT__SUNSET' , 
-'SHIP__DAWN' , 
-'CORRIDOR_OUTSIDE_IMFIRMARY_WINDOW' , 
-'ENGINE_CUBICLE' , 
-'PLANET__NIGHT' , 
-'SECOND_LEVEL__C_DECK' , 
-'PASSAGEWAY_NEAR_AIR_LOCK__B_LEVEL' , 
-'ENGINE_ROOM__CUBICLE' , 
-'NOSTROMO' , 
-'BRIDGE' , 
-'CORRIDOR_TO_BRIDGE__A_LEVEL' , 
-'NOSTROMO__OUTER_SPACE' , 
-'GALLEY' , 
-'PLANET__SUNRISE' , 
-'OILY_CORRIDOR__C_DECK' , 
-'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
-'PASSAGEWAY__B_DECK' , 
-'PASSAGEWAY__C_LEVEL' , 
-'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
-'PLANET__DAWN' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_NARCISSUS' , 
-'STARBOARD_AIR_LOCK__VESTIBULE' , 
-'SHIP__NIGHT' , 
-'NARCISSUS__LATER' , 
-'_A_TO_B_LEVELS__COMPANIONWAY' , 
-'STRUCTURE__DAY' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12__B_LEVEL' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_AIR_LOCK' , 
-'FOOD_LOCKER_NUMBER_12' , 
-'AIR_SHAFT_DOUBLE_TIERED_PASSAGEWAY' , 
-'AIR_SHAFT__DOUBLE_TIERED_PASSAGEWAY' , 
-'ASH_S_BLISTER__DAY' , 
-'PASSAGEWAY_NEAR_AIR_LOCK' , 
-'VESTIBULE' ,  
-'HOLD' , 
-'OILY_CORRIDOR' , 
-'NOSTROMO_AND_REFINERY_APPROACHING_THE' , 
-'STRUCTURE_OPENING' , 
-'CORRIDOR__A_DECK' , 
-'AIR_LOCK__NARCISSUS' , 
-'SPACE' , 
-'CORRIDOR__B_DECK' , 
-'_B_LEVEL__COMPANIONWAY' , 
-'PLANET' , 
-'BRIDGE__SUNRISE' , 
-'FOOD_LOCKER_CORRIDOR__OUTSIDE' , 
-'AIR_LOCK__B_DECK' , 
-'OUTER_SPACE' , 
-'THE_NOSTROMO__SUNRISE' , 
-'PASSAGE_NEAR_AIR_LOCK__B_LEVEL' , 
-'BLISTER_STAIRCASE' , 
-'MAINTENANCE_LEVEL' , 
-'PASSAGEWAY__A_LEVEL' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12' , 
-'EQUIPMENT_MAINTENANCE_AREA' , 
-'BRIDGE__DAY' }
-}
-
-NARCISSUS = room
-{
-	nam = "NARCISSUS",
-	dsc = [[----------------------------------------------------------------
-
-        Dallas listening to a primitive tape.
-        His foot tapping with the rhythm.
-        Beep.
-        An interruption on the communicator.
-
-                                 DALLAS
-                  Dallas.
-
-                                 ASH
-                         (voice over)
-                  I think you should have a
-                  look at Kane.  Something's
-                  happened.
-
-                                 DALLAS
-                  Serious.
-
-                                 ASH
-                         (voice over)
-                  Interesting.
-   
-        Dallas exits.
-
-----------------------------------------------------------------
-
-        Dallas seated in the shuttle craft.
-        Staring at the myriad lights of outer space.
-        Ripley climbs beside him.
-
-                                 RIPLEY
-                  I thought I'd find you here.
-   
-        Dallas continues to stare.
-
-                                 DALLAS
-                  Are the nets finished.
-
-        Pause.
-
-                                 RIPLEY
-                  We've got an hour...Look I
-                  need some relief.
-
-                                 DALLAS
-                  Why did you wait until now.
-
-        Ripley leans forward.
-
-                                 RIPLEY
-                  Let me tell you something.  You
-                  keep staring out there long
-                  enough, they'll be peeling you
-                  off the wall.
-
-        Ripley begins taking off her boots.
-
-                                 DALLAS
-                  We're the new pioneers, Ripley.
-                  We even get to have our own
-                  special disease.
-
-                                 RIPLEY
-                  I'm tired of talking.
-
-        She rises and removes her upper garments.
-
-                                 DALLAS
-                  You waited too long.
-
-                                 RIPLEY
-                  Give it a try anyway.
-
-        Clothing removed.
-        His arms move around her.
-
-----------------------------------------------------------------
-
-        Ripley scans the narrow deck...empty.
-
-----------------------------------------------------------------
-
-        Ripley enters on the run.
-        Hurls the cat box toward the front.
-        She dives into the control chair.
-        Hits the "launch" button.
-   
-----------------------------------------------------------------
-
-        Ripley frantically straps herself in.
-        G-forces from the shuttles acceleration pulling against her.
-
-----------------------------------------------------------------
-
-        Ripley finishes strapping herself in.
-        Reaches and grabs the cat box.
-        The cat yowling within.
-        Ripley hugs the box to her chest.
-        Hunches her head down over the container.
-
-----------------------------------------------------------------
-
-        The shockwave hits the shuttle craft.
-        Jolting and rattling everything within.
-        Then all is quiet.
-        Ripley unhooks herself from her straps.
-        Rises, and goes to the back of the escape craft.
-        Stares out through the porthole.
-        Face bathed in orange light.
-
-----------------------------------------------------------------
-
-        Ripley watching the final destiny of her ship and crew mates.
-        A very long moment.
-        Then, behind her, the lethal hand emerges from deep shadow.  
-        The Alien has been in the shuttle-craft all along.
-        The cat yowls.
-
-        Ripley whirls.
-        Finding herself facing the Creature.
-
-        Ripley's first thought is for the flamethrower.
-        It lies on the deck next to the Alien.
-        Next she glances around for a place to hide.
-        Her eye falls on a small locker containing a pressure suit.
-        The door standing open.
-        She begins to edge toward the compartment.
-        The Creature stands.
-        Comes for her.
-        Ripley dives for the open door.
-        Hurls herself inside.
-        Slams it shut.
-
-----------------------------------------------------------------
-
-        The Alien moves to the pressurized cat box.
-        Bends down and peers inside.
-        The cat yowls louder as his container is lifted.
-   
-----------------------------------------------------------------
-
-        The Alien picks up the cat box.
-        Shakes it.
-        The cat moans.
-
-----------------------------------------------------------------
-
-        The Creature throws the cat box down.
-        Very hard.
-        Picks it up again.
-        Hammers it against the wall.
-        Then jams it into a crevice.
-        Begins to pound the container into the opening.
-        The cat now beyond all hysteria.
-   
-----------------------------------------------------------------
-
-        The Creature rises.
-        Faces the locker.
-        Catches the steel shaft through its midriff.
-        The Alien clutches at the spear.
-        Yellow acid begins to flow from the wound.
-        Before the fluid can touch the floor...
-        Ripley reaches back and pulls the switch.
-        Blows the rear hatch.
-        The atmosphere in the shuttle immediately sucked into space.
-        The bleeding creature along with it.
-        Ripley grabs a strut to keep from being pulled out.
-        The Alien shoots past her.
-        Grab's Ripley's ankle with an appendage.
-
-
-        Ripley now hanging halfway out of the shuttle-craft.
-        The Alien clinging to her leg.
-        She kicks at it with her free foot.
-        The Creature holds fast.
-   
-
-        Ripley looks for any salvation.
-        Grabs the hatch level.
-        Yanks it.
-        The hatch slams shut, closing Ripley safely inside.
-   
-
-        The Alien still outside the shuttle-craft.
-        Within the vacuum of space.
-        The top of its appendage mashed into the closed hatch.
-
-
-        Acid starts to foam along the base of the hatch.
-        Eats away at the metal.
-        Ripley stumbles forward to the controls.
-        Pushes the ram jet lever.
-
-----------------------------------------------------------------
-
-        Ripley hurries to the rear hatch.
-        Peers through the glass.
-
-]],
-	way = {'PLANET__DAY' , 
-'MAIN_AIR_LOCK__DAWN' , 
-'OILY_CORRIDOR__C_LEVEL' , 
-'LOCKER' , 
-'OILY_CORRIDOR__COMPANIONWAY' , 
-'PASSAGEWAYS__B_DECK' , 
-'ANOTHER_PASSAGEWAY__B_LEVEL' , 
-'CORRIDOR_OUTSIDE_INFIRMARY_WINDOW' , 
-'ASH_S_BLISTER__DAWN' , 
-'NARCISSUS' , 
-'SHIP' , 
-'ENGINE_ROOM' , 
-'AIR_LOCK_VESTIBULE' , 
-'AIR_LOCK' , 
-'INFIRMARY__A_LEVEL' , 
-'UNDERCARRIAGE_ROOM__C_LEVEL_' , 
-'_B_LEVEL__CORRIDOR' , 
-'CORRIDOR__OUTSIDE' , 
-'BLISTER' , 
-'STRUCTURE' , 
-'MAINTENANCE_AREA__C_DECK' , 
-'MAINTENANCE__C_LEVEL' , 
-'NOSTROMO__DAY' , 
-'COMPUTER_ANNEX' , 
-'FOOD_LOCKER_NUMBER_6__B_DECK' , 
-'PASSAGEWAY_OUTSIDE_INFIRMARY' , 
-'HYPERSLEEP_VAULT' , 
-'AIR_SHAFT' , 
-'THE_NOSTROMO__SUNSET' , 
-'PASSAGEWAY__B_LEVEL' , 
-'MESS' , 
-'ASH_S_BLISTER' , 
-'COMPANIONWAY_TO_OILY_CORRIDOR__E_LEVEL' , 
-'EQUIPMENT_MAINTENANCE_AREA__C_LEVEL' , 
-'BRIDGE__NIGHT' , 
-'BLISTER__DAWN' , 
-'NARCISSUS__OUTER_SPACE' , 
-'CORRIDOR__A_LEVEL' , 
-'ENGINE_ROOM_CUBICLE' , 
-'SPACE_SUIT_LOCKER' , 
-'COMPUTER_ROOM_ANNEX' , 
-'LANDING_LEG__NIGHT' , 
-'BLISTER__DAY' , 
-'CHAMBER_ABOVE' , 
-'INFIRMARY' , 
-'CHAMBER__DAY' , 
-'FOOD_LOCKER_NUMBER_6__B_LEVEL' , 
-'CORRIDOR_TO_BRIDGE' , 
-'ENTRANCE_TO_DERELICT__SUNSET' , 
-'SHIP__DAWN' , 
-'CORRIDOR_OUTSIDE_IMFIRMARY_WINDOW' , 
-'ENGINE_CUBICLE' , 
-'PLANET__NIGHT' , 
-'SECOND_LEVEL__C_DECK' , 
-'PASSAGEWAY_NEAR_AIR_LOCK__B_LEVEL' , 
-'ENGINE_ROOM__CUBICLE' , 
-'NOSTROMO' , 
-'BRIDGE' , 
-'CORRIDOR_TO_BRIDGE__A_LEVEL' , 
-'NOSTROMO__OUTER_SPACE' , 
-'GALLEY' , 
-'PLANET__SUNRISE' , 
-'OILY_CORRIDOR__C_DECK' , 
-'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
-'PASSAGEWAY__B_DECK' , 
-'PASSAGEWAY__C_LEVEL' , 
-'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
-'PLANET__DAWN' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_NARCISSUS' , 
-'STARBOARD_AIR_LOCK__VESTIBULE' , 
-'SHIP__NIGHT' , 
-'NARCISSUS__LATER' , 
-'_A_TO_B_LEVELS__COMPANIONWAY' , 
-'STRUCTURE__DAY' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12__B_LEVEL' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_AIR_LOCK' , 
-'FOOD_LOCKER_NUMBER_12' , 
-'AIR_SHAFT_DOUBLE_TIERED_PASSAGEWAY' , 
-'AIR_SHAFT__DOUBLE_TIERED_PASSAGEWAY' , 
-'ASH_S_BLISTER__DAY' , 
-'PASSAGEWAY_NEAR_AIR_LOCK' , 
-'VESTIBULE' ,  
-'HOLD' , 
-'OILY_CORRIDOR' , 
-'NOSTROMO_AND_REFINERY_APPROACHING_THE' , 
-'STRUCTURE_OPENING' , 
-'CORRIDOR__A_DECK' , 
-'AIR_LOCK__NARCISSUS' , 
-'SPACE' , 
-'CORRIDOR__B_DECK' , 
-'_B_LEVEL__COMPANIONWAY' , 
-'PLANET' , 
-'BRIDGE__SUNRISE' , 
-'FOOD_LOCKER_CORRIDOR__OUTSIDE' , 
-'AIR_LOCK__B_DECK' , 
-'OUTER_SPACE' , 
-'THE_NOSTROMO__SUNRISE' , 
-'PASSAGE_NEAR_AIR_LOCK__B_LEVEL' , 
-'BLISTER_STAIRCASE' , 
-'MAINTENANCE_LEVEL' , 
-'PASSAGEWAY__A_LEVEL' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12' , 
-'EQUIPMENT_MAINTENANCE_AREA' , 
-'BRIDGE__DAY' }
-}
-
-SHIP = room
-{
-	nam = "SHIP",
-	dsc = [[----------------------------------------------------------------
-
-        A ring of floodlights comes to life.
-        Dimly illuminating the rocky landscape.
-        The wind and dust now at a higher pitch.
-
-                                                CUT TO:
-
-]],
-	way = {'PLANET__DAY' , 
-'MAIN_AIR_LOCK__DAWN' , 
-'OILY_CORRIDOR__C_LEVEL' , 
-'LOCKER' , 
-'OILY_CORRIDOR__COMPANIONWAY' , 
-'PASSAGEWAYS__B_DECK' , 
-'ANOTHER_PASSAGEWAY__B_LEVEL' , 
-'CORRIDOR_OUTSIDE_INFIRMARY_WINDOW' , 
-'ASH_S_BLISTER__DAWN' , 
-'NARCISSUS' , 
-'SHIP' , 
-'ENGINE_ROOM' , 
-'AIR_LOCK_VESTIBULE' , 
-'AIR_LOCK' , 
-'INFIRMARY__A_LEVEL' , 
-'UNDERCARRIAGE_ROOM__C_LEVEL_' , 
-'_B_LEVEL__CORRIDOR' , 
-'CORRIDOR__OUTSIDE' , 
-'BLISTER' , 
-'STRUCTURE' , 
-'MAINTENANCE_AREA__C_DECK' , 
-'MAINTENANCE__C_LEVEL' , 
-'NOSTROMO__DAY' , 
-'COMPUTER_ANNEX' , 
-'FOOD_LOCKER_NUMBER_6__B_DECK' , 
-'PASSAGEWAY_OUTSIDE_INFIRMARY' , 
-'HYPERSLEEP_VAULT' , 
-'AIR_SHAFT' , 
-'THE_NOSTROMO__SUNSET' , 
-'PASSAGEWAY__B_LEVEL' , 
-'MESS' , 
-'ASH_S_BLISTER' , 
-'COMPANIONWAY_TO_OILY_CORRIDOR__E_LEVEL' , 
-'EQUIPMENT_MAINTENANCE_AREA__C_LEVEL' , 
-'BRIDGE__NIGHT' , 
-'BLISTER__DAWN' , 
-'NARCISSUS__OUTER_SPACE' , 
-'CORRIDOR__A_LEVEL' , 
-'ENGINE_ROOM_CUBICLE' , 
-'SPACE_SUIT_LOCKER' , 
-'COMPUTER_ROOM_ANNEX' , 
-'LANDING_LEG__NIGHT' , 
-'BLISTER__DAY' , 
-'CHAMBER_ABOVE' , 
-'INFIRMARY' , 
-'CHAMBER__DAY' , 
-'FOOD_LOCKER_NUMBER_6__B_LEVEL' , 
-'CORRIDOR_TO_BRIDGE' , 
-'ENTRANCE_TO_DERELICT__SUNSET' , 
-'SHIP__DAWN' , 
-'CORRIDOR_OUTSIDE_IMFIRMARY_WINDOW' , 
-'ENGINE_CUBICLE' , 
-'PLANET__NIGHT' , 
-'SECOND_LEVEL__C_DECK' , 
-'PASSAGEWAY_NEAR_AIR_LOCK__B_LEVEL' , 
-'ENGINE_ROOM__CUBICLE' , 
-'NOSTROMO' , 
-'BRIDGE' , 
-'CORRIDOR_TO_BRIDGE__A_LEVEL' , 
-'NOSTROMO__OUTER_SPACE' , 
-'GALLEY' , 
-'PLANET__SUNRISE' , 
-'OILY_CORRIDOR__C_DECK' , 
-'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
-'PASSAGEWAY__B_DECK' , 
-'PASSAGEWAY__C_LEVEL' , 
-'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
-'PLANET__DAWN' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_NARCISSUS' , 
-'STARBOARD_AIR_LOCK__VESTIBULE' , 
-'SHIP__NIGHT' , 
-'NARCISSUS__LATER' , 
-'_A_TO_B_LEVELS__COMPANIONWAY' , 
-'STRUCTURE__DAY' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12__B_LEVEL' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_AIR_LOCK' , 
-'FOOD_LOCKER_NUMBER_12' , 
-'AIR_SHAFT_DOUBLE_TIERED_PASSAGEWAY' , 
-'AIR_SHAFT__DOUBLE_TIERED_PASSAGEWAY' , 
-'ASH_S_BLISTER__DAY' , 
-'PASSAGEWAY_NEAR_AIR_LOCK' , 
-'VESTIBULE' ,  
-'HOLD' , 
-'OILY_CORRIDOR' , 
-'NOSTROMO_AND_REFINERY_APPROACHING_THE' , 
-'STRUCTURE_OPENING' , 
-'CORRIDOR__A_DECK' , 
-'AIR_LOCK__NARCISSUS' , 
-'SPACE' , 
-'CORRIDOR__B_DECK' , 
-'_B_LEVEL__COMPANIONWAY' , 
-'PLANET' , 
-'BRIDGE__SUNRISE' , 
-'FOOD_LOCKER_CORRIDOR__OUTSIDE' , 
-'AIR_LOCK__B_DECK' , 
-'OUTER_SPACE' , 
-'THE_NOSTROMO__SUNRISE' , 
-'PASSAGE_NEAR_AIR_LOCK__B_LEVEL' , 
-'BLISTER_STAIRCASE' , 
-'MAINTENANCE_LEVEL' , 
-'PASSAGEWAY__A_LEVEL' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12' , 
-'EQUIPMENT_MAINTENANCE_AREA' , 
-'BRIDGE__DAY' }
-}
-
-ENGINE_ROOM = room
-{
-	nam = "ENGINE ROOM",
-	dsc = [[----------------------------------------------------------------
-
-        Empty, cavernous.
-
-----------------------------------------------------------------
-
-        Giant reactor system purring smoothly.
-
-
-        PARKER and BRETT in a glass cubicle.  Each having a beer. 
-        Huge powerplant stretching before them.
-        All units on automatic hyper-drive.
-        Parker hits a switch above his desk.  A green light goes on.
-
-                                 PARKER
-                  How's your light?
-              
-                                 BRETT
-                  Green.
-              
-                                 PARKER
-                  Mine too.
-              
-        They both take a swig.
-        Suddenly a beeper signal begins.
-
-                                 PARKER
-                  Christ.  What is it now.
-              
-                                 BRETT
-                  Right.
-              
-                                 RIPLEY
-                        (voice over)
-                  Report to the mess.
-              
-----------------------------------------------------------------
-
-        Another huge vibration.
-        An electrical fire breaks out along three control panels.
-
-----------------------------------------------------------------
-
-        Parker fighting an electrical fire on one of his panels.
-        Brett shouting into his voice-amp.
-
-                                 BRETT
-                  The intakes are clogged.  We
-                  overheated and burned out a
-                  whole cell...Christ, it's really
-                  breaking loose down here...
-
-]],
-	way = {'PLANET__DAY' , 
-'MAIN_AIR_LOCK__DAWN' , 
-'OILY_CORRIDOR__C_LEVEL' , 
-'LOCKER' , 
-'OILY_CORRIDOR__COMPANIONWAY' , 
-'PASSAGEWAYS__B_DECK' , 
-'ANOTHER_PASSAGEWAY__B_LEVEL' , 
-'CORRIDOR_OUTSIDE_INFIRMARY_WINDOW' , 
-'ASH_S_BLISTER__DAWN' , 
-'NARCISSUS' , 
-'SHIP' , 
-'ENGINE_ROOM' , 
-'AIR_LOCK_VESTIBULE' , 
-'AIR_LOCK' , 
-'INFIRMARY__A_LEVEL' , 
-'UNDERCARRIAGE_ROOM__C_LEVEL_' , 
-'_B_LEVEL__CORRIDOR' , 
-'CORRIDOR__OUTSIDE' , 
-'BLISTER' , 
-'STRUCTURE' , 
-'MAINTENANCE_AREA__C_DECK' , 
-'MAINTENANCE__C_LEVEL' , 
-'NOSTROMO__DAY' , 
-'COMPUTER_ANNEX' , 
-'FOOD_LOCKER_NUMBER_6__B_DECK' , 
-'PASSAGEWAY_OUTSIDE_INFIRMARY' , 
-'HYPERSLEEP_VAULT' , 
-'AIR_SHAFT' , 
-'THE_NOSTROMO__SUNSET' , 
-'PASSAGEWAY__B_LEVEL' , 
-'MESS' , 
-'ASH_S_BLISTER' , 
-'COMPANIONWAY_TO_OILY_CORRIDOR__E_LEVEL' , 
-'EQUIPMENT_MAINTENANCE_AREA__C_LEVEL' , 
-'BRIDGE__NIGHT' , 
-'BLISTER__DAWN' , 
-'NARCISSUS__OUTER_SPACE' , 
-'CORRIDOR__A_LEVEL' , 
-'ENGINE_ROOM_CUBICLE' , 
-'SPACE_SUIT_LOCKER' , 
-'COMPUTER_ROOM_ANNEX' , 
-'LANDING_LEG__NIGHT' , 
-'BLISTER__DAY' , 
-'CHAMBER_ABOVE' , 
-'INFIRMARY' , 
-'CHAMBER__DAY' , 
-'FOOD_LOCKER_NUMBER_6__B_LEVEL' , 
-'CORRIDOR_TO_BRIDGE' , 
-'ENTRANCE_TO_DERELICT__SUNSET' , 
-'SHIP__DAWN' , 
-'CORRIDOR_OUTSIDE_IMFIRMARY_WINDOW' , 
-'ENGINE_CUBICLE' , 
-'PLANET__NIGHT' , 
-'SECOND_LEVEL__C_DECK' , 
-'PASSAGEWAY_NEAR_AIR_LOCK__B_LEVEL' , 
-'ENGINE_ROOM__CUBICLE' , 
-'NOSTROMO' , 
-'BRIDGE' , 
-'CORRIDOR_TO_BRIDGE__A_LEVEL' , 
-'NOSTROMO__OUTER_SPACE' , 
-'GALLEY' , 
-'PLANET__SUNRISE' , 
-'OILY_CORRIDOR__C_DECK' , 
-'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
-'PASSAGEWAY__B_DECK' , 
-'PASSAGEWAY__C_LEVEL' , 
-'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
-'PLANET__DAWN' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_NARCISSUS' , 
-'STARBOARD_AIR_LOCK__VESTIBULE' , 
-'SHIP__NIGHT' , 
-'NARCISSUS__LATER' , 
-'_A_TO_B_LEVELS__COMPANIONWAY' , 
-'STRUCTURE__DAY' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12__B_LEVEL' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_AIR_LOCK' , 
-'FOOD_LOCKER_NUMBER_12' , 
-'AIR_SHAFT_DOUBLE_TIERED_PASSAGEWAY' , 
-'AIR_SHAFT__DOUBLE_TIERED_PASSAGEWAY' , 
-'ASH_S_BLISTER__DAY' , 
-'PASSAGEWAY_NEAR_AIR_LOCK' , 
-'VESTIBULE' ,  
-'HOLD' , 
-'OILY_CORRIDOR' , 
-'NOSTROMO_AND_REFINERY_APPROACHING_THE' , 
-'STRUCTURE_OPENING' , 
-'CORRIDOR__A_DECK' , 
-'AIR_LOCK__NARCISSUS' , 
-'SPACE' , 
-'CORRIDOR__B_DECK' , 
-'_B_LEVEL__COMPANIONWAY' , 
-'PLANET' , 
-'BRIDGE__SUNRISE' , 
-'FOOD_LOCKER_CORRIDOR__OUTSIDE' , 
-'AIR_LOCK__B_DECK' , 
-'OUTER_SPACE' , 
-'THE_NOSTROMO__SUNRISE' , 
-'PASSAGE_NEAR_AIR_LOCK__B_LEVEL' , 
-'BLISTER_STAIRCASE' , 
-'MAINTENANCE_LEVEL' , 
-'PASSAGEWAY__A_LEVEL' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12' , 
-'EQUIPMENT_MAINTENANCE_AREA' , 
-'BRIDGE__DAY' }
-}
-
-AIR_LOCK_VESTIBULE = room
-{
-	nam = "AIR LOCK VESTIBULE",
-	dsc = [[----------------------------------------------------------------
-
-        Near the starboard air lock.
-        Ripley pops open the hatch.
-        The air lock now open and ready.
-        She moves to the air duct opening.
-
-                                 RIPLEY
-                  Air lock open.
-
-                                 DALLAS
-                         (voice over)
-                  Ready.
-
-                                 RIPLEY
-                  Ready.
-
-----------------------------------------------------------------
-
-        Ripley waiting.
-
-----------------------------------------------------------------
-
-                                 RIPLEY
-                  Read you clear.
-
-----------------------------------------------------------------
-
-        Ripley bends forward.
-        Hears the sounds of the struggle...
-        And Dallas' screams.
-        She cries out.
-
-                                 RIPLEY
-                  Dallas...Dallas...
-
-]],
-	way = {'PLANET__DAY' , 
-'MAIN_AIR_LOCK__DAWN' , 
-'OILY_CORRIDOR__C_LEVEL' , 
-'LOCKER' , 
-'OILY_CORRIDOR__COMPANIONWAY' , 
-'PASSAGEWAYS__B_DECK' , 
-'ANOTHER_PASSAGEWAY__B_LEVEL' , 
-'CORRIDOR_OUTSIDE_INFIRMARY_WINDOW' , 
-'ASH_S_BLISTER__DAWN' , 
-'NARCISSUS' , 
-'SHIP' , 
-'ENGINE_ROOM' , 
-'AIR_LOCK_VESTIBULE' , 
-'AIR_LOCK' , 
-'INFIRMARY__A_LEVEL' , 
-'UNDERCARRIAGE_ROOM__C_LEVEL_' , 
-'_B_LEVEL__CORRIDOR' , 
-'CORRIDOR__OUTSIDE' , 
-'BLISTER' , 
-'STRUCTURE' , 
-'MAINTENANCE_AREA__C_DECK' , 
-'MAINTENANCE__C_LEVEL' , 
-'NOSTROMO__DAY' , 
-'COMPUTER_ANNEX' , 
-'FOOD_LOCKER_NUMBER_6__B_DECK' , 
-'PASSAGEWAY_OUTSIDE_INFIRMARY' , 
-'HYPERSLEEP_VAULT' , 
-'AIR_SHAFT' , 
-'THE_NOSTROMO__SUNSET' , 
-'PASSAGEWAY__B_LEVEL' , 
-'MESS' , 
-'ASH_S_BLISTER' , 
-'COMPANIONWAY_TO_OILY_CORRIDOR__E_LEVEL' , 
-'EQUIPMENT_MAINTENANCE_AREA__C_LEVEL' , 
-'BRIDGE__NIGHT' , 
-'BLISTER__DAWN' , 
-'NARCISSUS__OUTER_SPACE' , 
-'CORRIDOR__A_LEVEL' , 
-'ENGINE_ROOM_CUBICLE' , 
-'SPACE_SUIT_LOCKER' , 
-'COMPUTER_ROOM_ANNEX' , 
-'LANDING_LEG__NIGHT' , 
-'BLISTER__DAY' , 
-'CHAMBER_ABOVE' , 
-'INFIRMARY' , 
-'CHAMBER__DAY' , 
-'FOOD_LOCKER_NUMBER_6__B_LEVEL' , 
-'CORRIDOR_TO_BRIDGE' , 
-'ENTRANCE_TO_DERELICT__SUNSET' , 
-'SHIP__DAWN' , 
-'CORRIDOR_OUTSIDE_IMFIRMARY_WINDOW' , 
-'ENGINE_CUBICLE' , 
-'PLANET__NIGHT' , 
-'SECOND_LEVEL__C_DECK' , 
-'PASSAGEWAY_NEAR_AIR_LOCK__B_LEVEL' , 
-'ENGINE_ROOM__CUBICLE' , 
-'NOSTROMO' , 
-'BRIDGE' , 
-'CORRIDOR_TO_BRIDGE__A_LEVEL' , 
-'NOSTROMO__OUTER_SPACE' , 
-'GALLEY' , 
-'PLANET__SUNRISE' , 
-'OILY_CORRIDOR__C_DECK' , 
-'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
-'PASSAGEWAY__B_DECK' , 
-'PASSAGEWAY__C_LEVEL' , 
-'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
-'PLANET__DAWN' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_NARCISSUS' , 
-'STARBOARD_AIR_LOCK__VESTIBULE' , 
-'SHIP__NIGHT' , 
-'NARCISSUS__LATER' , 
-'_A_TO_B_LEVELS__COMPANIONWAY' , 
-'STRUCTURE__DAY' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12__B_LEVEL' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_AIR_LOCK' , 
-'FOOD_LOCKER_NUMBER_12' , 
-'AIR_SHAFT_DOUBLE_TIERED_PASSAGEWAY' , 
-'AIR_SHAFT__DOUBLE_TIERED_PASSAGEWAY' , 
-'ASH_S_BLISTER__DAY' , 
-'PASSAGEWAY_NEAR_AIR_LOCK' , 
-'VESTIBULE' ,  
-'HOLD' , 
-'OILY_CORRIDOR' , 
-'NOSTROMO_AND_REFINERY_APPROACHING_THE' , 
-'STRUCTURE_OPENING' , 
-'CORRIDOR__A_DECK' , 
-'AIR_LOCK__NARCISSUS' , 
-'SPACE' , 
-'CORRIDOR__B_DECK' , 
-'_B_LEVEL__COMPANIONWAY' , 
-'PLANET' , 
-'BRIDGE__SUNRISE' , 
-'FOOD_LOCKER_CORRIDOR__OUTSIDE' , 
-'AIR_LOCK__B_DECK' , 
-'OUTER_SPACE' , 
-'THE_NOSTROMO__SUNRISE' , 
-'PASSAGE_NEAR_AIR_LOCK__B_LEVEL' , 
-'BLISTER_STAIRCASE' , 
-'MAINTENANCE_LEVEL' , 
-'PASSAGEWAY__A_LEVEL' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12' , 
-'EQUIPMENT_MAINTENANCE_AREA' , 
-'BRIDGE__DAY' }
-}
-
-AIR_LOCK = room
-{
-	nam = "AIR LOCK",
-	dsc = [[----------------------------------------------------------------
-
-        Kane's body wrapped in a makeshift shroud.
-
-----------------------------------------------------------------
-
-        The outer hatch opens.
-        Yawning space outside.
-        Kane's body shoots out into eternity.
-        The hatch closes.
-
-----------------------------------------------------------------
-   
-        Creature move further into air lock.
-        Fascinated by green light.
-
-----------------------------------------------------------------
-
-        Suddenly, from out of nowhere a klaxon wails.
-        The Creature leaps back across the threshold of the air lock.
-        Bewildered.
-        Screams as the inner hatch closes on an appendage.
-        Acid boiling out.
-        The appendage crushed.
-        The acid bubbles.
-        Metal boils in door.
-
-----------------------------------------------------------------
-
-        Metal still boiling.
-        The outer hatch begins to open.
-
-----------------------------------------------------------------
-
-        The inner hatch still closed.
-        Metal boils.
-        The hole growing deeper.
-
-----------------------------------------------------------------
-
-        Metal boiling in door.
-
-]],
-	way = {'PLANET__DAY' , 
-'MAIN_AIR_LOCK__DAWN' , 
-'OILY_CORRIDOR__C_LEVEL' , 
-'LOCKER' , 
-'OILY_CORRIDOR__COMPANIONWAY' , 
-'PASSAGEWAYS__B_DECK' , 
-'ANOTHER_PASSAGEWAY__B_LEVEL' , 
-'CORRIDOR_OUTSIDE_INFIRMARY_WINDOW' , 
-'ASH_S_BLISTER__DAWN' , 
-'NARCISSUS' , 
-'SHIP' , 
-'ENGINE_ROOM' , 
-'AIR_LOCK_VESTIBULE' , 
-'AIR_LOCK' , 
-'INFIRMARY__A_LEVEL' , 
-'UNDERCARRIAGE_ROOM__C_LEVEL_' , 
-'_B_LEVEL__CORRIDOR' , 
-'CORRIDOR__OUTSIDE' , 
-'BLISTER' , 
-'STRUCTURE' , 
-'MAINTENANCE_AREA__C_DECK' , 
-'MAINTENANCE__C_LEVEL' , 
-'NOSTROMO__DAY' , 
-'COMPUTER_ANNEX' , 
-'FOOD_LOCKER_NUMBER_6__B_DECK' , 
-'PASSAGEWAY_OUTSIDE_INFIRMARY' , 
-'HYPERSLEEP_VAULT' , 
-'AIR_SHAFT' , 
-'THE_NOSTROMO__SUNSET' , 
-'PASSAGEWAY__B_LEVEL' , 
-'MESS' , 
-'ASH_S_BLISTER' , 
-'COMPANIONWAY_TO_OILY_CORRIDOR__E_LEVEL' , 
-'EQUIPMENT_MAINTENANCE_AREA__C_LEVEL' , 
-'BRIDGE__NIGHT' , 
-'BLISTER__DAWN' , 
-'NARCISSUS__OUTER_SPACE' , 
-'CORRIDOR__A_LEVEL' , 
-'ENGINE_ROOM_CUBICLE' , 
-'SPACE_SUIT_LOCKER' , 
-'COMPUTER_ROOM_ANNEX' , 
-'LANDING_LEG__NIGHT' , 
-'BLISTER__DAY' , 
-'CHAMBER_ABOVE' , 
-'INFIRMARY' , 
-'CHAMBER__DAY' , 
-'FOOD_LOCKER_NUMBER_6__B_LEVEL' , 
-'CORRIDOR_TO_BRIDGE' , 
-'ENTRANCE_TO_DERELICT__SUNSET' , 
-'SHIP__DAWN' , 
-'CORRIDOR_OUTSIDE_IMFIRMARY_WINDOW' , 
-'ENGINE_CUBICLE' , 
-'PLANET__NIGHT' , 
-'SECOND_LEVEL__C_DECK' , 
-'PASSAGEWAY_NEAR_AIR_LOCK__B_LEVEL' , 
-'ENGINE_ROOM__CUBICLE' , 
-'NOSTROMO' , 
-'BRIDGE' , 
-'CORRIDOR_TO_BRIDGE__A_LEVEL' , 
-'NOSTROMO__OUTER_SPACE' , 
-'GALLEY' , 
-'PLANET__SUNRISE' , 
-'OILY_CORRIDOR__C_DECK' , 
-'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
-'PASSAGEWAY__B_DECK' , 
-'PASSAGEWAY__C_LEVEL' , 
-'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
-'PLANET__DAWN' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_NARCISSUS' , 
-'STARBOARD_AIR_LOCK__VESTIBULE' , 
-'SHIP__NIGHT' , 
-'NARCISSUS__LATER' , 
-'_A_TO_B_LEVELS__COMPANIONWAY' , 
-'STRUCTURE__DAY' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12__B_LEVEL' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_AIR_LOCK' , 
-'FOOD_LOCKER_NUMBER_12' , 
-'AIR_SHAFT_DOUBLE_TIERED_PASSAGEWAY' , 
-'AIR_SHAFT__DOUBLE_TIERED_PASSAGEWAY' , 
-'ASH_S_BLISTER__DAY' , 
-'PASSAGEWAY_NEAR_AIR_LOCK' , 
-'VESTIBULE' ,  
-'HOLD' , 
-'OILY_CORRIDOR' , 
-'NOSTROMO_AND_REFINERY_APPROACHING_THE' , 
-'STRUCTURE_OPENING' , 
-'CORRIDOR__A_DECK' , 
-'AIR_LOCK__NARCISSUS' , 
-'SPACE' , 
-'CORRIDOR__B_DECK' , 
-'_B_LEVEL__COMPANIONWAY' , 
-'PLANET' , 
-'BRIDGE__SUNRISE' , 
-'FOOD_LOCKER_CORRIDOR__OUTSIDE' , 
-'AIR_LOCK__B_DECK' , 
-'OUTER_SPACE' , 
-'THE_NOSTROMO__SUNRISE' , 
-'PASSAGE_NEAR_AIR_LOCK__B_LEVEL' , 
-'BLISTER_STAIRCASE' , 
-'MAINTENANCE_LEVEL' , 
-'PASSAGEWAY__A_LEVEL' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12' , 
-'EQUIPMENT_MAINTENANCE_AREA' , 
-'BRIDGE__DAY' }
-}
-
-INFIRMARY__A_LEVEL = room
-{
-	nam = "INFIRMARY - 'A' LEVEL",
-	dsc = [[----------------------------------------------------------------
-
-        Distressed ivory walls.
-        All instrumentation at rest.
-
-]],
-	way = {'PLANET__DAY' , 
-'MAIN_AIR_LOCK__DAWN' , 
-'OILY_CORRIDOR__C_LEVEL' , 
-'LOCKER' , 
-'OILY_CORRIDOR__COMPANIONWAY' , 
-'PASSAGEWAYS__B_DECK' , 
-'ANOTHER_PASSAGEWAY__B_LEVEL' , 
-'CORRIDOR_OUTSIDE_INFIRMARY_WINDOW' , 
-'ASH_S_BLISTER__DAWN' , 
-'NARCISSUS' , 
-'SHIP' , 
-'ENGINE_ROOM' , 
-'AIR_LOCK_VESTIBULE' , 
-'AIR_LOCK' , 
-'INFIRMARY__A_LEVEL' , 
-'UNDERCARRIAGE_ROOM__C_LEVEL_' , 
-'_B_LEVEL__CORRIDOR' , 
-'CORRIDOR__OUTSIDE' , 
-'BLISTER' , 
-'STRUCTURE' , 
-'MAINTENANCE_AREA__C_DECK' , 
-'MAINTENANCE__C_LEVEL' , 
-'NOSTROMO__DAY' , 
-'COMPUTER_ANNEX' , 
-'FOOD_LOCKER_NUMBER_6__B_DECK' , 
-'PASSAGEWAY_OUTSIDE_INFIRMARY' , 
-'HYPERSLEEP_VAULT' , 
-'AIR_SHAFT' , 
-'THE_NOSTROMO__SUNSET' , 
-'PASSAGEWAY__B_LEVEL' , 
-'MESS' , 
-'ASH_S_BLISTER' , 
-'COMPANIONWAY_TO_OILY_CORRIDOR__E_LEVEL' , 
-'EQUIPMENT_MAINTENANCE_AREA__C_LEVEL' , 
-'BRIDGE__NIGHT' , 
-'BLISTER__DAWN' , 
-'NARCISSUS__OUTER_SPACE' , 
-'CORRIDOR__A_LEVEL' , 
-'ENGINE_ROOM_CUBICLE' , 
-'SPACE_SUIT_LOCKER' , 
-'COMPUTER_ROOM_ANNEX' , 
-'LANDING_LEG__NIGHT' , 
-'BLISTER__DAY' , 
-'CHAMBER_ABOVE' , 
-'INFIRMARY' , 
-'CHAMBER__DAY' , 
-'FOOD_LOCKER_NUMBER_6__B_LEVEL' , 
-'CORRIDOR_TO_BRIDGE' , 
-'ENTRANCE_TO_DERELICT__SUNSET' , 
-'SHIP__DAWN' , 
-'CORRIDOR_OUTSIDE_IMFIRMARY_WINDOW' , 
-'ENGINE_CUBICLE' , 
-'PLANET__NIGHT' , 
-'SECOND_LEVEL__C_DECK' , 
-'PASSAGEWAY_NEAR_AIR_LOCK__B_LEVEL' , 
-'ENGINE_ROOM__CUBICLE' , 
-'NOSTROMO' , 
-'BRIDGE' , 
-'CORRIDOR_TO_BRIDGE__A_LEVEL' , 
-'NOSTROMO__OUTER_SPACE' , 
-'GALLEY' , 
-'PLANET__SUNRISE' , 
-'OILY_CORRIDOR__C_DECK' , 
-'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
-'PASSAGEWAY__B_DECK' , 
-'PASSAGEWAY__C_LEVEL' , 
-'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
-'PLANET__DAWN' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_NARCISSUS' , 
-'STARBOARD_AIR_LOCK__VESTIBULE' , 
-'SHIP__NIGHT' , 
-'NARCISSUS__LATER' , 
-'_A_TO_B_LEVELS__COMPANIONWAY' , 
-'STRUCTURE__DAY' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12__B_LEVEL' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_AIR_LOCK' , 
-'FOOD_LOCKER_NUMBER_12' , 
-'AIR_SHAFT_DOUBLE_TIERED_PASSAGEWAY' , 
-'AIR_SHAFT__DOUBLE_TIERED_PASSAGEWAY' , 
-'ASH_S_BLISTER__DAY' , 
-'PASSAGEWAY_NEAR_AIR_LOCK' , 
-'VESTIBULE' ,  
-'HOLD' , 
-'OILY_CORRIDOR' , 
-'NOSTROMO_AND_REFINERY_APPROACHING_THE' , 
-'STRUCTURE_OPENING' , 
-'CORRIDOR__A_DECK' , 
-'AIR_LOCK__NARCISSUS' , 
-'SPACE' , 
-'CORRIDOR__B_DECK' , 
-'_B_LEVEL__COMPANIONWAY' , 
-'PLANET' , 
-'BRIDGE__SUNRISE' , 
-'FOOD_LOCKER_CORRIDOR__OUTSIDE' , 
-'AIR_LOCK__B_DECK' , 
-'OUTER_SPACE' , 
-'THE_NOSTROMO__SUNRISE' , 
-'PASSAGE_NEAR_AIR_LOCK__B_LEVEL' , 
-'BLISTER_STAIRCASE' , 
-'MAINTENANCE_LEVEL' , 
-'PASSAGEWAY__A_LEVEL' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12' , 
-'EQUIPMENT_MAINTENANCE_AREA' , 
-'BRIDGE__DAY' }
-}
-
-UNDERCARRIAGE_ROOM__C_LEVEL_ = room
-{
-	nam = "UNDERCARRIAGE ROOM - 'C' LEVEL ",
-	dsc = [[----------------------------------------------------------------
-
-        Brett enters.
-        Still looking for Jones.
-        Another yowl followed by a hiss.
-        Two eyes shining in the dark.
-        Jones.
-        Relieved, Brett moves toward the cat.
-
-                                 BRETT
-                  Here kitty...Come on Jones.
-   
-        Brett reaches for Jones.
-        Jones hisses.
-        An arm reaches for Brett.
-        The Alien.
-        Now seven feet tall.
-        Hanging from the undercarriage strut in reverse position.
-        Grabs Brett and swings up into darkness.
-        Brett screams.
-        To no avail...
-        In the doorway Ripley and Parker.
-        They witness the horror.
-
-]],
-	way = {'PLANET__DAY' , 
-'MAIN_AIR_LOCK__DAWN' , 
-'OILY_CORRIDOR__C_LEVEL' , 
-'LOCKER' , 
-'OILY_CORRIDOR__COMPANIONWAY' , 
-'PASSAGEWAYS__B_DECK' , 
-'ANOTHER_PASSAGEWAY__B_LEVEL' , 
-'CORRIDOR_OUTSIDE_INFIRMARY_WINDOW' , 
-'ASH_S_BLISTER__DAWN' , 
-'NARCISSUS' , 
-'SHIP' , 
-'ENGINE_ROOM' , 
-'AIR_LOCK_VESTIBULE' , 
-'AIR_LOCK' , 
-'INFIRMARY__A_LEVEL' , 
-'UNDERCARRIAGE_ROOM__C_LEVEL_' , 
-'_B_LEVEL__CORRIDOR' , 
-'CORRIDOR__OUTSIDE' , 
-'BLISTER' , 
-'STRUCTURE' , 
-'MAINTENANCE_AREA__C_DECK' , 
-'MAINTENANCE__C_LEVEL' , 
-'NOSTROMO__DAY' , 
-'COMPUTER_ANNEX' , 
-'FOOD_LOCKER_NUMBER_6__B_DECK' , 
-'PASSAGEWAY_OUTSIDE_INFIRMARY' , 
-'HYPERSLEEP_VAULT' , 
-'AIR_SHAFT' , 
-'THE_NOSTROMO__SUNSET' , 
-'PASSAGEWAY__B_LEVEL' , 
-'MESS' , 
-'ASH_S_BLISTER' , 
-'COMPANIONWAY_TO_OILY_CORRIDOR__E_LEVEL' , 
-'EQUIPMENT_MAINTENANCE_AREA__C_LEVEL' , 
-'BRIDGE__NIGHT' , 
-'BLISTER__DAWN' , 
-'NARCISSUS__OUTER_SPACE' , 
-'CORRIDOR__A_LEVEL' , 
-'ENGINE_ROOM_CUBICLE' , 
-'SPACE_SUIT_LOCKER' , 
-'COMPUTER_ROOM_ANNEX' , 
-'LANDING_LEG__NIGHT' , 
-'BLISTER__DAY' , 
-'CHAMBER_ABOVE' , 
-'INFIRMARY' , 
-'CHAMBER__DAY' , 
-'FOOD_LOCKER_NUMBER_6__B_LEVEL' , 
-'CORRIDOR_TO_BRIDGE' , 
-'ENTRANCE_TO_DERELICT__SUNSET' , 
-'SHIP__DAWN' , 
-'CORRIDOR_OUTSIDE_IMFIRMARY_WINDOW' , 
-'ENGINE_CUBICLE' , 
-'PLANET__NIGHT' , 
-'SECOND_LEVEL__C_DECK' , 
-'PASSAGEWAY_NEAR_AIR_LOCK__B_LEVEL' , 
-'ENGINE_ROOM__CUBICLE' , 
-'NOSTROMO' , 
-'BRIDGE' , 
-'CORRIDOR_TO_BRIDGE__A_LEVEL' , 
-'NOSTROMO__OUTER_SPACE' , 
-'GALLEY' , 
-'PLANET__SUNRISE' , 
-'OILY_CORRIDOR__C_DECK' , 
-'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
-'PASSAGEWAY__B_DECK' , 
-'PASSAGEWAY__C_LEVEL' , 
-'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
-'PLANET__DAWN' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_NARCISSUS' , 
-'STARBOARD_AIR_LOCK__VESTIBULE' , 
-'SHIP__NIGHT' , 
-'NARCISSUS__LATER' , 
-'_A_TO_B_LEVELS__COMPANIONWAY' , 
-'STRUCTURE__DAY' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12__B_LEVEL' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_AIR_LOCK' , 
-'FOOD_LOCKER_NUMBER_12' , 
-'AIR_SHAFT_DOUBLE_TIERED_PASSAGEWAY' , 
-'AIR_SHAFT__DOUBLE_TIERED_PASSAGEWAY' , 
-'ASH_S_BLISTER__DAY' , 
-'PASSAGEWAY_NEAR_AIR_LOCK' , 
-'VESTIBULE' ,  
-'HOLD' , 
-'OILY_CORRIDOR' , 
-'NOSTROMO_AND_REFINERY_APPROACHING_THE' , 
-'STRUCTURE_OPENING' , 
-'CORRIDOR__A_DECK' , 
-'AIR_LOCK__NARCISSUS' , 
-'SPACE' , 
-'CORRIDOR__B_DECK' , 
-'_B_LEVEL__COMPANIONWAY' , 
-'PLANET' , 
-'BRIDGE__SUNRISE' , 
-'FOOD_LOCKER_CORRIDOR__OUTSIDE' , 
-'AIR_LOCK__B_DECK' , 
-'OUTER_SPACE' , 
-'THE_NOSTROMO__SUNRISE' , 
-'PASSAGE_NEAR_AIR_LOCK__B_LEVEL' , 
-'BLISTER_STAIRCASE' , 
-'MAINTENANCE_LEVEL' , 
-'PASSAGEWAY__A_LEVEL' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12' , 
-'EQUIPMENT_MAINTENANCE_AREA' , 
-'BRIDGE__DAY' }
-}
-
-_B_LEVEL__CORRIDOR = room
-{
-	nam = "'B' LEVEL - CORRIDOR",
-	dsc = [[----------------------------------------------------------------
-
-        Ripley starts toward Narcissus.
-        Remembers Jones.
-
-]],
-	way = {'PLANET__DAY' , 
-'MAIN_AIR_LOCK__DAWN' , 
-'OILY_CORRIDOR__C_LEVEL' , 
-'LOCKER' , 
-'OILY_CORRIDOR__COMPANIONWAY' , 
-'PASSAGEWAYS__B_DECK' , 
-'ANOTHER_PASSAGEWAY__B_LEVEL' , 
-'CORRIDOR_OUTSIDE_INFIRMARY_WINDOW' , 
-'ASH_S_BLISTER__DAWN' , 
-'NARCISSUS' , 
-'SHIP' , 
-'ENGINE_ROOM' , 
-'AIR_LOCK_VESTIBULE' , 
-'AIR_LOCK' , 
-'INFIRMARY__A_LEVEL' , 
-'UNDERCARRIAGE_ROOM__C_LEVEL_' , 
-'_B_LEVEL__CORRIDOR' , 
-'CORRIDOR__OUTSIDE' , 
-'BLISTER' , 
-'STRUCTURE' , 
-'MAINTENANCE_AREA__C_DECK' , 
-'MAINTENANCE__C_LEVEL' , 
-'NOSTROMO__DAY' , 
-'COMPUTER_ANNEX' , 
-'FOOD_LOCKER_NUMBER_6__B_DECK' , 
-'PASSAGEWAY_OUTSIDE_INFIRMARY' , 
-'HYPERSLEEP_VAULT' , 
-'AIR_SHAFT' , 
-'THE_NOSTROMO__SUNSET' , 
-'PASSAGEWAY__B_LEVEL' , 
-'MESS' , 
-'ASH_S_BLISTER' , 
-'COMPANIONWAY_TO_OILY_CORRIDOR__E_LEVEL' , 
-'EQUIPMENT_MAINTENANCE_AREA__C_LEVEL' , 
-'BRIDGE__NIGHT' , 
-'BLISTER__DAWN' , 
-'NARCISSUS__OUTER_SPACE' , 
-'CORRIDOR__A_LEVEL' , 
-'ENGINE_ROOM_CUBICLE' , 
-'SPACE_SUIT_LOCKER' , 
-'COMPUTER_ROOM_ANNEX' , 
-'LANDING_LEG__NIGHT' , 
-'BLISTER__DAY' , 
-'CHAMBER_ABOVE' , 
-'INFIRMARY' , 
-'CHAMBER__DAY' , 
-'FOOD_LOCKER_NUMBER_6__B_LEVEL' , 
-'CORRIDOR_TO_BRIDGE' , 
-'ENTRANCE_TO_DERELICT__SUNSET' , 
-'SHIP__DAWN' , 
-'CORRIDOR_OUTSIDE_IMFIRMARY_WINDOW' , 
-'ENGINE_CUBICLE' , 
-'PLANET__NIGHT' , 
-'SECOND_LEVEL__C_DECK' , 
-'PASSAGEWAY_NEAR_AIR_LOCK__B_LEVEL' , 
-'ENGINE_ROOM__CUBICLE' , 
-'NOSTROMO' , 
-'BRIDGE' , 
-'CORRIDOR_TO_BRIDGE__A_LEVEL' , 
-'NOSTROMO__OUTER_SPACE' , 
-'GALLEY' , 
-'PLANET__SUNRISE' , 
-'OILY_CORRIDOR__C_DECK' , 
-'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
-'PASSAGEWAY__B_DECK' , 
-'PASSAGEWAY__C_LEVEL' , 
-'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
-'PLANET__DAWN' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_NARCISSUS' , 
-'STARBOARD_AIR_LOCK__VESTIBULE' , 
-'SHIP__NIGHT' , 
-'NARCISSUS__LATER' , 
-'_A_TO_B_LEVELS__COMPANIONWAY' , 
-'STRUCTURE__DAY' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12__B_LEVEL' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_AIR_LOCK' , 
-'FOOD_LOCKER_NUMBER_12' , 
-'AIR_SHAFT_DOUBLE_TIERED_PASSAGEWAY' , 
-'AIR_SHAFT__DOUBLE_TIERED_PASSAGEWAY' , 
-'ASH_S_BLISTER__DAY' , 
-'PASSAGEWAY_NEAR_AIR_LOCK' , 
-'VESTIBULE' ,  
-'HOLD' , 
-'OILY_CORRIDOR' , 
-'NOSTROMO_AND_REFINERY_APPROACHING_THE' , 
-'STRUCTURE_OPENING' , 
-'CORRIDOR__A_DECK' , 
-'AIR_LOCK__NARCISSUS' , 
-'SPACE' , 
-'CORRIDOR__B_DECK' , 
-'_B_LEVEL__COMPANIONWAY' , 
-'PLANET' , 
-'BRIDGE__SUNRISE' , 
-'FOOD_LOCKER_CORRIDOR__OUTSIDE' , 
-'AIR_LOCK__B_DECK' , 
-'OUTER_SPACE' , 
-'THE_NOSTROMO__SUNRISE' , 
-'PASSAGE_NEAR_AIR_LOCK__B_LEVEL' , 
-'BLISTER_STAIRCASE' , 
-'MAINTENANCE_LEVEL' , 
-'PASSAGEWAY__A_LEVEL' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12' , 
-'EQUIPMENT_MAINTENANCE_AREA' , 
-'BRIDGE__DAY' }
-}
-
-CORRIDOR__OUTSIDE = room
-{
-	nam = "CORRIDOR - OUTSIDE",
-	dsc = [[----------------------------------------------------------------
-
-        Parker looks back into the locker.
-        Unable to use the flamethrower without hitting Lambert.
-        He hesitates for a moment, then strides into the locker.
-        Wielding the flamethrower like a club.
-
-                                 PARKER
-                  Goddamn you.
-
-]],
-	way = {'PLANET__DAY' , 
-'MAIN_AIR_LOCK__DAWN' , 
-'OILY_CORRIDOR__C_LEVEL' , 
-'LOCKER' , 
-'OILY_CORRIDOR__COMPANIONWAY' , 
-'PASSAGEWAYS__B_DECK' , 
-'ANOTHER_PASSAGEWAY__B_LEVEL' , 
-'CORRIDOR_OUTSIDE_INFIRMARY_WINDOW' , 
-'ASH_S_BLISTER__DAWN' , 
-'NARCISSUS' , 
-'SHIP' , 
-'ENGINE_ROOM' , 
-'AIR_LOCK_VESTIBULE' , 
-'AIR_LOCK' , 
-'INFIRMARY__A_LEVEL' , 
-'UNDERCARRIAGE_ROOM__C_LEVEL_' , 
-'_B_LEVEL__CORRIDOR' , 
-'CORRIDOR__OUTSIDE' , 
-'BLISTER' , 
-'STRUCTURE' , 
-'MAINTENANCE_AREA__C_DECK' , 
-'MAINTENANCE__C_LEVEL' , 
-'NOSTROMO__DAY' , 
-'COMPUTER_ANNEX' , 
-'FOOD_LOCKER_NUMBER_6__B_DECK' , 
-'PASSAGEWAY_OUTSIDE_INFIRMARY' , 
-'HYPERSLEEP_VAULT' , 
-'AIR_SHAFT' , 
-'THE_NOSTROMO__SUNSET' , 
-'PASSAGEWAY__B_LEVEL' , 
-'MESS' , 
-'ASH_S_BLISTER' , 
-'COMPANIONWAY_TO_OILY_CORRIDOR__E_LEVEL' , 
-'EQUIPMENT_MAINTENANCE_AREA__C_LEVEL' , 
-'BRIDGE__NIGHT' , 
-'BLISTER__DAWN' , 
-'NARCISSUS__OUTER_SPACE' , 
-'CORRIDOR__A_LEVEL' , 
-'ENGINE_ROOM_CUBICLE' , 
-'SPACE_SUIT_LOCKER' , 
-'COMPUTER_ROOM_ANNEX' , 
-'LANDING_LEG__NIGHT' , 
-'BLISTER__DAY' , 
-'CHAMBER_ABOVE' , 
-'INFIRMARY' , 
-'CHAMBER__DAY' , 
-'FOOD_LOCKER_NUMBER_6__B_LEVEL' , 
-'CORRIDOR_TO_BRIDGE' , 
-'ENTRANCE_TO_DERELICT__SUNSET' , 
-'SHIP__DAWN' , 
-'CORRIDOR_OUTSIDE_IMFIRMARY_WINDOW' , 
-'ENGINE_CUBICLE' , 
-'PLANET__NIGHT' , 
-'SECOND_LEVEL__C_DECK' , 
-'PASSAGEWAY_NEAR_AIR_LOCK__B_LEVEL' , 
-'ENGINE_ROOM__CUBICLE' , 
-'NOSTROMO' , 
-'BRIDGE' , 
-'CORRIDOR_TO_BRIDGE__A_LEVEL' , 
-'NOSTROMO__OUTER_SPACE' , 
-'GALLEY' , 
-'PLANET__SUNRISE' , 
-'OILY_CORRIDOR__C_DECK' , 
-'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
-'PASSAGEWAY__B_DECK' , 
-'PASSAGEWAY__C_LEVEL' , 
-'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
-'PLANET__DAWN' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_NARCISSUS' , 
-'STARBOARD_AIR_LOCK__VESTIBULE' , 
-'SHIP__NIGHT' , 
-'NARCISSUS__LATER' , 
-'_A_TO_B_LEVELS__COMPANIONWAY' , 
-'STRUCTURE__DAY' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12__B_LEVEL' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_AIR_LOCK' , 
-'FOOD_LOCKER_NUMBER_12' , 
-'AIR_SHAFT_DOUBLE_TIERED_PASSAGEWAY' , 
-'AIR_SHAFT__DOUBLE_TIERED_PASSAGEWAY' , 
-'ASH_S_BLISTER__DAY' , 
-'PASSAGEWAY_NEAR_AIR_LOCK' , 
-'VESTIBULE' ,  
-'HOLD' , 
-'OILY_CORRIDOR' , 
-'NOSTROMO_AND_REFINERY_APPROACHING_THE' , 
-'STRUCTURE_OPENING' , 
-'CORRIDOR__A_DECK' , 
-'AIR_LOCK__NARCISSUS' , 
-'SPACE' , 
-'CORRIDOR__B_DECK' , 
-'_B_LEVEL__COMPANIONWAY' , 
-'PLANET' , 
-'BRIDGE__SUNRISE' , 
-'FOOD_LOCKER_CORRIDOR__OUTSIDE' , 
-'AIR_LOCK__B_DECK' , 
-'OUTER_SPACE' , 
-'THE_NOSTROMO__SUNRISE' , 
-'PASSAGE_NEAR_AIR_LOCK__B_LEVEL' , 
-'BLISTER_STAIRCASE' , 
-'MAINTENANCE_LEVEL' , 
-'PASSAGEWAY__A_LEVEL' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12' , 
-'EQUIPMENT_MAINTENANCE_AREA' , 
-'BRIDGE__DAY' }
-}
-
-BLISTER = room
-{
-	nam = "BLISTER",
-	dsc = [[----------------------------------------------------------------
-
-        Ash listens.
-
-]],
-	way = {'PLANET__DAY' , 
-'MAIN_AIR_LOCK__DAWN' , 
-'OILY_CORRIDOR__C_LEVEL' , 
-'LOCKER' , 
-'OILY_CORRIDOR__COMPANIONWAY' , 
-'PASSAGEWAYS__B_DECK' , 
-'ANOTHER_PASSAGEWAY__B_LEVEL' , 
-'CORRIDOR_OUTSIDE_INFIRMARY_WINDOW' , 
-'ASH_S_BLISTER__DAWN' , 
-'NARCISSUS' , 
-'SHIP' , 
-'ENGINE_ROOM' , 
-'AIR_LOCK_VESTIBULE' , 
-'AIR_LOCK' , 
-'INFIRMARY__A_LEVEL' , 
-'UNDERCARRIAGE_ROOM__C_LEVEL_' , 
-'_B_LEVEL__CORRIDOR' , 
-'CORRIDOR__OUTSIDE' , 
-'BLISTER' , 
-'STRUCTURE' , 
-'MAINTENANCE_AREA__C_DECK' , 
-'MAINTENANCE__C_LEVEL' , 
-'NOSTROMO__DAY' , 
-'COMPUTER_ANNEX' , 
-'FOOD_LOCKER_NUMBER_6__B_DECK' , 
-'PASSAGEWAY_OUTSIDE_INFIRMARY' , 
-'HYPERSLEEP_VAULT' , 
-'AIR_SHAFT' , 
-'THE_NOSTROMO__SUNSET' , 
-'PASSAGEWAY__B_LEVEL' , 
-'MESS' , 
-'ASH_S_BLISTER' , 
-'COMPANIONWAY_TO_OILY_CORRIDOR__E_LEVEL' , 
-'EQUIPMENT_MAINTENANCE_AREA__C_LEVEL' , 
-'BRIDGE__NIGHT' , 
-'BLISTER__DAWN' , 
-'NARCISSUS__OUTER_SPACE' , 
-'CORRIDOR__A_LEVEL' , 
-'ENGINE_ROOM_CUBICLE' , 
-'SPACE_SUIT_LOCKER' , 
-'COMPUTER_ROOM_ANNEX' , 
-'LANDING_LEG__NIGHT' , 
-'BLISTER__DAY' , 
-'CHAMBER_ABOVE' , 
-'INFIRMARY' , 
-'CHAMBER__DAY' , 
-'FOOD_LOCKER_NUMBER_6__B_LEVEL' , 
-'CORRIDOR_TO_BRIDGE' , 
-'ENTRANCE_TO_DERELICT__SUNSET' , 
-'SHIP__DAWN' , 
-'CORRIDOR_OUTSIDE_IMFIRMARY_WINDOW' , 
-'ENGINE_CUBICLE' , 
-'PLANET__NIGHT' , 
-'SECOND_LEVEL__C_DECK' , 
-'PASSAGEWAY_NEAR_AIR_LOCK__B_LEVEL' , 
-'ENGINE_ROOM__CUBICLE' , 
-'NOSTROMO' , 
-'BRIDGE' , 
-'CORRIDOR_TO_BRIDGE__A_LEVEL' , 
-'NOSTROMO__OUTER_SPACE' , 
-'GALLEY' , 
-'PLANET__SUNRISE' , 
-'OILY_CORRIDOR__C_DECK' , 
-'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
-'PASSAGEWAY__B_DECK' , 
-'PASSAGEWAY__C_LEVEL' , 
-'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
-'PLANET__DAWN' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_NARCISSUS' , 
-'STARBOARD_AIR_LOCK__VESTIBULE' , 
-'SHIP__NIGHT' , 
-'NARCISSUS__LATER' , 
-'_A_TO_B_LEVELS__COMPANIONWAY' , 
-'STRUCTURE__DAY' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12__B_LEVEL' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_AIR_LOCK' , 
-'FOOD_LOCKER_NUMBER_12' , 
-'AIR_SHAFT_DOUBLE_TIERED_PASSAGEWAY' , 
-'AIR_SHAFT__DOUBLE_TIERED_PASSAGEWAY' , 
-'ASH_S_BLISTER__DAY' , 
-'PASSAGEWAY_NEAR_AIR_LOCK' , 
-'VESTIBULE' ,  
-'HOLD' , 
-'OILY_CORRIDOR' , 
-'NOSTROMO_AND_REFINERY_APPROACHING_THE' , 
-'STRUCTURE_OPENING' , 
-'CORRIDOR__A_DECK' , 
-'AIR_LOCK__NARCISSUS' , 
-'SPACE' , 
-'CORRIDOR__B_DECK' , 
-'_B_LEVEL__COMPANIONWAY' , 
-'PLANET' , 
-'BRIDGE__SUNRISE' , 
-'FOOD_LOCKER_CORRIDOR__OUTSIDE' , 
-'AIR_LOCK__B_DECK' , 
-'OUTER_SPACE' , 
-'THE_NOSTROMO__SUNRISE' , 
-'PASSAGE_NEAR_AIR_LOCK__B_LEVEL' , 
-'BLISTER_STAIRCASE' , 
-'MAINTENANCE_LEVEL' , 
-'PASSAGEWAY__A_LEVEL' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12' , 
-'EQUIPMENT_MAINTENANCE_AREA' , 
-'BRIDGE__DAY' }
-}
-
-STRUCTURE = room
-{
-	nam = "STRUCTURE",
-	dsc = [[----------------------------------------------------------------
-
-        Kane resumes his downward climb.
-        Suddenly, his feet lose their purchase as the walls of the
-        shaft disappear.
-        The tunnel has reached its end.
-        Below him is a dark, cavernous space.
-        Deep breaths due to his violent exertion.
-
-                                 DALLAS
-                         (voice over)
-                  See anything?
-
-                                 KANE
-                  No...Tunnel's gone.  Cave or
-                  something below me.  Feels like
-                  the goddamn tropics in here...
-
-        He consults his instruments.
-        Helmet instrumentation strobing softly in the darkness.
-   
-                                 KANE
-                  ...high nitrogen content, no
-                  oxygen...
-
-        Still puffing, he releases his purchase on the stone walls.
-        Begins to lower himself on power.
-        Now Kane is dangling free in darkness.
-        Spinning slowly on the wire as the chest unit unwinds.
-        Then his feet hit bottom.
-        Kane grunts in surprise, almost loses his balance.
-        He flashes his suit lights.
-        The beams reveal that he is in a large hold.
-        Row after row of extrusions stretch from floor to ceiling.
-
-                                 KANE
-                  This is weird.
-
-                                 DALLAS
-                         (voice over)
-                  What do you mean.
-
-                                 KANE
-                  There's something all over the
-                  walls.
-
-        Kane walks across the chamber.
-        Examines the organic protrusions.
-
-]],
-	way = {'PLANET__DAY' , 
-'MAIN_AIR_LOCK__DAWN' , 
-'OILY_CORRIDOR__C_LEVEL' , 
-'LOCKER' , 
-'OILY_CORRIDOR__COMPANIONWAY' , 
-'PASSAGEWAYS__B_DECK' , 
-'ANOTHER_PASSAGEWAY__B_LEVEL' , 
-'CORRIDOR_OUTSIDE_INFIRMARY_WINDOW' , 
-'ASH_S_BLISTER__DAWN' , 
-'NARCISSUS' , 
-'SHIP' , 
-'ENGINE_ROOM' , 
-'AIR_LOCK_VESTIBULE' , 
-'AIR_LOCK' , 
-'INFIRMARY__A_LEVEL' , 
-'UNDERCARRIAGE_ROOM__C_LEVEL_' , 
-'_B_LEVEL__CORRIDOR' , 
-'CORRIDOR__OUTSIDE' , 
-'BLISTER' , 
-'STRUCTURE' , 
-'MAINTENANCE_AREA__C_DECK' , 
-'MAINTENANCE__C_LEVEL' , 
-'NOSTROMO__DAY' , 
-'COMPUTER_ANNEX' , 
-'FOOD_LOCKER_NUMBER_6__B_DECK' , 
-'PASSAGEWAY_OUTSIDE_INFIRMARY' , 
-'HYPERSLEEP_VAULT' , 
-'AIR_SHAFT' , 
-'THE_NOSTROMO__SUNSET' , 
-'PASSAGEWAY__B_LEVEL' , 
-'MESS' , 
-'ASH_S_BLISTER' , 
-'COMPANIONWAY_TO_OILY_CORRIDOR__E_LEVEL' , 
-'EQUIPMENT_MAINTENANCE_AREA__C_LEVEL' , 
-'BRIDGE__NIGHT' , 
-'BLISTER__DAWN' , 
-'NARCISSUS__OUTER_SPACE' , 
-'CORRIDOR__A_LEVEL' , 
-'ENGINE_ROOM_CUBICLE' , 
-'SPACE_SUIT_LOCKER' , 
-'COMPUTER_ROOM_ANNEX' , 
-'LANDING_LEG__NIGHT' , 
-'BLISTER__DAY' , 
-'CHAMBER_ABOVE' , 
-'INFIRMARY' , 
-'CHAMBER__DAY' , 
-'FOOD_LOCKER_NUMBER_6__B_LEVEL' , 
-'CORRIDOR_TO_BRIDGE' , 
-'ENTRANCE_TO_DERELICT__SUNSET' , 
-'SHIP__DAWN' , 
-'CORRIDOR_OUTSIDE_IMFIRMARY_WINDOW' , 
-'ENGINE_CUBICLE' , 
-'PLANET__NIGHT' , 
-'SECOND_LEVEL__C_DECK' , 
-'PASSAGEWAY_NEAR_AIR_LOCK__B_LEVEL' , 
-'ENGINE_ROOM__CUBICLE' , 
-'NOSTROMO' , 
-'BRIDGE' , 
-'CORRIDOR_TO_BRIDGE__A_LEVEL' , 
-'NOSTROMO__OUTER_SPACE' , 
-'GALLEY' , 
-'PLANET__SUNRISE' , 
-'OILY_CORRIDOR__C_DECK' , 
-'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
-'PASSAGEWAY__B_DECK' , 
-'PASSAGEWAY__C_LEVEL' , 
-'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
-'PLANET__DAWN' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_NARCISSUS' , 
-'STARBOARD_AIR_LOCK__VESTIBULE' , 
-'SHIP__NIGHT' , 
-'NARCISSUS__LATER' , 
-'_A_TO_B_LEVELS__COMPANIONWAY' , 
-'STRUCTURE__DAY' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12__B_LEVEL' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_AIR_LOCK' , 
-'FOOD_LOCKER_NUMBER_12' , 
-'AIR_SHAFT_DOUBLE_TIERED_PASSAGEWAY' , 
-'AIR_SHAFT__DOUBLE_TIERED_PASSAGEWAY' , 
-'ASH_S_BLISTER__DAY' , 
-'PASSAGEWAY_NEAR_AIR_LOCK' , 
-'VESTIBULE' ,  
-'HOLD' , 
-'OILY_CORRIDOR' , 
-'NOSTROMO_AND_REFINERY_APPROACHING_THE' , 
-'STRUCTURE_OPENING' , 
-'CORRIDOR__A_DECK' , 
-'AIR_LOCK__NARCISSUS' , 
-'SPACE' , 
-'CORRIDOR__B_DECK' , 
-'_B_LEVEL__COMPANIONWAY' , 
-'PLANET' , 
-'BRIDGE__SUNRISE' , 
-'FOOD_LOCKER_CORRIDOR__OUTSIDE' , 
-'AIR_LOCK__B_DECK' , 
-'OUTER_SPACE' , 
-'THE_NOSTROMO__SUNRISE' , 
-'PASSAGE_NEAR_AIR_LOCK__B_LEVEL' , 
-'BLISTER_STAIRCASE' , 
-'MAINTENANCE_LEVEL' , 
-'PASSAGEWAY__A_LEVEL' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12' , 
-'EQUIPMENT_MAINTENANCE_AREA' , 
-'BRIDGE__DAY' }
-}
-
-MAINTENANCE_AREA__C_DECK = room
-{
-	nam = "MAINTENANCE AREA - 'C' DECK",
-	dsc = [[----------------------------------------------------------------
-
-        Parker selects two full methane cylinders.
-        He tests them.
-        Moves out.
-
-]],
-	way = {'PLANET__DAY' , 
-'MAIN_AIR_LOCK__DAWN' , 
-'OILY_CORRIDOR__C_LEVEL' , 
-'LOCKER' , 
-'OILY_CORRIDOR__COMPANIONWAY' , 
-'PASSAGEWAYS__B_DECK' , 
-'ANOTHER_PASSAGEWAY__B_LEVEL' , 
-'CORRIDOR_OUTSIDE_INFIRMARY_WINDOW' , 
-'ASH_S_BLISTER__DAWN' , 
-'NARCISSUS' , 
-'SHIP' , 
-'ENGINE_ROOM' , 
-'AIR_LOCK_VESTIBULE' , 
-'AIR_LOCK' , 
-'INFIRMARY__A_LEVEL' , 
-'UNDERCARRIAGE_ROOM__C_LEVEL_' , 
-'_B_LEVEL__CORRIDOR' , 
-'CORRIDOR__OUTSIDE' , 
-'BLISTER' , 
-'STRUCTURE' , 
-'MAINTENANCE_AREA__C_DECK' , 
-'MAINTENANCE__C_LEVEL' , 
-'NOSTROMO__DAY' , 
-'COMPUTER_ANNEX' , 
-'FOOD_LOCKER_NUMBER_6__B_DECK' , 
-'PASSAGEWAY_OUTSIDE_INFIRMARY' , 
-'HYPERSLEEP_VAULT' , 
-'AIR_SHAFT' , 
-'THE_NOSTROMO__SUNSET' , 
-'PASSAGEWAY__B_LEVEL' , 
-'MESS' , 
-'ASH_S_BLISTER' , 
-'COMPANIONWAY_TO_OILY_CORRIDOR__E_LEVEL' , 
-'EQUIPMENT_MAINTENANCE_AREA__C_LEVEL' , 
-'BRIDGE__NIGHT' , 
-'BLISTER__DAWN' , 
-'NARCISSUS__OUTER_SPACE' , 
-'CORRIDOR__A_LEVEL' , 
-'ENGINE_ROOM_CUBICLE' , 
-'SPACE_SUIT_LOCKER' , 
-'COMPUTER_ROOM_ANNEX' , 
-'LANDING_LEG__NIGHT' , 
-'BLISTER__DAY' , 
-'CHAMBER_ABOVE' , 
-'INFIRMARY' , 
-'CHAMBER__DAY' , 
-'FOOD_LOCKER_NUMBER_6__B_LEVEL' , 
-'CORRIDOR_TO_BRIDGE' , 
-'ENTRANCE_TO_DERELICT__SUNSET' , 
-'SHIP__DAWN' , 
-'CORRIDOR_OUTSIDE_IMFIRMARY_WINDOW' , 
-'ENGINE_CUBICLE' , 
-'PLANET__NIGHT' , 
-'SECOND_LEVEL__C_DECK' , 
-'PASSAGEWAY_NEAR_AIR_LOCK__B_LEVEL' , 
-'ENGINE_ROOM__CUBICLE' , 
-'NOSTROMO' , 
-'BRIDGE' , 
-'CORRIDOR_TO_BRIDGE__A_LEVEL' , 
-'NOSTROMO__OUTER_SPACE' , 
-'GALLEY' , 
-'PLANET__SUNRISE' , 
-'OILY_CORRIDOR__C_DECK' , 
-'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
-'PASSAGEWAY__B_DECK' , 
-'PASSAGEWAY__C_LEVEL' , 
-'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
-'PLANET__DAWN' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_NARCISSUS' , 
-'STARBOARD_AIR_LOCK__VESTIBULE' , 
-'SHIP__NIGHT' , 
-'NARCISSUS__LATER' , 
-'_A_TO_B_LEVELS__COMPANIONWAY' , 
-'STRUCTURE__DAY' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12__B_LEVEL' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_AIR_LOCK' , 
-'FOOD_LOCKER_NUMBER_12' , 
-'AIR_SHAFT_DOUBLE_TIERED_PASSAGEWAY' , 
-'AIR_SHAFT__DOUBLE_TIERED_PASSAGEWAY' , 
-'ASH_S_BLISTER__DAY' , 
-'PASSAGEWAY_NEAR_AIR_LOCK' , 
-'VESTIBULE' ,  
-'HOLD' , 
-'OILY_CORRIDOR' , 
-'NOSTROMO_AND_REFINERY_APPROACHING_THE' , 
-'STRUCTURE_OPENING' , 
-'CORRIDOR__A_DECK' , 
-'AIR_LOCK__NARCISSUS' , 
-'SPACE' , 
-'CORRIDOR__B_DECK' , 
-'_B_LEVEL__COMPANIONWAY' , 
-'PLANET' , 
-'BRIDGE__SUNRISE' , 
-'FOOD_LOCKER_CORRIDOR__OUTSIDE' , 
-'AIR_LOCK__B_DECK' , 
-'OUTER_SPACE' , 
-'THE_NOSTROMO__SUNRISE' , 
-'PASSAGE_NEAR_AIR_LOCK__B_LEVEL' , 
-'BLISTER_STAIRCASE' , 
-'MAINTENANCE_LEVEL' , 
-'PASSAGEWAY__A_LEVEL' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12' , 
-'EQUIPMENT_MAINTENANCE_AREA' , 
-'BRIDGE__DAY' }
-}
-
-MAINTENANCE__C_LEVEL = room
-{
-	nam = "MAINTENANCE - 'C' LEVEL",
-	dsc = [[----------------------------------------------------------------
-
-        Ripley, Parker and Brett come down ladder onto an endless
-        oily corridor.
-        They stop at the foot of the companionway...
-        They move down corridor into darkness.
-   
-                                 RIPLEY
-                  Okay.
-
-        Looks at the tracker.
-        Nods down the passageway.  Stops.
-   
-                                 RIPLEY
-                  Back this way.
-
-        They begin to walk in that direction.
-        Entering drab section of the ship.
-        Surrounded by deep shadows.
-        Footsteps clanging on the metal deck.
-
-                                 RIPLEY
-                  I thought you fixed 12 module.
-
-                                 BRETT
-                  We did.
-
-                                 PARKER
-                  Circuits must have burned out.
-
-        They switch on lights.
-        Move around two turns.
-
-                                 RIPLEY
-                  Wait.
-
-        They stop quickly, almost stumbling.
-
-                                 RIPLEY
-                  It's within five meters.
-
-        Parker and Brett heft the net.
-        Ripley has the prod in one hand, tracker in the other.
-        Moves with great care.
-        Almost in a half-crouch, ready to leap back.
-        Prod extended, Ripley constantly glances at her tracker.
-        The device leads her up to a small hatch in the bulkhead.
-        Perspiration rivers down her face.
-        She sets aside the tracker.
-        Raises the prod, grasps the hatch handle.
-        Yanks it open.
-        Jams the electric prod inside.
-        A nerve-shattering squall.
-        Then a small creature comes flying out of the locker.
-        Eyes glaring, claws flashing.
-        Instinctively, they throw the net over it.
-        Very annoyed.
-        They open the net and release the captive.
-        Which happens to be the cat.
-        Hissing and spitting...it scampers away.
-
-                                 RIPLEY
-                  God damn it...hold it.
-
-                                 PARKER
-                  We should have killed it...Now
-                  we might pick it up on the
-                  tracker again.
-
-                                 RIPLEY
-                  Go get it.  We'll go on.
-
-                                 BRETT
-                  Right.
-
-        Ripley and Parker move down the passageway.
-        Brett follows the direction taken by the cat.
-        Moves across passageway into equipment maintenance area.
-   
-]],
-	way = {'PLANET__DAY' , 
-'MAIN_AIR_LOCK__DAWN' , 
-'OILY_CORRIDOR__C_LEVEL' , 
-'LOCKER' , 
-'OILY_CORRIDOR__COMPANIONWAY' , 
-'PASSAGEWAYS__B_DECK' , 
-'ANOTHER_PASSAGEWAY__B_LEVEL' , 
-'CORRIDOR_OUTSIDE_INFIRMARY_WINDOW' , 
-'ASH_S_BLISTER__DAWN' , 
-'NARCISSUS' , 
-'SHIP' , 
-'ENGINE_ROOM' , 
-'AIR_LOCK_VESTIBULE' , 
-'AIR_LOCK' , 
-'INFIRMARY__A_LEVEL' , 
-'UNDERCARRIAGE_ROOM__C_LEVEL_' , 
-'_B_LEVEL__CORRIDOR' , 
-'CORRIDOR__OUTSIDE' , 
-'BLISTER' , 
-'STRUCTURE' , 
-'MAINTENANCE_AREA__C_DECK' , 
-'MAINTENANCE__C_LEVEL' , 
-'NOSTROMO__DAY' , 
-'COMPUTER_ANNEX' , 
-'FOOD_LOCKER_NUMBER_6__B_DECK' , 
-'PASSAGEWAY_OUTSIDE_INFIRMARY' , 
-'HYPERSLEEP_VAULT' , 
-'AIR_SHAFT' , 
-'THE_NOSTROMO__SUNSET' , 
-'PASSAGEWAY__B_LEVEL' , 
-'MESS' , 
-'ASH_S_BLISTER' , 
-'COMPANIONWAY_TO_OILY_CORRIDOR__E_LEVEL' , 
-'EQUIPMENT_MAINTENANCE_AREA__C_LEVEL' , 
-'BRIDGE__NIGHT' , 
-'BLISTER__DAWN' , 
-'NARCISSUS__OUTER_SPACE' , 
-'CORRIDOR__A_LEVEL' , 
-'ENGINE_ROOM_CUBICLE' , 
-'SPACE_SUIT_LOCKER' , 
-'COMPUTER_ROOM_ANNEX' , 
-'LANDING_LEG__NIGHT' , 
-'BLISTER__DAY' , 
-'CHAMBER_ABOVE' , 
-'INFIRMARY' , 
-'CHAMBER__DAY' , 
-'FOOD_LOCKER_NUMBER_6__B_LEVEL' , 
-'CORRIDOR_TO_BRIDGE' , 
-'ENTRANCE_TO_DERELICT__SUNSET' , 
-'SHIP__DAWN' , 
-'CORRIDOR_OUTSIDE_IMFIRMARY_WINDOW' , 
-'ENGINE_CUBICLE' , 
-'PLANET__NIGHT' , 
-'SECOND_LEVEL__C_DECK' , 
-'PASSAGEWAY_NEAR_AIR_LOCK__B_LEVEL' , 
-'ENGINE_ROOM__CUBICLE' , 
-'NOSTROMO' , 
-'BRIDGE' , 
-'CORRIDOR_TO_BRIDGE__A_LEVEL' , 
-'NOSTROMO__OUTER_SPACE' , 
-'GALLEY' , 
-'PLANET__SUNRISE' , 
-'OILY_CORRIDOR__C_DECK' , 
-'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
-'PASSAGEWAY__B_DECK' , 
-'PASSAGEWAY__C_LEVEL' , 
-'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
-'PLANET__DAWN' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_NARCISSUS' , 
-'STARBOARD_AIR_LOCK__VESTIBULE' , 
-'SHIP__NIGHT' , 
-'NARCISSUS__LATER' , 
-'_A_TO_B_LEVELS__COMPANIONWAY' , 
-'STRUCTURE__DAY' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12__B_LEVEL' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_AIR_LOCK' , 
-'FOOD_LOCKER_NUMBER_12' , 
-'AIR_SHAFT_DOUBLE_TIERED_PASSAGEWAY' , 
-'AIR_SHAFT__DOUBLE_TIERED_PASSAGEWAY' , 
-'ASH_S_BLISTER__DAY' , 
-'PASSAGEWAY_NEAR_AIR_LOCK' , 
-'VESTIBULE' ,  
-'HOLD' , 
-'OILY_CORRIDOR' , 
-'NOSTROMO_AND_REFINERY_APPROACHING_THE' , 
-'STRUCTURE_OPENING' , 
-'CORRIDOR__A_DECK' , 
-'AIR_LOCK__NARCISSUS' , 
-'SPACE' , 
-'CORRIDOR__B_DECK' , 
-'_B_LEVEL__COMPANIONWAY' , 
-'PLANET' , 
-'BRIDGE__SUNRISE' , 
-'FOOD_LOCKER_CORRIDOR__OUTSIDE' , 
-'AIR_LOCK__B_DECK' , 
-'OUTER_SPACE' , 
-'THE_NOSTROMO__SUNRISE' , 
-'PASSAGE_NEAR_AIR_LOCK__B_LEVEL' , 
-'BLISTER_STAIRCASE' , 
-'MAINTENANCE_LEVEL' , 
-'PASSAGEWAY__A_LEVEL' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12' , 
-'EQUIPMENT_MAINTENANCE_AREA' , 
-'BRIDGE__DAY' }
-}
-
-NOSTROMO__DAY = room
-{
-	nam = "NOSTROMO - DAY",
-	dsc = [[----------------------------------------------------------------
-
-        The starship hovering below cloud ceiling.
-        Then begins to accelerate through the dense atmosphere.
-
-----------------------------------------------------------------
-
-        The ship moves at an acute angle.
-        Slices through the boiling clouds.
-
-]],
-	way = {'PLANET__DAY' , 
-'MAIN_AIR_LOCK__DAWN' , 
-'OILY_CORRIDOR__C_LEVEL' , 
-'LOCKER' , 
-'OILY_CORRIDOR__COMPANIONWAY' , 
-'PASSAGEWAYS__B_DECK' , 
-'ANOTHER_PASSAGEWAY__B_LEVEL' , 
-'CORRIDOR_OUTSIDE_INFIRMARY_WINDOW' , 
-'ASH_S_BLISTER__DAWN' , 
-'NARCISSUS' , 
-'SHIP' , 
-'ENGINE_ROOM' , 
-'AIR_LOCK_VESTIBULE' , 
-'AIR_LOCK' , 
-'INFIRMARY__A_LEVEL' , 
-'UNDERCARRIAGE_ROOM__C_LEVEL_' , 
-'_B_LEVEL__CORRIDOR' , 
-'CORRIDOR__OUTSIDE' , 
-'BLISTER' , 
-'STRUCTURE' , 
-'MAINTENANCE_AREA__C_DECK' , 
-'MAINTENANCE__C_LEVEL' , 
-'NOSTROMO__DAY' , 
-'COMPUTER_ANNEX' , 
-'FOOD_LOCKER_NUMBER_6__B_DECK' , 
-'PASSAGEWAY_OUTSIDE_INFIRMARY' , 
-'HYPERSLEEP_VAULT' , 
-'AIR_SHAFT' , 
-'THE_NOSTROMO__SUNSET' , 
-'PASSAGEWAY__B_LEVEL' , 
-'MESS' , 
-'ASH_S_BLISTER' , 
-'COMPANIONWAY_TO_OILY_CORRIDOR__E_LEVEL' , 
-'EQUIPMENT_MAINTENANCE_AREA__C_LEVEL' , 
-'BRIDGE__NIGHT' , 
-'BLISTER__DAWN' , 
-'NARCISSUS__OUTER_SPACE' , 
-'CORRIDOR__A_LEVEL' , 
-'ENGINE_ROOM_CUBICLE' , 
-'SPACE_SUIT_LOCKER' , 
-'COMPUTER_ROOM_ANNEX' , 
-'LANDING_LEG__NIGHT' , 
-'BLISTER__DAY' , 
-'CHAMBER_ABOVE' , 
-'INFIRMARY' , 
-'CHAMBER__DAY' , 
-'FOOD_LOCKER_NUMBER_6__B_LEVEL' , 
-'CORRIDOR_TO_BRIDGE' , 
-'ENTRANCE_TO_DERELICT__SUNSET' , 
-'SHIP__DAWN' , 
-'CORRIDOR_OUTSIDE_IMFIRMARY_WINDOW' , 
-'ENGINE_CUBICLE' , 
-'PLANET__NIGHT' , 
-'SECOND_LEVEL__C_DECK' , 
-'PASSAGEWAY_NEAR_AIR_LOCK__B_LEVEL' , 
-'ENGINE_ROOM__CUBICLE' , 
-'NOSTROMO' , 
-'BRIDGE' , 
-'CORRIDOR_TO_BRIDGE__A_LEVEL' , 
-'NOSTROMO__OUTER_SPACE' , 
-'GALLEY' , 
-'PLANET__SUNRISE' , 
-'OILY_CORRIDOR__C_DECK' , 
-'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
-'PASSAGEWAY__B_DECK' , 
-'PASSAGEWAY__C_LEVEL' , 
-'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
-'PLANET__DAWN' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_NARCISSUS' , 
-'STARBOARD_AIR_LOCK__VESTIBULE' , 
-'SHIP__NIGHT' , 
-'NARCISSUS__LATER' , 
-'_A_TO_B_LEVELS__COMPANIONWAY' , 
-'STRUCTURE__DAY' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12__B_LEVEL' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_AIR_LOCK' , 
-'FOOD_LOCKER_NUMBER_12' , 
-'AIR_SHAFT_DOUBLE_TIERED_PASSAGEWAY' , 
-'AIR_SHAFT__DOUBLE_TIERED_PASSAGEWAY' , 
-'ASH_S_BLISTER__DAY' , 
-'PASSAGEWAY_NEAR_AIR_LOCK' , 
-'VESTIBULE' ,  
-'HOLD' , 
-'OILY_CORRIDOR' , 
-'NOSTROMO_AND_REFINERY_APPROACHING_THE' , 
-'STRUCTURE_OPENING' , 
-'CORRIDOR__A_DECK' , 
-'AIR_LOCK__NARCISSUS' , 
-'SPACE' , 
-'CORRIDOR__B_DECK' , 
-'_B_LEVEL__COMPANIONWAY' , 
-'PLANET' , 
-'BRIDGE__SUNRISE' , 
-'FOOD_LOCKER_CORRIDOR__OUTSIDE' , 
-'AIR_LOCK__B_DECK' , 
-'OUTER_SPACE' , 
-'THE_NOSTROMO__SUNRISE' , 
-'PASSAGE_NEAR_AIR_LOCK__B_LEVEL' , 
-'BLISTER_STAIRCASE' , 
-'MAINTENANCE_LEVEL' , 
-'PASSAGEWAY__A_LEVEL' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12' , 
-'EQUIPMENT_MAINTENANCE_AREA' , 
-'BRIDGE__DAY' }
-}
-
-COMPUTER_ANNEX = room
-{
-	nam = "COMPUTER ANNEX",
-	dsc = [[----------------------------------------------------------------
-
-        Ripley and Dallas.
-
-                                 RIPLEY
-                  How could you leave that kind
-                  of decision to him.
-
-                                 DALLAS
-                  I just run the ship.  Anything
-                  that has to do with science
-                  division, Ash has the final word.
-
-                                 RIPLEY
-                  How does that happen.
-
-                                 DALLAS
-                  Same way everything else happens.
-                  Orders from the Company.
-
-                                 RIPLEY
-                  Since when is that standard
-                  procedure.
-
-                                 DALLAS
-                  Standard procedure is do what
-                  they tell you... Besides, I only
-                  know about flying... I haul cargo
-                  for a living.
-      
-                                 RIPLEY
-                  Did you ship out with Ash before.
-
-                                 DALLAS
-                  First time.  I went five hauls
-                  with another science man.  Then
-                  two days before we left Thedus,
-                  replaced him with Ash.
-
-        She looks at him.
-
-                                 DALLAS
-                  So what.  They replaced my
-                  warrant officer with you.
-   
-                                 RIPLEY
-                  I don't trust him.
-
-                                 DALLAS
-                  I don't trust anybody...What's
-                  holding up repairs.
-
-                                 RIPLEY
-                  They're pretty much finished now.  
-
-                                 DALLAS
-                  Why didn't you say so?
-
-                                 RIPLEY
-                  There are still some thing left
-                  to do.
-
-                                 DALLAS
-                  Like what?
-
-                                 RIPLEY
-                  We're blind on B and C decks.
-                  Reserve power systems blown...
-
-                                 DALLAS
-                  That's crap.  We can take off
-                  without them.
-
-                                 RIPLEY
-                  Is that a good idea.
-
-                                 DALLAS
-                  I want to get out of here.
-                  Let's get this turkey off the
-                  ground.
-
-----------------------------------------------------------------
-
-        Ripley plugs the key into the board.
-        Data banks come to life.
-        She sits at a console.
-        Thinks for a moment.
-        Then punches up a code.
-        Nothing happens.
-        Punches another combination.
-        Nothing happens.
-        Frustration.
-        Another combination.
-        One screen comes to life.
-        Another combination.
-        She moves to the second keyboard.
-        Screen One spells out the question:
-        Question:  WHO TURNED ON AIR LOCK 2 WARNING SYSTEM.
-        Response:  ASH
-        Another code.
-        Question:  IS ASH PROTECTING THE ALIEN.
-        Response:  YES
-        New code.
-        Question:  WHY
-        Response:  SPECIAL ORDER 937 SCIENCE EYE'S ONLY
-        She starts a new code.  
-        A hand slams down next to Ripley's arm.
-        It sinks elbow deep into the computer.
-        She whips around in her chair.
-        Faces Ash.
-        Ripley lashes out with her foot.
-        Kicks him in the middle.
-        No effect.
-        Ripley twists away.
-        Ash throws a punch at her.
-        Misses.
-        She pushes a chair at him.
-        Overturns the desk...
-        And runs through bridge into mess.
-
-        He moves after her.
-        Gets her.     
-        Parker and Lambert burst into the Mess.
-        Lambert falls on Ash's back.
-        Ash turns to Lambert.
-        Tosses her across the room.
-        Returns to Ripley.
-        Again choking her.
-        Parker lifts the tracker.
-        Steps behind Ash.
-        Swings the tracker...Wallop.
-        Tears his head off...
-        Wires ascending from Ash's trunk.
-        Where his head used to be.
-        Ash's hands release Ripley.
-        Search above his neck for his missing head.
-        He walks backward.
-        All eyes on Ash's headless body.
-        He walks the room.
-        Still feeling for his missing head.
-   
-                                 PARKER
-                  A robot, a God damn Droid.
-
-        Ash turns on him.
-        Starts to advance.
-        Parker hits him again with the tracker...
-        Again.
-        Again.
-        No avail.
-        Ash begins choking Parker.
-        Ripley picks up one of the prod sticks.
-        Closes on Ash's back.
-        Tears away the fabric.
-        Lambert pulls at Ash's legs.
-        Ripley tears at the controls buried in the cavity once
-        covered by his head.
-        Parker's eyes bulge in pain.
-        Ash, headless, choking, choking, choking...
-        Ripley finds the wires, stabs the prod home...
-        Ash's grip lessens.
-        Another stab...electrical flash...
-        The grip lessens...
-        Another stab...flash of circuits.
-        The headless body collapses.
-        Parker trying to regain his breath.
-   
-                                 PARKER
-                  Damn you.
-
-        Kicks the headless body.
-        Lambert looks at Ripley.
-
-                                LAMBERT
-                  Tell me...What the hell's going on.
-
-        Pause.
-
-                                 RIPLEY
-                  Let's find out.  Wire him back up.
-
-                                 PARKER
-                  What kind of crap is that.
-
-                                 RIPLEY
-                  Do it.
-
-        They set to work.
-        Begin to reassemble the wiring in Ash's head.
-
-                                 RIPLEY
-                  Ash let it on board.  Ash let it
-                  grow inside Kane.  Ash blew the
-                  warning signal.
-
-                                 LAMBERT
-                  Why.
-
-                                 RIPLEY
-                  Special Order 937.
-
-                                 PARKER
-                  What's that.
-
-                                 RIPLEY
-                  That's what I want to know.
-
-        Ash's head is placed on the table.
-        His eyes flicker into consciousness.
-   
-                                 RIPLEY
-                  What is Special Order 937.
-
-                                 ASH
-                  You know I can't tell you that.
-
-                                 RIPLEY
-                  Then there's not point in talking
-                  to you.  Pull the plug.
-
-                                 ASH
-                  Special Order 937 in essence
-                  asked me to direct the ship to
-                  the planet, investigate a life
-                  form, possibly hostile and bring
-                  it back for observation.  With
-                  discretion, of course.
-
-                                 RIPLEY
-                  Why.  Why not tell us.
-
-                                 ASH
-                  Would you have gone.
-
-                                 PARKER
-                  It wasn't in the contract.
-
-                                 ASH
-                  My very point.
-
-                                 RIPLEY
-                  They wanted to investigate the
-                  Alien.  No matter what happened
-                  to us.
-
-                                 ASH
-                  That's unfair.  Actually, you
-                  weren't mentioned in the order.
-
-                                 LAMBERT
-                  Those bastards.
-
-                                 ASH
-                  See it from their point of view.
-                  They didn't know what the Alien is.
-
-                                 RIPLEY
-                  How do we kill it.
-
-                                 ASH
-                  I don't think you can.  Not
-                  in this ship, given its life
-                  support systems.  But I might
-                  be able to.
-
-                                 RIPLEY
-                  How.
-
-                                 ASH
-                  I don't know quite yet.  I'm not
-                  exactly at my best at the moment.
-                  If you would reconnect...
-
-                                 RIPLEY
-                  No way.
-
-                                 ASH
-                  Don't be so hasty.  You'll never
-                  kill it without my help.
-
-                                 RIPLEY
-                  We've had enough of your help.
-
-                                 ASH
-                  You've barely got any oxygen left.
-                  If you don't go into hypersleep,
-                  you'll die with or without the
-                  Alien.
-
-                                 RIPLEY
-                  Nice try, Ash.
-
-                                 ASH
-                  I will do whatever I can to help
-                  you.  I swear it.
-
-                                 PARKER
-                  Pull the plug.
-
-                                 LAMBERT
-                  I agree.
-
-                                 ASH
-                  You idiots.  You still don't
-                  realize what you're dealing with.
-                  The Alien is a perfect organism.
-                  Superbly structured, cunning,
-                  quintessentially violent.  With
-                  your limited capabilities you have
-                  no chance against it.
-
-                                 LAMBERT
-                  You admire it.
-
-                                 ASH
-                  How can one not admire perfection.
-                  I will kill it because I am
-                  programmed to protect human life
-                  as you know.
-
-                                 RIPLEY
-                  Even if you have contempt for it.
-
-                                 ASH
-                  Even then.
-
-        Bitter and angry.
-
-                                 RIPLEY
-                  Sorry Ash.  I don't buy it.
-
-                                 ASH
-                  You egocentric morons.  You'll
-                  be ripped to shreds, destroyed
-                  and...
-   
-        Ripley make a movement.
-        Ash softens...
-
-                                 ASH
-                  I can only wish you well...
-   
-        Ripley pulls the plug.
-
-                                 PARKER
-                  He was probably right.  We do
-                  need him.
-
-                                 RIPLEY
-                  He was conning us.
-
-                                 LAMBERT
-                  He was programmed to protect
-                  human life.
-
-                                 RIPLEY
-                  He wasn't protecting our human
-                  lives and that's all I care about.
-                  Anyway it's done.
-
-        Ripley exits to the bridge.
-
-]],
-	way = {'PLANET__DAY' , 
-'MAIN_AIR_LOCK__DAWN' , 
-'OILY_CORRIDOR__C_LEVEL' , 
-'LOCKER' , 
-'OILY_CORRIDOR__COMPANIONWAY' , 
-'PASSAGEWAYS__B_DECK' , 
-'ANOTHER_PASSAGEWAY__B_LEVEL' , 
-'CORRIDOR_OUTSIDE_INFIRMARY_WINDOW' , 
-'ASH_S_BLISTER__DAWN' , 
-'NARCISSUS' , 
-'SHIP' , 
-'ENGINE_ROOM' , 
-'AIR_LOCK_VESTIBULE' , 
-'AIR_LOCK' , 
-'INFIRMARY__A_LEVEL' , 
-'UNDERCARRIAGE_ROOM__C_LEVEL_' , 
-'_B_LEVEL__CORRIDOR' , 
-'CORRIDOR__OUTSIDE' , 
-'BLISTER' , 
-'STRUCTURE' , 
-'MAINTENANCE_AREA__C_DECK' , 
-'MAINTENANCE__C_LEVEL' , 
-'NOSTROMO__DAY' , 
-'COMPUTER_ANNEX' , 
-'FOOD_LOCKER_NUMBER_6__B_DECK' , 
-'PASSAGEWAY_OUTSIDE_INFIRMARY' , 
-'HYPERSLEEP_VAULT' , 
-'AIR_SHAFT' , 
-'THE_NOSTROMO__SUNSET' , 
-'PASSAGEWAY__B_LEVEL' , 
-'MESS' , 
-'ASH_S_BLISTER' , 
-'COMPANIONWAY_TO_OILY_CORRIDOR__E_LEVEL' , 
-'EQUIPMENT_MAINTENANCE_AREA__C_LEVEL' , 
-'BRIDGE__NIGHT' , 
-'BLISTER__DAWN' , 
-'NARCISSUS__OUTER_SPACE' , 
-'CORRIDOR__A_LEVEL' , 
-'ENGINE_ROOM_CUBICLE' , 
-'SPACE_SUIT_LOCKER' , 
-'COMPUTER_ROOM_ANNEX' , 
-'LANDING_LEG__NIGHT' , 
-'BLISTER__DAY' , 
-'CHAMBER_ABOVE' , 
-'INFIRMARY' , 
-'CHAMBER__DAY' , 
-'FOOD_LOCKER_NUMBER_6__B_LEVEL' , 
-'CORRIDOR_TO_BRIDGE' , 
-'ENTRANCE_TO_DERELICT__SUNSET' , 
-'SHIP__DAWN' , 
-'CORRIDOR_OUTSIDE_IMFIRMARY_WINDOW' , 
-'ENGINE_CUBICLE' , 
-'PLANET__NIGHT' , 
-'SECOND_LEVEL__C_DECK' , 
-'PASSAGEWAY_NEAR_AIR_LOCK__B_LEVEL' , 
-'ENGINE_ROOM__CUBICLE' , 
-'NOSTROMO' , 
-'BRIDGE' , 
-'CORRIDOR_TO_BRIDGE__A_LEVEL' , 
-'NOSTROMO__OUTER_SPACE' , 
-'GALLEY' , 
-'PLANET__SUNRISE' , 
-'OILY_CORRIDOR__C_DECK' , 
-'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
-'PASSAGEWAY__B_DECK' , 
-'PASSAGEWAY__C_LEVEL' , 
-'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
-'PLANET__DAWN' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_NARCISSUS' , 
-'STARBOARD_AIR_LOCK__VESTIBULE' , 
-'SHIP__NIGHT' , 
-'NARCISSUS__LATER' , 
-'_A_TO_B_LEVELS__COMPANIONWAY' , 
-'STRUCTURE__DAY' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12__B_LEVEL' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_AIR_LOCK' , 
-'FOOD_LOCKER_NUMBER_12' , 
-'AIR_SHAFT_DOUBLE_TIERED_PASSAGEWAY' , 
-'AIR_SHAFT__DOUBLE_TIERED_PASSAGEWAY' , 
-'ASH_S_BLISTER__DAY' , 
-'PASSAGEWAY_NEAR_AIR_LOCK' , 
-'VESTIBULE' ,  
-'HOLD' , 
-'OILY_CORRIDOR' , 
-'NOSTROMO_AND_REFINERY_APPROACHING_THE' , 
-'STRUCTURE_OPENING' , 
-'CORRIDOR__A_DECK' , 
-'AIR_LOCK__NARCISSUS' , 
-'SPACE' , 
-'CORRIDOR__B_DECK' , 
-'_B_LEVEL__COMPANIONWAY' , 
-'PLANET' , 
-'BRIDGE__SUNRISE' , 
-'FOOD_LOCKER_CORRIDOR__OUTSIDE' , 
-'AIR_LOCK__B_DECK' , 
-'OUTER_SPACE' , 
-'THE_NOSTROMO__SUNRISE' , 
-'PASSAGE_NEAR_AIR_LOCK__B_LEVEL' , 
-'BLISTER_STAIRCASE' , 
-'MAINTENANCE_LEVEL' , 
-'PASSAGEWAY__A_LEVEL' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12' , 
-'EQUIPMENT_MAINTENANCE_AREA' , 
-'BRIDGE__DAY' }
-}
-
-FOOD_LOCKER_NUMBER_6__B_DECK = room
-{
-	nam = "FOOD LOCKER NUMBER 6 - 'B' DECK",
-	dsc = [[----------------------------------------------------------------
-
-        Arms full, Parker moves out of the locker.
-        Lambert is still making her selection.
-        A faint light on the tracker.
-        Unnoticed.
-
-]],
-	way = {'PLANET__DAY' , 
-'MAIN_AIR_LOCK__DAWN' , 
-'OILY_CORRIDOR__C_LEVEL' , 
-'LOCKER' , 
-'OILY_CORRIDOR__COMPANIONWAY' , 
-'PASSAGEWAYS__B_DECK' , 
-'ANOTHER_PASSAGEWAY__B_LEVEL' , 
-'CORRIDOR_OUTSIDE_INFIRMARY_WINDOW' , 
-'ASH_S_BLISTER__DAWN' , 
-'NARCISSUS' , 
-'SHIP' , 
-'ENGINE_ROOM' , 
-'AIR_LOCK_VESTIBULE' , 
-'AIR_LOCK' , 
-'INFIRMARY__A_LEVEL' , 
-'UNDERCARRIAGE_ROOM__C_LEVEL_' , 
-'_B_LEVEL__CORRIDOR' , 
-'CORRIDOR__OUTSIDE' , 
-'BLISTER' , 
-'STRUCTURE' , 
-'MAINTENANCE_AREA__C_DECK' , 
-'MAINTENANCE__C_LEVEL' , 
-'NOSTROMO__DAY' , 
-'COMPUTER_ANNEX' , 
-'FOOD_LOCKER_NUMBER_6__B_DECK' , 
-'PASSAGEWAY_OUTSIDE_INFIRMARY' , 
-'HYPERSLEEP_VAULT' , 
-'AIR_SHAFT' , 
-'THE_NOSTROMO__SUNSET' , 
-'PASSAGEWAY__B_LEVEL' , 
-'MESS' , 
-'ASH_S_BLISTER' , 
-'COMPANIONWAY_TO_OILY_CORRIDOR__E_LEVEL' , 
-'EQUIPMENT_MAINTENANCE_AREA__C_LEVEL' , 
-'BRIDGE__NIGHT' , 
-'BLISTER__DAWN' , 
-'NARCISSUS__OUTER_SPACE' , 
-'CORRIDOR__A_LEVEL' , 
-'ENGINE_ROOM_CUBICLE' , 
-'SPACE_SUIT_LOCKER' , 
-'COMPUTER_ROOM_ANNEX' , 
-'LANDING_LEG__NIGHT' , 
-'BLISTER__DAY' , 
-'CHAMBER_ABOVE' , 
-'INFIRMARY' , 
-'CHAMBER__DAY' , 
-'FOOD_LOCKER_NUMBER_6__B_LEVEL' , 
-'CORRIDOR_TO_BRIDGE' , 
-'ENTRANCE_TO_DERELICT__SUNSET' , 
-'SHIP__DAWN' , 
-'CORRIDOR_OUTSIDE_IMFIRMARY_WINDOW' , 
-'ENGINE_CUBICLE' , 
-'PLANET__NIGHT' , 
-'SECOND_LEVEL__C_DECK' , 
-'PASSAGEWAY_NEAR_AIR_LOCK__B_LEVEL' , 
-'ENGINE_ROOM__CUBICLE' , 
-'NOSTROMO' , 
-'BRIDGE' , 
-'CORRIDOR_TO_BRIDGE__A_LEVEL' , 
-'NOSTROMO__OUTER_SPACE' , 
-'GALLEY' , 
-'PLANET__SUNRISE' , 
-'OILY_CORRIDOR__C_DECK' , 
-'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
-'PASSAGEWAY__B_DECK' , 
-'PASSAGEWAY__C_LEVEL' , 
-'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
-'PLANET__DAWN' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_NARCISSUS' , 
-'STARBOARD_AIR_LOCK__VESTIBULE' , 
-'SHIP__NIGHT' , 
-'NARCISSUS__LATER' , 
-'_A_TO_B_LEVELS__COMPANIONWAY' , 
-'STRUCTURE__DAY' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12__B_LEVEL' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_AIR_LOCK' , 
-'FOOD_LOCKER_NUMBER_12' , 
-'AIR_SHAFT_DOUBLE_TIERED_PASSAGEWAY' , 
-'AIR_SHAFT__DOUBLE_TIERED_PASSAGEWAY' , 
-'ASH_S_BLISTER__DAY' , 
-'PASSAGEWAY_NEAR_AIR_LOCK' , 
-'VESTIBULE' ,  
-'HOLD' , 
-'OILY_CORRIDOR' , 
-'NOSTROMO_AND_REFINERY_APPROACHING_THE' , 
-'STRUCTURE_OPENING' , 
-'CORRIDOR__A_DECK' , 
-'AIR_LOCK__NARCISSUS' , 
-'SPACE' , 
-'CORRIDOR__B_DECK' , 
-'_B_LEVEL__COMPANIONWAY' , 
-'PLANET' , 
-'BRIDGE__SUNRISE' , 
-'FOOD_LOCKER_CORRIDOR__OUTSIDE' , 
-'AIR_LOCK__B_DECK' , 
-'OUTER_SPACE' , 
-'THE_NOSTROMO__SUNRISE' , 
-'PASSAGE_NEAR_AIR_LOCK__B_LEVEL' , 
-'BLISTER_STAIRCASE' , 
-'MAINTENANCE_LEVEL' , 
-'PASSAGEWAY__A_LEVEL' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12' , 
-'EQUIPMENT_MAINTENANCE_AREA' , 
-'BRIDGE__DAY' }
-}
-
-PASSAGEWAY_OUTSIDE_INFIRMARY = room
-{
-	nam = "PASSAGEWAY OUTSIDE INFIRMARY",
-	dsc = [[----------------------------------------------------------------
-
-                                 BRETT
-                  Shit.  It's going to eat through
-                  the decks and go out the hull...
-              
-        He starts to run for the companionway.
-
-]],
-	way = {'PLANET__DAY' , 
-'MAIN_AIR_LOCK__DAWN' , 
-'OILY_CORRIDOR__C_LEVEL' , 
-'LOCKER' , 
-'OILY_CORRIDOR__COMPANIONWAY' , 
-'PASSAGEWAYS__B_DECK' , 
-'ANOTHER_PASSAGEWAY__B_LEVEL' , 
-'CORRIDOR_OUTSIDE_INFIRMARY_WINDOW' , 
-'ASH_S_BLISTER__DAWN' , 
-'NARCISSUS' , 
-'SHIP' , 
-'ENGINE_ROOM' , 
-'AIR_LOCK_VESTIBULE' , 
-'AIR_LOCK' , 
-'INFIRMARY__A_LEVEL' , 
-'UNDERCARRIAGE_ROOM__C_LEVEL_' , 
-'_B_LEVEL__CORRIDOR' , 
-'CORRIDOR__OUTSIDE' , 
-'BLISTER' , 
-'STRUCTURE' , 
-'MAINTENANCE_AREA__C_DECK' , 
-'MAINTENANCE__C_LEVEL' , 
-'NOSTROMO__DAY' , 
-'COMPUTER_ANNEX' , 
-'FOOD_LOCKER_NUMBER_6__B_DECK' , 
-'PASSAGEWAY_OUTSIDE_INFIRMARY' , 
-'HYPERSLEEP_VAULT' , 
-'AIR_SHAFT' , 
-'THE_NOSTROMO__SUNSET' , 
-'PASSAGEWAY__B_LEVEL' , 
-'MESS' , 
-'ASH_S_BLISTER' , 
-'COMPANIONWAY_TO_OILY_CORRIDOR__E_LEVEL' , 
-'EQUIPMENT_MAINTENANCE_AREA__C_LEVEL' , 
-'BRIDGE__NIGHT' , 
-'BLISTER__DAWN' , 
-'NARCISSUS__OUTER_SPACE' , 
-'CORRIDOR__A_LEVEL' , 
-'ENGINE_ROOM_CUBICLE' , 
-'SPACE_SUIT_LOCKER' , 
-'COMPUTER_ROOM_ANNEX' , 
-'LANDING_LEG__NIGHT' , 
-'BLISTER__DAY' , 
-'CHAMBER_ABOVE' , 
-'INFIRMARY' , 
-'CHAMBER__DAY' , 
-'FOOD_LOCKER_NUMBER_6__B_LEVEL' , 
-'CORRIDOR_TO_BRIDGE' , 
-'ENTRANCE_TO_DERELICT__SUNSET' , 
-'SHIP__DAWN' , 
-'CORRIDOR_OUTSIDE_IMFIRMARY_WINDOW' , 
-'ENGINE_CUBICLE' , 
-'PLANET__NIGHT' , 
-'SECOND_LEVEL__C_DECK' , 
-'PASSAGEWAY_NEAR_AIR_LOCK__B_LEVEL' , 
-'ENGINE_ROOM__CUBICLE' , 
-'NOSTROMO' , 
-'BRIDGE' , 
-'CORRIDOR_TO_BRIDGE__A_LEVEL' , 
-'NOSTROMO__OUTER_SPACE' , 
-'GALLEY' , 
-'PLANET__SUNRISE' , 
-'OILY_CORRIDOR__C_DECK' , 
-'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
-'PASSAGEWAY__B_DECK' , 
-'PASSAGEWAY__C_LEVEL' , 
-'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
-'PLANET__DAWN' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_NARCISSUS' , 
-'STARBOARD_AIR_LOCK__VESTIBULE' , 
-'SHIP__NIGHT' , 
-'NARCISSUS__LATER' , 
-'_A_TO_B_LEVELS__COMPANIONWAY' , 
-'STRUCTURE__DAY' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12__B_LEVEL' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_AIR_LOCK' , 
-'FOOD_LOCKER_NUMBER_12' , 
-'AIR_SHAFT_DOUBLE_TIERED_PASSAGEWAY' , 
-'AIR_SHAFT__DOUBLE_TIERED_PASSAGEWAY' , 
-'ASH_S_BLISTER__DAY' , 
-'PASSAGEWAY_NEAR_AIR_LOCK' , 
-'VESTIBULE' ,  
-'HOLD' , 
-'OILY_CORRIDOR' , 
-'NOSTROMO_AND_REFINERY_APPROACHING_THE' , 
-'STRUCTURE_OPENING' , 
-'CORRIDOR__A_DECK' , 
-'AIR_LOCK__NARCISSUS' , 
-'SPACE' , 
-'CORRIDOR__B_DECK' , 
-'_B_LEVEL__COMPANIONWAY' , 
-'PLANET' , 
-'BRIDGE__SUNRISE' , 
-'FOOD_LOCKER_CORRIDOR__OUTSIDE' , 
-'AIR_LOCK__B_DECK' , 
-'OUTER_SPACE' , 
-'THE_NOSTROMO__SUNRISE' , 
-'PASSAGE_NEAR_AIR_LOCK__B_LEVEL' , 
-'BLISTER_STAIRCASE' , 
-'MAINTENANCE_LEVEL' , 
-'PASSAGEWAY__A_LEVEL' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12' , 
-'EQUIPMENT_MAINTENANCE_AREA' , 
-'BRIDGE__DAY' }
-}
-
 HYPERSLEEP_VAULT = room
 {
 	nam = "HYPERSLEEP VAULT",
@@ -4144,579 +43,65 @@ HYPERSLEEP_VAULT = room
         RIPLEY picks up a limp cat out of one of the compartments.
 
 ]],
-	way = {'PLANET__DAY' , 
-'MAIN_AIR_LOCK__DAWN' , 
-'OILY_CORRIDOR__C_LEVEL' , 
-'LOCKER' , 
-'OILY_CORRIDOR__COMPANIONWAY' , 
-'PASSAGEWAYS__B_DECK' , 
-'ANOTHER_PASSAGEWAY__B_LEVEL' , 
-'CORRIDOR_OUTSIDE_INFIRMARY_WINDOW' , 
-'ASH_S_BLISTER__DAWN' , 
-'NARCISSUS' , 
-'SHIP' , 
-'ENGINE_ROOM' , 
-'AIR_LOCK_VESTIBULE' , 
-'AIR_LOCK' , 
-'INFIRMARY__A_LEVEL' , 
-'UNDERCARRIAGE_ROOM__C_LEVEL_' , 
-'_B_LEVEL__CORRIDOR' , 
-'CORRIDOR__OUTSIDE' , 
-'BLISTER' , 
-'STRUCTURE' , 
-'MAINTENANCE_AREA__C_DECK' , 
-'MAINTENANCE__C_LEVEL' , 
-'NOSTROMO__DAY' , 
-'COMPUTER_ANNEX' , 
-'FOOD_LOCKER_NUMBER_6__B_DECK' , 
-'PASSAGEWAY_OUTSIDE_INFIRMARY' , 
-'HYPERSLEEP_VAULT' , 
-'AIR_SHAFT' , 
-'THE_NOSTROMO__SUNSET' , 
-'PASSAGEWAY__B_LEVEL' , 
-'MESS' , 
-'ASH_S_BLISTER' , 
-'COMPANIONWAY_TO_OILY_CORRIDOR__E_LEVEL' , 
-'EQUIPMENT_MAINTENANCE_AREA__C_LEVEL' , 
-'BRIDGE__NIGHT' , 
-'BLISTER__DAWN' , 
-'NARCISSUS__OUTER_SPACE' , 
-'CORRIDOR__A_LEVEL' , 
-'ENGINE_ROOM_CUBICLE' , 
-'SPACE_SUIT_LOCKER' , 
-'COMPUTER_ROOM_ANNEX' , 
-'LANDING_LEG__NIGHT' , 
-'BLISTER__DAY' , 
-'CHAMBER_ABOVE' , 
-'INFIRMARY' , 
-'CHAMBER__DAY' , 
-'FOOD_LOCKER_NUMBER_6__B_LEVEL' , 
-'CORRIDOR_TO_BRIDGE' , 
-'ENTRANCE_TO_DERELICT__SUNSET' , 
-'SHIP__DAWN' , 
-'CORRIDOR_OUTSIDE_IMFIRMARY_WINDOW' , 
-'ENGINE_CUBICLE' , 
-'PLANET__NIGHT' , 
-'SECOND_LEVEL__C_DECK' , 
-'PASSAGEWAY_NEAR_AIR_LOCK__B_LEVEL' , 
-'ENGINE_ROOM__CUBICLE' , 
-'NOSTROMO' , 
-'BRIDGE' , 
-'CORRIDOR_TO_BRIDGE__A_LEVEL' , 
-'NOSTROMO__OUTER_SPACE' , 
-'GALLEY' , 
-'PLANET__SUNRISE' , 
-'OILY_CORRIDOR__C_DECK' , 
-'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
-'PASSAGEWAY__B_DECK' , 
-'PASSAGEWAY__C_LEVEL' , 
-'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
-'PLANET__DAWN' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_NARCISSUS' , 
-'STARBOARD_AIR_LOCK__VESTIBULE' , 
-'SHIP__NIGHT' , 
-'NARCISSUS__LATER' , 
-'_A_TO_B_LEVELS__COMPANIONWAY' , 
-'STRUCTURE__DAY' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12__B_LEVEL' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_AIR_LOCK' , 
-'FOOD_LOCKER_NUMBER_12' , 
-'AIR_SHAFT_DOUBLE_TIERED_PASSAGEWAY' , 
-'AIR_SHAFT__DOUBLE_TIERED_PASSAGEWAY' , 
-'ASH_S_BLISTER__DAY' , 
-'PASSAGEWAY_NEAR_AIR_LOCK' , 
-'VESTIBULE' ,  
-'HOLD' , 
-'OILY_CORRIDOR' , 
-'NOSTROMO_AND_REFINERY_APPROACHING_THE' , 
-'STRUCTURE_OPENING' , 
-'CORRIDOR__A_DECK' , 
-'AIR_LOCK__NARCISSUS' , 
-'SPACE' , 
-'CORRIDOR__B_DECK' , 
-'_B_LEVEL__COMPANIONWAY' , 
-'PLANET' , 
-'BRIDGE__SUNRISE' , 
-'FOOD_LOCKER_CORRIDOR__OUTSIDE' , 
-'AIR_LOCK__B_DECK' , 
-'OUTER_SPACE' , 
-'THE_NOSTROMO__SUNRISE' , 
-'PASSAGE_NEAR_AIR_LOCK__B_LEVEL' , 
-'BLISTER_STAIRCASE' , 
-'MAINTENANCE_LEVEL' , 
-'PASSAGEWAY__A_LEVEL' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12' , 
-'EQUIPMENT_MAINTENANCE_AREA' , 
-'BRIDGE__DAY' }
+	way = { 'MESS' , 'GALLEY'}
 }
 
-AIR_SHAFT = room
+GALLEY = room
 {
-	nam = "AIR SHAFT",
+	nam = "GALLEY",
 	dsc = [[----------------------------------------------------------------
 
-        Completely dark.
-        Dallas turns on his helmet light.
-        Flips switch on throat mike.
+        Kane plugs in a Silex.
+        Lights a cigarette.
+        Coughs.
+        Grinds some coffee beans.
+        Runs some water through.
+
+                                 KANE
+                  Rise and shine, Lambert.
+              
+----------------------------------------------------------------
+
+        Pot now half-full.
+        Kane watches it drip.
+        Inhales the fragrance.
+
+                                 KANE
+                  Now Dallas and Ash.
+                         (calls out)
+                  Good morning Captain.
 
                                  DALLAS
-                  Do you receive me.  Ripley.
-                  Parker.  Lambert.
+                         (voice over)
+                  Where's the coffee.
+
+                                 KANE
+                  Brewing.
+
+        LAMBERT walks into the kitchen.
+        Pours herself a cup.
 
 ----------------------------------------------------------------
 
-        Dallas begins to crawl forward.
-        The tunnel is narrow...
-        Only a foot or two wider than his shoulders.
-   
-                                 DALLAS
-                  I'm under way.
+        Kane enjoys a freshly-brewed cup.
 
-        Turns a corner.
-        Several more tight turns.
-        Instinctively Dallas pulls back.
-        Raises the flamethrower.
-        Fires a blast around the corner into the darkness.
-        It roars loudly in the confined tube.
-        Smoke drifts back into his face.
+                                 KANE
+                  Ripley...
 
-----------------------------------------------------------------
+        Another moment.
+        And then the sound of another lid opening.
 
-        Dallas still crawling on hands and knees.
-        Ahead the shaft takes an abrupt downward turn.
-        He moves toward the corner.
-        Fires another blast from the flamethrower.
-        Then starts crawling down, head first.
+                                 KANE
+                  And if we have Parker, can
+                  Brett be far behind.
 
-----------------------------------------------------------------
+        Lid opening sound.
 
-        The shaft makes yet another turn.
-        Puts Dallas into an almost immobilized position.
-   
-----------------------------------------------------------------
-
-        Dallas against a wall of the shaft.
-        Clutching his flamethrower.
-        Whispers into his throat mike.
-
-                                 DALLAS
-                  Ripley.
-
-----------------------------------------------------------------
-
-                                 DALLAS
-                  I don't think this shaft goes
-                  much farther... It's getting hot
-                  in here.
-
-        He readies the flamethrower.
+                                 KANE
+                  Right.
 
 ]],
-	way = {'PLANET__DAY' , 
-'MAIN_AIR_LOCK__DAWN' , 
-'OILY_CORRIDOR__C_LEVEL' , 
-'LOCKER' , 
-'OILY_CORRIDOR__COMPANIONWAY' , 
-'PASSAGEWAYS__B_DECK' , 
-'ANOTHER_PASSAGEWAY__B_LEVEL' , 
-'CORRIDOR_OUTSIDE_INFIRMARY_WINDOW' , 
-'ASH_S_BLISTER__DAWN' , 
-'NARCISSUS' , 
-'SHIP' , 
-'ENGINE_ROOM' , 
-'AIR_LOCK_VESTIBULE' , 
-'AIR_LOCK' , 
-'INFIRMARY__A_LEVEL' , 
-'UNDERCARRIAGE_ROOM__C_LEVEL_' , 
-'_B_LEVEL__CORRIDOR' , 
-'CORRIDOR__OUTSIDE' , 
-'BLISTER' , 
-'STRUCTURE' , 
-'MAINTENANCE_AREA__C_DECK' , 
-'MAINTENANCE__C_LEVEL' , 
-'NOSTROMO__DAY' , 
-'COMPUTER_ANNEX' , 
-'FOOD_LOCKER_NUMBER_6__B_DECK' , 
-'PASSAGEWAY_OUTSIDE_INFIRMARY' , 
-'HYPERSLEEP_VAULT' , 
-'AIR_SHAFT' , 
-'THE_NOSTROMO__SUNSET' , 
-'PASSAGEWAY__B_LEVEL' , 
-'MESS' , 
-'ASH_S_BLISTER' , 
-'COMPANIONWAY_TO_OILY_CORRIDOR__E_LEVEL' , 
-'EQUIPMENT_MAINTENANCE_AREA__C_LEVEL' , 
-'BRIDGE__NIGHT' , 
-'BLISTER__DAWN' , 
-'NARCISSUS__OUTER_SPACE' , 
-'CORRIDOR__A_LEVEL' , 
-'ENGINE_ROOM_CUBICLE' , 
-'SPACE_SUIT_LOCKER' , 
-'COMPUTER_ROOM_ANNEX' , 
-'LANDING_LEG__NIGHT' , 
-'BLISTER__DAY' , 
-'CHAMBER_ABOVE' , 
-'INFIRMARY' , 
-'CHAMBER__DAY' , 
-'FOOD_LOCKER_NUMBER_6__B_LEVEL' , 
-'CORRIDOR_TO_BRIDGE' , 
-'ENTRANCE_TO_DERELICT__SUNSET' , 
-'SHIP__DAWN' , 
-'CORRIDOR_OUTSIDE_IMFIRMARY_WINDOW' , 
-'ENGINE_CUBICLE' , 
-'PLANET__NIGHT' , 
-'SECOND_LEVEL__C_DECK' , 
-'PASSAGEWAY_NEAR_AIR_LOCK__B_LEVEL' , 
-'ENGINE_ROOM__CUBICLE' , 
-'NOSTROMO' , 
-'BRIDGE' , 
-'CORRIDOR_TO_BRIDGE__A_LEVEL' , 
-'NOSTROMO__OUTER_SPACE' , 
-'GALLEY' , 
-'PLANET__SUNRISE' , 
-'OILY_CORRIDOR__C_DECK' , 
-'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
-'PASSAGEWAY__B_DECK' , 
-'PASSAGEWAY__C_LEVEL' , 
-'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
-'PLANET__DAWN' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_NARCISSUS' , 
-'STARBOARD_AIR_LOCK__VESTIBULE' , 
-'SHIP__NIGHT' , 
-'NARCISSUS__LATER' , 
-'_A_TO_B_LEVELS__COMPANIONWAY' , 
-'STRUCTURE__DAY' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12__B_LEVEL' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_AIR_LOCK' , 
-'FOOD_LOCKER_NUMBER_12' , 
-'AIR_SHAFT_DOUBLE_TIERED_PASSAGEWAY' , 
-'AIR_SHAFT__DOUBLE_TIERED_PASSAGEWAY' , 
-'ASH_S_BLISTER__DAY' , 
-'PASSAGEWAY_NEAR_AIR_LOCK' , 
-'VESTIBULE' ,  
-'HOLD' , 
-'OILY_CORRIDOR' , 
-'NOSTROMO_AND_REFINERY_APPROACHING_THE' , 
-'STRUCTURE_OPENING' , 
-'CORRIDOR__A_DECK' , 
-'AIR_LOCK__NARCISSUS' , 
-'SPACE' , 
-'CORRIDOR__B_DECK' , 
-'_B_LEVEL__COMPANIONWAY' , 
-'PLANET' , 
-'BRIDGE__SUNRISE' , 
-'FOOD_LOCKER_CORRIDOR__OUTSIDE' , 
-'AIR_LOCK__B_DECK' , 
-'OUTER_SPACE' , 
-'THE_NOSTROMO__SUNRISE' , 
-'PASSAGE_NEAR_AIR_LOCK__B_LEVEL' , 
-'BLISTER_STAIRCASE' , 
-'MAINTENANCE_LEVEL' , 
-'PASSAGEWAY__A_LEVEL' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12' , 
-'EQUIPMENT_MAINTENANCE_AREA' , 
-'BRIDGE__DAY' }
-}
-
-THE_NOSTROMO__SUNSET = room
-{
-	nam = "THE NOSTROMO - SUNSET",
-	dsc = [[----------------------------------------------------------------
-
-        Atmosphere turning the color of blood.
-        And the sun is down.
-        The ring of floodlights on the ship comes to life.
-        Feebly combatting the darkness and continuing storm.
-
-]],
-	way = {'PLANET__DAY' , 
-'MAIN_AIR_LOCK__DAWN' , 
-'OILY_CORRIDOR__C_LEVEL' , 
-'LOCKER' , 
-'OILY_CORRIDOR__COMPANIONWAY' , 
-'PASSAGEWAYS__B_DECK' , 
-'ANOTHER_PASSAGEWAY__B_LEVEL' , 
-'CORRIDOR_OUTSIDE_INFIRMARY_WINDOW' , 
-'ASH_S_BLISTER__DAWN' , 
-'NARCISSUS' , 
-'SHIP' , 
-'ENGINE_ROOM' , 
-'AIR_LOCK_VESTIBULE' , 
-'AIR_LOCK' , 
-'INFIRMARY__A_LEVEL' , 
-'UNDERCARRIAGE_ROOM__C_LEVEL_' , 
-'_B_LEVEL__CORRIDOR' , 
-'CORRIDOR__OUTSIDE' , 
-'BLISTER' , 
-'STRUCTURE' , 
-'MAINTENANCE_AREA__C_DECK' , 
-'MAINTENANCE__C_LEVEL' , 
-'NOSTROMO__DAY' , 
-'COMPUTER_ANNEX' , 
-'FOOD_LOCKER_NUMBER_6__B_DECK' , 
-'PASSAGEWAY_OUTSIDE_INFIRMARY' , 
-'HYPERSLEEP_VAULT' , 
-'AIR_SHAFT' , 
-'THE_NOSTROMO__SUNSET' , 
-'PASSAGEWAY__B_LEVEL' , 
-'MESS' , 
-'ASH_S_BLISTER' , 
-'COMPANIONWAY_TO_OILY_CORRIDOR__E_LEVEL' , 
-'EQUIPMENT_MAINTENANCE_AREA__C_LEVEL' , 
-'BRIDGE__NIGHT' , 
-'BLISTER__DAWN' , 
-'NARCISSUS__OUTER_SPACE' , 
-'CORRIDOR__A_LEVEL' , 
-'ENGINE_ROOM_CUBICLE' , 
-'SPACE_SUIT_LOCKER' , 
-'COMPUTER_ROOM_ANNEX' , 
-'LANDING_LEG__NIGHT' , 
-'BLISTER__DAY' , 
-'CHAMBER_ABOVE' , 
-'INFIRMARY' , 
-'CHAMBER__DAY' , 
-'FOOD_LOCKER_NUMBER_6__B_LEVEL' , 
-'CORRIDOR_TO_BRIDGE' , 
-'ENTRANCE_TO_DERELICT__SUNSET' , 
-'SHIP__DAWN' , 
-'CORRIDOR_OUTSIDE_IMFIRMARY_WINDOW' , 
-'ENGINE_CUBICLE' , 
-'PLANET__NIGHT' , 
-'SECOND_LEVEL__C_DECK' , 
-'PASSAGEWAY_NEAR_AIR_LOCK__B_LEVEL' , 
-'ENGINE_ROOM__CUBICLE' , 
-'NOSTROMO' , 
-'BRIDGE' , 
-'CORRIDOR_TO_BRIDGE__A_LEVEL' , 
-'NOSTROMO__OUTER_SPACE' , 
-'GALLEY' , 
-'PLANET__SUNRISE' , 
-'OILY_CORRIDOR__C_DECK' , 
-'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
-'PASSAGEWAY__B_DECK' , 
-'PASSAGEWAY__C_LEVEL' , 
-'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
-'PLANET__DAWN' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_NARCISSUS' , 
-'STARBOARD_AIR_LOCK__VESTIBULE' , 
-'SHIP__NIGHT' , 
-'NARCISSUS__LATER' , 
-'_A_TO_B_LEVELS__COMPANIONWAY' , 
-'STRUCTURE__DAY' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12__B_LEVEL' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_AIR_LOCK' , 
-'FOOD_LOCKER_NUMBER_12' , 
-'AIR_SHAFT_DOUBLE_TIERED_PASSAGEWAY' , 
-'AIR_SHAFT__DOUBLE_TIERED_PASSAGEWAY' , 
-'ASH_S_BLISTER__DAY' , 
-'PASSAGEWAY_NEAR_AIR_LOCK' , 
-'VESTIBULE' ,  
-'HOLD' , 
-'OILY_CORRIDOR' , 
-'NOSTROMO_AND_REFINERY_APPROACHING_THE' , 
-'STRUCTURE_OPENING' , 
-'CORRIDOR__A_DECK' , 
-'AIR_LOCK__NARCISSUS' , 
-'SPACE' , 
-'CORRIDOR__B_DECK' , 
-'_B_LEVEL__COMPANIONWAY' , 
-'PLANET' , 
-'BRIDGE__SUNRISE' , 
-'FOOD_LOCKER_CORRIDOR__OUTSIDE' , 
-'AIR_LOCK__B_DECK' , 
-'OUTER_SPACE' , 
-'THE_NOSTROMO__SUNRISE' , 
-'PASSAGE_NEAR_AIR_LOCK__B_LEVEL' , 
-'BLISTER_STAIRCASE' , 
-'MAINTENANCE_LEVEL' , 
-'PASSAGEWAY__A_LEVEL' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12' , 
-'EQUIPMENT_MAINTENANCE_AREA' , 
-'BRIDGE__DAY' }
-}
-
-PASSAGEWAY__B_LEVEL = room
-{
-	nam = "PASSAGEWAY - 'B' LEVEL",
-	dsc = [[----------------------------------------------------------------
-
-        Parker and Dallas lead.
-        Armed with flamethrowers.
-        They descend from companionway.
-        Suddenly both tracking devices beep frantically.
-        Sound of rending metal up ahead.
-        The move forward cautiously.
-   
-                                 DALLAS
-                  It's in that food locker.
-
-----------------------------------------------------------------
-
-        Parker returning with methane cylinder.
-        Turns a corner.
-        Comes to an abrupt halt.
-        A movement in front of him beyond the air lock.
-        He hesitates.
-        Then another shadowy movement...
-
-----------------------------------------------------------------
-
-        Parker covers the wall communication with his hand.
-
-                                 PARKER
-                  Keep it down...
-
-        Up the corridor, the movement stops.
-
-----------------------------------------------------------------
-
-        Parker whispering.
-
-                                 PARKER
-                  The Alien...It's outside the
-                  main air lock door.  Open the
-                  door slowly...When I shout...
-                  close it fast.
-
-----------------------------------------------------------------
-
-        Parker still whispering.
-
-                                 PARKER
-                  Open it...slowly.
-
-----------------------------------------------------------------
-   
-        Parker watches...
-
-----------------------------------------------------------------
-   
-        Urgent whisper into voice-amp.
-
-                                 PARKER
-                  Now...Now...
-
-----------------------------------------------------------------
-
-        Parker watches.
-        Frozen.
-        The Alien wrenches itself free.
-        Comes flying outward.
-        Smashes Parker down.
-        Flees.
-        On the wall a green light goes on.
-
-                                 "Inner Hatch Closed"
-
-]],
-	way = {'PLANET__DAY' , 
-'MAIN_AIR_LOCK__DAWN' , 
-'OILY_CORRIDOR__C_LEVEL' , 
-'LOCKER' , 
-'OILY_CORRIDOR__COMPANIONWAY' , 
-'PASSAGEWAYS__B_DECK' , 
-'ANOTHER_PASSAGEWAY__B_LEVEL' , 
-'CORRIDOR_OUTSIDE_INFIRMARY_WINDOW' , 
-'ASH_S_BLISTER__DAWN' , 
-'NARCISSUS' , 
-'SHIP' , 
-'ENGINE_ROOM' , 
-'AIR_LOCK_VESTIBULE' , 
-'AIR_LOCK' , 
-'INFIRMARY__A_LEVEL' , 
-'UNDERCARRIAGE_ROOM__C_LEVEL_' , 
-'_B_LEVEL__CORRIDOR' , 
-'CORRIDOR__OUTSIDE' , 
-'BLISTER' , 
-'STRUCTURE' , 
-'MAINTENANCE_AREA__C_DECK' , 
-'MAINTENANCE__C_LEVEL' , 
-'NOSTROMO__DAY' , 
-'COMPUTER_ANNEX' , 
-'FOOD_LOCKER_NUMBER_6__B_DECK' , 
-'PASSAGEWAY_OUTSIDE_INFIRMARY' , 
-'HYPERSLEEP_VAULT' , 
-'AIR_SHAFT' , 
-'THE_NOSTROMO__SUNSET' , 
-'PASSAGEWAY__B_LEVEL' , 
-'MESS' , 
-'ASH_S_BLISTER' , 
-'COMPANIONWAY_TO_OILY_CORRIDOR__E_LEVEL' , 
-'EQUIPMENT_MAINTENANCE_AREA__C_LEVEL' , 
-'BRIDGE__NIGHT' , 
-'BLISTER__DAWN' , 
-'NARCISSUS__OUTER_SPACE' , 
-'CORRIDOR__A_LEVEL' , 
-'ENGINE_ROOM_CUBICLE' , 
-'SPACE_SUIT_LOCKER' , 
-'COMPUTER_ROOM_ANNEX' , 
-'LANDING_LEG__NIGHT' , 
-'BLISTER__DAY' , 
-'CHAMBER_ABOVE' , 
-'INFIRMARY' , 
-'CHAMBER__DAY' , 
-'FOOD_LOCKER_NUMBER_6__B_LEVEL' , 
-'CORRIDOR_TO_BRIDGE' , 
-'ENTRANCE_TO_DERELICT__SUNSET' , 
-'SHIP__DAWN' , 
-'CORRIDOR_OUTSIDE_IMFIRMARY_WINDOW' , 
-'ENGINE_CUBICLE' , 
-'PLANET__NIGHT' , 
-'SECOND_LEVEL__C_DECK' , 
-'PASSAGEWAY_NEAR_AIR_LOCK__B_LEVEL' , 
-'ENGINE_ROOM__CUBICLE' , 
-'NOSTROMO' , 
-'BRIDGE' , 
-'CORRIDOR_TO_BRIDGE__A_LEVEL' , 
-'NOSTROMO__OUTER_SPACE' , 
-'GALLEY' , 
-'PLANET__SUNRISE' , 
-'OILY_CORRIDOR__C_DECK' , 
-'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
-'PASSAGEWAY__B_DECK' , 
-'PASSAGEWAY__C_LEVEL' , 
-'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
-'PLANET__DAWN' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_NARCISSUS' , 
-'STARBOARD_AIR_LOCK__VESTIBULE' , 
-'SHIP__NIGHT' , 
-'NARCISSUS__LATER' , 
-'_A_TO_B_LEVELS__COMPANIONWAY' , 
-'STRUCTURE__DAY' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12__B_LEVEL' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_AIR_LOCK' , 
-'FOOD_LOCKER_NUMBER_12' , 
-'AIR_SHAFT_DOUBLE_TIERED_PASSAGEWAY' , 
-'AIR_SHAFT__DOUBLE_TIERED_PASSAGEWAY' , 
-'ASH_S_BLISTER__DAY' , 
-'PASSAGEWAY_NEAR_AIR_LOCK' , 
-'VESTIBULE' ,  
-'HOLD' , 
-'OILY_CORRIDOR' , 
-'NOSTROMO_AND_REFINERY_APPROACHING_THE' , 
-'STRUCTURE_OPENING' , 
-'CORRIDOR__A_DECK' , 
-'AIR_LOCK__NARCISSUS' , 
-'SPACE' , 
-'CORRIDOR__B_DECK' , 
-'_B_LEVEL__COMPANIONWAY' , 
-'PLANET' , 
-'BRIDGE__SUNRISE' , 
-'FOOD_LOCKER_CORRIDOR__OUTSIDE' , 
-'AIR_LOCK__B_DECK' , 
-'OUTER_SPACE' , 
-'THE_NOSTROMO__SUNRISE' , 
-'PASSAGE_NEAR_AIR_LOCK__B_LEVEL' , 
-'BLISTER_STAIRCASE' , 
-'MAINTENANCE_LEVEL' , 
-'PASSAGEWAY__A_LEVEL' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12' , 
-'EQUIPMENT_MAINTENANCE_AREA' , 
-'BRIDGE__DAY' }
+	way = {'HYPERSLEEP_VAULT'}
 }
 
 MESS = room
@@ -5477,7 +862,4546 @@ MESS = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
+'PASSAGEWAY__B_DECK' , 
+'PASSAGEWAY__C_LEVEL' , 
+'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
+'PLANET__DAWN' , 
+'_B_LEVEL__CORRIDOR_LEADING_TO_NARCISSUS' , 
+'STARBOARD_AIR_LOCK__VESTIBULE' , 
+'SHIP__NIGHT' , 
+'NARCISSUS__LATER' , 
+'_A_TO_B_LEVELS__COMPANIONWAY' , 
+'STRUCTURE__DAY' , 
+'FOOD_STORAGE_LOCKER_NUMBER_12__B_LEVEL' , 
+'_B_LEVEL__CORRIDOR_LEADING_TO_AIR_LOCK' , 
+'FOOD_LOCKER_NUMBER_12' , 
+'AIR_SHAFT_DOUBLE_TIERED_PASSAGEWAY' , 
+'AIR_SHAFT__DOUBLE_TIERED_PASSAGEWAY' , 
+'ASH_S_BLISTER__DAY' , 
+'PASSAGEWAY_NEAR_AIR_LOCK' , 
+'VESTIBULE' ,  
+'HOLD' , 
+'OILY_CORRIDOR' , 
+'NOSTROMO_AND_REFINERY_APPROACHING_THE' , 
+'STRUCTURE_OPENING' , 
+'CORRIDOR__A_DECK' , 
+'AIR_LOCK__NARCISSUS' , 
+'SPACE' , 
+'CORRIDOR__B_DECK' , 
+'_B_LEVEL__COMPANIONWAY' , 
+'PLANET' , 
+'BRIDGE__SUNRISE' , 
+'FOOD_LOCKER_CORRIDOR__OUTSIDE' , 
+'AIR_LOCK__B_DECK' , 
+'OUTER_SPACE' , 
+'THE_NOSTROMO__SUNRISE' , 
+'PASSAGE_NEAR_AIR_LOCK__B_LEVEL' , 
+'BLISTER_STAIRCASE' , 
+'MAINTENANCE_LEVEL' , 
+'PASSAGEWAY__A_LEVEL' , 
+'FOOD_STORAGE_LOCKER_NUMBER_12' , 
+'EQUIPMENT_MAINTENANCE_AREA' , 
+'BRIDGE__DAY' }
+}
+
+PLANET__DAY = room
+{
+	nam = "PLANET - DAY",
+	dsc = [[----------------------------------------------------------------
+
+        Dust clearing.
+        Three tiny figures against the landscape.
+
+   
+        Empty landscape.
+        Then Kane comes up over a rise startled by what he sees.
+        Suddenly the transmission is deafening.
+
+                                 KANE
+                  Jesus Christ.
+              
+        Dallas and Lambert join him equally startled.
+
+        THEIR P.O.V. - DAY
+
+        A gargantuan construction rising from the rock.
+        Clearly of nonhuman manufacture.
+
+
+        Noise still at shrill pitch.
+        All members of the party shouting into their voice-amps.
+
+                                 KANE
+                  Some kind of spaceship.
+
+                                 LAMBERT
+                  Are you sure.  It's weird...
+
+                                 DALLAS
+                  Ash, can you see this.
+
+----------------------------------------------------------------
+
+                                 ASH
+                         (voice over)
+                  It's putting out so much power
+                  I just can't get any reading.
+
+        Dallas shuts off his receiver.
+        Sudden quiet.
+        A long moment.
+
+                                 DALLAS
+                  It looks pretty dead from here.
+                  We'll approach the base.
+
+        They move toward the ship.
+
+]],
+	way = {'PLANET__DAY' , 
+'MAIN_AIR_LOCK__DAWN' , 
+'OILY_CORRIDOR__C_LEVEL' , 
+'LOCKER' , 
+'OILY_CORRIDOR__COMPANIONWAY' , 
+'PASSAGEWAYS__B_DECK' , 
+'ANOTHER_PASSAGEWAY__B_LEVEL' , 
+'CORRIDOR_OUTSIDE_INFIRMARY_WINDOW' , 
+'ASH_S_BLISTER__DAWN' , 
+'NARCISSUS' , 
+'SHIP' , 
+'ENGINE_ROOM' , 
+'AIR_LOCK_VESTIBULE' , 
+'AIR_LOCK' , 
+'INFIRMARY__A_LEVEL' , 
+'UNDERCARRIAGE_ROOM__C_LEVEL_' , 
+'_B_LEVEL__CORRIDOR' , 
+'CORRIDOR__OUTSIDE' , 
+'BLISTER' , 
+'STRUCTURE' , 
+'MAINTENANCE_AREA__C_DECK' , 
+'MAINTENANCE__C_LEVEL' , 
+'NOSTROMO__DAY' , 
+'COMPUTER_ANNEX' , 
+'FOOD_LOCKER_NUMBER_6__B_DECK' , 
+'PASSAGEWAY_OUTSIDE_INFIRMARY' , 
+'HYPERSLEEP_VAULT' , 
+'AIR_SHAFT' , 
+'THE_NOSTROMO__SUNSET' , 
+'PASSAGEWAY__B_LEVEL' , 
+'MESS' , 
+'ASH_S_BLISTER' , 
+'COMPANIONWAY_TO_OILY_CORRIDOR__E_LEVEL' , 
+'EQUIPMENT_MAINTENANCE_AREA__C_LEVEL' , 
+'BRIDGE__NIGHT' , 
+'BLISTER__DAWN' , 
+'NARCISSUS__OUTER_SPACE' , 
+'CORRIDOR__A_LEVEL' , 
+'ENGINE_ROOM_CUBICLE' , 
+'SPACE_SUIT_LOCKER' , 
+'COMPUTER_ROOM_ANNEX' , 
+'LANDING_LEG__NIGHT' , 
+'BLISTER__DAY' , 
+'CHAMBER_ABOVE' , 
+'INFIRMARY' , 
+'CHAMBER__DAY' , 
+'FOOD_LOCKER_NUMBER_6__B_LEVEL' , 
+'CORRIDOR_TO_BRIDGE' , 
+'ENTRANCE_TO_DERELICT__SUNSET' , 
+'SHIP__DAWN' , 
+'CORRIDOR_OUTSIDE_IMFIRMARY_WINDOW' , 
+'ENGINE_CUBICLE' , 
+'PLANET__NIGHT' , 
+'SECOND_LEVEL__C_DECK' , 
+'PASSAGEWAY_NEAR_AIR_LOCK__B_LEVEL' , 
+'ENGINE_ROOM__CUBICLE' , 
+'NOSTROMO' , 
+'BRIDGE' , 
+'CORRIDOR_TO_BRIDGE__A_LEVEL' , 
+'NOSTROMO__OUTER_SPACE' , 
+'GALLEY' , 
+'PLANET__SUNRISE' , 
+'OILY_CORRIDOR__C_DECK' , 
+'FOOR_LOCKER_NUMBER_6' , 
+'PASSAGEWAY__B_DECK' , 
+'PASSAGEWAY__C_LEVEL' , 
+'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
+'PLANET__DAWN' , 
+'_B_LEVEL__CORRIDOR_LEADING_TO_NARCISSUS' , 
+'STARBOARD_AIR_LOCK__VESTIBULE' , 
+'SHIP__NIGHT' , 
+'NARCISSUS__LATER' , 
+'_A_TO_B_LEVELS__COMPANIONWAY' , 
+'STRUCTURE__DAY' , 
+'FOOD_STORAGE_LOCKER_NUMBER_12__B_LEVEL' , 
+'_B_LEVEL__CORRIDOR_LEADING_TO_AIR_LOCK' , 
+'FOOD_LOCKER_NUMBER_12' , 
+'AIR_SHAFT_DOUBLE_TIERED_PASSAGEWAY' , 
+'AIR_SHAFT__DOUBLE_TIERED_PASSAGEWAY' , 
+'ASH_S_BLISTER__DAY' , 
+'PASSAGEWAY_NEAR_AIR_LOCK' , 
+'VESTIBULE' ,  
+'HOLD' , 
+'OILY_CORRIDOR' , 
+'NOSTROMO_AND_REFINERY_APPROACHING_THE' , 
+'STRUCTURE_OPENING' , 
+'CORRIDOR__A_DECK' , 
+'AIR_LOCK__NARCISSUS' , 
+'SPACE' , 
+'CORRIDOR__B_DECK' , 
+'_B_LEVEL__COMPANIONWAY' , 
+'PLANET' , 
+'BRIDGE__SUNRISE' , 
+'FOOD_LOCKER_CORRIDOR__OUTSIDE' , 
+'AIR_LOCK__B_DECK' , 
+'OUTER_SPACE' , 
+'THE_NOSTROMO__SUNRISE' , 
+'PASSAGE_NEAR_AIR_LOCK__B_LEVEL' , 
+'BLISTER_STAIRCASE' , 
+'MAINTENANCE_LEVEL' , 
+'PASSAGEWAY__A_LEVEL' , 
+'FOOD_STORAGE_LOCKER_NUMBER_12' , 
+'EQUIPMENT_MAINTENANCE_AREA' , 
+'BRIDGE__DAY' }
+}
+
+MAIN_AIR_LOCK__DAWN = room
+{
+	nam = "MAIN AIR LOCK - DAWN",
+	dsc = [[----------------------------------------------------------------
+
+        Dallas, Kane and Lambert enter the lock.
+        All wear gloves, boots, jackets.
+        Carry laser pistols.
+        Kane touches a button.
+        Servo whine.
+        Then the inner door slides quietly shut.
+        The trio pull on their helmets.
+
+                                 DALLAS
+                  I'm sending.  Do you hear me.
+
+                                 KANE
+                  Receiving.
+
+                                 LAMBERT
+                  Receiving.
+
+                                 DALLAS
+                  All right.  Keep away from the
+                  weapons unless I say otherwise.
+
+----------------------------------------------------------------
+
+                                 DALLAS
+                  Open the hatch.
+              
+        Another servo whine.
+        Ponderously, the outer lock hatch slides open.
+        Clouds of dust and steam swirl before the three crew members.
+        A mobile gangway slides out the open hatch.
+        Burnt orange sunlight beyond.
+
+]],
+	way = {'PLANET__DAY' , 
+'MAIN_AIR_LOCK__DAWN' , 
+'OILY_CORRIDOR__C_LEVEL' , 
+'LOCKER' , 
+'OILY_CORRIDOR__COMPANIONWAY' , 
+'PASSAGEWAYS__B_DECK' , 
+'ANOTHER_PASSAGEWAY__B_LEVEL' , 
+'CORRIDOR_OUTSIDE_INFIRMARY_WINDOW' , 
+'ASH_S_BLISTER__DAWN' , 
+'NARCISSUS' , 
+'SHIP' , 
+'ENGINE_ROOM' , 
+'AIR_LOCK_VESTIBULE' , 
+'AIR_LOCK' , 
+'INFIRMARY__A_LEVEL' , 
+'UNDERCARRIAGE_ROOM__C_LEVEL_' , 
+'_B_LEVEL__CORRIDOR' , 
+'CORRIDOR__OUTSIDE' , 
+'BLISTER' , 
+'STRUCTURE' , 
+'MAINTENANCE_AREA__C_DECK' , 
+'MAINTENANCE__C_LEVEL' , 
+'NOSTROMO__DAY' , 
+'COMPUTER_ANNEX' , 
+'FOOD_LOCKER_NUMBER_6__B_DECK' , 
+'PASSAGEWAY_OUTSIDE_INFIRMARY' , 
+'HYPERSLEEP_VAULT' , 
+'AIR_SHAFT' , 
+'THE_NOSTROMO__SUNSET' , 
+'PASSAGEWAY__B_LEVEL' , 
+'MESS' , 
+'ASH_S_BLISTER' , 
+'COMPANIONWAY_TO_OILY_CORRIDOR__E_LEVEL' , 
+'EQUIPMENT_MAINTENANCE_AREA__C_LEVEL' , 
+'BRIDGE__NIGHT' , 
+'BLISTER__DAWN' , 
+'NARCISSUS__OUTER_SPACE' , 
+'CORRIDOR__A_LEVEL' , 
+'ENGINE_ROOM_CUBICLE' , 
+'SPACE_SUIT_LOCKER' , 
+'COMPUTER_ROOM_ANNEX' , 
+'LANDING_LEG__NIGHT' , 
+'BLISTER__DAY' , 
+'CHAMBER_ABOVE' , 
+'INFIRMARY' , 
+'CHAMBER__DAY' , 
+'FOOD_LOCKER_NUMBER_6__B_LEVEL' , 
+'CORRIDOR_TO_BRIDGE' , 
+'ENTRANCE_TO_DERELICT__SUNSET' , 
+'SHIP__DAWN' , 
+'CORRIDOR_OUTSIDE_IMFIRMARY_WINDOW' , 
+'ENGINE_CUBICLE' , 
+'PLANET__NIGHT' , 
+'SECOND_LEVEL__C_DECK' , 
+'PASSAGEWAY_NEAR_AIR_LOCK__B_LEVEL' , 
+'ENGINE_ROOM__CUBICLE' , 
+'NOSTROMO' , 
+'BRIDGE' , 
+'CORRIDOR_TO_BRIDGE__A_LEVEL' , 
+'NOSTROMO__OUTER_SPACE' , 
+'GALLEY' , 
+'PLANET__SUNRISE' , 
+'OILY_CORRIDOR__C_DECK' , 
+'FOOR_LOCKER_NUMBER_6' , 
+'PASSAGEWAY__B_DECK' , 
+'PASSAGEWAY__C_LEVEL' , 
+'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
+'PLANET__DAWN' , 
+'_B_LEVEL__CORRIDOR_LEADING_TO_NARCISSUS' , 
+'STARBOARD_AIR_LOCK__VESTIBULE' , 
+'SHIP__NIGHT' , 
+'NARCISSUS__LATER' , 
+'_A_TO_B_LEVELS__COMPANIONWAY' , 
+'STRUCTURE__DAY' , 
+'FOOD_STORAGE_LOCKER_NUMBER_12__B_LEVEL' , 
+'_B_LEVEL__CORRIDOR_LEADING_TO_AIR_LOCK' , 
+'FOOD_LOCKER_NUMBER_12' , 
+'AIR_SHAFT_DOUBLE_TIERED_PASSAGEWAY' , 
+'AIR_SHAFT__DOUBLE_TIERED_PASSAGEWAY' , 
+'ASH_S_BLISTER__DAY' , 
+'PASSAGEWAY_NEAR_AIR_LOCK' , 
+'VESTIBULE' ,  
+'HOLD' , 
+'OILY_CORRIDOR' , 
+'NOSTROMO_AND_REFINERY_APPROACHING_THE' , 
+'STRUCTURE_OPENING' , 
+'CORRIDOR__A_DECK' , 
+'AIR_LOCK__NARCISSUS' , 
+'SPACE' , 
+'CORRIDOR__B_DECK' , 
+'_B_LEVEL__COMPANIONWAY' , 
+'PLANET' , 
+'BRIDGE__SUNRISE' , 
+'FOOD_LOCKER_CORRIDOR__OUTSIDE' , 
+'AIR_LOCK__B_DECK' , 
+'OUTER_SPACE' , 
+'THE_NOSTROMO__SUNRISE' , 
+'PASSAGE_NEAR_AIR_LOCK__B_LEVEL' , 
+'BLISTER_STAIRCASE' , 
+'MAINTENANCE_LEVEL' , 
+'PASSAGEWAY__A_LEVEL' , 
+'FOOD_STORAGE_LOCKER_NUMBER_12' , 
+'EQUIPMENT_MAINTENANCE_AREA' , 
+'BRIDGE__DAY' }
+}
+
+OILY_CORRIDOR__C_LEVEL = room
+{
+	nam = "OILY CORRIDOR - 'C' LEVEL",
+	dsc = [[----------------------------------------------------------------
+
+        Long, dark.
+        Empty.
+        Turbos throbbing.
+        No other movement.
+
+----------------------------------------------------------------
+
+                                 PARKER
+                  I want to know why they never
+                  come down here.  This is where
+                  the work is.
+              
+                                 BRETT
+                  Same reason we have half a
+                  share to their one, our time is
+                  their time, that's the way they
+                  see it.
+              
+                                 PARKER
+                  Well, I'll tell you
+                  something... it stinks.
+              
+        They move towards the companionway.
+                                                           
+----------------------------------------------------------------
+
+        Ripley emerges from below.
+        Gasps for breath.
+        Regains control of herself.
+
+----------------------------------------------------------------
+
+        Ripley running toward the "B" deck companionway.
+
+]],
+	way = {'PLANET__DAY' , 
+'MAIN_AIR_LOCK__DAWN' , 
+'OILY_CORRIDOR__C_LEVEL' , 
+'LOCKER' , 
+'OILY_CORRIDOR__COMPANIONWAY' , 
+'PASSAGEWAYS__B_DECK' , 
+'ANOTHER_PASSAGEWAY__B_LEVEL' , 
+'CORRIDOR_OUTSIDE_INFIRMARY_WINDOW' , 
+'ASH_S_BLISTER__DAWN' , 
+'NARCISSUS' , 
+'SHIP' , 
+'ENGINE_ROOM' , 
+'AIR_LOCK_VESTIBULE' , 
+'AIR_LOCK' , 
+'INFIRMARY__A_LEVEL' , 
+'UNDERCARRIAGE_ROOM__C_LEVEL_' , 
+'_B_LEVEL__CORRIDOR' , 
+'CORRIDOR__OUTSIDE' , 
+'BLISTER' , 
+'STRUCTURE' , 
+'MAINTENANCE_AREA__C_DECK' , 
+'MAINTENANCE__C_LEVEL' , 
+'NOSTROMO__DAY' , 
+'COMPUTER_ANNEX' , 
+'FOOD_LOCKER_NUMBER_6__B_DECK' , 
+'PASSAGEWAY_OUTSIDE_INFIRMARY' , 
+'HYPERSLEEP_VAULT' , 
+'AIR_SHAFT' , 
+'THE_NOSTROMO__SUNSET' , 
+'PASSAGEWAY__B_LEVEL' , 
+'MESS' , 
+'ASH_S_BLISTER' , 
+'COMPANIONWAY_TO_OILY_CORRIDOR__E_LEVEL' , 
+'EQUIPMENT_MAINTENANCE_AREA__C_LEVEL' , 
+'BRIDGE__NIGHT' , 
+'BLISTER__DAWN' , 
+'NARCISSUS__OUTER_SPACE' , 
+'CORRIDOR__A_LEVEL' , 
+'ENGINE_ROOM_CUBICLE' , 
+'SPACE_SUIT_LOCKER' , 
+'COMPUTER_ROOM_ANNEX' , 
+'LANDING_LEG__NIGHT' , 
+'BLISTER__DAY' , 
+'CHAMBER_ABOVE' , 
+'INFIRMARY' , 
+'CHAMBER__DAY' , 
+'FOOD_LOCKER_NUMBER_6__B_LEVEL' , 
+'CORRIDOR_TO_BRIDGE' , 
+'ENTRANCE_TO_DERELICT__SUNSET' , 
+'SHIP__DAWN' , 
+'CORRIDOR_OUTSIDE_IMFIRMARY_WINDOW' , 
+'ENGINE_CUBICLE' , 
+'PLANET__NIGHT' , 
+'SECOND_LEVEL__C_DECK' , 
+'PASSAGEWAY_NEAR_AIR_LOCK__B_LEVEL' , 
+'ENGINE_ROOM__CUBICLE' , 
+'NOSTROMO' , 
+'BRIDGE' , 
+'CORRIDOR_TO_BRIDGE__A_LEVEL' , 
+'NOSTROMO__OUTER_SPACE' , 
+'GALLEY' , 
+'PLANET__SUNRISE' , 
+'OILY_CORRIDOR__C_DECK' , 
+'FOOR_LOCKER_NUMBER_6' , 
+'PASSAGEWAY__B_DECK' , 
+'PASSAGEWAY__C_LEVEL' , 
+'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
+'PLANET__DAWN' , 
+'_B_LEVEL__CORRIDOR_LEADING_TO_NARCISSUS' , 
+'STARBOARD_AIR_LOCK__VESTIBULE' , 
+'SHIP__NIGHT' , 
+'NARCISSUS__LATER' , 
+'_A_TO_B_LEVELS__COMPANIONWAY' , 
+'STRUCTURE__DAY' , 
+'FOOD_STORAGE_LOCKER_NUMBER_12__B_LEVEL' , 
+'_B_LEVEL__CORRIDOR_LEADING_TO_AIR_LOCK' , 
+'FOOD_LOCKER_NUMBER_12' , 
+'AIR_SHAFT_DOUBLE_TIERED_PASSAGEWAY' , 
+'AIR_SHAFT__DOUBLE_TIERED_PASSAGEWAY' , 
+'ASH_S_BLISTER__DAY' , 
+'PASSAGEWAY_NEAR_AIR_LOCK' , 
+'VESTIBULE' ,  
+'HOLD' , 
+'OILY_CORRIDOR' , 
+'NOSTROMO_AND_REFINERY_APPROACHING_THE' , 
+'STRUCTURE_OPENING' , 
+'CORRIDOR__A_DECK' , 
+'AIR_LOCK__NARCISSUS' , 
+'SPACE' , 
+'CORRIDOR__B_DECK' , 
+'_B_LEVEL__COMPANIONWAY' , 
+'PLANET' , 
+'BRIDGE__SUNRISE' , 
+'FOOD_LOCKER_CORRIDOR__OUTSIDE' , 
+'AIR_LOCK__B_DECK' , 
+'OUTER_SPACE' , 
+'THE_NOSTROMO__SUNRISE' , 
+'PASSAGE_NEAR_AIR_LOCK__B_LEVEL' , 
+'BLISTER_STAIRCASE' , 
+'MAINTENANCE_LEVEL' , 
+'PASSAGEWAY__A_LEVEL' , 
+'FOOD_STORAGE_LOCKER_NUMBER_12' , 
+'EQUIPMENT_MAINTENANCE_AREA' , 
+'BRIDGE__DAY' }
+}
+
+LOCKER = room
+{
+	nam = "LOCKER",
+	dsc = [[----------------------------------------------------------------
+
+        A clear glass panel in the door.
+        The Alien puts its head up to the window.
+        Peers in at Ripley.
+        Their faces only two inches apart.
+        The Alien looking at Ripley almost in curiosity.
+        The moaning of the cat distracts it.
+
+----------------------------------------------------------------
+
+        Ripley knocks on the glass.
+        Trying to distract the Creature from the cat.
+        The Alien's face is instantly back at the window.
+        Getting no more interference from her, the Creature
+        returns to the cat box.
+        Ripley looks around.
+        Sees the pressure suit.
+        Quickly begins to pull it on.
+
+----------------------------------------------------------------
+
+        Ripley is halfway into a pressure suit.
+
+----------------------------------------------------------------
+
+        Ripley pulls on the helmet, latches it into place.
+        Turns the oxygen valve.
+        With a hiss, the suit fills itself.
+        A rack on the wall contains a long metal rod.
+        Ripley peels off the rubber tip.
+        Revealing a sharp metal point.
+
+]],
+	way = {'PLANET__DAY' , 
+'MAIN_AIR_LOCK__DAWN' , 
+'OILY_CORRIDOR__C_LEVEL' , 
+'LOCKER' , 
+'OILY_CORRIDOR__COMPANIONWAY' , 
+'PASSAGEWAYS__B_DECK' , 
+'ANOTHER_PASSAGEWAY__B_LEVEL' , 
+'CORRIDOR_OUTSIDE_INFIRMARY_WINDOW' , 
+'ASH_S_BLISTER__DAWN' , 
+'NARCISSUS' , 
+'SHIP' , 
+'ENGINE_ROOM' , 
+'AIR_LOCK_VESTIBULE' , 
+'AIR_LOCK' , 
+'INFIRMARY__A_LEVEL' , 
+'UNDERCARRIAGE_ROOM__C_LEVEL_' , 
+'_B_LEVEL__CORRIDOR' , 
+'CORRIDOR__OUTSIDE' , 
+'BLISTER' , 
+'STRUCTURE' , 
+'MAINTENANCE_AREA__C_DECK' , 
+'MAINTENANCE__C_LEVEL' , 
+'NOSTROMO__DAY' , 
+'COMPUTER_ANNEX' , 
+'FOOD_LOCKER_NUMBER_6__B_DECK' , 
+'PASSAGEWAY_OUTSIDE_INFIRMARY' , 
+'HYPERSLEEP_VAULT' , 
+'AIR_SHAFT' , 
+'THE_NOSTROMO__SUNSET' , 
+'PASSAGEWAY__B_LEVEL' , 
+'MESS' , 
+'ASH_S_BLISTER' , 
+'COMPANIONWAY_TO_OILY_CORRIDOR__E_LEVEL' , 
+'EQUIPMENT_MAINTENANCE_AREA__C_LEVEL' , 
+'BRIDGE__NIGHT' , 
+'BLISTER__DAWN' , 
+'NARCISSUS__OUTER_SPACE' , 
+'CORRIDOR__A_LEVEL' , 
+'ENGINE_ROOM_CUBICLE' , 
+'SPACE_SUIT_LOCKER' , 
+'COMPUTER_ROOM_ANNEX' , 
+'LANDING_LEG__NIGHT' , 
+'BLISTER__DAY' , 
+'CHAMBER_ABOVE' , 
+'INFIRMARY' , 
+'CHAMBER__DAY' , 
+'FOOD_LOCKER_NUMBER_6__B_LEVEL' , 
+'CORRIDOR_TO_BRIDGE' , 
+'ENTRANCE_TO_DERELICT__SUNSET' , 
+'SHIP__DAWN' , 
+'CORRIDOR_OUTSIDE_IMFIRMARY_WINDOW' , 
+'ENGINE_CUBICLE' , 
+'PLANET__NIGHT' , 
+'SECOND_LEVEL__C_DECK' , 
+'PASSAGEWAY_NEAR_AIR_LOCK__B_LEVEL' , 
+'ENGINE_ROOM__CUBICLE' , 
+'NOSTROMO' , 
+'BRIDGE' , 
+'CORRIDOR_TO_BRIDGE__A_LEVEL' , 
+'NOSTROMO__OUTER_SPACE' , 
+'GALLEY' , 
+'PLANET__SUNRISE' , 
+'OILY_CORRIDOR__C_DECK' , 
+'FOOR_LOCKER_NUMBER_6' , 
+'PASSAGEWAY__B_DECK' , 
+'PASSAGEWAY__C_LEVEL' , 
+'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
+'PLANET__DAWN' , 
+'_B_LEVEL__CORRIDOR_LEADING_TO_NARCISSUS' , 
+'STARBOARD_AIR_LOCK__VESTIBULE' , 
+'SHIP__NIGHT' , 
+'NARCISSUS__LATER' , 
+'_A_TO_B_LEVELS__COMPANIONWAY' , 
+'STRUCTURE__DAY' , 
+'FOOD_STORAGE_LOCKER_NUMBER_12__B_LEVEL' , 
+'_B_LEVEL__CORRIDOR_LEADING_TO_AIR_LOCK' , 
+'FOOD_LOCKER_NUMBER_12' , 
+'AIR_SHAFT_DOUBLE_TIERED_PASSAGEWAY' , 
+'AIR_SHAFT__DOUBLE_TIERED_PASSAGEWAY' , 
+'ASH_S_BLISTER__DAY' , 
+'PASSAGEWAY_NEAR_AIR_LOCK' , 
+'VESTIBULE' ,  
+'HOLD' , 
+'OILY_CORRIDOR' , 
+'NOSTROMO_AND_REFINERY_APPROACHING_THE' , 
+'STRUCTURE_OPENING' , 
+'CORRIDOR__A_DECK' , 
+'AIR_LOCK__NARCISSUS' , 
+'SPACE' , 
+'CORRIDOR__B_DECK' , 
+'_B_LEVEL__COMPANIONWAY' , 
+'PLANET' , 
+'BRIDGE__SUNRISE' , 
+'FOOD_LOCKER_CORRIDOR__OUTSIDE' , 
+'AIR_LOCK__B_DECK' , 
+'OUTER_SPACE' , 
+'THE_NOSTROMO__SUNRISE' , 
+'PASSAGE_NEAR_AIR_LOCK__B_LEVEL' , 
+'BLISTER_STAIRCASE' , 
+'MAINTENANCE_LEVEL' , 
+'PASSAGEWAY__A_LEVEL' , 
+'FOOD_STORAGE_LOCKER_NUMBER_12' , 
+'EQUIPMENT_MAINTENANCE_AREA' , 
+'BRIDGE__DAY' }
+}
+
+OILY_CORRIDOR__COMPANIONWAY = room
+{
+	nam = "OILY CORRIDOR - COMPANIONWAY",
+	dsc = [[----------------------------------------------------------------
+
+        Ripley runs back down the corridor.
+        Up the companionway, exhausted, stumbling...
+
+                                 MOTHER'S VOICE
+                         (o.s.)
+                  Attention.  Engines will overload
+                  in two minutes.
+
+]],
+	way = {'PLANET__DAY' , 
+'MAIN_AIR_LOCK__DAWN' , 
+'OILY_CORRIDOR__C_LEVEL' , 
+'LOCKER' , 
+'OILY_CORRIDOR__COMPANIONWAY' , 
+'PASSAGEWAYS__B_DECK' , 
+'ANOTHER_PASSAGEWAY__B_LEVEL' , 
+'CORRIDOR_OUTSIDE_INFIRMARY_WINDOW' , 
+'ASH_S_BLISTER__DAWN' , 
+'NARCISSUS' , 
+'SHIP' , 
+'ENGINE_ROOM' , 
+'AIR_LOCK_VESTIBULE' , 
+'AIR_LOCK' , 
+'INFIRMARY__A_LEVEL' , 
+'UNDERCARRIAGE_ROOM__C_LEVEL_' , 
+'_B_LEVEL__CORRIDOR' , 
+'CORRIDOR__OUTSIDE' , 
+'BLISTER' , 
+'STRUCTURE' , 
+'MAINTENANCE_AREA__C_DECK' , 
+'MAINTENANCE__C_LEVEL' , 
+'NOSTROMO__DAY' , 
+'COMPUTER_ANNEX' , 
+'FOOD_LOCKER_NUMBER_6__B_DECK' , 
+'PASSAGEWAY_OUTSIDE_INFIRMARY' , 
+'HYPERSLEEP_VAULT' , 
+'AIR_SHAFT' , 
+'THE_NOSTROMO__SUNSET' , 
+'PASSAGEWAY__B_LEVEL' , 
+'MESS' , 
+'ASH_S_BLISTER' , 
+'COMPANIONWAY_TO_OILY_CORRIDOR__E_LEVEL' , 
+'EQUIPMENT_MAINTENANCE_AREA__C_LEVEL' , 
+'BRIDGE__NIGHT' , 
+'BLISTER__DAWN' , 
+'NARCISSUS__OUTER_SPACE' , 
+'CORRIDOR__A_LEVEL' , 
+'ENGINE_ROOM_CUBICLE' , 
+'SPACE_SUIT_LOCKER' , 
+'COMPUTER_ROOM_ANNEX' , 
+'LANDING_LEG__NIGHT' , 
+'BLISTER__DAY' , 
+'CHAMBER_ABOVE' , 
+'INFIRMARY' , 
+'CHAMBER__DAY' , 
+'FOOD_LOCKER_NUMBER_6__B_LEVEL' , 
+'CORRIDOR_TO_BRIDGE' , 
+'ENTRANCE_TO_DERELICT__SUNSET' , 
+'SHIP__DAWN' , 
+'CORRIDOR_OUTSIDE_IMFIRMARY_WINDOW' , 
+'ENGINE_CUBICLE' , 
+'PLANET__NIGHT' , 
+'SECOND_LEVEL__C_DECK' , 
+'PASSAGEWAY_NEAR_AIR_LOCK__B_LEVEL' , 
+'ENGINE_ROOM__CUBICLE' , 
+'NOSTROMO' , 
+'BRIDGE' , 
+'CORRIDOR_TO_BRIDGE__A_LEVEL' , 
+'NOSTROMO__OUTER_SPACE' , 
+'GALLEY' , 
+'PLANET__SUNRISE' , 
+'OILY_CORRIDOR__C_DECK' , 
+'FOOR_LOCKER_NUMBER_6' , 
+'PASSAGEWAY__B_DECK' , 
+'PASSAGEWAY__C_LEVEL' , 
+'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
+'PLANET__DAWN' , 
+'_B_LEVEL__CORRIDOR_LEADING_TO_NARCISSUS' , 
+'STARBOARD_AIR_LOCK__VESTIBULE' , 
+'SHIP__NIGHT' , 
+'NARCISSUS__LATER' , 
+'_A_TO_B_LEVELS__COMPANIONWAY' , 
+'STRUCTURE__DAY' , 
+'FOOD_STORAGE_LOCKER_NUMBER_12__B_LEVEL' , 
+'_B_LEVEL__CORRIDOR_LEADING_TO_AIR_LOCK' , 
+'FOOD_LOCKER_NUMBER_12' , 
+'AIR_SHAFT_DOUBLE_TIERED_PASSAGEWAY' , 
+'AIR_SHAFT__DOUBLE_TIERED_PASSAGEWAY' , 
+'ASH_S_BLISTER__DAY' , 
+'PASSAGEWAY_NEAR_AIR_LOCK' , 
+'VESTIBULE' ,  
+'HOLD' , 
+'OILY_CORRIDOR' , 
+'NOSTROMO_AND_REFINERY_APPROACHING_THE' , 
+'STRUCTURE_OPENING' , 
+'CORRIDOR__A_DECK' , 
+'AIR_LOCK__NARCISSUS' , 
+'SPACE' , 
+'CORRIDOR__B_DECK' , 
+'_B_LEVEL__COMPANIONWAY' , 
+'PLANET' , 
+'BRIDGE__SUNRISE' , 
+'FOOD_LOCKER_CORRIDOR__OUTSIDE' , 
+'AIR_LOCK__B_DECK' , 
+'OUTER_SPACE' , 
+'THE_NOSTROMO__SUNRISE' , 
+'PASSAGE_NEAR_AIR_LOCK__B_LEVEL' , 
+'BLISTER_STAIRCASE' , 
+'MAINTENANCE_LEVEL' , 
+'PASSAGEWAY__A_LEVEL' , 
+'FOOD_STORAGE_LOCKER_NUMBER_12' , 
+'EQUIPMENT_MAINTENANCE_AREA' , 
+'BRIDGE__DAY' }
+}
+
+PASSAGEWAYS__B_DECK = room
+{
+	nam = "PASSAGEWAYS - 'B' DECK",
+	dsc = [[----------------------------------------------------------------
+
+        Ripley slams to a momentary halt against a bulkhead.
+        Regains her balance.
+        Starts running.
+
+]],
+	way = {'PLANET__DAY' , 
+'MAIN_AIR_LOCK__DAWN' , 
+'OILY_CORRIDOR__C_LEVEL' , 
+'LOCKER' , 
+'OILY_CORRIDOR__COMPANIONWAY' , 
+'PASSAGEWAYS__B_DECK' , 
+'ANOTHER_PASSAGEWAY__B_LEVEL' , 
+'CORRIDOR_OUTSIDE_INFIRMARY_WINDOW' , 
+'ASH_S_BLISTER__DAWN' , 
+'NARCISSUS' , 
+'SHIP' , 
+'ENGINE_ROOM' , 
+'AIR_LOCK_VESTIBULE' , 
+'AIR_LOCK' , 
+'INFIRMARY__A_LEVEL' , 
+'UNDERCARRIAGE_ROOM__C_LEVEL_' , 
+'_B_LEVEL__CORRIDOR' , 
+'CORRIDOR__OUTSIDE' , 
+'BLISTER' , 
+'STRUCTURE' , 
+'MAINTENANCE_AREA__C_DECK' , 
+'MAINTENANCE__C_LEVEL' , 
+'NOSTROMO__DAY' , 
+'COMPUTER_ANNEX' , 
+'FOOD_LOCKER_NUMBER_6__B_DECK' , 
+'PASSAGEWAY_OUTSIDE_INFIRMARY' , 
+'HYPERSLEEP_VAULT' , 
+'AIR_SHAFT' , 
+'THE_NOSTROMO__SUNSET' , 
+'PASSAGEWAY__B_LEVEL' , 
+'MESS' , 
+'ASH_S_BLISTER' , 
+'COMPANIONWAY_TO_OILY_CORRIDOR__E_LEVEL' , 
+'EQUIPMENT_MAINTENANCE_AREA__C_LEVEL' , 
+'BRIDGE__NIGHT' , 
+'BLISTER__DAWN' , 
+'NARCISSUS__OUTER_SPACE' , 
+'CORRIDOR__A_LEVEL' , 
+'ENGINE_ROOM_CUBICLE' , 
+'SPACE_SUIT_LOCKER' , 
+'COMPUTER_ROOM_ANNEX' , 
+'LANDING_LEG__NIGHT' , 
+'BLISTER__DAY' , 
+'CHAMBER_ABOVE' , 
+'INFIRMARY' , 
+'CHAMBER__DAY' , 
+'FOOD_LOCKER_NUMBER_6__B_LEVEL' , 
+'CORRIDOR_TO_BRIDGE' , 
+'ENTRANCE_TO_DERELICT__SUNSET' , 
+'SHIP__DAWN' , 
+'CORRIDOR_OUTSIDE_IMFIRMARY_WINDOW' , 
+'ENGINE_CUBICLE' , 
+'PLANET__NIGHT' , 
+'SECOND_LEVEL__C_DECK' , 
+'PASSAGEWAY_NEAR_AIR_LOCK__B_LEVEL' , 
+'ENGINE_ROOM__CUBICLE' , 
+'NOSTROMO' , 
+'BRIDGE' , 
+'CORRIDOR_TO_BRIDGE__A_LEVEL' , 
+'NOSTROMO__OUTER_SPACE' , 
+'GALLEY' , 
+'PLANET__SUNRISE' , 
+'OILY_CORRIDOR__C_DECK' , 
+'FOOR_LOCKER_NUMBER_6' , 
+'PASSAGEWAY__B_DECK' , 
+'PASSAGEWAY__C_LEVEL' , 
+'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
+'PLANET__DAWN' , 
+'_B_LEVEL__CORRIDOR_LEADING_TO_NARCISSUS' , 
+'STARBOARD_AIR_LOCK__VESTIBULE' , 
+'SHIP__NIGHT' , 
+'NARCISSUS__LATER' , 
+'_A_TO_B_LEVELS__COMPANIONWAY' , 
+'STRUCTURE__DAY' , 
+'FOOD_STORAGE_LOCKER_NUMBER_12__B_LEVEL' , 
+'_B_LEVEL__CORRIDOR_LEADING_TO_AIR_LOCK' , 
+'FOOD_LOCKER_NUMBER_12' , 
+'AIR_SHAFT_DOUBLE_TIERED_PASSAGEWAY' , 
+'AIR_SHAFT__DOUBLE_TIERED_PASSAGEWAY' , 
+'ASH_S_BLISTER__DAY' , 
+'PASSAGEWAY_NEAR_AIR_LOCK' , 
+'VESTIBULE' ,  
+'HOLD' , 
+'OILY_CORRIDOR' , 
+'NOSTROMO_AND_REFINERY_APPROACHING_THE' , 
+'STRUCTURE_OPENING' , 
+'CORRIDOR__A_DECK' , 
+'AIR_LOCK__NARCISSUS' , 
+'SPACE' , 
+'CORRIDOR__B_DECK' , 
+'_B_LEVEL__COMPANIONWAY' , 
+'PLANET' , 
+'BRIDGE__SUNRISE' , 
+'FOOD_LOCKER_CORRIDOR__OUTSIDE' , 
+'AIR_LOCK__B_DECK' , 
+'OUTER_SPACE' , 
+'THE_NOSTROMO__SUNRISE' , 
+'PASSAGE_NEAR_AIR_LOCK__B_LEVEL' , 
+'BLISTER_STAIRCASE' , 
+'MAINTENANCE_LEVEL' , 
+'PASSAGEWAY__A_LEVEL' , 
+'FOOD_STORAGE_LOCKER_NUMBER_12' , 
+'EQUIPMENT_MAINTENANCE_AREA' , 
+'BRIDGE__DAY' }
+}
+
+ANOTHER_PASSAGEWAY__B_LEVEL = room
+{
+	nam = "ANOTHER PASSAGEWAY - 'B' LEVEL",
+	dsc = [[----------------------------------------------------------------
+
+        Parker and Ripley move silently along.
+        Ripley ahead of them with the tracker by the stairwell.
+
+                                 RIPLEY
+                  Nothing.
+
+        The move on.
+        A small light flashes.
+
+                                 RIPLEY
+                  Hold it.  I've got something.
+
+        Parker and Brett grow tense.
+        Start looking around.
+
+                                 BRETT
+                  Where's it coming from.
+
+        Ripley peers closely at the tracker.
+
+                                 RIPLEY
+                  Machine's screwed up.  I can't
+                  tell.  Needle's spinning all
+                  over the dial.
+
+                                 BRETT
+                  Goddamn, malfunction.
+
+        Ripley turns the tracker on its side.
+        The needles stabilize.
+
+                                 RIPLEY
+                  No, just confused.  It's
+                  coming from below us.
+
+        They all look down at their feet.
+
+]],
+	way = {'PLANET__DAY' , 
+'MAIN_AIR_LOCK__DAWN' , 
+'OILY_CORRIDOR__C_LEVEL' , 
+'LOCKER' , 
+'OILY_CORRIDOR__COMPANIONWAY' , 
+'PASSAGEWAYS__B_DECK' , 
+'ANOTHER_PASSAGEWAY__B_LEVEL' , 
+'CORRIDOR_OUTSIDE_INFIRMARY_WINDOW' , 
+'ASH_S_BLISTER__DAWN' , 
+'NARCISSUS' , 
+'SHIP' , 
+'ENGINE_ROOM' , 
+'AIR_LOCK_VESTIBULE' , 
+'AIR_LOCK' , 
+'INFIRMARY__A_LEVEL' , 
+'UNDERCARRIAGE_ROOM__C_LEVEL_' , 
+'_B_LEVEL__CORRIDOR' , 
+'CORRIDOR__OUTSIDE' , 
+'BLISTER' , 
+'STRUCTURE' , 
+'MAINTENANCE_AREA__C_DECK' , 
+'MAINTENANCE__C_LEVEL' , 
+'NOSTROMO__DAY' , 
+'COMPUTER_ANNEX' , 
+'FOOD_LOCKER_NUMBER_6__B_DECK' , 
+'PASSAGEWAY_OUTSIDE_INFIRMARY' , 
+'HYPERSLEEP_VAULT' , 
+'AIR_SHAFT' , 
+'THE_NOSTROMO__SUNSET' , 
+'PASSAGEWAY__B_LEVEL' , 
+'MESS' , 
+'ASH_S_BLISTER' , 
+'COMPANIONWAY_TO_OILY_CORRIDOR__E_LEVEL' , 
+'EQUIPMENT_MAINTENANCE_AREA__C_LEVEL' , 
+'BRIDGE__NIGHT' , 
+'BLISTER__DAWN' , 
+'NARCISSUS__OUTER_SPACE' , 
+'CORRIDOR__A_LEVEL' , 
+'ENGINE_ROOM_CUBICLE' , 
+'SPACE_SUIT_LOCKER' , 
+'COMPUTER_ROOM_ANNEX' , 
+'LANDING_LEG__NIGHT' , 
+'BLISTER__DAY' , 
+'CHAMBER_ABOVE' , 
+'INFIRMARY' , 
+'CHAMBER__DAY' , 
+'FOOD_LOCKER_NUMBER_6__B_LEVEL' , 
+'CORRIDOR_TO_BRIDGE' , 
+'ENTRANCE_TO_DERELICT__SUNSET' , 
+'SHIP__DAWN' , 
+'CORRIDOR_OUTSIDE_IMFIRMARY_WINDOW' , 
+'ENGINE_CUBICLE' , 
+'PLANET__NIGHT' , 
+'SECOND_LEVEL__C_DECK' , 
+'PASSAGEWAY_NEAR_AIR_LOCK__B_LEVEL' , 
+'ENGINE_ROOM__CUBICLE' , 
+'NOSTROMO' , 
+'BRIDGE' , 
+'CORRIDOR_TO_BRIDGE__A_LEVEL' , 
+'NOSTROMO__OUTER_SPACE' , 
+'GALLEY' , 
+'PLANET__SUNRISE' , 
+'OILY_CORRIDOR__C_DECK' , 
+'FOOR_LOCKER_NUMBER_6' , 
+'PASSAGEWAY__B_DECK' , 
+'PASSAGEWAY__C_LEVEL' , 
+'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
+'PLANET__DAWN' , 
+'_B_LEVEL__CORRIDOR_LEADING_TO_NARCISSUS' , 
+'STARBOARD_AIR_LOCK__VESTIBULE' , 
+'SHIP__NIGHT' , 
+'NARCISSUS__LATER' , 
+'_A_TO_B_LEVELS__COMPANIONWAY' , 
+'STRUCTURE__DAY' , 
+'FOOD_STORAGE_LOCKER_NUMBER_12__B_LEVEL' , 
+'_B_LEVEL__CORRIDOR_LEADING_TO_AIR_LOCK' , 
+'FOOD_LOCKER_NUMBER_12' , 
+'AIR_SHAFT_DOUBLE_TIERED_PASSAGEWAY' , 
+'AIR_SHAFT__DOUBLE_TIERED_PASSAGEWAY' , 
+'ASH_S_BLISTER__DAY' , 
+'PASSAGEWAY_NEAR_AIR_LOCK' , 
+'VESTIBULE' ,  
+'HOLD' , 
+'OILY_CORRIDOR' , 
+'NOSTROMO_AND_REFINERY_APPROACHING_THE' , 
+'STRUCTURE_OPENING' , 
+'CORRIDOR__A_DECK' , 
+'AIR_LOCK__NARCISSUS' , 
+'SPACE' , 
+'CORRIDOR__B_DECK' , 
+'_B_LEVEL__COMPANIONWAY' , 
+'PLANET' , 
+'BRIDGE__SUNRISE' , 
+'FOOD_LOCKER_CORRIDOR__OUTSIDE' , 
+'AIR_LOCK__B_DECK' , 
+'OUTER_SPACE' , 
+'THE_NOSTROMO__SUNRISE' , 
+'PASSAGE_NEAR_AIR_LOCK__B_LEVEL' , 
+'BLISTER_STAIRCASE' , 
+'MAINTENANCE_LEVEL' , 
+'PASSAGEWAY__A_LEVEL' , 
+'FOOD_STORAGE_LOCKER_NUMBER_12' , 
+'EQUIPMENT_MAINTENANCE_AREA' , 
+'BRIDGE__DAY' }
+}
+
+CORRIDOR_OUTSIDE_INFIRMARY_WINDOW = room
+{
+	nam = "CORRIDOR OUTSIDE INFIRMARY WINDOW",
+	dsc = [[----------------------------------------------------------------
+
+        What they see is...Not what they expect.
+        Kane is sitting up in bed...wide awake.
+        They enter...
+
+                                 LAMBERT
+                  Kane...Are you all right.
+
+                                 KANE
+                  Mouth's dry...can I have some
+                  water.
+
+        Instantly, Ash brings him a plastic cup and water.
+        Kane gulps it down in a swallow.
+
+                                 KANE
+                  More.
+
+        Ripley quickly fills a much bigger container.
+        Hands it to Kane.
+        He greedily consumes the entire contents.
+        Then sags back, panting, on the bunk.
+
+                                 DALLAS
+                  How do you feel.
+
+                                 KANE
+                  Terrible.  What happened to me.  
+
+                                 ASH
+                  You don't remember.
+
+                                 KANE
+                  Don't remember anything.  I can
+                  barely remember my name.
+
+                                 PARKER
+                  Do you hurt.
+
+                                 KANE
+                  All over.  Feel like somebody's
+                  been beating me with a stick
+                  for about six years.
+                         (smiles)
+                  God, I'm hungry.
+
+                                 RIPLEY
+                  What's the last thing you can
+                  remember.
+
+                                 KANE
+                  I don't know.
+
+                                 DALLAS
+                  Do you remember what happened
+                  on the planet.
+
+                                 KANE
+                  Just some horrible dream              
+                  about smothering.  Where
+                  are we.
+   
+                                 RIPLEY
+                  We're on our way home.
+
+                                 BRETT
+                  Getting ready to go back into
+                  the freezers.
+
+                                 KANE
+                  I'm starving.  I want some food
+                  first.
+
+                                 PARKER
+                  I'm pretty hungry myself.
+
+                                 DALLAS
+                  One meal before bed.
+
+]],
+	way = {'PLANET__DAY' , 
+'MAIN_AIR_LOCK__DAWN' , 
+'OILY_CORRIDOR__C_LEVEL' , 
+'LOCKER' , 
+'OILY_CORRIDOR__COMPANIONWAY' , 
+'PASSAGEWAYS__B_DECK' , 
+'ANOTHER_PASSAGEWAY__B_LEVEL' , 
+'CORRIDOR_OUTSIDE_INFIRMARY_WINDOW' , 
+'ASH_S_BLISTER__DAWN' , 
+'NARCISSUS' , 
+'SHIP' , 
+'ENGINE_ROOM' , 
+'AIR_LOCK_VESTIBULE' , 
+'AIR_LOCK' , 
+'INFIRMARY__A_LEVEL' , 
+'UNDERCARRIAGE_ROOM__C_LEVEL_' , 
+'_B_LEVEL__CORRIDOR' , 
+'CORRIDOR__OUTSIDE' , 
+'BLISTER' , 
+'STRUCTURE' , 
+'MAINTENANCE_AREA__C_DECK' , 
+'MAINTENANCE__C_LEVEL' , 
+'NOSTROMO__DAY' , 
+'COMPUTER_ANNEX' , 
+'FOOD_LOCKER_NUMBER_6__B_DECK' , 
+'PASSAGEWAY_OUTSIDE_INFIRMARY' , 
+'HYPERSLEEP_VAULT' , 
+'AIR_SHAFT' , 
+'THE_NOSTROMO__SUNSET' , 
+'PASSAGEWAY__B_LEVEL' , 
+'MESS' , 
+'ASH_S_BLISTER' , 
+'COMPANIONWAY_TO_OILY_CORRIDOR__E_LEVEL' , 
+'EQUIPMENT_MAINTENANCE_AREA__C_LEVEL' , 
+'BRIDGE__NIGHT' , 
+'BLISTER__DAWN' , 
+'NARCISSUS__OUTER_SPACE' , 
+'CORRIDOR__A_LEVEL' , 
+'ENGINE_ROOM_CUBICLE' , 
+'SPACE_SUIT_LOCKER' , 
+'COMPUTER_ROOM_ANNEX' , 
+'LANDING_LEG__NIGHT' , 
+'BLISTER__DAY' , 
+'CHAMBER_ABOVE' , 
+'INFIRMARY' , 
+'CHAMBER__DAY' , 
+'FOOD_LOCKER_NUMBER_6__B_LEVEL' , 
+'CORRIDOR_TO_BRIDGE' , 
+'ENTRANCE_TO_DERELICT__SUNSET' , 
+'SHIP__DAWN' , 
+'CORRIDOR_OUTSIDE_IMFIRMARY_WINDOW' , 
+'ENGINE_CUBICLE' , 
+'PLANET__NIGHT' , 
+'SECOND_LEVEL__C_DECK' , 
+'PASSAGEWAY_NEAR_AIR_LOCK__B_LEVEL' , 
+'ENGINE_ROOM__CUBICLE' , 
+'NOSTROMO' , 
+'BRIDGE' , 
+'CORRIDOR_TO_BRIDGE__A_LEVEL' , 
+'NOSTROMO__OUTER_SPACE' , 
+'GALLEY' , 
+'PLANET__SUNRISE' , 
+'OILY_CORRIDOR__C_DECK' , 
+'FOOR_LOCKER_NUMBER_6' , 
+'PASSAGEWAY__B_DECK' , 
+'PASSAGEWAY__C_LEVEL' , 
+'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
+'PLANET__DAWN' , 
+'_B_LEVEL__CORRIDOR_LEADING_TO_NARCISSUS' , 
+'STARBOARD_AIR_LOCK__VESTIBULE' , 
+'SHIP__NIGHT' , 
+'NARCISSUS__LATER' , 
+'_A_TO_B_LEVELS__COMPANIONWAY' , 
+'STRUCTURE__DAY' , 
+'FOOD_STORAGE_LOCKER_NUMBER_12__B_LEVEL' , 
+'_B_LEVEL__CORRIDOR_LEADING_TO_AIR_LOCK' , 
+'FOOD_LOCKER_NUMBER_12' , 
+'AIR_SHAFT_DOUBLE_TIERED_PASSAGEWAY' , 
+'AIR_SHAFT__DOUBLE_TIERED_PASSAGEWAY' , 
+'ASH_S_BLISTER__DAY' , 
+'PASSAGEWAY_NEAR_AIR_LOCK' , 
+'VESTIBULE' ,  
+'HOLD' , 
+'OILY_CORRIDOR' , 
+'NOSTROMO_AND_REFINERY_APPROACHING_THE' , 
+'STRUCTURE_OPENING' , 
+'CORRIDOR__A_DECK' , 
+'AIR_LOCK__NARCISSUS' , 
+'SPACE' , 
+'CORRIDOR__B_DECK' , 
+'_B_LEVEL__COMPANIONWAY' , 
+'PLANET' , 
+'BRIDGE__SUNRISE' , 
+'FOOD_LOCKER_CORRIDOR__OUTSIDE' , 
+'AIR_LOCK__B_DECK' , 
+'OUTER_SPACE' , 
+'THE_NOSTROMO__SUNRISE' , 
+'PASSAGE_NEAR_AIR_LOCK__B_LEVEL' , 
+'BLISTER_STAIRCASE' , 
+'MAINTENANCE_LEVEL' , 
+'PASSAGEWAY__A_LEVEL' , 
+'FOOD_STORAGE_LOCKER_NUMBER_12' , 
+'EQUIPMENT_MAINTENANCE_AREA' , 
+'BRIDGE__DAY' }
+}
+
+ASH_S_BLISTER__DAWN = room
+{
+	nam = "ASH'S BLISTER - DAWN",
+	dsc = [[----------------------------------------------------------------
+
+        Ash descends companionway to blister.
+        Punches up screens and instrumentation.
+
+----------------------------------------------------------------
+
+        Ash leaning over his console.
+        Watches them beneath him.
+        Corresponding images on the screen in front of him.
+
+                                 ASH
+                  See you.  Read you.  Good contact
+                  on my board.
+                     
+                                 DALLAS
+                         (voice over)
+                  Getting you clear and free.  Let's
+                  keep the line open.
+              
+]],
+	way = {'PLANET__DAY' , 
+'MAIN_AIR_LOCK__DAWN' , 
+'OILY_CORRIDOR__C_LEVEL' , 
+'LOCKER' , 
+'OILY_CORRIDOR__COMPANIONWAY' , 
+'PASSAGEWAYS__B_DECK' , 
+'ANOTHER_PASSAGEWAY__B_LEVEL' , 
+'CORRIDOR_OUTSIDE_INFIRMARY_WINDOW' , 
+'ASH_S_BLISTER__DAWN' , 
+'NARCISSUS' , 
+'SHIP' , 
+'ENGINE_ROOM' , 
+'AIR_LOCK_VESTIBULE' , 
+'AIR_LOCK' , 
+'INFIRMARY__A_LEVEL' , 
+'UNDERCARRIAGE_ROOM__C_LEVEL_' , 
+'_B_LEVEL__CORRIDOR' , 
+'CORRIDOR__OUTSIDE' , 
+'BLISTER' , 
+'STRUCTURE' , 
+'MAINTENANCE_AREA__C_DECK' , 
+'MAINTENANCE__C_LEVEL' , 
+'NOSTROMO__DAY' , 
+'COMPUTER_ANNEX' , 
+'FOOD_LOCKER_NUMBER_6__B_DECK' , 
+'PASSAGEWAY_OUTSIDE_INFIRMARY' , 
+'HYPERSLEEP_VAULT' , 
+'AIR_SHAFT' , 
+'THE_NOSTROMO__SUNSET' , 
+'PASSAGEWAY__B_LEVEL' , 
+'MESS' , 
+'ASH_S_BLISTER' , 
+'COMPANIONWAY_TO_OILY_CORRIDOR__E_LEVEL' , 
+'EQUIPMENT_MAINTENANCE_AREA__C_LEVEL' , 
+'BRIDGE__NIGHT' , 
+'BLISTER__DAWN' , 
+'NARCISSUS__OUTER_SPACE' , 
+'CORRIDOR__A_LEVEL' , 
+'ENGINE_ROOM_CUBICLE' , 
+'SPACE_SUIT_LOCKER' , 
+'COMPUTER_ROOM_ANNEX' , 
+'LANDING_LEG__NIGHT' , 
+'BLISTER__DAY' , 
+'CHAMBER_ABOVE' , 
+'INFIRMARY' , 
+'CHAMBER__DAY' , 
+'FOOD_LOCKER_NUMBER_6__B_LEVEL' , 
+'CORRIDOR_TO_BRIDGE' , 
+'ENTRANCE_TO_DERELICT__SUNSET' , 
+'SHIP__DAWN' , 
+'CORRIDOR_OUTSIDE_IMFIRMARY_WINDOW' , 
+'ENGINE_CUBICLE' , 
+'PLANET__NIGHT' , 
+'SECOND_LEVEL__C_DECK' , 
+'PASSAGEWAY_NEAR_AIR_LOCK__B_LEVEL' , 
+'ENGINE_ROOM__CUBICLE' , 
+'NOSTROMO' , 
+'BRIDGE' , 
+'CORRIDOR_TO_BRIDGE__A_LEVEL' , 
+'NOSTROMO__OUTER_SPACE' , 
+'GALLEY' , 
+'PLANET__SUNRISE' , 
+'OILY_CORRIDOR__C_DECK' , 
+'FOOR_LOCKER_NUMBER_6' , 
+'PASSAGEWAY__B_DECK' , 
+'PASSAGEWAY__C_LEVEL' , 
+'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
+'PLANET__DAWN' , 
+'_B_LEVEL__CORRIDOR_LEADING_TO_NARCISSUS' , 
+'STARBOARD_AIR_LOCK__VESTIBULE' , 
+'SHIP__NIGHT' , 
+'NARCISSUS__LATER' , 
+'_A_TO_B_LEVELS__COMPANIONWAY' , 
+'STRUCTURE__DAY' , 
+'FOOD_STORAGE_LOCKER_NUMBER_12__B_LEVEL' , 
+'_B_LEVEL__CORRIDOR_LEADING_TO_AIR_LOCK' , 
+'FOOD_LOCKER_NUMBER_12' , 
+'AIR_SHAFT_DOUBLE_TIERED_PASSAGEWAY' , 
+'AIR_SHAFT__DOUBLE_TIERED_PASSAGEWAY' , 
+'ASH_S_BLISTER__DAY' , 
+'PASSAGEWAY_NEAR_AIR_LOCK' , 
+'VESTIBULE' ,  
+'HOLD' , 
+'OILY_CORRIDOR' , 
+'NOSTROMO_AND_REFINERY_APPROACHING_THE' , 
+'STRUCTURE_OPENING' , 
+'CORRIDOR__A_DECK' , 
+'AIR_LOCK__NARCISSUS' , 
+'SPACE' , 
+'CORRIDOR__B_DECK' , 
+'_B_LEVEL__COMPANIONWAY' , 
+'PLANET' , 
+'BRIDGE__SUNRISE' , 
+'FOOD_LOCKER_CORRIDOR__OUTSIDE' , 
+'AIR_LOCK__B_DECK' , 
+'OUTER_SPACE' , 
+'THE_NOSTROMO__SUNRISE' , 
+'PASSAGE_NEAR_AIR_LOCK__B_LEVEL' , 
+'BLISTER_STAIRCASE' , 
+'MAINTENANCE_LEVEL' , 
+'PASSAGEWAY__A_LEVEL' , 
+'FOOD_STORAGE_LOCKER_NUMBER_12' , 
+'EQUIPMENT_MAINTENANCE_AREA' , 
+'BRIDGE__DAY' }
+}
+
+NARCISSUS = room
+{
+	nam = "NARCISSUS",
+	dsc = [[----------------------------------------------------------------
+
+        Dallas listening to a primitive tape.
+        His foot tapping with the rhythm.
+        Beep.
+        An interruption on the communicator.
+
+                                 DALLAS
+                  Dallas.
+
+                                 ASH
+                         (voice over)
+                  I think you should have a
+                  look at Kane.  Something's
+                  happened.
+
+                                 DALLAS
+                  Serious.
+
+                                 ASH
+                         (voice over)
+                  Interesting.
+   
+        Dallas exits.
+
+----------------------------------------------------------------
+
+        Dallas seated in the shuttle craft.
+        Staring at the myriad lights of outer space.
+        Ripley climbs beside him.
+
+                                 RIPLEY
+                  I thought I'd find you here.
+   
+        Dallas continues to stare.
+
+                                 DALLAS
+                  Are the nets finished.
+
+        Pause.
+
+                                 RIPLEY
+                  We've got an hour...Look I
+                  need some relief.
+
+                                 DALLAS
+                  Why did you wait until now.
+
+        Ripley leans forward.
+
+                                 RIPLEY
+                  Let me tell you something.  You
+                  keep staring out there long
+                  enough, they'll be peeling you
+                  off the wall.
+
+        Ripley begins taking off her boots.
+
+                                 DALLAS
+                  We're the new pioneers, Ripley.
+                  We even get to have our own
+                  special disease.
+
+                                 RIPLEY
+                  I'm tired of talking.
+
+        She rises and removes her upper garments.
+
+                                 DALLAS
+                  You waited too long.
+
+                                 RIPLEY
+                  Give it a try anyway.
+
+        Clothing removed.
+        His arms move around her.
+
+----------------------------------------------------------------
+
+        Ripley scans the narrow deck...empty.
+
+----------------------------------------------------------------
+
+        Ripley enters on the run.
+        Hurls the cat box toward the front.
+        She dives into the control chair.
+        Hits the "launch" button.
+   
+----------------------------------------------------------------
+
+        Ripley frantically straps herself in.
+        G-forces from the shuttles acceleration pulling against her.
+
+----------------------------------------------------------------
+
+        Ripley finishes strapping herself in.
+        Reaches and grabs the cat box.
+        The cat yowling within.
+        Ripley hugs the box to her chest.
+        Hunches her head down over the container.
+
+----------------------------------------------------------------
+
+        The shockwave hits the shuttle craft.
+        Jolting and rattling everything within.
+        Then all is quiet.
+        Ripley unhooks herself from her straps.
+        Rises, and goes to the back of the escape craft.
+        Stares out through the porthole.
+        Face bathed in orange light.
+
+----------------------------------------------------------------
+
+        Ripley watching the final destiny of her ship and crew mates.
+        A very long moment.
+        Then, behind her, the lethal hand emerges from deep shadow.  
+        The Alien has been in the shuttle-craft all along.
+        The cat yowls.
+
+        Ripley whirls.
+        Finding herself facing the Creature.
+
+        Ripley's first thought is for the flamethrower.
+        It lies on the deck next to the Alien.
+        Next she glances around for a place to hide.
+        Her eye falls on a small locker containing a pressure suit.
+        The door standing open.
+        She begins to edge toward the compartment.
+        The Creature stands.
+        Comes for her.
+        Ripley dives for the open door.
+        Hurls herself inside.
+        Slams it shut.
+
+----------------------------------------------------------------
+
+        The Alien moves to the pressurized cat box.
+        Bends down and peers inside.
+        The cat yowls louder as his container is lifted.
+   
+----------------------------------------------------------------
+
+        The Alien picks up the cat box.
+        Shakes it.
+        The cat moans.
+
+----------------------------------------------------------------
+
+        The Creature throws the cat box down.
+        Very hard.
+        Picks it up again.
+        Hammers it against the wall.
+        Then jams it into a crevice.
+        Begins to pound the container into the opening.
+        The cat now beyond all hysteria.
+   
+----------------------------------------------------------------
+
+        The Creature rises.
+        Faces the locker.
+        Catches the steel shaft through its midriff.
+        The Alien clutches at the spear.
+        Yellow acid begins to flow from the wound.
+        Before the fluid can touch the floor...
+        Ripley reaches back and pulls the switch.
+        Blows the rear hatch.
+        The atmosphere in the shuttle immediately sucked into space.
+        The bleeding creature along with it.
+        Ripley grabs a strut to keep from being pulled out.
+        The Alien shoots past her.
+        Grab's Ripley's ankle with an appendage.
+
+
+        Ripley now hanging halfway out of the shuttle-craft.
+        The Alien clinging to her leg.
+        She kicks at it with her free foot.
+        The Creature holds fast.
+   
+
+        Ripley looks for any salvation.
+        Grabs the hatch level.
+        Yanks it.
+        The hatch slams shut, closing Ripley safely inside.
+   
+
+        The Alien still outside the shuttle-craft.
+        Within the vacuum of space.
+        The top of its appendage mashed into the closed hatch.
+
+
+        Acid starts to foam along the base of the hatch.
+        Eats away at the metal.
+        Ripley stumbles forward to the controls.
+        Pushes the ram jet lever.
+
+----------------------------------------------------------------
+
+        Ripley hurries to the rear hatch.
+        Peers through the glass.
+
+]],
+	way = {'PLANET__DAY' , 
+'MAIN_AIR_LOCK__DAWN' , 
+'OILY_CORRIDOR__C_LEVEL' , 
+'LOCKER' , 
+'OILY_CORRIDOR__COMPANIONWAY' , 
+'PASSAGEWAYS__B_DECK' , 
+'ANOTHER_PASSAGEWAY__B_LEVEL' , 
+'CORRIDOR_OUTSIDE_INFIRMARY_WINDOW' , 
+'ASH_S_BLISTER__DAWN' , 
+'NARCISSUS' , 
+'SHIP' , 
+'ENGINE_ROOM' , 
+'AIR_LOCK_VESTIBULE' , 
+'AIR_LOCK' , 
+'INFIRMARY__A_LEVEL' , 
+'UNDERCARRIAGE_ROOM__C_LEVEL_' , 
+'_B_LEVEL__CORRIDOR' , 
+'CORRIDOR__OUTSIDE' , 
+'BLISTER' , 
+'STRUCTURE' , 
+'MAINTENANCE_AREA__C_DECK' , 
+'MAINTENANCE__C_LEVEL' , 
+'NOSTROMO__DAY' , 
+'COMPUTER_ANNEX' , 
+'FOOD_LOCKER_NUMBER_6__B_DECK' , 
+'PASSAGEWAY_OUTSIDE_INFIRMARY' , 
+'HYPERSLEEP_VAULT' , 
+'AIR_SHAFT' , 
+'THE_NOSTROMO__SUNSET' , 
+'PASSAGEWAY__B_LEVEL' , 
+'MESS' , 
+'ASH_S_BLISTER' , 
+'COMPANIONWAY_TO_OILY_CORRIDOR__E_LEVEL' , 
+'EQUIPMENT_MAINTENANCE_AREA__C_LEVEL' , 
+'BRIDGE__NIGHT' , 
+'BLISTER__DAWN' , 
+'NARCISSUS__OUTER_SPACE' , 
+'CORRIDOR__A_LEVEL' , 
+'ENGINE_ROOM_CUBICLE' , 
+'SPACE_SUIT_LOCKER' , 
+'COMPUTER_ROOM_ANNEX' , 
+'LANDING_LEG__NIGHT' , 
+'BLISTER__DAY' , 
+'CHAMBER_ABOVE' , 
+'INFIRMARY' , 
+'CHAMBER__DAY' , 
+'FOOD_LOCKER_NUMBER_6__B_LEVEL' , 
+'CORRIDOR_TO_BRIDGE' , 
+'ENTRANCE_TO_DERELICT__SUNSET' , 
+'SHIP__DAWN' , 
+'CORRIDOR_OUTSIDE_IMFIRMARY_WINDOW' , 
+'ENGINE_CUBICLE' , 
+'PLANET__NIGHT' , 
+'SECOND_LEVEL__C_DECK' , 
+'PASSAGEWAY_NEAR_AIR_LOCK__B_LEVEL' , 
+'ENGINE_ROOM__CUBICLE' , 
+'NOSTROMO' , 
+'BRIDGE' , 
+'CORRIDOR_TO_BRIDGE__A_LEVEL' , 
+'NOSTROMO__OUTER_SPACE' , 
+'GALLEY' , 
+'PLANET__SUNRISE' , 
+'OILY_CORRIDOR__C_DECK' , 
+'FOOR_LOCKER_NUMBER_6' , 
+'PASSAGEWAY__B_DECK' , 
+'PASSAGEWAY__C_LEVEL' , 
+'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
+'PLANET__DAWN' , 
+'_B_LEVEL__CORRIDOR_LEADING_TO_NARCISSUS' , 
+'STARBOARD_AIR_LOCK__VESTIBULE' , 
+'SHIP__NIGHT' , 
+'NARCISSUS__LATER' , 
+'_A_TO_B_LEVELS__COMPANIONWAY' , 
+'STRUCTURE__DAY' , 
+'FOOD_STORAGE_LOCKER_NUMBER_12__B_LEVEL' , 
+'_B_LEVEL__CORRIDOR_LEADING_TO_AIR_LOCK' , 
+'FOOD_LOCKER_NUMBER_12' , 
+'AIR_SHAFT_DOUBLE_TIERED_PASSAGEWAY' , 
+'AIR_SHAFT__DOUBLE_TIERED_PASSAGEWAY' , 
+'ASH_S_BLISTER__DAY' , 
+'PASSAGEWAY_NEAR_AIR_LOCK' , 
+'VESTIBULE' ,  
+'HOLD' , 
+'OILY_CORRIDOR' , 
+'NOSTROMO_AND_REFINERY_APPROACHING_THE' , 
+'STRUCTURE_OPENING' , 
+'CORRIDOR__A_DECK' , 
+'AIR_LOCK__NARCISSUS' , 
+'SPACE' , 
+'CORRIDOR__B_DECK' , 
+'_B_LEVEL__COMPANIONWAY' , 
+'PLANET' , 
+'BRIDGE__SUNRISE' , 
+'FOOD_LOCKER_CORRIDOR__OUTSIDE' , 
+'AIR_LOCK__B_DECK' , 
+'OUTER_SPACE' , 
+'THE_NOSTROMO__SUNRISE' , 
+'PASSAGE_NEAR_AIR_LOCK__B_LEVEL' , 
+'BLISTER_STAIRCASE' , 
+'MAINTENANCE_LEVEL' , 
+'PASSAGEWAY__A_LEVEL' , 
+'FOOD_STORAGE_LOCKER_NUMBER_12' , 
+'EQUIPMENT_MAINTENANCE_AREA' , 
+'BRIDGE__DAY' }
+}
+
+SHIP = room
+{
+	nam = "SHIP",
+	dsc = [[----------------------------------------------------------------
+
+        A ring of floodlights comes to life.
+        Dimly illuminating the rocky landscape.
+        The wind and dust now at a higher pitch.
+
+                                                CUT TO:
+
+]],
+	way = {'PLANET__DAY' , 
+'MAIN_AIR_LOCK__DAWN' , 
+'OILY_CORRIDOR__C_LEVEL' , 
+'LOCKER' , 
+'OILY_CORRIDOR__COMPANIONWAY' , 
+'PASSAGEWAYS__B_DECK' , 
+'ANOTHER_PASSAGEWAY__B_LEVEL' , 
+'CORRIDOR_OUTSIDE_INFIRMARY_WINDOW' , 
+'ASH_S_BLISTER__DAWN' , 
+'NARCISSUS' , 
+'SHIP' , 
+'ENGINE_ROOM' , 
+'AIR_LOCK_VESTIBULE' , 
+'AIR_LOCK' , 
+'INFIRMARY__A_LEVEL' , 
+'UNDERCARRIAGE_ROOM__C_LEVEL_' , 
+'_B_LEVEL__CORRIDOR' , 
+'CORRIDOR__OUTSIDE' , 
+'BLISTER' , 
+'STRUCTURE' , 
+'MAINTENANCE_AREA__C_DECK' , 
+'MAINTENANCE__C_LEVEL' , 
+'NOSTROMO__DAY' , 
+'COMPUTER_ANNEX' , 
+'FOOD_LOCKER_NUMBER_6__B_DECK' , 
+'PASSAGEWAY_OUTSIDE_INFIRMARY' , 
+'HYPERSLEEP_VAULT' , 
+'AIR_SHAFT' , 
+'THE_NOSTROMO__SUNSET' , 
+'PASSAGEWAY__B_LEVEL' , 
+'MESS' , 
+'ASH_S_BLISTER' , 
+'COMPANIONWAY_TO_OILY_CORRIDOR__E_LEVEL' , 
+'EQUIPMENT_MAINTENANCE_AREA__C_LEVEL' , 
+'BRIDGE__NIGHT' , 
+'BLISTER__DAWN' , 
+'NARCISSUS__OUTER_SPACE' , 
+'CORRIDOR__A_LEVEL' , 
+'ENGINE_ROOM_CUBICLE' , 
+'SPACE_SUIT_LOCKER' , 
+'COMPUTER_ROOM_ANNEX' , 
+'LANDING_LEG__NIGHT' , 
+'BLISTER__DAY' , 
+'CHAMBER_ABOVE' , 
+'INFIRMARY' , 
+'CHAMBER__DAY' , 
+'FOOD_LOCKER_NUMBER_6__B_LEVEL' , 
+'CORRIDOR_TO_BRIDGE' , 
+'ENTRANCE_TO_DERELICT__SUNSET' , 
+'SHIP__DAWN' , 
+'CORRIDOR_OUTSIDE_IMFIRMARY_WINDOW' , 
+'ENGINE_CUBICLE' , 
+'PLANET__NIGHT' , 
+'SECOND_LEVEL__C_DECK' , 
+'PASSAGEWAY_NEAR_AIR_LOCK__B_LEVEL' , 
+'ENGINE_ROOM__CUBICLE' , 
+'NOSTROMO' , 
+'BRIDGE' , 
+'CORRIDOR_TO_BRIDGE__A_LEVEL' , 
+'NOSTROMO__OUTER_SPACE' , 
+'GALLEY' , 
+'PLANET__SUNRISE' , 
+'OILY_CORRIDOR__C_DECK' , 
+'FOOR_LOCKER_NUMBER_6' , 
+'PASSAGEWAY__B_DECK' , 
+'PASSAGEWAY__C_LEVEL' , 
+'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
+'PLANET__DAWN' , 
+'_B_LEVEL__CORRIDOR_LEADING_TO_NARCISSUS' , 
+'STARBOARD_AIR_LOCK__VESTIBULE' , 
+'SHIP__NIGHT' , 
+'NARCISSUS__LATER' , 
+'_A_TO_B_LEVELS__COMPANIONWAY' , 
+'STRUCTURE__DAY' , 
+'FOOD_STORAGE_LOCKER_NUMBER_12__B_LEVEL' , 
+'_B_LEVEL__CORRIDOR_LEADING_TO_AIR_LOCK' , 
+'FOOD_LOCKER_NUMBER_12' , 
+'AIR_SHAFT_DOUBLE_TIERED_PASSAGEWAY' , 
+'AIR_SHAFT__DOUBLE_TIERED_PASSAGEWAY' , 
+'ASH_S_BLISTER__DAY' , 
+'PASSAGEWAY_NEAR_AIR_LOCK' , 
+'VESTIBULE' ,  
+'HOLD' , 
+'OILY_CORRIDOR' , 
+'NOSTROMO_AND_REFINERY_APPROACHING_THE' , 
+'STRUCTURE_OPENING' , 
+'CORRIDOR__A_DECK' , 
+'AIR_LOCK__NARCISSUS' , 
+'SPACE' , 
+'CORRIDOR__B_DECK' , 
+'_B_LEVEL__COMPANIONWAY' , 
+'PLANET' , 
+'BRIDGE__SUNRISE' , 
+'FOOD_LOCKER_CORRIDOR__OUTSIDE' , 
+'AIR_LOCK__B_DECK' , 
+'OUTER_SPACE' , 
+'THE_NOSTROMO__SUNRISE' , 
+'PASSAGE_NEAR_AIR_LOCK__B_LEVEL' , 
+'BLISTER_STAIRCASE' , 
+'MAINTENANCE_LEVEL' , 
+'PASSAGEWAY__A_LEVEL' , 
+'FOOD_STORAGE_LOCKER_NUMBER_12' , 
+'EQUIPMENT_MAINTENANCE_AREA' , 
+'BRIDGE__DAY' }
+}
+
+ENGINE_ROOM = room
+{
+	nam = "ENGINE ROOM",
+	dsc = [[----------------------------------------------------------------
+
+        Empty, cavernous.
+
+----------------------------------------------------------------
+
+        Giant reactor system purring smoothly.
+
+
+        PARKER and BRETT in a glass cubicle.  Each having a beer. 
+        Huge powerplant stretching before them.
+        All units on automatic hyper-drive.
+        Parker hits a switch above his desk.  A green light goes on.
+
+                                 PARKER
+                  How's your light?
+              
+                                 BRETT
+                  Green.
+              
+                                 PARKER
+                  Mine too.
+              
+        They both take a swig.
+        Suddenly a beeper signal begins.
+
+                                 PARKER
+                  Christ.  What is it now.
+              
+                                 BRETT
+                  Right.
+              
+                                 RIPLEY
+                        (voice over)
+                  Report to the mess.
+              
+----------------------------------------------------------------
+
+        Another huge vibration.
+        An electrical fire breaks out along three control panels.
+
+----------------------------------------------------------------
+
+        Parker fighting an electrical fire on one of his panels.
+        Brett shouting into his voice-amp.
+
+                                 BRETT
+                  The intakes are clogged.  We
+                  overheated and burned out a
+                  whole cell...Christ, it's really
+                  breaking loose down here...
+
+]],
+	way = {'PLANET__DAY' , 
+'MAIN_AIR_LOCK__DAWN' , 
+'OILY_CORRIDOR__C_LEVEL' , 
+'LOCKER' , 
+'OILY_CORRIDOR__COMPANIONWAY' , 
+'PASSAGEWAYS__B_DECK' , 
+'ANOTHER_PASSAGEWAY__B_LEVEL' , 
+'CORRIDOR_OUTSIDE_INFIRMARY_WINDOW' , 
+'ASH_S_BLISTER__DAWN' , 
+'NARCISSUS' , 
+'SHIP' , 
+'ENGINE_ROOM' , 
+'AIR_LOCK_VESTIBULE' , 
+'AIR_LOCK' , 
+'INFIRMARY__A_LEVEL' , 
+'UNDERCARRIAGE_ROOM__C_LEVEL_' , 
+'_B_LEVEL__CORRIDOR' , 
+'CORRIDOR__OUTSIDE' , 
+'BLISTER' , 
+'STRUCTURE' , 
+'MAINTENANCE_AREA__C_DECK' , 
+'MAINTENANCE__C_LEVEL' , 
+'NOSTROMO__DAY' , 
+'COMPUTER_ANNEX' , 
+'FOOD_LOCKER_NUMBER_6__B_DECK' , 
+'PASSAGEWAY_OUTSIDE_INFIRMARY' , 
+'HYPERSLEEP_VAULT' , 
+'AIR_SHAFT' , 
+'THE_NOSTROMO__SUNSET' , 
+'PASSAGEWAY__B_LEVEL' , 
+'MESS' , 
+'ASH_S_BLISTER' , 
+'COMPANIONWAY_TO_OILY_CORRIDOR__E_LEVEL' , 
+'EQUIPMENT_MAINTENANCE_AREA__C_LEVEL' , 
+'BRIDGE__NIGHT' , 
+'BLISTER__DAWN' , 
+'NARCISSUS__OUTER_SPACE' , 
+'CORRIDOR__A_LEVEL' , 
+'ENGINE_ROOM_CUBICLE' , 
+'SPACE_SUIT_LOCKER' , 
+'COMPUTER_ROOM_ANNEX' , 
+'LANDING_LEG__NIGHT' , 
+'BLISTER__DAY' , 
+'CHAMBER_ABOVE' , 
+'INFIRMARY' , 
+'CHAMBER__DAY' , 
+'FOOD_LOCKER_NUMBER_6__B_LEVEL' , 
+'CORRIDOR_TO_BRIDGE' , 
+'ENTRANCE_TO_DERELICT__SUNSET' , 
+'SHIP__DAWN' , 
+'CORRIDOR_OUTSIDE_IMFIRMARY_WINDOW' , 
+'ENGINE_CUBICLE' , 
+'PLANET__NIGHT' , 
+'SECOND_LEVEL__C_DECK' , 
+'PASSAGEWAY_NEAR_AIR_LOCK__B_LEVEL' , 
+'ENGINE_ROOM__CUBICLE' , 
+'NOSTROMO' , 
+'BRIDGE' , 
+'CORRIDOR_TO_BRIDGE__A_LEVEL' , 
+'NOSTROMO__OUTER_SPACE' , 
+'GALLEY' , 
+'PLANET__SUNRISE' , 
+'OILY_CORRIDOR__C_DECK' , 
+'FOOR_LOCKER_NUMBER_6' , 
+'PASSAGEWAY__B_DECK' , 
+'PASSAGEWAY__C_LEVEL' , 
+'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
+'PLANET__DAWN' , 
+'_B_LEVEL__CORRIDOR_LEADING_TO_NARCISSUS' , 
+'STARBOARD_AIR_LOCK__VESTIBULE' , 
+'SHIP__NIGHT' , 
+'NARCISSUS__LATER' , 
+'_A_TO_B_LEVELS__COMPANIONWAY' , 
+'STRUCTURE__DAY' , 
+'FOOD_STORAGE_LOCKER_NUMBER_12__B_LEVEL' , 
+'_B_LEVEL__CORRIDOR_LEADING_TO_AIR_LOCK' , 
+'FOOD_LOCKER_NUMBER_12' , 
+'AIR_SHAFT_DOUBLE_TIERED_PASSAGEWAY' , 
+'AIR_SHAFT__DOUBLE_TIERED_PASSAGEWAY' , 
+'ASH_S_BLISTER__DAY' , 
+'PASSAGEWAY_NEAR_AIR_LOCK' , 
+'VESTIBULE' ,  
+'HOLD' , 
+'OILY_CORRIDOR' , 
+'NOSTROMO_AND_REFINERY_APPROACHING_THE' , 
+'STRUCTURE_OPENING' , 
+'CORRIDOR__A_DECK' , 
+'AIR_LOCK__NARCISSUS' , 
+'SPACE' , 
+'CORRIDOR__B_DECK' , 
+'_B_LEVEL__COMPANIONWAY' , 
+'PLANET' , 
+'BRIDGE__SUNRISE' , 
+'FOOD_LOCKER_CORRIDOR__OUTSIDE' , 
+'AIR_LOCK__B_DECK' , 
+'OUTER_SPACE' , 
+'THE_NOSTROMO__SUNRISE' , 
+'PASSAGE_NEAR_AIR_LOCK__B_LEVEL' , 
+'BLISTER_STAIRCASE' , 
+'MAINTENANCE_LEVEL' , 
+'PASSAGEWAY__A_LEVEL' , 
+'FOOD_STORAGE_LOCKER_NUMBER_12' , 
+'EQUIPMENT_MAINTENANCE_AREA' , 
+'BRIDGE__DAY' }
+}
+
+AIR_LOCK_VESTIBULE = room
+{
+	nam = "AIR LOCK VESTIBULE",
+	dsc = [[----------------------------------------------------------------
+
+        Near the starboard air lock.
+        Ripley pops open the hatch.
+        The air lock now open and ready.
+        She moves to the air duct opening.
+
+                                 RIPLEY
+                  Air lock open.
+
+                                 DALLAS
+                         (voice over)
+                  Ready.
+
+                                 RIPLEY
+                  Ready.
+
+----------------------------------------------------------------
+
+        Ripley waiting.
+
+----------------------------------------------------------------
+
+                                 RIPLEY
+                  Read you clear.
+
+----------------------------------------------------------------
+
+        Ripley bends forward.
+        Hears the sounds of the struggle...
+        And Dallas' screams.
+        She cries out.
+
+                                 RIPLEY
+                  Dallas...Dallas...
+
+]],
+	way = {'PLANET__DAY' , 
+'MAIN_AIR_LOCK__DAWN' , 
+'OILY_CORRIDOR__C_LEVEL' , 
+'LOCKER' , 
+'OILY_CORRIDOR__COMPANIONWAY' , 
+'PASSAGEWAYS__B_DECK' , 
+'ANOTHER_PASSAGEWAY__B_LEVEL' , 
+'CORRIDOR_OUTSIDE_INFIRMARY_WINDOW' , 
+'ASH_S_BLISTER__DAWN' , 
+'NARCISSUS' , 
+'SHIP' , 
+'ENGINE_ROOM' , 
+'AIR_LOCK_VESTIBULE' , 
+'AIR_LOCK' , 
+'INFIRMARY__A_LEVEL' , 
+'UNDERCARRIAGE_ROOM__C_LEVEL_' , 
+'_B_LEVEL__CORRIDOR' , 
+'CORRIDOR__OUTSIDE' , 
+'BLISTER' , 
+'STRUCTURE' , 
+'MAINTENANCE_AREA__C_DECK' , 
+'MAINTENANCE__C_LEVEL' , 
+'NOSTROMO__DAY' , 
+'COMPUTER_ANNEX' , 
+'FOOD_LOCKER_NUMBER_6__B_DECK' , 
+'PASSAGEWAY_OUTSIDE_INFIRMARY' , 
+'HYPERSLEEP_VAULT' , 
+'AIR_SHAFT' , 
+'THE_NOSTROMO__SUNSET' , 
+'PASSAGEWAY__B_LEVEL' , 
+'MESS' , 
+'ASH_S_BLISTER' , 
+'COMPANIONWAY_TO_OILY_CORRIDOR__E_LEVEL' , 
+'EQUIPMENT_MAINTENANCE_AREA__C_LEVEL' , 
+'BRIDGE__NIGHT' , 
+'BLISTER__DAWN' , 
+'NARCISSUS__OUTER_SPACE' , 
+'CORRIDOR__A_LEVEL' , 
+'ENGINE_ROOM_CUBICLE' , 
+'SPACE_SUIT_LOCKER' , 
+'COMPUTER_ROOM_ANNEX' , 
+'LANDING_LEG__NIGHT' , 
+'BLISTER__DAY' , 
+'CHAMBER_ABOVE' , 
+'INFIRMARY' , 
+'CHAMBER__DAY' , 
+'FOOD_LOCKER_NUMBER_6__B_LEVEL' , 
+'CORRIDOR_TO_BRIDGE' , 
+'ENTRANCE_TO_DERELICT__SUNSET' , 
+'SHIP__DAWN' , 
+'CORRIDOR_OUTSIDE_IMFIRMARY_WINDOW' , 
+'ENGINE_CUBICLE' , 
+'PLANET__NIGHT' , 
+'SECOND_LEVEL__C_DECK' , 
+'PASSAGEWAY_NEAR_AIR_LOCK__B_LEVEL' , 
+'ENGINE_ROOM__CUBICLE' , 
+'NOSTROMO' , 
+'BRIDGE' , 
+'CORRIDOR_TO_BRIDGE__A_LEVEL' , 
+'NOSTROMO__OUTER_SPACE' , 
+'GALLEY' , 
+'PLANET__SUNRISE' , 
+'OILY_CORRIDOR__C_DECK' , 
+'FOOR_LOCKER_NUMBER_6' , 
+'PASSAGEWAY__B_DECK' , 
+'PASSAGEWAY__C_LEVEL' , 
+'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
+'PLANET__DAWN' , 
+'_B_LEVEL__CORRIDOR_LEADING_TO_NARCISSUS' , 
+'STARBOARD_AIR_LOCK__VESTIBULE' , 
+'SHIP__NIGHT' , 
+'NARCISSUS__LATER' , 
+'_A_TO_B_LEVELS__COMPANIONWAY' , 
+'STRUCTURE__DAY' , 
+'FOOD_STORAGE_LOCKER_NUMBER_12__B_LEVEL' , 
+'_B_LEVEL__CORRIDOR_LEADING_TO_AIR_LOCK' , 
+'FOOD_LOCKER_NUMBER_12' , 
+'AIR_SHAFT_DOUBLE_TIERED_PASSAGEWAY' , 
+'AIR_SHAFT__DOUBLE_TIERED_PASSAGEWAY' , 
+'ASH_S_BLISTER__DAY' , 
+'PASSAGEWAY_NEAR_AIR_LOCK' , 
+'VESTIBULE' ,  
+'HOLD' , 
+'OILY_CORRIDOR' , 
+'NOSTROMO_AND_REFINERY_APPROACHING_THE' , 
+'STRUCTURE_OPENING' , 
+'CORRIDOR__A_DECK' , 
+'AIR_LOCK__NARCISSUS' , 
+'SPACE' , 
+'CORRIDOR__B_DECK' , 
+'_B_LEVEL__COMPANIONWAY' , 
+'PLANET' , 
+'BRIDGE__SUNRISE' , 
+'FOOD_LOCKER_CORRIDOR__OUTSIDE' , 
+'AIR_LOCK__B_DECK' , 
+'OUTER_SPACE' , 
+'THE_NOSTROMO__SUNRISE' , 
+'PASSAGE_NEAR_AIR_LOCK__B_LEVEL' , 
+'BLISTER_STAIRCASE' , 
+'MAINTENANCE_LEVEL' , 
+'PASSAGEWAY__A_LEVEL' , 
+'FOOD_STORAGE_LOCKER_NUMBER_12' , 
+'EQUIPMENT_MAINTENANCE_AREA' , 
+'BRIDGE__DAY' }
+}
+
+AIR_LOCK = room
+{
+	nam = "AIR LOCK",
+	dsc = [[----------------------------------------------------------------
+
+        Kane's body wrapped in a makeshift shroud.
+
+----------------------------------------------------------------
+
+        The outer hatch opens.
+        Yawning space outside.
+        Kane's body shoots out into eternity.
+        The hatch closes.
+
+----------------------------------------------------------------
+   
+        Creature move further into air lock.
+        Fascinated by green light.
+
+----------------------------------------------------------------
+
+        Suddenly, from out of nowhere a klaxon wails.
+        The Creature leaps back across the threshold of the air lock.
+        Bewildered.
+        Screams as the inner hatch closes on an appendage.
+        Acid boiling out.
+        The appendage crushed.
+        The acid bubbles.
+        Metal boils in door.
+
+----------------------------------------------------------------
+
+        Metal still boiling.
+        The outer hatch begins to open.
+
+----------------------------------------------------------------
+
+        The inner hatch still closed.
+        Metal boils.
+        The hole growing deeper.
+
+----------------------------------------------------------------
+
+        Metal boiling in door.
+
+]],
+	way = {'PLANET__DAY' , 
+'MAIN_AIR_LOCK__DAWN' , 
+'OILY_CORRIDOR__C_LEVEL' , 
+'LOCKER' , 
+'OILY_CORRIDOR__COMPANIONWAY' , 
+'PASSAGEWAYS__B_DECK' , 
+'ANOTHER_PASSAGEWAY__B_LEVEL' , 
+'CORRIDOR_OUTSIDE_INFIRMARY_WINDOW' , 
+'ASH_S_BLISTER__DAWN' , 
+'NARCISSUS' , 
+'SHIP' , 
+'ENGINE_ROOM' , 
+'AIR_LOCK_VESTIBULE' , 
+'AIR_LOCK' , 
+'INFIRMARY__A_LEVEL' , 
+'UNDERCARRIAGE_ROOM__C_LEVEL_' , 
+'_B_LEVEL__CORRIDOR' , 
+'CORRIDOR__OUTSIDE' , 
+'BLISTER' , 
+'STRUCTURE' , 
+'MAINTENANCE_AREA__C_DECK' , 
+'MAINTENANCE__C_LEVEL' , 
+'NOSTROMO__DAY' , 
+'COMPUTER_ANNEX' , 
+'FOOD_LOCKER_NUMBER_6__B_DECK' , 
+'PASSAGEWAY_OUTSIDE_INFIRMARY' , 
+'HYPERSLEEP_VAULT' , 
+'AIR_SHAFT' , 
+'THE_NOSTROMO__SUNSET' , 
+'PASSAGEWAY__B_LEVEL' , 
+'MESS' , 
+'ASH_S_BLISTER' , 
+'COMPANIONWAY_TO_OILY_CORRIDOR__E_LEVEL' , 
+'EQUIPMENT_MAINTENANCE_AREA__C_LEVEL' , 
+'BRIDGE__NIGHT' , 
+'BLISTER__DAWN' , 
+'NARCISSUS__OUTER_SPACE' , 
+'CORRIDOR__A_LEVEL' , 
+'ENGINE_ROOM_CUBICLE' , 
+'SPACE_SUIT_LOCKER' , 
+'COMPUTER_ROOM_ANNEX' , 
+'LANDING_LEG__NIGHT' , 
+'BLISTER__DAY' , 
+'CHAMBER_ABOVE' , 
+'INFIRMARY' , 
+'CHAMBER__DAY' , 
+'FOOD_LOCKER_NUMBER_6__B_LEVEL' , 
+'CORRIDOR_TO_BRIDGE' , 
+'ENTRANCE_TO_DERELICT__SUNSET' , 
+'SHIP__DAWN' , 
+'CORRIDOR_OUTSIDE_IMFIRMARY_WINDOW' , 
+'ENGINE_CUBICLE' , 
+'PLANET__NIGHT' , 
+'SECOND_LEVEL__C_DECK' , 
+'PASSAGEWAY_NEAR_AIR_LOCK__B_LEVEL' , 
+'ENGINE_ROOM__CUBICLE' , 
+'NOSTROMO' , 
+'BRIDGE' , 
+'CORRIDOR_TO_BRIDGE__A_LEVEL' , 
+'NOSTROMO__OUTER_SPACE' , 
+'GALLEY' , 
+'PLANET__SUNRISE' , 
+'OILY_CORRIDOR__C_DECK' , 
+'FOOR_LOCKER_NUMBER_6' , 
+'PASSAGEWAY__B_DECK' , 
+'PASSAGEWAY__C_LEVEL' , 
+'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
+'PLANET__DAWN' , 
+'_B_LEVEL__CORRIDOR_LEADING_TO_NARCISSUS' , 
+'STARBOARD_AIR_LOCK__VESTIBULE' , 
+'SHIP__NIGHT' , 
+'NARCISSUS__LATER' , 
+'_A_TO_B_LEVELS__COMPANIONWAY' , 
+'STRUCTURE__DAY' , 
+'FOOD_STORAGE_LOCKER_NUMBER_12__B_LEVEL' , 
+'_B_LEVEL__CORRIDOR_LEADING_TO_AIR_LOCK' , 
+'FOOD_LOCKER_NUMBER_12' , 
+'AIR_SHAFT_DOUBLE_TIERED_PASSAGEWAY' , 
+'AIR_SHAFT__DOUBLE_TIERED_PASSAGEWAY' , 
+'ASH_S_BLISTER__DAY' , 
+'PASSAGEWAY_NEAR_AIR_LOCK' , 
+'VESTIBULE' ,  
+'HOLD' , 
+'OILY_CORRIDOR' , 
+'NOSTROMO_AND_REFINERY_APPROACHING_THE' , 
+'STRUCTURE_OPENING' , 
+'CORRIDOR__A_DECK' , 
+'AIR_LOCK__NARCISSUS' , 
+'SPACE' , 
+'CORRIDOR__B_DECK' , 
+'_B_LEVEL__COMPANIONWAY' , 
+'PLANET' , 
+'BRIDGE__SUNRISE' , 
+'FOOD_LOCKER_CORRIDOR__OUTSIDE' , 
+'AIR_LOCK__B_DECK' , 
+'OUTER_SPACE' , 
+'THE_NOSTROMO__SUNRISE' , 
+'PASSAGE_NEAR_AIR_LOCK__B_LEVEL' , 
+'BLISTER_STAIRCASE' , 
+'MAINTENANCE_LEVEL' , 
+'PASSAGEWAY__A_LEVEL' , 
+'FOOD_STORAGE_LOCKER_NUMBER_12' , 
+'EQUIPMENT_MAINTENANCE_AREA' , 
+'BRIDGE__DAY' }
+}
+
+INFIRMARY__A_LEVEL = room
+{
+	nam = "INFIRMARY - 'A' LEVEL",
+	dsc = [[----------------------------------------------------------------
+
+        Distressed ivory walls.
+        All instrumentation at rest.
+
+]],
+	way = {'PLANET__DAY' , 
+'MAIN_AIR_LOCK__DAWN' , 
+'OILY_CORRIDOR__C_LEVEL' , 
+'LOCKER' , 
+'OILY_CORRIDOR__COMPANIONWAY' , 
+'PASSAGEWAYS__B_DECK' , 
+'ANOTHER_PASSAGEWAY__B_LEVEL' , 
+'CORRIDOR_OUTSIDE_INFIRMARY_WINDOW' , 
+'ASH_S_BLISTER__DAWN' , 
+'NARCISSUS' , 
+'SHIP' , 
+'ENGINE_ROOM' , 
+'AIR_LOCK_VESTIBULE' , 
+'AIR_LOCK' , 
+'INFIRMARY__A_LEVEL' , 
+'UNDERCARRIAGE_ROOM__C_LEVEL_' , 
+'_B_LEVEL__CORRIDOR' , 
+'CORRIDOR__OUTSIDE' , 
+'BLISTER' , 
+'STRUCTURE' , 
+'MAINTENANCE_AREA__C_DECK' , 
+'MAINTENANCE__C_LEVEL' , 
+'NOSTROMO__DAY' , 
+'COMPUTER_ANNEX' , 
+'FOOD_LOCKER_NUMBER_6__B_DECK' , 
+'PASSAGEWAY_OUTSIDE_INFIRMARY' , 
+'HYPERSLEEP_VAULT' , 
+'AIR_SHAFT' , 
+'THE_NOSTROMO__SUNSET' , 
+'PASSAGEWAY__B_LEVEL' , 
+'MESS' , 
+'ASH_S_BLISTER' , 
+'COMPANIONWAY_TO_OILY_CORRIDOR__E_LEVEL' , 
+'EQUIPMENT_MAINTENANCE_AREA__C_LEVEL' , 
+'BRIDGE__NIGHT' , 
+'BLISTER__DAWN' , 
+'NARCISSUS__OUTER_SPACE' , 
+'CORRIDOR__A_LEVEL' , 
+'ENGINE_ROOM_CUBICLE' , 
+'SPACE_SUIT_LOCKER' , 
+'COMPUTER_ROOM_ANNEX' , 
+'LANDING_LEG__NIGHT' , 
+'BLISTER__DAY' , 
+'CHAMBER_ABOVE' , 
+'INFIRMARY' , 
+'CHAMBER__DAY' , 
+'FOOD_LOCKER_NUMBER_6__B_LEVEL' , 
+'CORRIDOR_TO_BRIDGE' , 
+'ENTRANCE_TO_DERELICT__SUNSET' , 
+'SHIP__DAWN' , 
+'CORRIDOR_OUTSIDE_IMFIRMARY_WINDOW' , 
+'ENGINE_CUBICLE' , 
+'PLANET__NIGHT' , 
+'SECOND_LEVEL__C_DECK' , 
+'PASSAGEWAY_NEAR_AIR_LOCK__B_LEVEL' , 
+'ENGINE_ROOM__CUBICLE' , 
+'NOSTROMO' , 
+'BRIDGE' , 
+'CORRIDOR_TO_BRIDGE__A_LEVEL' , 
+'NOSTROMO__OUTER_SPACE' , 
+'GALLEY' , 
+'PLANET__SUNRISE' , 
+'OILY_CORRIDOR__C_DECK' , 
+'FOOR_LOCKER_NUMBER_6' , 
+'PASSAGEWAY__B_DECK' , 
+'PASSAGEWAY__C_LEVEL' , 
+'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
+'PLANET__DAWN' , 
+'_B_LEVEL__CORRIDOR_LEADING_TO_NARCISSUS' , 
+'STARBOARD_AIR_LOCK__VESTIBULE' , 
+'SHIP__NIGHT' , 
+'NARCISSUS__LATER' , 
+'_A_TO_B_LEVELS__COMPANIONWAY' , 
+'STRUCTURE__DAY' , 
+'FOOD_STORAGE_LOCKER_NUMBER_12__B_LEVEL' , 
+'_B_LEVEL__CORRIDOR_LEADING_TO_AIR_LOCK' , 
+'FOOD_LOCKER_NUMBER_12' , 
+'AIR_SHAFT_DOUBLE_TIERED_PASSAGEWAY' , 
+'AIR_SHAFT__DOUBLE_TIERED_PASSAGEWAY' , 
+'ASH_S_BLISTER__DAY' , 
+'PASSAGEWAY_NEAR_AIR_LOCK' , 
+'VESTIBULE' ,  
+'HOLD' , 
+'OILY_CORRIDOR' , 
+'NOSTROMO_AND_REFINERY_APPROACHING_THE' , 
+'STRUCTURE_OPENING' , 
+'CORRIDOR__A_DECK' , 
+'AIR_LOCK__NARCISSUS' , 
+'SPACE' , 
+'CORRIDOR__B_DECK' , 
+'_B_LEVEL__COMPANIONWAY' , 
+'PLANET' , 
+'BRIDGE__SUNRISE' , 
+'FOOD_LOCKER_CORRIDOR__OUTSIDE' , 
+'AIR_LOCK__B_DECK' , 
+'OUTER_SPACE' , 
+'THE_NOSTROMO__SUNRISE' , 
+'PASSAGE_NEAR_AIR_LOCK__B_LEVEL' , 
+'BLISTER_STAIRCASE' , 
+'MAINTENANCE_LEVEL' , 
+'PASSAGEWAY__A_LEVEL' , 
+'FOOD_STORAGE_LOCKER_NUMBER_12' , 
+'EQUIPMENT_MAINTENANCE_AREA' , 
+'BRIDGE__DAY' }
+}
+
+UNDERCARRIAGE_ROOM__C_LEVEL_ = room
+{
+	nam = "UNDERCARRIAGE ROOM - 'C' LEVEL ",
+	dsc = [[----------------------------------------------------------------
+
+        Brett enters.
+        Still looking for Jones.
+        Another yowl followed by a hiss.
+        Two eyes shining in the dark.
+        Jones.
+        Relieved, Brett moves toward the cat.
+
+                                 BRETT
+                  Here kitty...Come on Jones.
+   
+        Brett reaches for Jones.
+        Jones hisses.
+        An arm reaches for Brett.
+        The Alien.
+        Now seven feet tall.
+        Hanging from the undercarriage strut in reverse position.
+        Grabs Brett and swings up into darkness.
+        Brett screams.
+        To no avail...
+        In the doorway Ripley and Parker.
+        They witness the horror.
+
+]],
+	way = {'PLANET__DAY' , 
+'MAIN_AIR_LOCK__DAWN' , 
+'OILY_CORRIDOR__C_LEVEL' , 
+'LOCKER' , 
+'OILY_CORRIDOR__COMPANIONWAY' , 
+'PASSAGEWAYS__B_DECK' , 
+'ANOTHER_PASSAGEWAY__B_LEVEL' , 
+'CORRIDOR_OUTSIDE_INFIRMARY_WINDOW' , 
+'ASH_S_BLISTER__DAWN' , 
+'NARCISSUS' , 
+'SHIP' , 
+'ENGINE_ROOM' , 
+'AIR_LOCK_VESTIBULE' , 
+'AIR_LOCK' , 
+'INFIRMARY__A_LEVEL' , 
+'UNDERCARRIAGE_ROOM__C_LEVEL_' , 
+'_B_LEVEL__CORRIDOR' , 
+'CORRIDOR__OUTSIDE' , 
+'BLISTER' , 
+'STRUCTURE' , 
+'MAINTENANCE_AREA__C_DECK' , 
+'MAINTENANCE__C_LEVEL' , 
+'NOSTROMO__DAY' , 
+'COMPUTER_ANNEX' , 
+'FOOD_LOCKER_NUMBER_6__B_DECK' , 
+'PASSAGEWAY_OUTSIDE_INFIRMARY' , 
+'HYPERSLEEP_VAULT' , 
+'AIR_SHAFT' , 
+'THE_NOSTROMO__SUNSET' , 
+'PASSAGEWAY__B_LEVEL' , 
+'MESS' , 
+'ASH_S_BLISTER' , 
+'COMPANIONWAY_TO_OILY_CORRIDOR__E_LEVEL' , 
+'EQUIPMENT_MAINTENANCE_AREA__C_LEVEL' , 
+'BRIDGE__NIGHT' , 
+'BLISTER__DAWN' , 
+'NARCISSUS__OUTER_SPACE' , 
+'CORRIDOR__A_LEVEL' , 
+'ENGINE_ROOM_CUBICLE' , 
+'SPACE_SUIT_LOCKER' , 
+'COMPUTER_ROOM_ANNEX' , 
+'LANDING_LEG__NIGHT' , 
+'BLISTER__DAY' , 
+'CHAMBER_ABOVE' , 
+'INFIRMARY' , 
+'CHAMBER__DAY' , 
+'FOOD_LOCKER_NUMBER_6__B_LEVEL' , 
+'CORRIDOR_TO_BRIDGE' , 
+'ENTRANCE_TO_DERELICT__SUNSET' , 
+'SHIP__DAWN' , 
+'CORRIDOR_OUTSIDE_IMFIRMARY_WINDOW' , 
+'ENGINE_CUBICLE' , 
+'PLANET__NIGHT' , 
+'SECOND_LEVEL__C_DECK' , 
+'PASSAGEWAY_NEAR_AIR_LOCK__B_LEVEL' , 
+'ENGINE_ROOM__CUBICLE' , 
+'NOSTROMO' , 
+'BRIDGE' , 
+'CORRIDOR_TO_BRIDGE__A_LEVEL' , 
+'NOSTROMO__OUTER_SPACE' , 
+'GALLEY' , 
+'PLANET__SUNRISE' , 
+'OILY_CORRIDOR__C_DECK' , 
+'FOOR_LOCKER_NUMBER_6' , 
+'PASSAGEWAY__B_DECK' , 
+'PASSAGEWAY__C_LEVEL' , 
+'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
+'PLANET__DAWN' , 
+'_B_LEVEL__CORRIDOR_LEADING_TO_NARCISSUS' , 
+'STARBOARD_AIR_LOCK__VESTIBULE' , 
+'SHIP__NIGHT' , 
+'NARCISSUS__LATER' , 
+'_A_TO_B_LEVELS__COMPANIONWAY' , 
+'STRUCTURE__DAY' , 
+'FOOD_STORAGE_LOCKER_NUMBER_12__B_LEVEL' , 
+'_B_LEVEL__CORRIDOR_LEADING_TO_AIR_LOCK' , 
+'FOOD_LOCKER_NUMBER_12' , 
+'AIR_SHAFT_DOUBLE_TIERED_PASSAGEWAY' , 
+'AIR_SHAFT__DOUBLE_TIERED_PASSAGEWAY' , 
+'ASH_S_BLISTER__DAY' , 
+'PASSAGEWAY_NEAR_AIR_LOCK' , 
+'VESTIBULE' ,  
+'HOLD' , 
+'OILY_CORRIDOR' , 
+'NOSTROMO_AND_REFINERY_APPROACHING_THE' , 
+'STRUCTURE_OPENING' , 
+'CORRIDOR__A_DECK' , 
+'AIR_LOCK__NARCISSUS' , 
+'SPACE' , 
+'CORRIDOR__B_DECK' , 
+'_B_LEVEL__COMPANIONWAY' , 
+'PLANET' , 
+'BRIDGE__SUNRISE' , 
+'FOOD_LOCKER_CORRIDOR__OUTSIDE' , 
+'AIR_LOCK__B_DECK' , 
+'OUTER_SPACE' , 
+'THE_NOSTROMO__SUNRISE' , 
+'PASSAGE_NEAR_AIR_LOCK__B_LEVEL' , 
+'BLISTER_STAIRCASE' , 
+'MAINTENANCE_LEVEL' , 
+'PASSAGEWAY__A_LEVEL' , 
+'FOOD_STORAGE_LOCKER_NUMBER_12' , 
+'EQUIPMENT_MAINTENANCE_AREA' , 
+'BRIDGE__DAY' }
+}
+
+_B_LEVEL__CORRIDOR = room
+{
+	nam = "'B' LEVEL - CORRIDOR",
+	dsc = [[----------------------------------------------------------------
+
+        Ripley starts toward Narcissus.
+        Remembers Jones.
+
+]],
+	way = {'PLANET__DAY' , 
+'MAIN_AIR_LOCK__DAWN' , 
+'OILY_CORRIDOR__C_LEVEL' , 
+'LOCKER' , 
+'OILY_CORRIDOR__COMPANIONWAY' , 
+'PASSAGEWAYS__B_DECK' , 
+'ANOTHER_PASSAGEWAY__B_LEVEL' , 
+'CORRIDOR_OUTSIDE_INFIRMARY_WINDOW' , 
+'ASH_S_BLISTER__DAWN' , 
+'NARCISSUS' , 
+'SHIP' , 
+'ENGINE_ROOM' , 
+'AIR_LOCK_VESTIBULE' , 
+'AIR_LOCK' , 
+'INFIRMARY__A_LEVEL' , 
+'UNDERCARRIAGE_ROOM__C_LEVEL_' , 
+'_B_LEVEL__CORRIDOR' , 
+'CORRIDOR__OUTSIDE' , 
+'BLISTER' , 
+'STRUCTURE' , 
+'MAINTENANCE_AREA__C_DECK' , 
+'MAINTENANCE__C_LEVEL' , 
+'NOSTROMO__DAY' , 
+'COMPUTER_ANNEX' , 
+'FOOD_LOCKER_NUMBER_6__B_DECK' , 
+'PASSAGEWAY_OUTSIDE_INFIRMARY' , 
+'HYPERSLEEP_VAULT' , 
+'AIR_SHAFT' , 
+'THE_NOSTROMO__SUNSET' , 
+'PASSAGEWAY__B_LEVEL' , 
+'MESS' , 
+'ASH_S_BLISTER' , 
+'COMPANIONWAY_TO_OILY_CORRIDOR__E_LEVEL' , 
+'EQUIPMENT_MAINTENANCE_AREA__C_LEVEL' , 
+'BRIDGE__NIGHT' , 
+'BLISTER__DAWN' , 
+'NARCISSUS__OUTER_SPACE' , 
+'CORRIDOR__A_LEVEL' , 
+'ENGINE_ROOM_CUBICLE' , 
+'SPACE_SUIT_LOCKER' , 
+'COMPUTER_ROOM_ANNEX' , 
+'LANDING_LEG__NIGHT' , 
+'BLISTER__DAY' , 
+'CHAMBER_ABOVE' , 
+'INFIRMARY' , 
+'CHAMBER__DAY' , 
+'FOOD_LOCKER_NUMBER_6__B_LEVEL' , 
+'CORRIDOR_TO_BRIDGE' , 
+'ENTRANCE_TO_DERELICT__SUNSET' , 
+'SHIP__DAWN' , 
+'CORRIDOR_OUTSIDE_IMFIRMARY_WINDOW' , 
+'ENGINE_CUBICLE' , 
+'PLANET__NIGHT' , 
+'SECOND_LEVEL__C_DECK' , 
+'PASSAGEWAY_NEAR_AIR_LOCK__B_LEVEL' , 
+'ENGINE_ROOM__CUBICLE' , 
+'NOSTROMO' , 
+'BRIDGE' , 
+'CORRIDOR_TO_BRIDGE__A_LEVEL' , 
+'NOSTROMO__OUTER_SPACE' , 
+'GALLEY' , 
+'PLANET__SUNRISE' , 
+'OILY_CORRIDOR__C_DECK' , 
+'FOOR_LOCKER_NUMBER_6' , 
+'PASSAGEWAY__B_DECK' , 
+'PASSAGEWAY__C_LEVEL' , 
+'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
+'PLANET__DAWN' , 
+'_B_LEVEL__CORRIDOR_LEADING_TO_NARCISSUS' , 
+'STARBOARD_AIR_LOCK__VESTIBULE' , 
+'SHIP__NIGHT' , 
+'NARCISSUS__LATER' , 
+'_A_TO_B_LEVELS__COMPANIONWAY' , 
+'STRUCTURE__DAY' , 
+'FOOD_STORAGE_LOCKER_NUMBER_12__B_LEVEL' , 
+'_B_LEVEL__CORRIDOR_LEADING_TO_AIR_LOCK' , 
+'FOOD_LOCKER_NUMBER_12' , 
+'AIR_SHAFT_DOUBLE_TIERED_PASSAGEWAY' , 
+'AIR_SHAFT__DOUBLE_TIERED_PASSAGEWAY' , 
+'ASH_S_BLISTER__DAY' , 
+'PASSAGEWAY_NEAR_AIR_LOCK' , 
+'VESTIBULE' ,  
+'HOLD' , 
+'OILY_CORRIDOR' , 
+'NOSTROMO_AND_REFINERY_APPROACHING_THE' , 
+'STRUCTURE_OPENING' , 
+'CORRIDOR__A_DECK' , 
+'AIR_LOCK__NARCISSUS' , 
+'SPACE' , 
+'CORRIDOR__B_DECK' , 
+'_B_LEVEL__COMPANIONWAY' , 
+'PLANET' , 
+'BRIDGE__SUNRISE' , 
+'FOOD_LOCKER_CORRIDOR__OUTSIDE' , 
+'AIR_LOCK__B_DECK' , 
+'OUTER_SPACE' , 
+'THE_NOSTROMO__SUNRISE' , 
+'PASSAGE_NEAR_AIR_LOCK__B_LEVEL' , 
+'BLISTER_STAIRCASE' , 
+'MAINTENANCE_LEVEL' , 
+'PASSAGEWAY__A_LEVEL' , 
+'FOOD_STORAGE_LOCKER_NUMBER_12' , 
+'EQUIPMENT_MAINTENANCE_AREA' , 
+'BRIDGE__DAY' }
+}
+
+CORRIDOR__OUTSIDE = room
+{
+	nam = "CORRIDOR - OUTSIDE",
+	dsc = [[----------------------------------------------------------------
+
+        Parker looks back into the locker.
+        Unable to use the flamethrower without hitting Lambert.
+        He hesitates for a moment, then strides into the locker.
+        Wielding the flamethrower like a club.
+
+                                 PARKER
+                  Goddamn you.
+
+]],
+	way = {'PLANET__DAY' , 
+'MAIN_AIR_LOCK__DAWN' , 
+'OILY_CORRIDOR__C_LEVEL' , 
+'LOCKER' , 
+'OILY_CORRIDOR__COMPANIONWAY' , 
+'PASSAGEWAYS__B_DECK' , 
+'ANOTHER_PASSAGEWAY__B_LEVEL' , 
+'CORRIDOR_OUTSIDE_INFIRMARY_WINDOW' , 
+'ASH_S_BLISTER__DAWN' , 
+'NARCISSUS' , 
+'SHIP' , 
+'ENGINE_ROOM' , 
+'AIR_LOCK_VESTIBULE' , 
+'AIR_LOCK' , 
+'INFIRMARY__A_LEVEL' , 
+'UNDERCARRIAGE_ROOM__C_LEVEL_' , 
+'_B_LEVEL__CORRIDOR' , 
+'CORRIDOR__OUTSIDE' , 
+'BLISTER' , 
+'STRUCTURE' , 
+'MAINTENANCE_AREA__C_DECK' , 
+'MAINTENANCE__C_LEVEL' , 
+'NOSTROMO__DAY' , 
+'COMPUTER_ANNEX' , 
+'FOOD_LOCKER_NUMBER_6__B_DECK' , 
+'PASSAGEWAY_OUTSIDE_INFIRMARY' , 
+'HYPERSLEEP_VAULT' , 
+'AIR_SHAFT' , 
+'THE_NOSTROMO__SUNSET' , 
+'PASSAGEWAY__B_LEVEL' , 
+'MESS' , 
+'ASH_S_BLISTER' , 
+'COMPANIONWAY_TO_OILY_CORRIDOR__E_LEVEL' , 
+'EQUIPMENT_MAINTENANCE_AREA__C_LEVEL' , 
+'BRIDGE__NIGHT' , 
+'BLISTER__DAWN' , 
+'NARCISSUS__OUTER_SPACE' , 
+'CORRIDOR__A_LEVEL' , 
+'ENGINE_ROOM_CUBICLE' , 
+'SPACE_SUIT_LOCKER' , 
+'COMPUTER_ROOM_ANNEX' , 
+'LANDING_LEG__NIGHT' , 
+'BLISTER__DAY' , 
+'CHAMBER_ABOVE' , 
+'INFIRMARY' , 
+'CHAMBER__DAY' , 
+'FOOD_LOCKER_NUMBER_6__B_LEVEL' , 
+'CORRIDOR_TO_BRIDGE' , 
+'ENTRANCE_TO_DERELICT__SUNSET' , 
+'SHIP__DAWN' , 
+'CORRIDOR_OUTSIDE_IMFIRMARY_WINDOW' , 
+'ENGINE_CUBICLE' , 
+'PLANET__NIGHT' , 
+'SECOND_LEVEL__C_DECK' , 
+'PASSAGEWAY_NEAR_AIR_LOCK__B_LEVEL' , 
+'ENGINE_ROOM__CUBICLE' , 
+'NOSTROMO' , 
+'BRIDGE' , 
+'CORRIDOR_TO_BRIDGE__A_LEVEL' , 
+'NOSTROMO__OUTER_SPACE' , 
+'GALLEY' , 
+'PLANET__SUNRISE' , 
+'OILY_CORRIDOR__C_DECK' , 
+'FOOR_LOCKER_NUMBER_6' , 
+'PASSAGEWAY__B_DECK' , 
+'PASSAGEWAY__C_LEVEL' , 
+'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
+'PLANET__DAWN' , 
+'_B_LEVEL__CORRIDOR_LEADING_TO_NARCISSUS' , 
+'STARBOARD_AIR_LOCK__VESTIBULE' , 
+'SHIP__NIGHT' , 
+'NARCISSUS__LATER' , 
+'_A_TO_B_LEVELS__COMPANIONWAY' , 
+'STRUCTURE__DAY' , 
+'FOOD_STORAGE_LOCKER_NUMBER_12__B_LEVEL' , 
+'_B_LEVEL__CORRIDOR_LEADING_TO_AIR_LOCK' , 
+'FOOD_LOCKER_NUMBER_12' , 
+'AIR_SHAFT_DOUBLE_TIERED_PASSAGEWAY' , 
+'AIR_SHAFT__DOUBLE_TIERED_PASSAGEWAY' , 
+'ASH_S_BLISTER__DAY' , 
+'PASSAGEWAY_NEAR_AIR_LOCK' , 
+'VESTIBULE' ,  
+'HOLD' , 
+'OILY_CORRIDOR' , 
+'NOSTROMO_AND_REFINERY_APPROACHING_THE' , 
+'STRUCTURE_OPENING' , 
+'CORRIDOR__A_DECK' , 
+'AIR_LOCK__NARCISSUS' , 
+'SPACE' , 
+'CORRIDOR__B_DECK' , 
+'_B_LEVEL__COMPANIONWAY' , 
+'PLANET' , 
+'BRIDGE__SUNRISE' , 
+'FOOD_LOCKER_CORRIDOR__OUTSIDE' , 
+'AIR_LOCK__B_DECK' , 
+'OUTER_SPACE' , 
+'THE_NOSTROMO__SUNRISE' , 
+'PASSAGE_NEAR_AIR_LOCK__B_LEVEL' , 
+'BLISTER_STAIRCASE' , 
+'MAINTENANCE_LEVEL' , 
+'PASSAGEWAY__A_LEVEL' , 
+'FOOD_STORAGE_LOCKER_NUMBER_12' , 
+'EQUIPMENT_MAINTENANCE_AREA' , 
+'BRIDGE__DAY' }
+}
+
+BLISTER = room
+{
+	nam = "BLISTER",
+	dsc = [[----------------------------------------------------------------
+
+        Ash listens.
+
+]],
+	way = {'PLANET__DAY' , 
+'MAIN_AIR_LOCK__DAWN' , 
+'OILY_CORRIDOR__C_LEVEL' , 
+'LOCKER' , 
+'OILY_CORRIDOR__COMPANIONWAY' , 
+'PASSAGEWAYS__B_DECK' , 
+'ANOTHER_PASSAGEWAY__B_LEVEL' , 
+'CORRIDOR_OUTSIDE_INFIRMARY_WINDOW' , 
+'ASH_S_BLISTER__DAWN' , 
+'NARCISSUS' , 
+'SHIP' , 
+'ENGINE_ROOM' , 
+'AIR_LOCK_VESTIBULE' , 
+'AIR_LOCK' , 
+'INFIRMARY__A_LEVEL' , 
+'UNDERCARRIAGE_ROOM__C_LEVEL_' , 
+'_B_LEVEL__CORRIDOR' , 
+'CORRIDOR__OUTSIDE' , 
+'BLISTER' , 
+'STRUCTURE' , 
+'MAINTENANCE_AREA__C_DECK' , 
+'MAINTENANCE__C_LEVEL' , 
+'NOSTROMO__DAY' , 
+'COMPUTER_ANNEX' , 
+'FOOD_LOCKER_NUMBER_6__B_DECK' , 
+'PASSAGEWAY_OUTSIDE_INFIRMARY' , 
+'HYPERSLEEP_VAULT' , 
+'AIR_SHAFT' , 
+'THE_NOSTROMO__SUNSET' , 
+'PASSAGEWAY__B_LEVEL' , 
+'MESS' , 
+'ASH_S_BLISTER' , 
+'COMPANIONWAY_TO_OILY_CORRIDOR__E_LEVEL' , 
+'EQUIPMENT_MAINTENANCE_AREA__C_LEVEL' , 
+'BRIDGE__NIGHT' , 
+'BLISTER__DAWN' , 
+'NARCISSUS__OUTER_SPACE' , 
+'CORRIDOR__A_LEVEL' , 
+'ENGINE_ROOM_CUBICLE' , 
+'SPACE_SUIT_LOCKER' , 
+'COMPUTER_ROOM_ANNEX' , 
+'LANDING_LEG__NIGHT' , 
+'BLISTER__DAY' , 
+'CHAMBER_ABOVE' , 
+'INFIRMARY' , 
+'CHAMBER__DAY' , 
+'FOOD_LOCKER_NUMBER_6__B_LEVEL' , 
+'CORRIDOR_TO_BRIDGE' , 
+'ENTRANCE_TO_DERELICT__SUNSET' , 
+'SHIP__DAWN' , 
+'CORRIDOR_OUTSIDE_IMFIRMARY_WINDOW' , 
+'ENGINE_CUBICLE' , 
+'PLANET__NIGHT' , 
+'SECOND_LEVEL__C_DECK' , 
+'PASSAGEWAY_NEAR_AIR_LOCK__B_LEVEL' , 
+'ENGINE_ROOM__CUBICLE' , 
+'NOSTROMO' , 
+'BRIDGE' , 
+'CORRIDOR_TO_BRIDGE__A_LEVEL' , 
+'NOSTROMO__OUTER_SPACE' , 
+'GALLEY' , 
+'PLANET__SUNRISE' , 
+'OILY_CORRIDOR__C_DECK' , 
+'FOOR_LOCKER_NUMBER_6' , 
+'PASSAGEWAY__B_DECK' , 
+'PASSAGEWAY__C_LEVEL' , 
+'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
+'PLANET__DAWN' , 
+'_B_LEVEL__CORRIDOR_LEADING_TO_NARCISSUS' , 
+'STARBOARD_AIR_LOCK__VESTIBULE' , 
+'SHIP__NIGHT' , 
+'NARCISSUS__LATER' , 
+'_A_TO_B_LEVELS__COMPANIONWAY' , 
+'STRUCTURE__DAY' , 
+'FOOD_STORAGE_LOCKER_NUMBER_12__B_LEVEL' , 
+'_B_LEVEL__CORRIDOR_LEADING_TO_AIR_LOCK' , 
+'FOOD_LOCKER_NUMBER_12' , 
+'AIR_SHAFT_DOUBLE_TIERED_PASSAGEWAY' , 
+'AIR_SHAFT__DOUBLE_TIERED_PASSAGEWAY' , 
+'ASH_S_BLISTER__DAY' , 
+'PASSAGEWAY_NEAR_AIR_LOCK' , 
+'VESTIBULE' ,  
+'HOLD' , 
+'OILY_CORRIDOR' , 
+'NOSTROMO_AND_REFINERY_APPROACHING_THE' , 
+'STRUCTURE_OPENING' , 
+'CORRIDOR__A_DECK' , 
+'AIR_LOCK__NARCISSUS' , 
+'SPACE' , 
+'CORRIDOR__B_DECK' , 
+'_B_LEVEL__COMPANIONWAY' , 
+'PLANET' , 
+'BRIDGE__SUNRISE' , 
+'FOOD_LOCKER_CORRIDOR__OUTSIDE' , 
+'AIR_LOCK__B_DECK' , 
+'OUTER_SPACE' , 
+'THE_NOSTROMO__SUNRISE' , 
+'PASSAGE_NEAR_AIR_LOCK__B_LEVEL' , 
+'BLISTER_STAIRCASE' , 
+'MAINTENANCE_LEVEL' , 
+'PASSAGEWAY__A_LEVEL' , 
+'FOOD_STORAGE_LOCKER_NUMBER_12' , 
+'EQUIPMENT_MAINTENANCE_AREA' , 
+'BRIDGE__DAY' }
+}
+
+STRUCTURE = room
+{
+	nam = "STRUCTURE",
+	dsc = [[----------------------------------------------------------------
+
+        Kane resumes his downward climb.
+        Suddenly, his feet lose their purchase as the walls of the
+        shaft disappear.
+        The tunnel has reached its end.
+        Below him is a dark, cavernous space.
+        Deep breaths due to his violent exertion.
+
+                                 DALLAS
+                         (voice over)
+                  See anything?
+
+                                 KANE
+                  No...Tunnel's gone.  Cave or
+                  something below me.  Feels like
+                  the goddamn tropics in here...
+
+        He consults his instruments.
+        Helmet instrumentation strobing softly in the darkness.
+   
+                                 KANE
+                  ...high nitrogen content, no
+                  oxygen...
+
+        Still puffing, he releases his purchase on the stone walls.
+        Begins to lower himself on power.
+        Now Kane is dangling free in darkness.
+        Spinning slowly on the wire as the chest unit unwinds.
+        Then his feet hit bottom.
+        Kane grunts in surprise, almost loses his balance.
+        He flashes his suit lights.
+        The beams reveal that he is in a large hold.
+        Row after row of extrusions stretch from floor to ceiling.
+
+                                 KANE
+                  This is weird.
+
+                                 DALLAS
+                         (voice over)
+                  What do you mean.
+
+                                 KANE
+                  There's something all over the
+                  walls.
+
+        Kane walks across the chamber.
+        Examines the organic protrusions.
+
+]],
+	way = {'PLANET__DAY' , 
+'MAIN_AIR_LOCK__DAWN' , 
+'OILY_CORRIDOR__C_LEVEL' , 
+'LOCKER' , 
+'OILY_CORRIDOR__COMPANIONWAY' , 
+'PASSAGEWAYS__B_DECK' , 
+'ANOTHER_PASSAGEWAY__B_LEVEL' , 
+'CORRIDOR_OUTSIDE_INFIRMARY_WINDOW' , 
+'ASH_S_BLISTER__DAWN' , 
+'NARCISSUS' , 
+'SHIP' , 
+'ENGINE_ROOM' , 
+'AIR_LOCK_VESTIBULE' , 
+'AIR_LOCK' , 
+'INFIRMARY__A_LEVEL' , 
+'UNDERCARRIAGE_ROOM__C_LEVEL_' , 
+'_B_LEVEL__CORRIDOR' , 
+'CORRIDOR__OUTSIDE' , 
+'BLISTER' , 
+'STRUCTURE' , 
+'MAINTENANCE_AREA__C_DECK' , 
+'MAINTENANCE__C_LEVEL' , 
+'NOSTROMO__DAY' , 
+'COMPUTER_ANNEX' , 
+'FOOD_LOCKER_NUMBER_6__B_DECK' , 
+'PASSAGEWAY_OUTSIDE_INFIRMARY' , 
+'HYPERSLEEP_VAULT' , 
+'AIR_SHAFT' , 
+'THE_NOSTROMO__SUNSET' , 
+'PASSAGEWAY__B_LEVEL' , 
+'MESS' , 
+'ASH_S_BLISTER' , 
+'COMPANIONWAY_TO_OILY_CORRIDOR__E_LEVEL' , 
+'EQUIPMENT_MAINTENANCE_AREA__C_LEVEL' , 
+'BRIDGE__NIGHT' , 
+'BLISTER__DAWN' , 
+'NARCISSUS__OUTER_SPACE' , 
+'CORRIDOR__A_LEVEL' , 
+'ENGINE_ROOM_CUBICLE' , 
+'SPACE_SUIT_LOCKER' , 
+'COMPUTER_ROOM_ANNEX' , 
+'LANDING_LEG__NIGHT' , 
+'BLISTER__DAY' , 
+'CHAMBER_ABOVE' , 
+'INFIRMARY' , 
+'CHAMBER__DAY' , 
+'FOOD_LOCKER_NUMBER_6__B_LEVEL' , 
+'CORRIDOR_TO_BRIDGE' , 
+'ENTRANCE_TO_DERELICT__SUNSET' , 
+'SHIP__DAWN' , 
+'CORRIDOR_OUTSIDE_IMFIRMARY_WINDOW' , 
+'ENGINE_CUBICLE' , 
+'PLANET__NIGHT' , 
+'SECOND_LEVEL__C_DECK' , 
+'PASSAGEWAY_NEAR_AIR_LOCK__B_LEVEL' , 
+'ENGINE_ROOM__CUBICLE' , 
+'NOSTROMO' , 
+'BRIDGE' , 
+'CORRIDOR_TO_BRIDGE__A_LEVEL' , 
+'NOSTROMO__OUTER_SPACE' , 
+'GALLEY' , 
+'PLANET__SUNRISE' , 
+'OILY_CORRIDOR__C_DECK' , 
+'FOOR_LOCKER_NUMBER_6' , 
+'PASSAGEWAY__B_DECK' , 
+'PASSAGEWAY__C_LEVEL' , 
+'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
+'PLANET__DAWN' , 
+'_B_LEVEL__CORRIDOR_LEADING_TO_NARCISSUS' , 
+'STARBOARD_AIR_LOCK__VESTIBULE' , 
+'SHIP__NIGHT' , 
+'NARCISSUS__LATER' , 
+'_A_TO_B_LEVELS__COMPANIONWAY' , 
+'STRUCTURE__DAY' , 
+'FOOD_STORAGE_LOCKER_NUMBER_12__B_LEVEL' , 
+'_B_LEVEL__CORRIDOR_LEADING_TO_AIR_LOCK' , 
+'FOOD_LOCKER_NUMBER_12' , 
+'AIR_SHAFT_DOUBLE_TIERED_PASSAGEWAY' , 
+'AIR_SHAFT__DOUBLE_TIERED_PASSAGEWAY' , 
+'ASH_S_BLISTER__DAY' , 
+'PASSAGEWAY_NEAR_AIR_LOCK' , 
+'VESTIBULE' ,  
+'HOLD' , 
+'OILY_CORRIDOR' , 
+'NOSTROMO_AND_REFINERY_APPROACHING_THE' , 
+'STRUCTURE_OPENING' , 
+'CORRIDOR__A_DECK' , 
+'AIR_LOCK__NARCISSUS' , 
+'SPACE' , 
+'CORRIDOR__B_DECK' , 
+'_B_LEVEL__COMPANIONWAY' , 
+'PLANET' , 
+'BRIDGE__SUNRISE' , 
+'FOOD_LOCKER_CORRIDOR__OUTSIDE' , 
+'AIR_LOCK__B_DECK' , 
+'OUTER_SPACE' , 
+'THE_NOSTROMO__SUNRISE' , 
+'PASSAGE_NEAR_AIR_LOCK__B_LEVEL' , 
+'BLISTER_STAIRCASE' , 
+'MAINTENANCE_LEVEL' , 
+'PASSAGEWAY__A_LEVEL' , 
+'FOOD_STORAGE_LOCKER_NUMBER_12' , 
+'EQUIPMENT_MAINTENANCE_AREA' , 
+'BRIDGE__DAY' }
+}
+
+MAINTENANCE_AREA__C_DECK = room
+{
+	nam = "MAINTENANCE AREA - 'C' DECK",
+	dsc = [[----------------------------------------------------------------
+
+        Parker selects two full methane cylinders.
+        He tests them.
+        Moves out.
+
+]],
+	way = {'PLANET__DAY' , 
+'MAIN_AIR_LOCK__DAWN' , 
+'OILY_CORRIDOR__C_LEVEL' , 
+'LOCKER' , 
+'OILY_CORRIDOR__COMPANIONWAY' , 
+'PASSAGEWAYS__B_DECK' , 
+'ANOTHER_PASSAGEWAY__B_LEVEL' , 
+'CORRIDOR_OUTSIDE_INFIRMARY_WINDOW' , 
+'ASH_S_BLISTER__DAWN' , 
+'NARCISSUS' , 
+'SHIP' , 
+'ENGINE_ROOM' , 
+'AIR_LOCK_VESTIBULE' , 
+'AIR_LOCK' , 
+'INFIRMARY__A_LEVEL' , 
+'UNDERCARRIAGE_ROOM__C_LEVEL_' , 
+'_B_LEVEL__CORRIDOR' , 
+'CORRIDOR__OUTSIDE' , 
+'BLISTER' , 
+'STRUCTURE' , 
+'MAINTENANCE_AREA__C_DECK' , 
+'MAINTENANCE__C_LEVEL' , 
+'NOSTROMO__DAY' , 
+'COMPUTER_ANNEX' , 
+'FOOD_LOCKER_NUMBER_6__B_DECK' , 
+'PASSAGEWAY_OUTSIDE_INFIRMARY' , 
+'HYPERSLEEP_VAULT' , 
+'AIR_SHAFT' , 
+'THE_NOSTROMO__SUNSET' , 
+'PASSAGEWAY__B_LEVEL' , 
+'MESS' , 
+'ASH_S_BLISTER' , 
+'COMPANIONWAY_TO_OILY_CORRIDOR__E_LEVEL' , 
+'EQUIPMENT_MAINTENANCE_AREA__C_LEVEL' , 
+'BRIDGE__NIGHT' , 
+'BLISTER__DAWN' , 
+'NARCISSUS__OUTER_SPACE' , 
+'CORRIDOR__A_LEVEL' , 
+'ENGINE_ROOM_CUBICLE' , 
+'SPACE_SUIT_LOCKER' , 
+'COMPUTER_ROOM_ANNEX' , 
+'LANDING_LEG__NIGHT' , 
+'BLISTER__DAY' , 
+'CHAMBER_ABOVE' , 
+'INFIRMARY' , 
+'CHAMBER__DAY' , 
+'FOOD_LOCKER_NUMBER_6__B_LEVEL' , 
+'CORRIDOR_TO_BRIDGE' , 
+'ENTRANCE_TO_DERELICT__SUNSET' , 
+'SHIP__DAWN' , 
+'CORRIDOR_OUTSIDE_IMFIRMARY_WINDOW' , 
+'ENGINE_CUBICLE' , 
+'PLANET__NIGHT' , 
+'SECOND_LEVEL__C_DECK' , 
+'PASSAGEWAY_NEAR_AIR_LOCK__B_LEVEL' , 
+'ENGINE_ROOM__CUBICLE' , 
+'NOSTROMO' , 
+'BRIDGE' , 
+'CORRIDOR_TO_BRIDGE__A_LEVEL' , 
+'NOSTROMO__OUTER_SPACE' , 
+'GALLEY' , 
+'PLANET__SUNRISE' , 
+'OILY_CORRIDOR__C_DECK' , 
+'FOOR_LOCKER_NUMBER_6' , 
+'PASSAGEWAY__B_DECK' , 
+'PASSAGEWAY__C_LEVEL' , 
+'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
+'PLANET__DAWN' , 
+'_B_LEVEL__CORRIDOR_LEADING_TO_NARCISSUS' , 
+'STARBOARD_AIR_LOCK__VESTIBULE' , 
+'SHIP__NIGHT' , 
+'NARCISSUS__LATER' , 
+'_A_TO_B_LEVELS__COMPANIONWAY' , 
+'STRUCTURE__DAY' , 
+'FOOD_STORAGE_LOCKER_NUMBER_12__B_LEVEL' , 
+'_B_LEVEL__CORRIDOR_LEADING_TO_AIR_LOCK' , 
+'FOOD_LOCKER_NUMBER_12' , 
+'AIR_SHAFT_DOUBLE_TIERED_PASSAGEWAY' , 
+'AIR_SHAFT__DOUBLE_TIERED_PASSAGEWAY' , 
+'ASH_S_BLISTER__DAY' , 
+'PASSAGEWAY_NEAR_AIR_LOCK' , 
+'VESTIBULE' ,  
+'HOLD' , 
+'OILY_CORRIDOR' , 
+'NOSTROMO_AND_REFINERY_APPROACHING_THE' , 
+'STRUCTURE_OPENING' , 
+'CORRIDOR__A_DECK' , 
+'AIR_LOCK__NARCISSUS' , 
+'SPACE' , 
+'CORRIDOR__B_DECK' , 
+'_B_LEVEL__COMPANIONWAY' , 
+'PLANET' , 
+'BRIDGE__SUNRISE' , 
+'FOOD_LOCKER_CORRIDOR__OUTSIDE' , 
+'AIR_LOCK__B_DECK' , 
+'OUTER_SPACE' , 
+'THE_NOSTROMO__SUNRISE' , 
+'PASSAGE_NEAR_AIR_LOCK__B_LEVEL' , 
+'BLISTER_STAIRCASE' , 
+'MAINTENANCE_LEVEL' , 
+'PASSAGEWAY__A_LEVEL' , 
+'FOOD_STORAGE_LOCKER_NUMBER_12' , 
+'EQUIPMENT_MAINTENANCE_AREA' , 
+'BRIDGE__DAY' }
+}
+
+MAINTENANCE__C_LEVEL = room
+{
+	nam = "MAINTENANCE - 'C' LEVEL",
+	dsc = [[----------------------------------------------------------------
+
+        Ripley, Parker and Brett come down ladder onto an endless
+        oily corridor.
+        They stop at the foot of the companionway...
+        They move down corridor into darkness.
+   
+                                 RIPLEY
+                  Okay.
+
+        Looks at the tracker.
+        Nods down the passageway.  Stops.
+   
+                                 RIPLEY
+                  Back this way.
+
+        They begin to walk in that direction.
+        Entering drab section of the ship.
+        Surrounded by deep shadows.
+        Footsteps clanging on the metal deck.
+
+                                 RIPLEY
+                  I thought you fixed 12 module.
+
+                                 BRETT
+                  We did.
+
+                                 PARKER
+                  Circuits must have burned out.
+
+        They switch on lights.
+        Move around two turns.
+
+                                 RIPLEY
+                  Wait.
+
+        They stop quickly, almost stumbling.
+
+                                 RIPLEY
+                  It's within five meters.
+
+        Parker and Brett heft the net.
+        Ripley has the prod in one hand, tracker in the other.
+        Moves with great care.
+        Almost in a half-crouch, ready to leap back.
+        Prod extended, Ripley constantly glances at her tracker.
+        The device leads her up to a small hatch in the bulkhead.
+        Perspiration rivers down her face.
+        She sets aside the tracker.
+        Raises the prod, grasps the hatch handle.
+        Yanks it open.
+        Jams the electric prod inside.
+        A nerve-shattering squall.
+        Then a small creature comes flying out of the locker.
+        Eyes glaring, claws flashing.
+        Instinctively, they throw the net over it.
+        Very annoyed.
+        They open the net and release the captive.
+        Which happens to be the cat.
+        Hissing and spitting...it scampers away.
+
+                                 RIPLEY
+                  God damn it...hold it.
+
+                                 PARKER
+                  We should have killed it...Now
+                  we might pick it up on the
+                  tracker again.
+
+                                 RIPLEY
+                  Go get it.  We'll go on.
+
+                                 BRETT
+                  Right.
+
+        Ripley and Parker move down the passageway.
+        Brett follows the direction taken by the cat.
+        Moves across passageway into equipment maintenance area.
+   
+]],
+	way = {'PLANET__DAY' , 
+'MAIN_AIR_LOCK__DAWN' , 
+'OILY_CORRIDOR__C_LEVEL' , 
+'LOCKER' , 
+'OILY_CORRIDOR__COMPANIONWAY' , 
+'PASSAGEWAYS__B_DECK' , 
+'ANOTHER_PASSAGEWAY__B_LEVEL' , 
+'CORRIDOR_OUTSIDE_INFIRMARY_WINDOW' , 
+'ASH_S_BLISTER__DAWN' , 
+'NARCISSUS' , 
+'SHIP' , 
+'ENGINE_ROOM' , 
+'AIR_LOCK_VESTIBULE' , 
+'AIR_LOCK' , 
+'INFIRMARY__A_LEVEL' , 
+'UNDERCARRIAGE_ROOM__C_LEVEL_' , 
+'_B_LEVEL__CORRIDOR' , 
+'CORRIDOR__OUTSIDE' , 
+'BLISTER' , 
+'STRUCTURE' , 
+'MAINTENANCE_AREA__C_DECK' , 
+'MAINTENANCE__C_LEVEL' , 
+'NOSTROMO__DAY' , 
+'COMPUTER_ANNEX' , 
+'FOOD_LOCKER_NUMBER_6__B_DECK' , 
+'PASSAGEWAY_OUTSIDE_INFIRMARY' , 
+'HYPERSLEEP_VAULT' , 
+'AIR_SHAFT' , 
+'THE_NOSTROMO__SUNSET' , 
+'PASSAGEWAY__B_LEVEL' , 
+'MESS' , 
+'ASH_S_BLISTER' , 
+'COMPANIONWAY_TO_OILY_CORRIDOR__E_LEVEL' , 
+'EQUIPMENT_MAINTENANCE_AREA__C_LEVEL' , 
+'BRIDGE__NIGHT' , 
+'BLISTER__DAWN' , 
+'NARCISSUS__OUTER_SPACE' , 
+'CORRIDOR__A_LEVEL' , 
+'ENGINE_ROOM_CUBICLE' , 
+'SPACE_SUIT_LOCKER' , 
+'COMPUTER_ROOM_ANNEX' , 
+'LANDING_LEG__NIGHT' , 
+'BLISTER__DAY' , 
+'CHAMBER_ABOVE' , 
+'INFIRMARY' , 
+'CHAMBER__DAY' , 
+'FOOD_LOCKER_NUMBER_6__B_LEVEL' , 
+'CORRIDOR_TO_BRIDGE' , 
+'ENTRANCE_TO_DERELICT__SUNSET' , 
+'SHIP__DAWN' , 
+'CORRIDOR_OUTSIDE_IMFIRMARY_WINDOW' , 
+'ENGINE_CUBICLE' , 
+'PLANET__NIGHT' , 
+'SECOND_LEVEL__C_DECK' , 
+'PASSAGEWAY_NEAR_AIR_LOCK__B_LEVEL' , 
+'ENGINE_ROOM__CUBICLE' , 
+'NOSTROMO' , 
+'BRIDGE' , 
+'CORRIDOR_TO_BRIDGE__A_LEVEL' , 
+'NOSTROMO__OUTER_SPACE' , 
+'GALLEY' , 
+'PLANET__SUNRISE' , 
+'OILY_CORRIDOR__C_DECK' , 
+'FOOR_LOCKER_NUMBER_6' , 
+'PASSAGEWAY__B_DECK' , 
+'PASSAGEWAY__C_LEVEL' , 
+'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
+'PLANET__DAWN' , 
+'_B_LEVEL__CORRIDOR_LEADING_TO_NARCISSUS' , 
+'STARBOARD_AIR_LOCK__VESTIBULE' , 
+'SHIP__NIGHT' , 
+'NARCISSUS__LATER' , 
+'_A_TO_B_LEVELS__COMPANIONWAY' , 
+'STRUCTURE__DAY' , 
+'FOOD_STORAGE_LOCKER_NUMBER_12__B_LEVEL' , 
+'_B_LEVEL__CORRIDOR_LEADING_TO_AIR_LOCK' , 
+'FOOD_LOCKER_NUMBER_12' , 
+'AIR_SHAFT_DOUBLE_TIERED_PASSAGEWAY' , 
+'AIR_SHAFT__DOUBLE_TIERED_PASSAGEWAY' , 
+'ASH_S_BLISTER__DAY' , 
+'PASSAGEWAY_NEAR_AIR_LOCK' , 
+'VESTIBULE' ,  
+'HOLD' , 
+'OILY_CORRIDOR' , 
+'NOSTROMO_AND_REFINERY_APPROACHING_THE' , 
+'STRUCTURE_OPENING' , 
+'CORRIDOR__A_DECK' , 
+'AIR_LOCK__NARCISSUS' , 
+'SPACE' , 
+'CORRIDOR__B_DECK' , 
+'_B_LEVEL__COMPANIONWAY' , 
+'PLANET' , 
+'BRIDGE__SUNRISE' , 
+'FOOD_LOCKER_CORRIDOR__OUTSIDE' , 
+'AIR_LOCK__B_DECK' , 
+'OUTER_SPACE' , 
+'THE_NOSTROMO__SUNRISE' , 
+'PASSAGE_NEAR_AIR_LOCK__B_LEVEL' , 
+'BLISTER_STAIRCASE' , 
+'MAINTENANCE_LEVEL' , 
+'PASSAGEWAY__A_LEVEL' , 
+'FOOD_STORAGE_LOCKER_NUMBER_12' , 
+'EQUIPMENT_MAINTENANCE_AREA' , 
+'BRIDGE__DAY' }
+}
+
+NOSTROMO__DAY = room
+{
+	nam = "NOSTROMO - DAY",
+	dsc = [[----------------------------------------------------------------
+
+        The starship hovering below cloud ceiling.
+        Then begins to accelerate through the dense atmosphere.
+
+----------------------------------------------------------------
+
+        The ship moves at an acute angle.
+        Slices through the boiling clouds.
+
+]],
+	way = {'PLANET__DAY' , 
+'MAIN_AIR_LOCK__DAWN' , 
+'OILY_CORRIDOR__C_LEVEL' , 
+'LOCKER' , 
+'OILY_CORRIDOR__COMPANIONWAY' , 
+'PASSAGEWAYS__B_DECK' , 
+'ANOTHER_PASSAGEWAY__B_LEVEL' , 
+'CORRIDOR_OUTSIDE_INFIRMARY_WINDOW' , 
+'ASH_S_BLISTER__DAWN' , 
+'NARCISSUS' , 
+'SHIP' , 
+'ENGINE_ROOM' , 
+'AIR_LOCK_VESTIBULE' , 
+'AIR_LOCK' , 
+'INFIRMARY__A_LEVEL' , 
+'UNDERCARRIAGE_ROOM__C_LEVEL_' , 
+'_B_LEVEL__CORRIDOR' , 
+'CORRIDOR__OUTSIDE' , 
+'BLISTER' , 
+'STRUCTURE' , 
+'MAINTENANCE_AREA__C_DECK' , 
+'MAINTENANCE__C_LEVEL' , 
+'NOSTROMO__DAY' , 
+'COMPUTER_ANNEX' , 
+'FOOD_LOCKER_NUMBER_6__B_DECK' , 
+'PASSAGEWAY_OUTSIDE_INFIRMARY' , 
+'HYPERSLEEP_VAULT' , 
+'AIR_SHAFT' , 
+'THE_NOSTROMO__SUNSET' , 
+'PASSAGEWAY__B_LEVEL' , 
+'MESS' , 
+'ASH_S_BLISTER' , 
+'COMPANIONWAY_TO_OILY_CORRIDOR__E_LEVEL' , 
+'EQUIPMENT_MAINTENANCE_AREA__C_LEVEL' , 
+'BRIDGE__NIGHT' , 
+'BLISTER__DAWN' , 
+'NARCISSUS__OUTER_SPACE' , 
+'CORRIDOR__A_LEVEL' , 
+'ENGINE_ROOM_CUBICLE' , 
+'SPACE_SUIT_LOCKER' , 
+'COMPUTER_ROOM_ANNEX' , 
+'LANDING_LEG__NIGHT' , 
+'BLISTER__DAY' , 
+'CHAMBER_ABOVE' , 
+'INFIRMARY' , 
+'CHAMBER__DAY' , 
+'FOOD_LOCKER_NUMBER_6__B_LEVEL' , 
+'CORRIDOR_TO_BRIDGE' , 
+'ENTRANCE_TO_DERELICT__SUNSET' , 
+'SHIP__DAWN' , 
+'CORRIDOR_OUTSIDE_IMFIRMARY_WINDOW' , 
+'ENGINE_CUBICLE' , 
+'PLANET__NIGHT' , 
+'SECOND_LEVEL__C_DECK' , 
+'PASSAGEWAY_NEAR_AIR_LOCK__B_LEVEL' , 
+'ENGINE_ROOM__CUBICLE' , 
+'NOSTROMO' , 
+'BRIDGE' , 
+'CORRIDOR_TO_BRIDGE__A_LEVEL' , 
+'NOSTROMO__OUTER_SPACE' , 
+'GALLEY' , 
+'PLANET__SUNRISE' , 
+'OILY_CORRIDOR__C_DECK' , 
+'FOOR_LOCKER_NUMBER_6' , 
+'PASSAGEWAY__B_DECK' , 
+'PASSAGEWAY__C_LEVEL' , 
+'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
+'PLANET__DAWN' , 
+'_B_LEVEL__CORRIDOR_LEADING_TO_NARCISSUS' , 
+'STARBOARD_AIR_LOCK__VESTIBULE' , 
+'SHIP__NIGHT' , 
+'NARCISSUS__LATER' , 
+'_A_TO_B_LEVELS__COMPANIONWAY' , 
+'STRUCTURE__DAY' , 
+'FOOD_STORAGE_LOCKER_NUMBER_12__B_LEVEL' , 
+'_B_LEVEL__CORRIDOR_LEADING_TO_AIR_LOCK' , 
+'FOOD_LOCKER_NUMBER_12' , 
+'AIR_SHAFT_DOUBLE_TIERED_PASSAGEWAY' , 
+'AIR_SHAFT__DOUBLE_TIERED_PASSAGEWAY' , 
+'ASH_S_BLISTER__DAY' , 
+'PASSAGEWAY_NEAR_AIR_LOCK' , 
+'VESTIBULE' ,  
+'HOLD' , 
+'OILY_CORRIDOR' , 
+'NOSTROMO_AND_REFINERY_APPROACHING_THE' , 
+'STRUCTURE_OPENING' , 
+'CORRIDOR__A_DECK' , 
+'AIR_LOCK__NARCISSUS' , 
+'SPACE' , 
+'CORRIDOR__B_DECK' , 
+'_B_LEVEL__COMPANIONWAY' , 
+'PLANET' , 
+'BRIDGE__SUNRISE' , 
+'FOOD_LOCKER_CORRIDOR__OUTSIDE' , 
+'AIR_LOCK__B_DECK' , 
+'OUTER_SPACE' , 
+'THE_NOSTROMO__SUNRISE' , 
+'PASSAGE_NEAR_AIR_LOCK__B_LEVEL' , 
+'BLISTER_STAIRCASE' , 
+'MAINTENANCE_LEVEL' , 
+'PASSAGEWAY__A_LEVEL' , 
+'FOOD_STORAGE_LOCKER_NUMBER_12' , 
+'EQUIPMENT_MAINTENANCE_AREA' , 
+'BRIDGE__DAY' }
+}
+
+COMPUTER_ANNEX = room
+{
+	nam = "COMPUTER ANNEX",
+	dsc = [[----------------------------------------------------------------
+
+        Ripley and Dallas.
+
+                                 RIPLEY
+                  How could you leave that kind
+                  of decision to him.
+
+                                 DALLAS
+                  I just run the ship.  Anything
+                  that has to do with science
+                  division, Ash has the final word.
+
+                                 RIPLEY
+                  How does that happen.
+
+                                 DALLAS
+                  Same way everything else happens.
+                  Orders from the Company.
+
+                                 RIPLEY
+                  Since when is that standard
+                  procedure.
+
+                                 DALLAS
+                  Standard procedure is do what
+                  they tell you... Besides, I only
+                  know about flying... I haul cargo
+                  for a living.
+      
+                                 RIPLEY
+                  Did you ship out with Ash before.
+
+                                 DALLAS
+                  First time.  I went five hauls
+                  with another science man.  Then
+                  two days before we left Thedus,
+                  replaced him with Ash.
+
+        She looks at him.
+
+                                 DALLAS
+                  So what.  They replaced my
+                  warrant officer with you.
+   
+                                 RIPLEY
+                  I don't trust him.
+
+                                 DALLAS
+                  I don't trust anybody...What's
+                  holding up repairs.
+
+                                 RIPLEY
+                  They're pretty much finished now.  
+
+                                 DALLAS
+                  Why didn't you say so?
+
+                                 RIPLEY
+                  There are still some thing left
+                  to do.
+
+                                 DALLAS
+                  Like what?
+
+                                 RIPLEY
+                  We're blind on B and C decks.
+                  Reserve power systems blown...
+
+                                 DALLAS
+                  That's crap.  We can take off
+                  without them.
+
+                                 RIPLEY
+                  Is that a good idea.
+
+                                 DALLAS
+                  I want to get out of here.
+                  Let's get this turkey off the
+                  ground.
+
+----------------------------------------------------------------
+
+        Ripley plugs the key into the board.
+        Data banks come to life.
+        She sits at a console.
+        Thinks for a moment.
+        Then punches up a code.
+        Nothing happens.
+        Punches another combination.
+        Nothing happens.
+        Frustration.
+        Another combination.
+        One screen comes to life.
+        Another combination.
+        She moves to the second keyboard.
+        Screen One spells out the question:
+        Question:  WHO TURNED ON AIR LOCK 2 WARNING SYSTEM.
+        Response:  ASH
+        Another code.
+        Question:  IS ASH PROTECTING THE ALIEN.
+        Response:  YES
+        New code.
+        Question:  WHY
+        Response:  SPECIAL ORDER 937 SCIENCE EYE'S ONLY
+        She starts a new code.  
+        A hand slams down next to Ripley's arm.
+        It sinks elbow deep into the computer.
+        She whips around in her chair.
+        Faces Ash.
+        Ripley lashes out with her foot.
+        Kicks him in the middle.
+        No effect.
+        Ripley twists away.
+        Ash throws a punch at her.
+        Misses.
+        She pushes a chair at him.
+        Overturns the desk...
+        And runs through bridge into mess.
+
+        He moves after her.
+        Gets her.     
+        Parker and Lambert burst into the Mess.
+        Lambert falls on Ash's back.
+        Ash turns to Lambert.
+        Tosses her across the room.
+        Returns to Ripley.
+        Again choking her.
+        Parker lifts the tracker.
+        Steps behind Ash.
+        Swings the tracker...Wallop.
+        Tears his head off...
+        Wires ascending from Ash's trunk.
+        Where his head used to be.
+        Ash's hands release Ripley.
+        Search above his neck for his missing head.
+        He walks backward.
+        All eyes on Ash's headless body.
+        He walks the room.
+        Still feeling for his missing head.
+   
+                                 PARKER
+                  A robot, a God damn Droid.
+
+        Ash turns on him.
+        Starts to advance.
+        Parker hits him again with the tracker...
+        Again.
+        Again.
+        No avail.
+        Ash begins choking Parker.
+        Ripley picks up one of the prod sticks.
+        Closes on Ash's back.
+        Tears away the fabric.
+        Lambert pulls at Ash's legs.
+        Ripley tears at the controls buried in the cavity once
+        covered by his head.
+        Parker's eyes bulge in pain.
+        Ash, headless, choking, choking, choking...
+        Ripley finds the wires, stabs the prod home...
+        Ash's grip lessens.
+        Another stab...electrical flash...
+        The grip lessens...
+        Another stab...flash of circuits.
+        The headless body collapses.
+        Parker trying to regain his breath.
+   
+                                 PARKER
+                  Damn you.
+
+        Kicks the headless body.
+        Lambert looks at Ripley.
+
+                                LAMBERT
+                  Tell me...What the hell's going on.
+
+        Pause.
+
+                                 RIPLEY
+                  Let's find out.  Wire him back up.
+
+                                 PARKER
+                  What kind of crap is that.
+
+                                 RIPLEY
+                  Do it.
+
+        They set to work.
+        Begin to reassemble the wiring in Ash's head.
+
+                                 RIPLEY
+                  Ash let it on board.  Ash let it
+                  grow inside Kane.  Ash blew the
+                  warning signal.
+
+                                 LAMBERT
+                  Why.
+
+                                 RIPLEY
+                  Special Order 937.
+
+                                 PARKER
+                  What's that.
+
+                                 RIPLEY
+                  That's what I want to know.
+
+        Ash's head is placed on the table.
+        His eyes flicker into consciousness.
+   
+                                 RIPLEY
+                  What is Special Order 937.
+
+                                 ASH
+                  You know I can't tell you that.
+
+                                 RIPLEY
+                  Then there's not point in talking
+                  to you.  Pull the plug.
+
+                                 ASH
+                  Special Order 937 in essence
+                  asked me to direct the ship to
+                  the planet, investigate a life
+                  form, possibly hostile and bring
+                  it back for observation.  With
+                  discretion, of course.
+
+                                 RIPLEY
+                  Why.  Why not tell us.
+
+                                 ASH
+                  Would you have gone.
+
+                                 PARKER
+                  It wasn't in the contract.
+
+                                 ASH
+                  My very point.
+
+                                 RIPLEY
+                  They wanted to investigate the
+                  Alien.  No matter what happened
+                  to us.
+
+                                 ASH
+                  That's unfair.  Actually, you
+                  weren't mentioned in the order.
+
+                                 LAMBERT
+                  Those bastards.
+
+                                 ASH
+                  See it from their point of view.
+                  They didn't know what the Alien is.
+
+                                 RIPLEY
+                  How do we kill it.
+
+                                 ASH
+                  I don't think you can.  Not
+                  in this ship, given its life
+                  support systems.  But I might
+                  be able to.
+
+                                 RIPLEY
+                  How.
+
+                                 ASH
+                  I don't know quite yet.  I'm not
+                  exactly at my best at the moment.
+                  If you would reconnect...
+
+                                 RIPLEY
+                  No way.
+
+                                 ASH
+                  Don't be so hasty.  You'll never
+                  kill it without my help.
+
+                                 RIPLEY
+                  We've had enough of your help.
+
+                                 ASH
+                  You've barely got any oxygen left.
+                  If you don't go into hypersleep,
+                  you'll die with or without the
+                  Alien.
+
+                                 RIPLEY
+                  Nice try, Ash.
+
+                                 ASH
+                  I will do whatever I can to help
+                  you.  I swear it.
+
+                                 PARKER
+                  Pull the plug.
+
+                                 LAMBERT
+                  I agree.
+
+                                 ASH
+                  You idiots.  You still don't
+                  realize what you're dealing with.
+                  The Alien is a perfect organism.
+                  Superbly structured, cunning,
+                  quintessentially violent.  With
+                  your limited capabilities you have
+                  no chance against it.
+
+                                 LAMBERT
+                  You admire it.
+
+                                 ASH
+                  How can one not admire perfection.
+                  I will kill it because I am
+                  programmed to protect human life
+                  as you know.
+
+                                 RIPLEY
+                  Even if you have contempt for it.
+
+                                 ASH
+                  Even then.
+
+        Bitter and angry.
+
+                                 RIPLEY
+                  Sorry Ash.  I don't buy it.
+
+                                 ASH
+                  You egocentric morons.  You'll
+                  be ripped to shreds, destroyed
+                  and...
+   
+        Ripley make a movement.
+        Ash softens...
+
+                                 ASH
+                  I can only wish you well...
+   
+        Ripley pulls the plug.
+
+                                 PARKER
+                  He was probably right.  We do
+                  need him.
+
+                                 RIPLEY
+                  He was conning us.
+
+                                 LAMBERT
+                  He was programmed to protect
+                  human life.
+
+                                 RIPLEY
+                  He wasn't protecting our human
+                  lives and that's all I care about.
+                  Anyway it's done.
+
+        Ripley exits to the bridge.
+
+]],
+	way = {'PLANET__DAY' , 
+'MAIN_AIR_LOCK__DAWN' , 
+'OILY_CORRIDOR__C_LEVEL' , 
+'LOCKER' , 
+'OILY_CORRIDOR__COMPANIONWAY' , 
+'PASSAGEWAYS__B_DECK' , 
+'ANOTHER_PASSAGEWAY__B_LEVEL' , 
+'CORRIDOR_OUTSIDE_INFIRMARY_WINDOW' , 
+'ASH_S_BLISTER__DAWN' , 
+'NARCISSUS' , 
+'SHIP' , 
+'ENGINE_ROOM' , 
+'AIR_LOCK_VESTIBULE' , 
+'AIR_LOCK' , 
+'INFIRMARY__A_LEVEL' , 
+'UNDERCARRIAGE_ROOM__C_LEVEL_' , 
+'_B_LEVEL__CORRIDOR' , 
+'CORRIDOR__OUTSIDE' , 
+'BLISTER' , 
+'STRUCTURE' , 
+'MAINTENANCE_AREA__C_DECK' , 
+'MAINTENANCE__C_LEVEL' , 
+'NOSTROMO__DAY' , 
+'COMPUTER_ANNEX' , 
+'FOOD_LOCKER_NUMBER_6__B_DECK' , 
+'PASSAGEWAY_OUTSIDE_INFIRMARY' , 
+'HYPERSLEEP_VAULT' , 
+'AIR_SHAFT' , 
+'THE_NOSTROMO__SUNSET' , 
+'PASSAGEWAY__B_LEVEL' , 
+'MESS' , 
+'ASH_S_BLISTER' , 
+'COMPANIONWAY_TO_OILY_CORRIDOR__E_LEVEL' , 
+'EQUIPMENT_MAINTENANCE_AREA__C_LEVEL' , 
+'BRIDGE__NIGHT' , 
+'BLISTER__DAWN' , 
+'NARCISSUS__OUTER_SPACE' , 
+'CORRIDOR__A_LEVEL' , 
+'ENGINE_ROOM_CUBICLE' , 
+'SPACE_SUIT_LOCKER' , 
+'COMPUTER_ROOM_ANNEX' , 
+'LANDING_LEG__NIGHT' , 
+'BLISTER__DAY' , 
+'CHAMBER_ABOVE' , 
+'INFIRMARY' , 
+'CHAMBER__DAY' , 
+'FOOD_LOCKER_NUMBER_6__B_LEVEL' , 
+'CORRIDOR_TO_BRIDGE' , 
+'ENTRANCE_TO_DERELICT__SUNSET' , 
+'SHIP__DAWN' , 
+'CORRIDOR_OUTSIDE_IMFIRMARY_WINDOW' , 
+'ENGINE_CUBICLE' , 
+'PLANET__NIGHT' , 
+'SECOND_LEVEL__C_DECK' , 
+'PASSAGEWAY_NEAR_AIR_LOCK__B_LEVEL' , 
+'ENGINE_ROOM__CUBICLE' , 
+'NOSTROMO' , 
+'BRIDGE' , 
+'CORRIDOR_TO_BRIDGE__A_LEVEL' , 
+'NOSTROMO__OUTER_SPACE' , 
+'GALLEY' , 
+'PLANET__SUNRISE' , 
+'OILY_CORRIDOR__C_DECK' , 
+'FOOR_LOCKER_NUMBER_6' , 
+'PASSAGEWAY__B_DECK' , 
+'PASSAGEWAY__C_LEVEL' , 
+'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
+'PLANET__DAWN' , 
+'_B_LEVEL__CORRIDOR_LEADING_TO_NARCISSUS' , 
+'STARBOARD_AIR_LOCK__VESTIBULE' , 
+'SHIP__NIGHT' , 
+'NARCISSUS__LATER' , 
+'_A_TO_B_LEVELS__COMPANIONWAY' , 
+'STRUCTURE__DAY' , 
+'FOOD_STORAGE_LOCKER_NUMBER_12__B_LEVEL' , 
+'_B_LEVEL__CORRIDOR_LEADING_TO_AIR_LOCK' , 
+'FOOD_LOCKER_NUMBER_12' , 
+'AIR_SHAFT_DOUBLE_TIERED_PASSAGEWAY' , 
+'AIR_SHAFT__DOUBLE_TIERED_PASSAGEWAY' , 
+'ASH_S_BLISTER__DAY' , 
+'PASSAGEWAY_NEAR_AIR_LOCK' , 
+'VESTIBULE' ,  
+'HOLD' , 
+'OILY_CORRIDOR' , 
+'NOSTROMO_AND_REFINERY_APPROACHING_THE' , 
+'STRUCTURE_OPENING' , 
+'CORRIDOR__A_DECK' , 
+'AIR_LOCK__NARCISSUS' , 
+'SPACE' , 
+'CORRIDOR__B_DECK' , 
+'_B_LEVEL__COMPANIONWAY' , 
+'PLANET' , 
+'BRIDGE__SUNRISE' , 
+'FOOD_LOCKER_CORRIDOR__OUTSIDE' , 
+'AIR_LOCK__B_DECK' , 
+'OUTER_SPACE' , 
+'THE_NOSTROMO__SUNRISE' , 
+'PASSAGE_NEAR_AIR_LOCK__B_LEVEL' , 
+'BLISTER_STAIRCASE' , 
+'MAINTENANCE_LEVEL' , 
+'PASSAGEWAY__A_LEVEL' , 
+'FOOD_STORAGE_LOCKER_NUMBER_12' , 
+'EQUIPMENT_MAINTENANCE_AREA' , 
+'BRIDGE__DAY' }
+}
+
+FOOD_LOCKER_NUMBER_6__B_DECK = room
+{
+	nam = "FOOD LOCKER NUMBER 6 - 'B' DECK",
+	dsc = [[----------------------------------------------------------------
+
+        Arms full, Parker moves out of the locker.
+        Lambert is still making her selection.
+        A faint light on the tracker.
+        Unnoticed.
+
+]],
+	way = {'PLANET__DAY' , 
+'MAIN_AIR_LOCK__DAWN' , 
+'OILY_CORRIDOR__C_LEVEL' , 
+'LOCKER' , 
+'OILY_CORRIDOR__COMPANIONWAY' , 
+'PASSAGEWAYS__B_DECK' , 
+'ANOTHER_PASSAGEWAY__B_LEVEL' , 
+'CORRIDOR_OUTSIDE_INFIRMARY_WINDOW' , 
+'ASH_S_BLISTER__DAWN' , 
+'NARCISSUS' , 
+'SHIP' , 
+'ENGINE_ROOM' , 
+'AIR_LOCK_VESTIBULE' , 
+'AIR_LOCK' , 
+'INFIRMARY__A_LEVEL' , 
+'UNDERCARRIAGE_ROOM__C_LEVEL_' , 
+'_B_LEVEL__CORRIDOR' , 
+'CORRIDOR__OUTSIDE' , 
+'BLISTER' , 
+'STRUCTURE' , 
+'MAINTENANCE_AREA__C_DECK' , 
+'MAINTENANCE__C_LEVEL' , 
+'NOSTROMO__DAY' , 
+'COMPUTER_ANNEX' , 
+'FOOD_LOCKER_NUMBER_6__B_DECK' , 
+'PASSAGEWAY_OUTSIDE_INFIRMARY' , 
+'HYPERSLEEP_VAULT' , 
+'AIR_SHAFT' , 
+'THE_NOSTROMO__SUNSET' , 
+'PASSAGEWAY__B_LEVEL' , 
+'MESS' , 
+'ASH_S_BLISTER' , 
+'COMPANIONWAY_TO_OILY_CORRIDOR__E_LEVEL' , 
+'EQUIPMENT_MAINTENANCE_AREA__C_LEVEL' , 
+'BRIDGE__NIGHT' , 
+'BLISTER__DAWN' , 
+'NARCISSUS__OUTER_SPACE' , 
+'CORRIDOR__A_LEVEL' , 
+'ENGINE_ROOM_CUBICLE' , 
+'SPACE_SUIT_LOCKER' , 
+'COMPUTER_ROOM_ANNEX' , 
+'LANDING_LEG__NIGHT' , 
+'BLISTER__DAY' , 
+'CHAMBER_ABOVE' , 
+'INFIRMARY' , 
+'CHAMBER__DAY' , 
+'FOOD_LOCKER_NUMBER_6__B_LEVEL' , 
+'CORRIDOR_TO_BRIDGE' , 
+'ENTRANCE_TO_DERELICT__SUNSET' , 
+'SHIP__DAWN' , 
+'CORRIDOR_OUTSIDE_IMFIRMARY_WINDOW' , 
+'ENGINE_CUBICLE' , 
+'PLANET__NIGHT' , 
+'SECOND_LEVEL__C_DECK' , 
+'PASSAGEWAY_NEAR_AIR_LOCK__B_LEVEL' , 
+'ENGINE_ROOM__CUBICLE' , 
+'NOSTROMO' , 
+'BRIDGE' , 
+'CORRIDOR_TO_BRIDGE__A_LEVEL' , 
+'NOSTROMO__OUTER_SPACE' , 
+'GALLEY' , 
+'PLANET__SUNRISE' , 
+'OILY_CORRIDOR__C_DECK' , 
+'FOOR_LOCKER_NUMBER_6' , 
+'PASSAGEWAY__B_DECK' , 
+'PASSAGEWAY__C_LEVEL' , 
+'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
+'PLANET__DAWN' , 
+'_B_LEVEL__CORRIDOR_LEADING_TO_NARCISSUS' , 
+'STARBOARD_AIR_LOCK__VESTIBULE' , 
+'SHIP__NIGHT' , 
+'NARCISSUS__LATER' , 
+'_A_TO_B_LEVELS__COMPANIONWAY' , 
+'STRUCTURE__DAY' , 
+'FOOD_STORAGE_LOCKER_NUMBER_12__B_LEVEL' , 
+'_B_LEVEL__CORRIDOR_LEADING_TO_AIR_LOCK' , 
+'FOOD_LOCKER_NUMBER_12' , 
+'AIR_SHAFT_DOUBLE_TIERED_PASSAGEWAY' , 
+'AIR_SHAFT__DOUBLE_TIERED_PASSAGEWAY' , 
+'ASH_S_BLISTER__DAY' , 
+'PASSAGEWAY_NEAR_AIR_LOCK' , 
+'VESTIBULE' ,  
+'HOLD' , 
+'OILY_CORRIDOR' , 
+'NOSTROMO_AND_REFINERY_APPROACHING_THE' , 
+'STRUCTURE_OPENING' , 
+'CORRIDOR__A_DECK' , 
+'AIR_LOCK__NARCISSUS' , 
+'SPACE' , 
+'CORRIDOR__B_DECK' , 
+'_B_LEVEL__COMPANIONWAY' , 
+'PLANET' , 
+'BRIDGE__SUNRISE' , 
+'FOOD_LOCKER_CORRIDOR__OUTSIDE' , 
+'AIR_LOCK__B_DECK' , 
+'OUTER_SPACE' , 
+'THE_NOSTROMO__SUNRISE' , 
+'PASSAGE_NEAR_AIR_LOCK__B_LEVEL' , 
+'BLISTER_STAIRCASE' , 
+'MAINTENANCE_LEVEL' , 
+'PASSAGEWAY__A_LEVEL' , 
+'FOOD_STORAGE_LOCKER_NUMBER_12' , 
+'EQUIPMENT_MAINTENANCE_AREA' , 
+'BRIDGE__DAY' }
+}
+
+PASSAGEWAY_OUTSIDE_INFIRMARY = room
+{
+	nam = "PASSAGEWAY OUTSIDE INFIRMARY",
+	dsc = [[----------------------------------------------------------------
+
+                                 BRETT
+                  Shit.  It's going to eat through
+                  the decks and go out the hull...
+              
+        He starts to run for the companionway.
+
+]],
+	way = {'PLANET__DAY' , 
+'MAIN_AIR_LOCK__DAWN' , 
+'OILY_CORRIDOR__C_LEVEL' , 
+'LOCKER' , 
+'OILY_CORRIDOR__COMPANIONWAY' , 
+'PASSAGEWAYS__B_DECK' , 
+'ANOTHER_PASSAGEWAY__B_LEVEL' , 
+'CORRIDOR_OUTSIDE_INFIRMARY_WINDOW' , 
+'ASH_S_BLISTER__DAWN' , 
+'NARCISSUS' , 
+'SHIP' , 
+'ENGINE_ROOM' , 
+'AIR_LOCK_VESTIBULE' , 
+'AIR_LOCK' , 
+'INFIRMARY__A_LEVEL' , 
+'UNDERCARRIAGE_ROOM__C_LEVEL_' , 
+'_B_LEVEL__CORRIDOR' , 
+'CORRIDOR__OUTSIDE' , 
+'BLISTER' , 
+'STRUCTURE' , 
+'MAINTENANCE_AREA__C_DECK' , 
+'MAINTENANCE__C_LEVEL' , 
+'NOSTROMO__DAY' , 
+'COMPUTER_ANNEX' , 
+'FOOD_LOCKER_NUMBER_6__B_DECK' , 
+'PASSAGEWAY_OUTSIDE_INFIRMARY' , 
+'HYPERSLEEP_VAULT' , 
+'AIR_SHAFT' , 
+'THE_NOSTROMO__SUNSET' , 
+'PASSAGEWAY__B_LEVEL' , 
+'MESS' , 
+'ASH_S_BLISTER' , 
+'COMPANIONWAY_TO_OILY_CORRIDOR__E_LEVEL' , 
+'EQUIPMENT_MAINTENANCE_AREA__C_LEVEL' , 
+'BRIDGE__NIGHT' , 
+'BLISTER__DAWN' , 
+'NARCISSUS__OUTER_SPACE' , 
+'CORRIDOR__A_LEVEL' , 
+'ENGINE_ROOM_CUBICLE' , 
+'SPACE_SUIT_LOCKER' , 
+'COMPUTER_ROOM_ANNEX' , 
+'LANDING_LEG__NIGHT' , 
+'BLISTER__DAY' , 
+'CHAMBER_ABOVE' , 
+'INFIRMARY' , 
+'CHAMBER__DAY' , 
+'FOOD_LOCKER_NUMBER_6__B_LEVEL' , 
+'CORRIDOR_TO_BRIDGE' , 
+'ENTRANCE_TO_DERELICT__SUNSET' , 
+'SHIP__DAWN' , 
+'CORRIDOR_OUTSIDE_IMFIRMARY_WINDOW' , 
+'ENGINE_CUBICLE' , 
+'PLANET__NIGHT' , 
+'SECOND_LEVEL__C_DECK' , 
+'PASSAGEWAY_NEAR_AIR_LOCK__B_LEVEL' , 
+'ENGINE_ROOM__CUBICLE' , 
+'NOSTROMO' , 
+'BRIDGE' , 
+'CORRIDOR_TO_BRIDGE__A_LEVEL' , 
+'NOSTROMO__OUTER_SPACE' , 
+'GALLEY' , 
+'PLANET__SUNRISE' , 
+'OILY_CORRIDOR__C_DECK' , 
+'FOOR_LOCKER_NUMBER_6' , 
+'PASSAGEWAY__B_DECK' , 
+'PASSAGEWAY__C_LEVEL' , 
+'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
+'PLANET__DAWN' , 
+'_B_LEVEL__CORRIDOR_LEADING_TO_NARCISSUS' , 
+'STARBOARD_AIR_LOCK__VESTIBULE' , 
+'SHIP__NIGHT' , 
+'NARCISSUS__LATER' , 
+'_A_TO_B_LEVELS__COMPANIONWAY' , 
+'STRUCTURE__DAY' , 
+'FOOD_STORAGE_LOCKER_NUMBER_12__B_LEVEL' , 
+'_B_LEVEL__CORRIDOR_LEADING_TO_AIR_LOCK' , 
+'FOOD_LOCKER_NUMBER_12' , 
+'AIR_SHAFT_DOUBLE_TIERED_PASSAGEWAY' , 
+'AIR_SHAFT__DOUBLE_TIERED_PASSAGEWAY' , 
+'ASH_S_BLISTER__DAY' , 
+'PASSAGEWAY_NEAR_AIR_LOCK' , 
+'VESTIBULE' ,  
+'HOLD' , 
+'OILY_CORRIDOR' , 
+'NOSTROMO_AND_REFINERY_APPROACHING_THE' , 
+'STRUCTURE_OPENING' , 
+'CORRIDOR__A_DECK' , 
+'AIR_LOCK__NARCISSUS' , 
+'SPACE' , 
+'CORRIDOR__B_DECK' , 
+'_B_LEVEL__COMPANIONWAY' , 
+'PLANET' , 
+'BRIDGE__SUNRISE' , 
+'FOOD_LOCKER_CORRIDOR__OUTSIDE' , 
+'AIR_LOCK__B_DECK' , 
+'OUTER_SPACE' , 
+'THE_NOSTROMO__SUNRISE' , 
+'PASSAGE_NEAR_AIR_LOCK__B_LEVEL' , 
+'BLISTER_STAIRCASE' , 
+'MAINTENANCE_LEVEL' , 
+'PASSAGEWAY__A_LEVEL' , 
+'FOOD_STORAGE_LOCKER_NUMBER_12' , 
+'EQUIPMENT_MAINTENANCE_AREA' , 
+'BRIDGE__DAY' }
+}
+
+AIR_SHAFT = room
+{
+	nam = "AIR SHAFT",
+	dsc = [[----------------------------------------------------------------
+
+        Completely dark.
+        Dallas turns on his helmet light.
+        Flips switch on throat mike.
+
+                                 DALLAS
+                  Do you receive me.  Ripley.
+                  Parker.  Lambert.
+
+----------------------------------------------------------------
+
+        Dallas begins to crawl forward.
+        The tunnel is narrow...
+        Only a foot or two wider than his shoulders.
+   
+                                 DALLAS
+                  I'm under way.
+
+        Turns a corner.
+        Several more tight turns.
+        Instinctively Dallas pulls back.
+        Raises the flamethrower.
+        Fires a blast around the corner into the darkness.
+        It roars loudly in the confined tube.
+        Smoke drifts back into his face.
+
+----------------------------------------------------------------
+
+        Dallas still crawling on hands and knees.
+        Ahead the shaft takes an abrupt downward turn.
+        He moves toward the corner.
+        Fires another blast from the flamethrower.
+        Then starts crawling down, head first.
+
+----------------------------------------------------------------
+
+        The shaft makes yet another turn.
+        Puts Dallas into an almost immobilized position.
+   
+----------------------------------------------------------------
+
+        Dallas against a wall of the shaft.
+        Clutching his flamethrower.
+        Whispers into his throat mike.
+
+                                 DALLAS
+                  Ripley.
+
+----------------------------------------------------------------
+
+                                 DALLAS
+                  I don't think this shaft goes
+                  much farther... It's getting hot
+                  in here.
+
+        He readies the flamethrower.
+
+]],
+	way = {'PLANET__DAY' , 
+'MAIN_AIR_LOCK__DAWN' , 
+'OILY_CORRIDOR__C_LEVEL' , 
+'LOCKER' , 
+'OILY_CORRIDOR__COMPANIONWAY' , 
+'PASSAGEWAYS__B_DECK' , 
+'ANOTHER_PASSAGEWAY__B_LEVEL' , 
+'CORRIDOR_OUTSIDE_INFIRMARY_WINDOW' , 
+'ASH_S_BLISTER__DAWN' , 
+'NARCISSUS' , 
+'SHIP' , 
+'ENGINE_ROOM' , 
+'AIR_LOCK_VESTIBULE' , 
+'AIR_LOCK' , 
+'INFIRMARY__A_LEVEL' , 
+'UNDERCARRIAGE_ROOM__C_LEVEL_' , 
+'_B_LEVEL__CORRIDOR' , 
+'CORRIDOR__OUTSIDE' , 
+'BLISTER' , 
+'STRUCTURE' , 
+'MAINTENANCE_AREA__C_DECK' , 
+'MAINTENANCE__C_LEVEL' , 
+'NOSTROMO__DAY' , 
+'COMPUTER_ANNEX' , 
+'FOOD_LOCKER_NUMBER_6__B_DECK' , 
+'PASSAGEWAY_OUTSIDE_INFIRMARY' , 
+'HYPERSLEEP_VAULT' , 
+'AIR_SHAFT' , 
+'THE_NOSTROMO__SUNSET' , 
+'PASSAGEWAY__B_LEVEL' , 
+'MESS' , 
+'ASH_S_BLISTER' , 
+'COMPANIONWAY_TO_OILY_CORRIDOR__E_LEVEL' , 
+'EQUIPMENT_MAINTENANCE_AREA__C_LEVEL' , 
+'BRIDGE__NIGHT' , 
+'BLISTER__DAWN' , 
+'NARCISSUS__OUTER_SPACE' , 
+'CORRIDOR__A_LEVEL' , 
+'ENGINE_ROOM_CUBICLE' , 
+'SPACE_SUIT_LOCKER' , 
+'COMPUTER_ROOM_ANNEX' , 
+'LANDING_LEG__NIGHT' , 
+'BLISTER__DAY' , 
+'CHAMBER_ABOVE' , 
+'INFIRMARY' , 
+'CHAMBER__DAY' , 
+'FOOD_LOCKER_NUMBER_6__B_LEVEL' , 
+'CORRIDOR_TO_BRIDGE' , 
+'ENTRANCE_TO_DERELICT__SUNSET' , 
+'SHIP__DAWN' , 
+'CORRIDOR_OUTSIDE_IMFIRMARY_WINDOW' , 
+'ENGINE_CUBICLE' , 
+'PLANET__NIGHT' , 
+'SECOND_LEVEL__C_DECK' , 
+'PASSAGEWAY_NEAR_AIR_LOCK__B_LEVEL' , 
+'ENGINE_ROOM__CUBICLE' , 
+'NOSTROMO' , 
+'BRIDGE' , 
+'CORRIDOR_TO_BRIDGE__A_LEVEL' , 
+'NOSTROMO__OUTER_SPACE' , 
+'GALLEY' , 
+'PLANET__SUNRISE' , 
+'OILY_CORRIDOR__C_DECK' , 
+'FOOR_LOCKER_NUMBER_6' , 
+'PASSAGEWAY__B_DECK' , 
+'PASSAGEWAY__C_LEVEL' , 
+'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
+'PLANET__DAWN' , 
+'_B_LEVEL__CORRIDOR_LEADING_TO_NARCISSUS' , 
+'STARBOARD_AIR_LOCK__VESTIBULE' , 
+'SHIP__NIGHT' , 
+'NARCISSUS__LATER' , 
+'_A_TO_B_LEVELS__COMPANIONWAY' , 
+'STRUCTURE__DAY' , 
+'FOOD_STORAGE_LOCKER_NUMBER_12__B_LEVEL' , 
+'_B_LEVEL__CORRIDOR_LEADING_TO_AIR_LOCK' , 
+'FOOD_LOCKER_NUMBER_12' , 
+'AIR_SHAFT_DOUBLE_TIERED_PASSAGEWAY' , 
+'AIR_SHAFT__DOUBLE_TIERED_PASSAGEWAY' , 
+'ASH_S_BLISTER__DAY' , 
+'PASSAGEWAY_NEAR_AIR_LOCK' , 
+'VESTIBULE' ,  
+'HOLD' , 
+'OILY_CORRIDOR' , 
+'NOSTROMO_AND_REFINERY_APPROACHING_THE' , 
+'STRUCTURE_OPENING' , 
+'CORRIDOR__A_DECK' , 
+'AIR_LOCK__NARCISSUS' , 
+'SPACE' , 
+'CORRIDOR__B_DECK' , 
+'_B_LEVEL__COMPANIONWAY' , 
+'PLANET' , 
+'BRIDGE__SUNRISE' , 
+'FOOD_LOCKER_CORRIDOR__OUTSIDE' , 
+'AIR_LOCK__B_DECK' , 
+'OUTER_SPACE' , 
+'THE_NOSTROMO__SUNRISE' , 
+'PASSAGE_NEAR_AIR_LOCK__B_LEVEL' , 
+'BLISTER_STAIRCASE' , 
+'MAINTENANCE_LEVEL' , 
+'PASSAGEWAY__A_LEVEL' , 
+'FOOD_STORAGE_LOCKER_NUMBER_12' , 
+'EQUIPMENT_MAINTENANCE_AREA' , 
+'BRIDGE__DAY' }
+}
+
+THE_NOSTROMO__SUNSET = room
+{
+	nam = "THE NOSTROMO - SUNSET",
+	dsc = [[----------------------------------------------------------------
+
+        Atmosphere turning the color of blood.
+        And the sun is down.
+        The ring of floodlights on the ship comes to life.
+        Feebly combatting the darkness and continuing storm.
+
+]],
+	way = {'PLANET__DAY' , 
+'MAIN_AIR_LOCK__DAWN' , 
+'OILY_CORRIDOR__C_LEVEL' , 
+'LOCKER' , 
+'OILY_CORRIDOR__COMPANIONWAY' , 
+'PASSAGEWAYS__B_DECK' , 
+'ANOTHER_PASSAGEWAY__B_LEVEL' , 
+'CORRIDOR_OUTSIDE_INFIRMARY_WINDOW' , 
+'ASH_S_BLISTER__DAWN' , 
+'NARCISSUS' , 
+'SHIP' , 
+'ENGINE_ROOM' , 
+'AIR_LOCK_VESTIBULE' , 
+'AIR_LOCK' , 
+'INFIRMARY__A_LEVEL' , 
+'UNDERCARRIAGE_ROOM__C_LEVEL_' , 
+'_B_LEVEL__CORRIDOR' , 
+'CORRIDOR__OUTSIDE' , 
+'BLISTER' , 
+'STRUCTURE' , 
+'MAINTENANCE_AREA__C_DECK' , 
+'MAINTENANCE__C_LEVEL' , 
+'NOSTROMO__DAY' , 
+'COMPUTER_ANNEX' , 
+'FOOD_LOCKER_NUMBER_6__B_DECK' , 
+'PASSAGEWAY_OUTSIDE_INFIRMARY' , 
+'HYPERSLEEP_VAULT' , 
+'AIR_SHAFT' , 
+'THE_NOSTROMO__SUNSET' , 
+'PASSAGEWAY__B_LEVEL' , 
+'MESS' , 
+'ASH_S_BLISTER' , 
+'COMPANIONWAY_TO_OILY_CORRIDOR__E_LEVEL' , 
+'EQUIPMENT_MAINTENANCE_AREA__C_LEVEL' , 
+'BRIDGE__NIGHT' , 
+'BLISTER__DAWN' , 
+'NARCISSUS__OUTER_SPACE' , 
+'CORRIDOR__A_LEVEL' , 
+'ENGINE_ROOM_CUBICLE' , 
+'SPACE_SUIT_LOCKER' , 
+'COMPUTER_ROOM_ANNEX' , 
+'LANDING_LEG__NIGHT' , 
+'BLISTER__DAY' , 
+'CHAMBER_ABOVE' , 
+'INFIRMARY' , 
+'CHAMBER__DAY' , 
+'FOOD_LOCKER_NUMBER_6__B_LEVEL' , 
+'CORRIDOR_TO_BRIDGE' , 
+'ENTRANCE_TO_DERELICT__SUNSET' , 
+'SHIP__DAWN' , 
+'CORRIDOR_OUTSIDE_IMFIRMARY_WINDOW' , 
+'ENGINE_CUBICLE' , 
+'PLANET__NIGHT' , 
+'SECOND_LEVEL__C_DECK' , 
+'PASSAGEWAY_NEAR_AIR_LOCK__B_LEVEL' , 
+'ENGINE_ROOM__CUBICLE' , 
+'NOSTROMO' , 
+'BRIDGE' , 
+'CORRIDOR_TO_BRIDGE__A_LEVEL' , 
+'NOSTROMO__OUTER_SPACE' , 
+'GALLEY' , 
+'PLANET__SUNRISE' , 
+'OILY_CORRIDOR__C_DECK' , 
+'FOOR_LOCKER_NUMBER_6' , 
+'PASSAGEWAY__B_DECK' , 
+'PASSAGEWAY__C_LEVEL' , 
+'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
+'PLANET__DAWN' , 
+'_B_LEVEL__CORRIDOR_LEADING_TO_NARCISSUS' , 
+'STARBOARD_AIR_LOCK__VESTIBULE' , 
+'SHIP__NIGHT' , 
+'NARCISSUS__LATER' , 
+'_A_TO_B_LEVELS__COMPANIONWAY' , 
+'STRUCTURE__DAY' , 
+'FOOD_STORAGE_LOCKER_NUMBER_12__B_LEVEL' , 
+'_B_LEVEL__CORRIDOR_LEADING_TO_AIR_LOCK' , 
+'FOOD_LOCKER_NUMBER_12' , 
+'AIR_SHAFT_DOUBLE_TIERED_PASSAGEWAY' , 
+'AIR_SHAFT__DOUBLE_TIERED_PASSAGEWAY' , 
+'ASH_S_BLISTER__DAY' , 
+'PASSAGEWAY_NEAR_AIR_LOCK' , 
+'VESTIBULE' ,  
+'HOLD' , 
+'OILY_CORRIDOR' , 
+'NOSTROMO_AND_REFINERY_APPROACHING_THE' , 
+'STRUCTURE_OPENING' , 
+'CORRIDOR__A_DECK' , 
+'AIR_LOCK__NARCISSUS' , 
+'SPACE' , 
+'CORRIDOR__B_DECK' , 
+'_B_LEVEL__COMPANIONWAY' , 
+'PLANET' , 
+'BRIDGE__SUNRISE' , 
+'FOOD_LOCKER_CORRIDOR__OUTSIDE' , 
+'AIR_LOCK__B_DECK' , 
+'OUTER_SPACE' , 
+'THE_NOSTROMO__SUNRISE' , 
+'PASSAGE_NEAR_AIR_LOCK__B_LEVEL' , 
+'BLISTER_STAIRCASE' , 
+'MAINTENANCE_LEVEL' , 
+'PASSAGEWAY__A_LEVEL' , 
+'FOOD_STORAGE_LOCKER_NUMBER_12' , 
+'EQUIPMENT_MAINTENANCE_AREA' , 
+'BRIDGE__DAY' }
+}
+
+PASSAGEWAY__B_LEVEL = room
+{
+	nam = "PASSAGEWAY - 'B' LEVEL",
+	dsc = [[----------------------------------------------------------------
+
+        Parker and Dallas lead.
+        Armed with flamethrowers.
+        They descend from companionway.
+        Suddenly both tracking devices beep frantically.
+        Sound of rending metal up ahead.
+        The move forward cautiously.
+   
+                                 DALLAS
+                  It's in that food locker.
+
+----------------------------------------------------------------
+
+        Parker returning with methane cylinder.
+        Turns a corner.
+        Comes to an abrupt halt.
+        A movement in front of him beyond the air lock.
+        He hesitates.
+        Then another shadowy movement...
+
+----------------------------------------------------------------
+
+        Parker covers the wall communication with his hand.
+
+                                 PARKER
+                  Keep it down...
+
+        Up the corridor, the movement stops.
+
+----------------------------------------------------------------
+
+        Parker whispering.
+
+                                 PARKER
+                  The Alien...It's outside the
+                  main air lock door.  Open the
+                  door slowly...When I shout...
+                  close it fast.
+
+----------------------------------------------------------------
+
+        Parker still whispering.
+
+                                 PARKER
+                  Open it...slowly.
+
+----------------------------------------------------------------
+   
+        Parker watches...
+
+----------------------------------------------------------------
+   
+        Urgent whisper into voice-amp.
+
+                                 PARKER
+                  Now...Now...
+
+----------------------------------------------------------------
+
+        Parker watches.
+        Frozen.
+        The Alien wrenches itself free.
+        Comes flying outward.
+        Smashes Parker down.
+        Flees.
+        On the wall a green light goes on.
+
+                                 "Inner Hatch Closed"
+
+]],
+	way = {'PLANET__DAY' , 
+'MAIN_AIR_LOCK__DAWN' , 
+'OILY_CORRIDOR__C_LEVEL' , 
+'LOCKER' , 
+'OILY_CORRIDOR__COMPANIONWAY' , 
+'PASSAGEWAYS__B_DECK' , 
+'ANOTHER_PASSAGEWAY__B_LEVEL' , 
+'CORRIDOR_OUTSIDE_INFIRMARY_WINDOW' , 
+'ASH_S_BLISTER__DAWN' , 
+'NARCISSUS' , 
+'SHIP' , 
+'ENGINE_ROOM' , 
+'AIR_LOCK_VESTIBULE' , 
+'AIR_LOCK' , 
+'INFIRMARY__A_LEVEL' , 
+'UNDERCARRIAGE_ROOM__C_LEVEL_' , 
+'_B_LEVEL__CORRIDOR' , 
+'CORRIDOR__OUTSIDE' , 
+'BLISTER' , 
+'STRUCTURE' , 
+'MAINTENANCE_AREA__C_DECK' , 
+'MAINTENANCE__C_LEVEL' , 
+'NOSTROMO__DAY' , 
+'COMPUTER_ANNEX' , 
+'FOOD_LOCKER_NUMBER_6__B_DECK' , 
+'PASSAGEWAY_OUTSIDE_INFIRMARY' , 
+'HYPERSLEEP_VAULT' , 
+'AIR_SHAFT' , 
+'THE_NOSTROMO__SUNSET' , 
+'PASSAGEWAY__B_LEVEL' , 
+'MESS' , 
+'ASH_S_BLISTER' , 
+'COMPANIONWAY_TO_OILY_CORRIDOR__E_LEVEL' , 
+'EQUIPMENT_MAINTENANCE_AREA__C_LEVEL' , 
+'BRIDGE__NIGHT' , 
+'BLISTER__DAWN' , 
+'NARCISSUS__OUTER_SPACE' , 
+'CORRIDOR__A_LEVEL' , 
+'ENGINE_ROOM_CUBICLE' , 
+'SPACE_SUIT_LOCKER' , 
+'COMPUTER_ROOM_ANNEX' , 
+'LANDING_LEG__NIGHT' , 
+'BLISTER__DAY' , 
+'CHAMBER_ABOVE' , 
+'INFIRMARY' , 
+'CHAMBER__DAY' , 
+'FOOD_LOCKER_NUMBER_6__B_LEVEL' , 
+'CORRIDOR_TO_BRIDGE' , 
+'ENTRANCE_TO_DERELICT__SUNSET' , 
+'SHIP__DAWN' , 
+'CORRIDOR_OUTSIDE_IMFIRMARY_WINDOW' , 
+'ENGINE_CUBICLE' , 
+'PLANET__NIGHT' , 
+'SECOND_LEVEL__C_DECK' , 
+'PASSAGEWAY_NEAR_AIR_LOCK__B_LEVEL' , 
+'ENGINE_ROOM__CUBICLE' , 
+'NOSTROMO' , 
+'BRIDGE' , 
+'CORRIDOR_TO_BRIDGE__A_LEVEL' , 
+'NOSTROMO__OUTER_SPACE' , 
+'GALLEY' , 
+'PLANET__SUNRISE' , 
+'OILY_CORRIDOR__C_DECK' , 
+'FOOR_LOCKER_NUMBER_6' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -5610,7 +5534,6 @@ ASH_S_BLISTER = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -5732,7 +5655,6 @@ COMPANIONWAY_TO_OILY_CORRIDOR__E_LEVEL = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -5857,7 +5779,6 @@ EQUIPMENT_MAINTENANCE_AREA__C_LEVEL = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -6069,7 +5990,6 @@ BRIDGE__NIGHT = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -6206,7 +6126,6 @@ BLISTER__DAWN = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -6325,7 +6244,6 @@ NARCISSUS__OUTER_SPACE = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -6440,7 +6358,6 @@ CORRIDOR__A_LEVEL = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -6692,7 +6609,6 @@ ENGINE_ROOM_CUBICLE = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -6808,7 +6724,6 @@ SPACE_SUIT_LOCKER = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -6949,7 +6864,6 @@ COMPUTER_ROOM_ANNEX = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -7069,7 +6983,6 @@ LANDING_LEG__NIGHT = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -7218,7 +7131,6 @@ BLISTER__DAY = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -7435,7 +7347,6 @@ CHAMBER_ABOVE = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -8066,7 +7977,6 @@ INFIRMARY = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -8252,7 +8162,6 @@ CHAMBER__DAY = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -8376,7 +8285,6 @@ FOOD_LOCKER_NUMBER_6__B_LEVEL = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -8502,7 +8410,6 @@ CORRIDOR_TO_BRIDGE = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -8619,7 +8526,6 @@ ENTRANCE_TO_DERELICT__SUNSET = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -8739,7 +8645,6 @@ SHIP__DAWN = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -8884,7 +8789,6 @@ CORRIDOR_OUTSIDE_IMFIRMARY_WINDOW = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -9002,7 +8906,6 @@ ENGINE_CUBICLE = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -9121,7 +9024,6 @@ PLANET__NIGHT = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -9240,7 +9142,6 @@ SECOND_LEVEL__C_DECK = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -9363,7 +9264,6 @@ PASSAGEWAY_NEAR_AIR_LOCK__B_LEVEL = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -9556,7 +9456,6 @@ ENGINE_ROOM__CUBICLE = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -9714,7 +9613,6 @@ NOSTROMO = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -10647,7 +10545,6 @@ BRIDGE = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -10762,7 +10659,6 @@ CORRIDOR_TO_BRIDGE__A_LEVEL = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -10879,169 +10775,6 @@ NOSTROMO__OUTER_SPACE = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
-'PASSAGEWAY__B_DECK' , 
-'PASSAGEWAY__C_LEVEL' , 
-'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
-'PLANET__DAWN' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_NARCISSUS' , 
-'STARBOARD_AIR_LOCK__VESTIBULE' , 
-'SHIP__NIGHT' , 
-'NARCISSUS__LATER' , 
-'_A_TO_B_LEVELS__COMPANIONWAY' , 
-'STRUCTURE__DAY' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12__B_LEVEL' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_AIR_LOCK' , 
-'FOOD_LOCKER_NUMBER_12' , 
-'AIR_SHAFT_DOUBLE_TIERED_PASSAGEWAY' , 
-'AIR_SHAFT__DOUBLE_TIERED_PASSAGEWAY' , 
-'ASH_S_BLISTER__DAY' , 
-'PASSAGEWAY_NEAR_AIR_LOCK' , 
-'VESTIBULE' ,  
-'HOLD' , 
-'OILY_CORRIDOR' , 
-'NOSTROMO_AND_REFINERY_APPROACHING_THE' , 
-'STRUCTURE_OPENING' , 
-'CORRIDOR__A_DECK' , 
-'AIR_LOCK__NARCISSUS' , 
-'SPACE' , 
-'CORRIDOR__B_DECK' , 
-'_B_LEVEL__COMPANIONWAY' , 
-'PLANET' , 
-'BRIDGE__SUNRISE' , 
-'FOOD_LOCKER_CORRIDOR__OUTSIDE' , 
-'AIR_LOCK__B_DECK' , 
-'OUTER_SPACE' , 
-'THE_NOSTROMO__SUNRISE' , 
-'PASSAGE_NEAR_AIR_LOCK__B_LEVEL' , 
-'BLISTER_STAIRCASE' , 
-'MAINTENANCE_LEVEL' , 
-'PASSAGEWAY__A_LEVEL' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12' , 
-'EQUIPMENT_MAINTENANCE_AREA' , 
-'BRIDGE__DAY' }
-}
-
-GALLEY = room
-{
-	nam = "GALLEY",
-	dsc = [[----------------------------------------------------------------
-
-        Kane plugs in a Silex.
-        Lights a cigarette.
-        Coughs.
-        Grinds some coffee beans.
-        Runs some water through.
-
-                                 KANE
-                  Rise and shine, Lambert.
-              
-----------------------------------------------------------------
-
-        Pot now half-full.
-        Kane watches it drip.
-        Inhales the fragrance.
-
-                                 KANE
-                  Now Dallas and Ash.
-                         (calls out)
-                  Good morning Captain.
-
-                                 DALLAS
-                         (voice over)
-                  Where's the coffee.
-
-                                 KANE
-                  Brewing.
-
-        LAMBERT walks into the kitchen.
-        Pours herself a cup.
-
-----------------------------------------------------------------
-
-        Kane enjoys a freshly-brewed cup.
-
-                                 KANE
-                  Ripley...
-
-        Another moment.
-        And then the sound of another lid opening.
-
-                                 KANE
-                  And if we have Parker, can
-                  Brett be far behind.
-
-        Lid opening sound.
-
-                                 KANE
-                  Right.
-
-]],
-	way = {'PLANET__DAY' , 
-'MAIN_AIR_LOCK__DAWN' , 
-'OILY_CORRIDOR__C_LEVEL' , 
-'LOCKER' , 
-'OILY_CORRIDOR__COMPANIONWAY' , 
-'PASSAGEWAYS__B_DECK' , 
-'ANOTHER_PASSAGEWAY__B_LEVEL' , 
-'CORRIDOR_OUTSIDE_INFIRMARY_WINDOW' , 
-'ASH_S_BLISTER__DAWN' , 
-'NARCISSUS' , 
-'SHIP' , 
-'ENGINE_ROOM' , 
-'AIR_LOCK_VESTIBULE' , 
-'AIR_LOCK' , 
-'INFIRMARY__A_LEVEL' , 
-'UNDERCARRIAGE_ROOM__C_LEVEL_' , 
-'_B_LEVEL__CORRIDOR' , 
-'CORRIDOR__OUTSIDE' , 
-'BLISTER' , 
-'STRUCTURE' , 
-'MAINTENANCE_AREA__C_DECK' , 
-'MAINTENANCE__C_LEVEL' , 
-'NOSTROMO__DAY' , 
-'COMPUTER_ANNEX' , 
-'FOOD_LOCKER_NUMBER_6__B_DECK' , 
-'PASSAGEWAY_OUTSIDE_INFIRMARY' , 
-'HYPERSLEEP_VAULT' , 
-'AIR_SHAFT' , 
-'THE_NOSTROMO__SUNSET' , 
-'PASSAGEWAY__B_LEVEL' , 
-'MESS' , 
-'ASH_S_BLISTER' , 
-'COMPANIONWAY_TO_OILY_CORRIDOR__E_LEVEL' , 
-'EQUIPMENT_MAINTENANCE_AREA__C_LEVEL' , 
-'BRIDGE__NIGHT' , 
-'BLISTER__DAWN' , 
-'NARCISSUS__OUTER_SPACE' , 
-'CORRIDOR__A_LEVEL' , 
-'ENGINE_ROOM_CUBICLE' , 
-'SPACE_SUIT_LOCKER' , 
-'COMPUTER_ROOM_ANNEX' , 
-'LANDING_LEG__NIGHT' , 
-'BLISTER__DAY' , 
-'CHAMBER_ABOVE' , 
-'INFIRMARY' , 
-'CHAMBER__DAY' , 
-'FOOD_LOCKER_NUMBER_6__B_LEVEL' , 
-'CORRIDOR_TO_BRIDGE' , 
-'ENTRANCE_TO_DERELICT__SUNSET' , 
-'SHIP__DAWN' , 
-'CORRIDOR_OUTSIDE_IMFIRMARY_WINDOW' , 
-'ENGINE_CUBICLE' , 
-'PLANET__NIGHT' , 
-'SECOND_LEVEL__C_DECK' , 
-'PASSAGEWAY_NEAR_AIR_LOCK__B_LEVEL' , 
-'ENGINE_ROOM__CUBICLE' , 
-'NOSTROMO' , 
-'BRIDGE' , 
-'CORRIDOR_TO_BRIDGE__A_LEVEL' , 
-'NOSTROMO__OUTER_SPACE' , 
-'GALLEY' , 
-'PLANET__SUNRISE' , 
-'OILY_CORRIDOR__C_DECK' , 
-'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -11165,7 +10898,6 @@ PLANET__SUNRISE = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -11287,7 +11019,6 @@ OILY_CORRIDOR__C_DECK = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -11407,124 +11138,6 @@ FOOR_LOCKER_NUMBER_6 = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
-'PASSAGEWAY__B_DECK' , 
-'PASSAGEWAY__C_LEVEL' , 
-'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
-'PLANET__DAWN' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_NARCISSUS' , 
-'STARBOARD_AIR_LOCK__VESTIBULE' , 
-'SHIP__NIGHT' , 
-'NARCISSUS__LATER' , 
-'_A_TO_B_LEVELS__COMPANIONWAY' , 
-'STRUCTURE__DAY' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12__B_LEVEL' , 
-'_B_LEVEL__CORRIDOR_LEADING_TO_AIR_LOCK' , 
-'FOOD_LOCKER_NUMBER_12' , 
-'AIR_SHAFT_DOUBLE_TIERED_PASSAGEWAY' , 
-'AIR_SHAFT__DOUBLE_TIERED_PASSAGEWAY' , 
-'ASH_S_BLISTER__DAY' , 
-'PASSAGEWAY_NEAR_AIR_LOCK' , 
-'VESTIBULE' ,  
-'HOLD' , 
-'OILY_CORRIDOR' , 
-'NOSTROMO_AND_REFINERY_APPROACHING_THE' , 
-'STRUCTURE_OPENING' , 
-'CORRIDOR__A_DECK' , 
-'AIR_LOCK__NARCISSUS' , 
-'SPACE' , 
-'CORRIDOR__B_DECK' , 
-'_B_LEVEL__COMPANIONWAY' , 
-'PLANET' , 
-'BRIDGE__SUNRISE' , 
-'FOOD_LOCKER_CORRIDOR__OUTSIDE' , 
-'AIR_LOCK__B_DECK' , 
-'OUTER_SPACE' , 
-'THE_NOSTROMO__SUNRISE' , 
-'PASSAGE_NEAR_AIR_LOCK__B_LEVEL' , 
-'BLISTER_STAIRCASE' , 
-'MAINTENANCE_LEVEL' , 
-'PASSAGEWAY__A_LEVEL' , 
-'FOOD_STORAGE_LOCKER_NUMBER_12' , 
-'EQUIPMENT_MAINTENANCE_AREA' , 
-'BRIDGE__DAY' }
-}
-
-CORRIDOR_TO_HYPERSLEEP_VAULT = room
-{
-	nam = "CORRIDOR TO HYPERSLEEP VAULT",
-	dsc = [[----------------------------------------------------------------
-   
-        Lights come on.
-        Seven gowns hang from the curved wall.
-        Vault door opens.
-
-]],
-	way = {'PLANET__DAY' , 
-'MAIN_AIR_LOCK__DAWN' , 
-'OILY_CORRIDOR__C_LEVEL' , 
-'LOCKER' , 
-'OILY_CORRIDOR__COMPANIONWAY' , 
-'PASSAGEWAYS__B_DECK' , 
-'ANOTHER_PASSAGEWAY__B_LEVEL' , 
-'CORRIDOR_OUTSIDE_INFIRMARY_WINDOW' , 
-'ASH_S_BLISTER__DAWN' , 
-'NARCISSUS' , 
-'SHIP' , 
-'ENGINE_ROOM' , 
-'AIR_LOCK_VESTIBULE' , 
-'AIR_LOCK' , 
-'INFIRMARY__A_LEVEL' , 
-'UNDERCARRIAGE_ROOM__C_LEVEL_' , 
-'_B_LEVEL__CORRIDOR' , 
-'CORRIDOR__OUTSIDE' , 
-'BLISTER' , 
-'STRUCTURE' , 
-'MAINTENANCE_AREA__C_DECK' , 
-'MAINTENANCE__C_LEVEL' , 
-'NOSTROMO__DAY' , 
-'COMPUTER_ANNEX' , 
-'FOOD_LOCKER_NUMBER_6__B_DECK' , 
-'PASSAGEWAY_OUTSIDE_INFIRMARY' , 
-'HYPERSLEEP_VAULT' , 
-'AIR_SHAFT' , 
-'THE_NOSTROMO__SUNSET' , 
-'PASSAGEWAY__B_LEVEL' , 
-'MESS' , 
-'ASH_S_BLISTER' , 
-'COMPANIONWAY_TO_OILY_CORRIDOR__E_LEVEL' , 
-'EQUIPMENT_MAINTENANCE_AREA__C_LEVEL' , 
-'BRIDGE__NIGHT' , 
-'BLISTER__DAWN' , 
-'NARCISSUS__OUTER_SPACE' , 
-'CORRIDOR__A_LEVEL' , 
-'ENGINE_ROOM_CUBICLE' , 
-'SPACE_SUIT_LOCKER' , 
-'COMPUTER_ROOM_ANNEX' , 
-'LANDING_LEG__NIGHT' , 
-'BLISTER__DAY' , 
-'CHAMBER_ABOVE' , 
-'INFIRMARY' , 
-'CHAMBER__DAY' , 
-'FOOD_LOCKER_NUMBER_6__B_LEVEL' , 
-'CORRIDOR_TO_BRIDGE' , 
-'ENTRANCE_TO_DERELICT__SUNSET' , 
-'SHIP__DAWN' , 
-'CORRIDOR_OUTSIDE_IMFIRMARY_WINDOW' , 
-'ENGINE_CUBICLE' , 
-'PLANET__NIGHT' , 
-'SECOND_LEVEL__C_DECK' , 
-'PASSAGEWAY_NEAR_AIR_LOCK__B_LEVEL' , 
-'ENGINE_ROOM__CUBICLE' , 
-'NOSTROMO' , 
-'BRIDGE' , 
-'CORRIDOR_TO_BRIDGE__A_LEVEL' , 
-'NOSTROMO__OUTER_SPACE' , 
-'GALLEY' , 
-'PLANET__SUNRISE' , 
-'OILY_CORRIDOR__C_DECK' , 
-'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -11709,7 +11322,6 @@ PASSAGEWAY__B_DECK = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -11832,7 +11444,6 @@ PASSAGEWAY__C_LEVEL = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -12004,7 +11615,6 @@ UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4 = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -12220,7 +11830,6 @@ PLANET__DAWN = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -12348,7 +11957,6 @@ _B_LEVEL__CORRIDOR_LEADING_TO_NARCISSUS = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -12467,7 +12075,6 @@ STARBOARD_AIR_LOCK__VESTIBULE = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -12591,7 +12198,6 @@ SHIP__NIGHT = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -12724,7 +12330,6 @@ NARCISSUS__LATER = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -12841,7 +12446,6 @@ _A_TO_B_LEVELS__COMPANIONWAY = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -12964,7 +12568,6 @@ STRUCTURE__DAY = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -13178,7 +12781,6 @@ FOOD_STORAGE_LOCKER_NUMBER_12__B_LEVEL = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -13299,7 +12901,6 @@ _B_LEVEL__CORRIDOR_LEADING_TO_AIR_LOCK = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -13443,7 +13044,6 @@ FOOD_LOCKER_NUMBER_12 = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -13590,7 +13190,6 @@ AIR_SHAFT_DOUBLE_TIERED_PASSAGEWAY = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -13716,7 +13315,6 @@ AIR_SHAFT__DOUBLE_TIERED_PASSAGEWAY = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -13855,7 +13453,6 @@ ASH_S_BLISTER__DAY = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -14048,7 +13645,6 @@ PASSAGEWAY_NEAR_AIR_LOCK = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -14170,7 +13766,6 @@ VESTIBULE = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -14350,7 +13945,6 @@ HOLD = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -14465,7 +14059,6 @@ OILY_CORRIDOR = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -14580,7 +14173,6 @@ NOSTROMO_AND_REFINERY_APPROACHING_THE = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -14726,7 +14318,6 @@ STRUCTURE_OPENING = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -14891,7 +14482,6 @@ CORRIDOR__A_DECK = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -15038,7 +14628,6 @@ AIR_LOCK__NARCISSUS = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -15171,7 +14760,6 @@ SPACE = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -15288,7 +14876,6 @@ CORRIDOR__B_DECK = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -15409,7 +14996,6 @@ _B_LEVEL__COMPANIONWAY = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -15525,7 +15111,6 @@ PLANET = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -15650,7 +15235,6 @@ BRIDGE__SUNRISE = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -15793,7 +15377,6 @@ FOOD_LOCKER_CORRIDOR__OUTSIDE = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -15913,7 +15496,6 @@ AIR_LOCK__B_DECK = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -16057,7 +15639,6 @@ OUTER_SPACE = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -16196,7 +15777,6 @@ THE_NOSTROMO__SUNRISE = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -16408,7 +15988,6 @@ PASSAGE_NEAR_AIR_LOCK__B_LEVEL = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -16524,7 +16103,6 @@ BLISTER_STAIRCASE = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -16667,7 +16245,6 @@ MAINTENANCE_LEVEL = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -16792,7 +16369,6 @@ PASSAGEWAY__A_LEVEL = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -16907,7 +16483,6 @@ FOOD_STORAGE_LOCKER_NUMBER_12 = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -17063,7 +16638,6 @@ EQUIPMENT_MAINTENANCE_AREA = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -17259,7 +16833,6 @@ BRIDGE__DAY = room
 'PLANET__SUNRISE' , 
 'OILY_CORRIDOR__C_DECK' , 
 'FOOR_LOCKER_NUMBER_6' , 
-'CORRIDOR_TO_HYPERSLEEP_VAULT' , 
 'PASSAGEWAY__B_DECK' , 
 'PASSAGEWAY__C_LEVEL' , 
 'UNDERCARRIAGE_MAINTENANCE_ROOM_NUMBER_4' , 
@@ -17301,5 +16874,4 @@ BRIDGE__DAY = room
 'EQUIPMENT_MAINTENANCE_AREA' , 
 'BRIDGE__DAY' }
 }
-
 

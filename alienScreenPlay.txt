@@ -55,38 +55,38 @@
 
         SOMETIME IN THE FUTURE:
 
-        INT. ENGINE ROOM
+INT. ENGINE ROOM
 
         Empty, cavernous.
 
-        INT. ENGINE CUBICLE
+INT. ENGINE CUBICLE
 
         Circular, jammed with instruments.
         All of them idle.
         Console chairs for two.
         Empty.
 
-        INT. OILY CORRIDOR - "C" LEVEL
+INT. OILY CORRIDOR - "C" LEVEL
 
         Long, dark.
         Empty.
         Turbos throbbing.
         No other movement.
 
-        INT. CORRIDOR - "A" LEVEL
+INT. CORRIDOR - "A" LEVEL
 
         Long, empty.
 
-        INT. INFIRMARY - "A" LEVEL
+INT. INFIRMARY - "A" LEVEL
 
         Distressed ivory walls.
         All instrumentation at rest.
 
-        INT. CORRIDOR TO BRIDGE - "A" LEVEL
+INT. CORRIDOR TO BRIDGE - "A" LEVEL
 
         Black, empty.
 
-        INT. BRIDGE
+INT. BRIDGE
 
         Vacant.
         Two space helmets resting on chairs.
@@ -104,13 +104,13 @@
         Then silence.
         The lights go off, save the yellow.
 
-        INT. CORRIDOR TO HYPERSLEEP VAULT
+INT. CORRIDOR TO HYPERSLEEP VAULT
    
         Lights come on.
         Seven gowns hang from the curved wall.
         Vault door opens.
 
-        INT. HYPERSLEEP VAULT
+INT. HYPERSLEEP VAULT
 
         Explosion of escaping gas.
         The lid on a freezer pops open.
@@ -124,7 +124,7 @@
         Scratches.
         Moves off.
 
-        INT. GALLEY
+INT. GALLEY
 
         Kane plugs in a Silex.
         Lights a cigarette.
@@ -135,7 +135,7 @@
                                  KANE
                   Rise and shine, Lambert.
               
-        INT. HYPERSLEEP VAULT
+INT. HYPERSLEEP VAULT
 
         Another lid pops open.
         A young woman sits up.
@@ -147,7 +147,7 @@
                          (voice over)
                   What do you care.
 
-        INT. GALLEY
+INT. GALLEY
 
         Pot now half-full.
         Kane watches it drip.
@@ -168,13 +168,13 @@
         LAMBERT walks into the kitchen.
         Pours herself a cup.
 
-        INT. HYPERSLEEP VAULT
+INT. HYPERSLEEP VAULT
 
         Two more lids pop open.
         A pair of men sit up.
         Look at each other.
 
-        INT. GALLEY
+INT. GALLEY
 
         Kane enjoys a freshly-brewed cup.
 
@@ -193,7 +193,7 @@
                                  KANE
                   Right.
 
-        INT. HYPERSLEEP VAULT
+INT. HYPERSLEEP VAULT
 
         DALLAS looks at his groggy circus.  
      
@@ -202,7 +202,11 @@
 
         RIPLEY picks up a limp cat out of one of the compartments.
 
-        INT. MESS
+********************************************************************
+* End of Scene 1
+********************************************************************
+
+INT. MESS
 
         The crew of the United States commercial starship Nostromo
         seated around a table.
@@ -277,7 +281,7 @@
                   eyes only...Now, everybody hit
                   their stations.
 
-        INT. COMPUTER ROOM ANNEX
+INT. COMPUTER ROOM ANNEX
    
         Floor to ceiling data banks.
         Another flashing yellow light.
@@ -307,7 +311,7 @@
 
                                                        CUT TO:
                                                            
-        INT. BRIDGE
+INT. BRIDGE
 
         Above eye level the room is ringed by viewscreens.
         All of them blank.
@@ -356,7 +360,7 @@
 
         A moving image of a starfield.
 
-        EXT. NOSTROMO
+EXT. NOSTROMO
 
         The Factory Starship lumbering with the depths
         of inter-stellar space.
@@ -367,7 +371,7 @@
    
         Battered exterior encrusted with dark sludge.
 
-        INT. BRIDGE
+INT. BRIDGE
 
         Lambert pores over charts.
         Consults her console.
@@ -425,11 +429,11 @@
                                  RIPLEY
                   It's not our system.
                                                            
-        INT. ENGINE ROOM
+INT. ENGINE ROOM
 
         Giant reactor system purring smoothly.
 
-        INT. ENGINE ROOM
+INT. ENGINE ROOM
 
         PARKER and BRETT in a glass cubicle.  Each having a beer. 
         Huge powerplant stretching before them.
@@ -458,7 +462,7 @@
                         (voice over)
                   Report to the mess.
               
-        INT. OILY CORRIDOR - "C" LEVEL
+INT. OILY CORRIDOR - "C" LEVEL
 
                                  PARKER
                   I want to know why they never
@@ -477,7 +481,7 @@
               
         They move towards the companionway.
                                                            
-        INT. MESS
+INT. MESS
 
         Entire crew present.
 
@@ -550,11 +554,11 @@
    
                                                        CUT TO:
 
-        EXT. NOSTROMO AND REFINERY APPROACHING THE
+EXT. NOSTROMO AND REFINERY APPROACHING THE
         STAR/PLANET SYSTEM
 
 
-        INT. BRIDGE
+INT. BRIDGE
 
         Dallas at his console speaking to Ash.
 
@@ -587,11 +591,11 @@
                                  DALLAS
                   A lot.
 
-        EXT. NOSTROMO
+EXT. NOSTROMO
 
         Moving within range of the planet.
 
-        INT. BRIDGE
+INT. BRIDGE
 
         The crew strap themselves to their seats.
 
@@ -635,11 +639,11 @@
 
         Dallas punches buttons of his own.
 
-        EXT. NOSTROMO
+EXT. NOSTROMO
 
         The Refinery separates from Nostromo.
 
-        INT. BRIDGE
+INT. BRIDGE
 
         Dallas watches the refinery moving away on a viewscreen.
 
@@ -656,27 +660,27 @@
                   Okay.  The money's safe.  Let's
                   take it down.
               
-        EXT. NOSTROMO
+EXT. NOSTROMO
 
         Engines coughing to life.
         Nostromo begins its descent.
 
         Below night's tide rolls across the planet's surface.
 
-        INT. BRIDGE
+INT. BRIDGE
         
         The viewscreen shimmers.
 
                                  RIPLEY
                   Turbulence.
 
-        EXT. NOSTROMO
+EXT. NOSTROMO
 
         Tug-module hydroplaning downward.
         A set of brilliant lights switch on.
         Cut through the thick atmosphere.
 
-        INT. ENGINE ROOM - CUBICLE
+INT. ENGINE ROOM - CUBICLE
 
         Parker and Brett strapped in their seats.
         Begin rocking from the sudden, extreme turbulence.
@@ -701,7 +705,7 @@
                   dollars to your aunt's cherry
                   we get an electrical fire...
 
-        INT. BRIDGE
+INT. BRIDGE
 
         The turbulence continues unabated.
         Lambert's eyes follow cross-plot gauges.
@@ -730,7 +734,7 @@
                   Nine hundred meters and dropping.
                   Eight hundred.  Seven hundred.
 
-        EXT. PLANET - NIGHT
+EXT. PLANET - NIGHT
 
         Storm blowing across the night-shrouded surface.
         The Nostromo hovers on glowing beams of light.
@@ -738,7 +742,7 @@
         The ship slams down.
         Rocks heavily on massive shock absorbers.
 
-        INT. BRIDGE - NIGHT
+INT. BRIDGE - NIGHT
 
                                  RIPLEY
                   We're down.
@@ -750,16 +754,16 @@
                                  KANE
                   Lost it.  Lost it.
 
-        INT. ENGINE ROOM
+INT. ENGINE ROOM
 
         Another huge vibration.
         An electrical fire breaks out along three control panels.
 
-        INT. OILY CORRIDOR
+INT. OILY CORRIDOR
 
         Huge flash fire whips along corridor.
 
-        INT. ENGINE ROOM - CUBICLE
+INT. ENGINE ROOM - CUBICLE
 
         Parker and Brett see the pandemonium below.
         Brett hits the secondary generator switch.
@@ -768,7 +772,7 @@
         All lights go out.
         They grab hand lights from wall.
 
-        INT. BRIDGE
+INT. BRIDGE
 
         Still in darkness.
 
@@ -800,7 +804,7 @@
                          (voice over)
                   It's big.
 
-        INT. ENGINE ROOM
+INT. ENGINE ROOM
 
         Parker fighting an electrical fire on one of his panels.
         Brett shouting into his voice-amp.
@@ -811,7 +815,7 @@
                   whole cell...Christ, it's really
                   breaking loose down here...
 
-        INT. BRIDGE
+INT. BRIDGE
 
                                  DALLAS  
                   Somebody give me a simple answer,
@@ -834,14 +838,14 @@
                                  KANE
                   Nothing.
 
-        EXT. SHIP - NIGHT
+EXT. SHIP - NIGHT
 
         The wind sounds.
         Storm continues to blow around the craft.
         A few glittering lights distinguish the Nostromo from
         absolute darkness.
 
-        INT. ENGINE ROOM CUBICLE
+INT. ENGINE ROOM CUBICLE
 
         Parker on the communicator to the bridge.
 
@@ -851,7 +855,7 @@
                   out, at least three cells on
                   12 module are gone.
 
-        INT. BRIDGE
+INT. BRIDGE
 
         Ripley listening to Parker.
         Dallas standing over her.
@@ -900,13 +904,13 @@
                                  RIPLEY
                   Working on it.
 
-        EXT. SHIP - NIGHT
+EXT. SHIP - NIGHT
 
         Bridge lights come to life.
         Illuminate nothing but a patch of featureless ground.
         The wind and storm now at a higher pitch.
 
-        INT. BRIDGE
+INT. BRIDGE
 
         Dallas, Kane, Lambert, and Ash.
         Slouched around the bridge.
@@ -928,7 +932,7 @@
 
                                                 CUT TO:
               
-        EXT. SHIP
+EXT. SHIP
 
         A ring of floodlights comes to life.
         Dimly illuminating the rocky landscape.
@@ -936,7 +940,7 @@
 
                                                 CUT TO:
 
-        INT. BRIDGE - NIGHT
+INT. BRIDGE - NIGHT
 
         Dallas stares at the dark screens.
 
@@ -1003,7 +1007,7 @@
                   One more thing.  Let's get out
                   some weapons.
 
-        EXT. SHIP - DAWN
+EXT. SHIP - DAWN
 
         Sunrise.
         The atmosphere begins to lighten.
@@ -1012,7 +1016,7 @@
         More rolling clouds of dust.
         The floodlights automatically shut off.
 
-        INT. ENGINE ROOM CUBICLE
+INT. ENGINE ROOM CUBICLE
 
         Parker and Brett laser welding one of the ducts.
         Shirts off.
@@ -1059,7 +1063,7 @@
                                  BRETT
                   Right.
 
-        INT. MAIN AIR LOCK - DAWN
+INT. MAIN AIR LOCK - DAWN
 
         Dallas, Kane and Lambert enter the lock.
         All wear gloves, boots, jackets.
@@ -1082,12 +1086,12 @@
                   All right.  Keep away from the
                   weapons unless I say otherwise.
 
-        INT. ASH'S BLISTER - DAWN
+INT. ASH'S BLISTER - DAWN
 
         Ash descends companionway to blister.
         Punches up screens and instrumentation.
 
-        INT. MAIN AIR LOCK - DAWN
+INT. MAIN AIR LOCK - DAWN
 
                                  DALLAS
                   Open the hatch.
@@ -1098,7 +1102,7 @@
         A mobile gangway slides out the open hatch.
         Burnt orange sunlight beyond.
 
-        EXT. PLANET - DAWN
+EXT. PLANET - DAWN
 
         The trio walk down the gangplank.
         Arrive at surface level.
@@ -1127,7 +1131,7 @@
                                  DALLAS
                   It's on...Ash are you receiving.
               
-        INT. ASH'S BLISTER - DAWN
+INT. ASH'S BLISTER - DAWN
 
         Ash leaning over his console.
         Watches them beneath him.
@@ -1142,7 +1146,7 @@
                   Getting you clear and free.  Let's
                   keep the line open.
               
-        EXT. PLANET - DAWN
+EXT. PLANET - DAWN
 
         The three crew members push their way along.
         Like divers at the bottom of a dark sea.
@@ -1166,7 +1170,7 @@
         She halts abruptly.
         Confused.
 
-        INT. BLISTER - DAWN
+INT. BLISTER - DAWN
 
         Ash watches intently.
         Images on each screen of the trio.
@@ -1184,7 +1188,7 @@
                   Starting to get some fade on the
                   beam.
 
-        EXT. PLANET - DAWN
+EXT. PLANET - DAWN
 
         The trio moves through a dark limbo.
 
@@ -1236,7 +1240,7 @@
         Fifteen feet tall.
         Unseen by the members of the party.
 
-        INT. BLISTER - DAWN
+INT. BLISTER - DAWN
 
         Ash receiving the video transmission.  
         Notices something within the formation.
@@ -1244,12 +1248,12 @@
         Enlarges it.
         Enlarges again.
 
-        EXT. THE NOSTROMO - SUNRISE
+EXT. THE NOSTROMO - SUNRISE
 
         Atmosphere turning the color of blood.
         Then the sun is up.
 
-        EXT. THE NOSTROMO - SUNRISE
+EXT. THE NOSTROMO - SUNRISE
 
         Brett and Parker still at work.
         Ripley moves away from her panel in triumph...
@@ -1273,7 +1277,7 @@
                                  PARKER
                   Bitch.
 
-        INT. BLISTER - DAY
+INT. BLISTER - DAY
 
         Ash still working on the video image.
         Enhances the enlargement.
@@ -1289,7 +1293,7 @@
         Ash quickly shuts off the video image.
         Hits the intercom.
               
-        INT. BRIDGE
+INT. BRIDGE
 
         Ripley at her console.
         Looking at Ash on her screen.
@@ -1318,12 +1322,12 @@
         She pushes some button.
         The noise is now heard on her speaker.
 
-        EXT. PLANET - DAY
+EXT. PLANET - DAY
 
         Dust clearing.
         Three tiny figures against the landscape.
 
-        EXT. PLANET - DAY
+EXT. PLANET - DAY
    
         Empty landscape.
         Then Kane comes up over a rise startled by what he sees.
@@ -1339,7 +1343,7 @@
         A gargantuan construction rising from the rock.
         Clearly of nonhuman manufacture.
 
-        EXT. PLANET - DAY
+EXT. PLANET - DAY
 
         Noise still at shrill pitch.
         All members of the party shouting into their voice-amps.
@@ -1353,7 +1357,7 @@
                                  DALLAS
                   Ash, can you see this.
 
-        INT. ASH'S BLISTER - DAY
+INT. ASH'S BLISTER - DAY
 
         Ash looking at the craft on a screen.
 
@@ -1381,7 +1385,7 @@
                                  ASH
                   I can't get any reading.
 
-        EXT. PLANET - DAY
+EXT. PLANET - DAY
 
                                  ASH
                          (voice over)
@@ -1398,7 +1402,7 @@
 
         They move toward the ship.
 
-        INT. BLISTER - DAY
+INT. BLISTER - DAY
 
         Ash still adjusting image of form in rock.  
         It suddenly resolves.
@@ -1420,7 +1424,7 @@
               
         No reply.
 
-        INT. BRIDGE - DAY
+INT. BRIDGE - DAY
 
         Ripley is running the transmission through ECIU.
         Over the speakers Dallas' voice fades in.
@@ -1441,7 +1445,7 @@
 
                                                        CUT TO:
 
-        EXT. STRUCTURE - DAY
+EXT. STRUCTURE - DAY
 
         The lower part of the entrance filled with dust and pumice.
 
@@ -1453,7 +1457,7 @@
               
         They climb up to one of the apertures and enter.
 
-        INT. CHAMBER - DAY
+INT. CHAMBER - DAY
 
         They move into a high-ceilinged chamber.
         Walls covered with shadowy lattices.
@@ -1528,7 +1532,7 @@
         Kane activates the climbing unit.
         Lowers himself into the fissure.
 
-        INT. STRUCTURE OPENING
+INT. STRUCTURE OPENING
 
         Kane braces his feet against the wall of the vertical shaft.
         Switches on his light, points it into the depths.
@@ -1563,7 +1567,7 @@
                                  KANE
                   I'm below ground level.
 
-        INT. BRIDGE
+INT. BRIDGE
 
         Ripley at her console, still working on transmission.
         Gets a readout.
@@ -1609,7 +1613,7 @@
         His screen, not visible to her, shows blowup of helmeted,
         skeletal head.  Not human.
 
-        INT. STRUCTURE
+INT. STRUCTURE
 
         Kane resumes his downward climb.
         Suddenly, his feet lose their purchase as the walls of the
@@ -1658,7 +1662,7 @@
         Kane walks across the chamber.
         Examines the organic protrusions.
 
-        INT. CHAMBER ABOVE
+INT. CHAMBER ABOVE
 
         Dallas and Lambert.
 
@@ -1670,7 +1674,7 @@
 
         A look from Lambert.
 
-        INT. HOLD
+INT. HOLD
 
         Kane approaches the center of the room.
         On the floor are rows of leathery ovoid shapes.
@@ -1739,7 +1743,7 @@
         His mouth forced open.
         He falls backward.
    
-        INT. CHAMBER ABOVE
+INT. CHAMBER ABOVE
 
                                  DALLAS
                   Kane...Kane can you hear me.
@@ -1833,20 +1837,20 @@
         They grapple with Kane's limp body.
         Lift him from the hole.
 
-        INT. ENTRANCE TO DERELICT - SUNSET
+INT. ENTRANCE TO DERELICT - SUNSET
 
         Kane is now pinioned between Dallas and Lambert.
         The storm raging through and beyond the entrance...
         Dallas begins to assemble travois.
 
-        EXT. THE NOSTROMO - SUNSET
+EXT. THE NOSTROMO - SUNSET
 
         Atmosphere turning the color of blood.
         And the sun is down.
         The ring of floodlights on the ship comes to life.
         Feebly combatting the darkness and continuing storm.
 
-        INT. BRIDGE
+INT. BRIDGE
    
         Jones the cat staring through a port opening at the storm.
         Ripley waiting on the bridge.
@@ -1883,12 +1887,12 @@
         Ash moves from the room.
         Ripley remains seated at her console.
 
-        EXT. LANDING LEG - NIGHT
+EXT. LANDING LEG - NIGHT
 
         Dallas and Lambert dragging Kane on a travois towards landing
         leg.
 
-        INT. PASSAGEWAY NEAR AIR LOCK
+INT. PASSAGEWAY NEAR AIR LOCK
 
         Ash comes down the steps.
         Hurries to the inner door lock.
@@ -1902,11 +1906,11 @@
                          (voice over)
                   Okay.
               
-        EXT. LANDING LEG - NIGHT
+EXT. LANDING LEG - NIGHT
 
         Dallas and Lambert drag Kane onto lift platform.
 
-        INT. PASSAGEWAY NEAR AIR LOCK
+INT. PASSAGEWAY NEAR AIR LOCK
 
         Parker comes running up.
 
@@ -1923,7 +1927,7 @@
         Brett appears at the top of the companionway.
         Puzzled look on his face.
 
-        INT. BRIDGE
+INT. BRIDGE
 
         Ripley seated alone in the room.
         Dallas appears as a huge image on all screens.
@@ -1977,7 +1981,7 @@
                   I can't.  If you were in my
                   position you'd do the same.
 
-        INT. PASSAGEWAY NEAR AIR LOCK
+INT. PASSAGEWAY NEAR AIR LOCK
 
                                  DALLAS
                             (voice over)
@@ -1995,14 +1999,14 @@
                                  ASH
                   Inner hatch open.
 
-        INT. BRIDGE - NIGHT
+INT. BRIDGE - NIGHT
 
         Ripley staring at the console.
         She can't believe what she sees.
         Turns to the viewscreens.
         Watches Dallas, Kane and Lambert enter.
 
-        INT. PASSAGEWAY NEAR AIR LOCK
+INT. PASSAGEWAY NEAR AIR LOCK
 
         The servo again turns over.
         Another clunk.
@@ -2035,7 +2039,7 @@
 
         Ash and Brett move in carefully to help with the limp burden.
 
-        INT. INFIRMARY
+INT. INFIRMARY
 
         Kane's helmet.
         Hands begin to open it with a laser cutter.
@@ -2219,7 +2223,7 @@
         Dallas leaps back, pulls them off.
         Then runs out into the corridor.
 
-        INT. PASSAGEWAY OUTSIDE INFIRMARY
+INT. PASSAGEWAY OUTSIDE INFIRMARY
 
                                  BRETT
                   Shit.  It's going to eat through
@@ -2227,7 +2231,7 @@
               
         He starts to run for the companionway.
 
-        INT. PASSAGEWAY - "B" DECK
+INT. PASSAGEWAY - "B" DECK
 
         Dallas wrenches an emergency lamp from a socket.
         Hurls himself down a companionway.
@@ -2247,7 +2251,7 @@
 
         Ripley and Parker charge down the companionway below.
 
-        INT. SECOND LEVEL - "C" DECK
+INT. SECOND LEVEL - "C" DECK
 
         Ripley and Parker move cautiously down the passageway.
         Look up to the ceiling bulkhead.
@@ -2255,7 +2259,7 @@
                                  PARKER
                   Don't get under it.
               
-        INT. PASSAGEWAY - "B" DECK
+INT. PASSAGEWAY - "B" DECK
 
         Dallas, Brett and Ash crouch by the spot where the acid
         sizzles.
@@ -2309,7 +2313,7 @@
 
         Starts up companionway.
 
-        INT. INFIRMARY
+INT. INFIRMARY
 
         They return.
         Kane still motionless on the bunk.
@@ -2378,7 +2382,7 @@
                                  DALLAS
                   You go back to work.
 
-        INT. ENGINE ROOM CUBICLE
+INT. ENGINE ROOM CUBICLE
 
         Brett at work in the cubicle.
         Parker supervising him.
@@ -2415,7 +2419,7 @@
                          (punches the communicator)
                   A lot of hard work.  Real work.
 
-        INT. BRIDGE - NIGHT
+INT. BRIDGE - NIGHT
 
                                  PARKER
                          (voice over)
@@ -2430,7 +2434,7 @@
                                  RIPLEY
                   I have to listen to your bullshit.
 
-        INT. ENGINE ROOM CUBICLE
+INT. ENGINE ROOM CUBICLE
 
                                  PARKER
                   Get off my back.
@@ -2446,7 +2450,7 @@
                                  PARKER
                   Smart mouth broad.
 
-        INT. INFIRMARY
+INT. INFIRMARY
 
         Ash running test on the equipment.
         Kane respirating on the view screens above.
@@ -2534,17 +2538,17 @@
         Ripley stands...looks at Ash.
         Walks out.
 
-        INT. MESS
+INT. MESS
 
         Lambert playing with some string, amusing Jones.
         Cat's Cradle.
         Both looking bored.
 
-        INT. ENGINE ROOM CUBICLE
+INT. ENGINE ROOM CUBICLE
 
         Parker and Brett at work on the final intake screen.
 
-        INT. NARCISSUS
+INT. NARCISSUS
 
         Dallas listening to a primitive tape.
         His foot tapping with the rhythm.
@@ -2569,7 +2573,7 @@
    
         Dallas exits.
 
-        INT. CORRIDOR OUTSIDE IMFIRMARY WINDOW
+INT. CORRIDOR OUTSIDE IMFIRMARY WINDOW
 
         Ash stares through window.
         Dallas joins him.
@@ -2603,7 +2607,7 @@
                   As long as we're careful not to
                   damage it.
 
-        INT. INFIRMARY
+INT. INFIRMARY
 
         They enter cautiously.
         Dallas begins moving slowly around the room.
@@ -2710,7 +2714,7 @@
 
         She turns and walks away.
 
-        INT. COMPUTER ANNEX
+INT. COMPUTER ANNEX
 
         Ripley and Dallas.
 
@@ -2791,14 +2795,14 @@
                   Let's get this turkey off the
                   ground.
 
-        EXT. PLANET - SUNRISE
+EXT. PLANET - SUNRISE
 
         The Nostromo's engines roaring.
         Belching out streams of superheated air.
         The starship vibrates.
         Begins to surge forward.
 
-        INT. BRIDGE - SUNRISE
+INT. BRIDGE - SUNRISE
 
         The crew at their posts.
         An electrical hum permeates the air.
@@ -2812,13 +2816,13 @@
                                  RIPLEY
                   Retract leading struts.
    
-        EXT. PLANET - SUNRISE
+EXT. PLANET - SUNRISE
 
         The Nostromo hovering above the ground.
         Held on beams of shimmering force.
         The landing struts begin folding.
 
-        INT. BRIDGE - DAY
+INT. BRIDGE - DAY
        
                                  DALLAS
                   Take us up.
@@ -2828,12 +2832,12 @@
                                  LAMBERT
                   One kilometer on ascension.
 
-        INT. PLANET
+INT. PLANET
 
         The Nostromo begins to levitate skyward.
         Seemingly pushing upward on the beams of light.
    
-        INT. BRIDGE - DAY
+INT. BRIDGE - DAY
      
         The ship continues vibrating.
 
@@ -2848,7 +2852,7 @@
                   Everything holding together
                   down there.
 
-        INT. ENGINE ROOM CUBICLE
+INT. ENGINE ROOM CUBICLE
 
         Parker and Brett strapped in and vibrating.
 
@@ -2858,12 +2862,12 @@
                                  BRETT
                   Right.
 
-        EXT. NOSTROMO - DAY
+EXT. NOSTROMO - DAY
 
         The starship hovering below cloud ceiling.
         Then begins to accelerate through the dense atmosphere.
 
-        INT. BRIDGE - DAY
+INT. BRIDGE - DAY
 
         All viewscreens operational.
 
@@ -2892,16 +2896,16 @@
 
         The pitch of the engines changes...deepens.
 
-        EXT. NOSTROMO - DAY
+EXT. NOSTROMO - DAY
 
         The ship moves at an acute angle.
         Slices through the boiling clouds.
 
-        INT. ENGINE ROOM CUBICLE
+INT. ENGINE ROOM CUBICLE
 
         Parker and Brett watching the guages.
 
-        INT. BRIDGE - DAY
+INT. BRIDGE - DAY
 
         Outside the screens, clouds, clouds, clouds.
         Another tremor runs through the ship.
@@ -2911,14 +2915,14 @@
                   Let's pick up the money and go
                   home.
 
-        EXT. NOSTROMO
+EXT. NOSTROMO
 
         The ship clears the top of the cloud layer.
         Bursts out into star-sprinkled space.
         Trailing a wake of glimmering dust flecks.
         Attached itself to the hovering refinery.
 
-        INT. ENGINE ROOM CUBICLE
+INT. ENGINE ROOM CUBICLE
 
         Brett waves his arms in exultation.  
 
@@ -2931,7 +2935,7 @@
 
         Big smiles.
 
-        INT. BRIDGE
+INT. BRIDGE
 
         The Nostromo now safely beyond gravity.                              
 
@@ -2944,7 +2948,7 @@
                                  LAMBERT
                   Feets get me out of here.
 
-        EXT. OUTER SPACE
+EXT. OUTER SPACE
 
         The Nostromo now at light speed.
         Preceptible movement in the surrounding universe.
@@ -2953,7 +2957,7 @@
         Receding stars going to amber.
         Redshift, made visible because of the craft's velocity.
 
-        INT. MESS
+INT. MESS
 
         Parker, Brett, Dallas and Ripley around the table.
         Drinking coffee.
@@ -3044,7 +3048,7 @@
                   It's simpler if you just come
                   see him.
 
-        INT. CORRIDOR OUTSIDE INFIRMARY WINDOW
+INT. CORRIDOR OUTSIDE INFIRMARY WINDOW
 
         What they see is...Not what they expect.
         Kane is sitting up in bed...wide awake.
@@ -3124,7 +3128,7 @@
                                  DALLAS
                   One meal before bed.
 
-        INT. MESS
+INT. MESS
 
         The entire crew is seated.
         Hungrily swallowing huge portions of artificial food.
@@ -3248,7 +3252,7 @@
         Then at Kane.
         Dead on the table.
 
-        INT. CORRIDOR - "A" DECK
+INT. CORRIDOR - "A" DECK
 
         Empty.  
         Parker and Brett descend companioway.
@@ -3302,11 +3306,11 @@
 
         He looks at Kane's body through mess doorway.
 
-        INT. AIR LOCK
+INT. AIR LOCK
 
         Kane's body wrapped in a makeshift shroud.
 
-        INT. BRIDGE
+INT. BRIDGE
 
         The crew looking at Kane's body on view screens.
         Silent.
@@ -3324,14 +3328,14 @@
         He nods to Ripley.
         She presses a button.
 
-        INT. AIR LOCK
+INT. AIR LOCK
 
         The outer hatch opens.
         Yawning space outside.
         Kane's body shoots out into eternity.
         The hatch closes.
 
-        INT. MESS
+INT. MESS
 
         The crew is assembled.  
 
@@ -3427,11 +3431,11 @@
                                  DALLAS
                   He might be right...
 
-        EXT. OUTER SPACE
+EXT. OUTER SPACE
 
         The Nostromo continues through the vortex.
 
-        INT. INFIRMARY
+INT. INFIRMARY
 
         Dallas enters.
         Ash working at a read-out section.
@@ -3503,7 +3507,7 @@
         Ash watches him go.
         Stares in his direction a long while...
    
-        INT. NARCISSUS
+INT. NARCISSUS
 
         Dallas seated in the shuttle craft.
         Staring at the myriad lights of outer space.
@@ -3555,7 +3559,7 @@
         Clothing removed.
         His arms move around her.
 
-        INT. BRIDGE
+INT. BRIDGE
 
         The crew has assembled.
         Brett unfolds several yards of asbestos netting.
@@ -3626,7 +3630,7 @@
                   Channels are open on all decks.
                   We'll be in constant touch.
 
-        INT. PASSAGEWAY - "A" LEVEL
+INT. PASSAGEWAY - "A" LEVEL
 
         Lambert and Dallas carry the net.
         Ash walks directly behind, carrying the tracking device.
@@ -3636,7 +3640,7 @@
                                  LAMBERT
                   Anything down there.
 
-        INT. ANOTHER PASSAGEWAY - "B" LEVEL
+INT. ANOTHER PASSAGEWAY - "B" LEVEL
 
         Parker and Ripley move silently along.
         Ripley ahead of them with the tracker by the stairwell.
@@ -3675,7 +3679,7 @@
 
         They all look down at their feet.
 
-        INT. MAINTENANCE - "C" LEVEL
+INT. MAINTENANCE - "C" LEVEL
 
         Ripley, Parker and Brett come down ladder onto an endless
         oily corridor.
@@ -3754,7 +3758,7 @@
         Brett follows the direction taken by the cat.
         Moves across passageway into equipment maintenance area.
    
-        INT. EQUIPMENT MAINTENANCE AREA - "C" LEVEL
+INT. EQUIPMENT MAINTENANCE AREA - "C" LEVEL
    
         Brett walking between rows of shadowed equipment.
         Looking for the cat.
@@ -3768,7 +3772,7 @@
         A reassuring cat yowl.
         Brett moves on.
 
-        INT. PASSAGEWAY - "C" LEVEL
+INT. PASSAGEWAY - "C" LEVEL
 
         Ripley and Parker walk along.
         Tracker signal weakens.
@@ -3780,7 +3784,7 @@
                                  PARKER
                   Let's go back.
 
-        INT. UNDERCARRIAGE ROOM - "C" LEVEL 
+INT. UNDERCARRIAGE ROOM - "C" LEVEL 
 
         Brett enters.
         Still looking for Jones.
@@ -3804,7 +3808,7 @@
         In the doorway Ripley and Parker.
         They witness the horror.
 
-        INT. MESS
+INT. MESS
 
         The remaining crew assemble.
         Long faces.
@@ -3915,11 +3919,11 @@
                   we'll work our way back down
                   to 'C' deck.
 
-        EXT. OUTER SPACE
+EXT. OUTER SPACE
 
         Nostromo at light plus four.
 
-        INT. PASSAGEWAY - "B" LEVEL
+INT. PASSAGEWAY - "B" LEVEL
 
         Parker and Dallas lead.
         Armed with flamethrowers.
@@ -3931,7 +3935,7 @@
                                  DALLAS
                   It's in that food locker.
 
-        EXT. FOOD LOCKER NUMBER 12
+EXT. FOOD LOCKER NUMBER 12
 
         More rending noises.
 
@@ -3964,7 +3968,7 @@
         Another and another...Silence.
         They move inside...
 
-        INT. FOOD STORAGE LOCKER NUMBER 12 - "B" LEVEL
+INT. FOOD STORAGE LOCKER NUMBER 12 - "B" LEVEL
 
         Charred wreckage.
         Packages have been ripped to shreds.
@@ -4025,7 +4029,7 @@
 
         No doubt as to who's going inside the vent.
 
-        INT. STARBOARD AIR LOCK - VESTIBULE
+INT. STARBOARD AIR LOCK - VESTIBULE
 
         Ripley stands in vestibule.
         Looks through the Bulkhead door to air lock.
@@ -4033,11 +4037,11 @@
         Watches airshaft entrance into air lock open.
         The trap is ready.
 
-        INT. MAINTENANCE LEVEL
+INT. MAINTENANCE LEVEL
 
         Parker and Lambert get set.
 
-        INT. FOOD STORAGE LOCKER NUMBER 12 - "B" LEVEL
+INT. FOOD STORAGE LOCKER NUMBER 12 - "B" LEVEL
 
         Ash hands Dallas the makeshift flamethrower.
         He fires a couple of short bursts.
@@ -4079,7 +4083,7 @@
         Dallas turns and climbs into the ventilator opening.
         Just large enough to crawl through.
 
-        INT. AIR SHAFT
+INT. AIR SHAFT
 
         Completely dark.
         Dallas turns on his helmet light.
@@ -4089,7 +4093,7 @@
                   Do you receive me.  Ripley.
                   Parker.  Lambert.
 
-        INT. EQUIPMENT MAINTENANCE AREA
+INT. EQUIPMENT MAINTENANCE AREA
 
         The hum of vast cooling plants.
         Large air shafts run off in different directions.
@@ -4111,7 +4115,7 @@
                                  PARKER
                   Right.
 
-        INT. AIR LOCK VESTIBULE
+INT. AIR LOCK VESTIBULE
 
         Near the starboard air lock.
         Ripley pops open the hatch.
@@ -4128,7 +4132,7 @@
                                  RIPLEY
                   Ready.
 
-        INT. AIR SHAFT
+INT. AIR SHAFT
 
         Dallas begins to crawl forward.
         The tunnel is narrow...
@@ -4145,7 +4149,7 @@
         It roars loudly in the confined tube.
         Smoke drifts back into his face.
 
-        INT. MAINTENANCE LEVEL
+INT. MAINTENANCE LEVEL
 
         A large rectangular duct in one wall.
 
@@ -4163,11 +4167,11 @@
         Reluctantly, Parker again throws the switch and raises the
         metal pane.
 
-        INT. AIR LOCK VESTIBULE
+INT. AIR LOCK VESTIBULE
 
         Ripley waiting.
 
-        INT. AIR SHAFT
+INT. AIR SHAFT
 
         Dallas still crawling on hands and knees.
         Ahead the shaft takes an abrupt downward turn.
@@ -4175,7 +4179,7 @@
         Fires another blast from the flamethrower.
         Then starts crawling down, head first.
 
-        INT. EQUIPMENT MAINTENANCE AREA
+INT. EQUIPMENT MAINTENANCE AREA
 
         Lambert sees something on the tracker.
    
@@ -4183,16 +4187,16 @@
                   Beginning to get a reading on
                   you.
 
-        INT. AIR SHAFT
+INT. AIR SHAFT
 
         The shaft makes yet another turn.
         Puts Dallas into an almost immobilized position.
    
-        INT. FOOD STORAGE LOCKER NUMBER 12
+INT. FOOD STORAGE LOCKER NUMBER 12
 
         Ash staring at the ventilator opening.                                                           
 
-        INT. AIR SHAFT
+INT. AIR SHAFT
 
         Dallas against a wall of the shaft.
         Clutching his flamethrower.
@@ -4201,12 +4205,12 @@
                                  DALLAS
                   Ripley.
 
-        INT. AIR LOCK VESTIBULE
+INT. AIR LOCK VESTIBULE
 
                                  RIPLEY
                   Read you clear.
 
-        INT. AIR SHAFT
+INT. AIR SHAFT
 
                                  DALLAS
                   I don't think this shaft goes
@@ -4215,11 +4219,11 @@
 
         He readies the flamethrower.
 
-        INT. EQUIPMENT MAINTENANCE AREA
+INT. EQUIPMENT MAINTENANCE AREA
 
         Parker readies his weapon.
 
-        INT. AIR SHAFT - DOUBLE-TIERED PASSAGEWAY
+INT. AIR SHAFT - DOUBLE-TIERED PASSAGEWAY
 
         The air shaft tributary opens into a larger two-tier air
         tunnel.
@@ -4234,7 +4238,7 @@
                   Lambert, what kind of reading
                   are you getting.
 
-        INT. MAINTENANCE LEVEL
+INT. MAINTENANCE LEVEL
 
         Lambert huddled over her tracker.
         Puzzled.
@@ -4244,7 +4248,7 @@
                   to be some kind of double
                   image.
 
-        INT. AIR SHAFT DOUBLE-TIERED PASSAGEWAY
+INT. AIR SHAFT DOUBLE-TIERED PASSAGEWAY
 
         Dallas sitting.
         His feet still dangling in the dark beneath the catwalk.
@@ -4280,7 +4284,7 @@
         From behind him, the hand reaches up.
         The Alien is the front signal.
 
-        INT. AIR LOCK VESTIBULE
+INT. AIR LOCK VESTIBULE
 
         Ripley bends forward.
         Hears the sounds of the struggle...
@@ -4290,7 +4294,7 @@
                                  RIPLEY
                   Dallas...Dallas...
 
-        INT. EQUIPMENT MAINTENANCE AREA
+INT. EQUIPMENT MAINTENANCE AREA
 
         Lambert and Parker.
         Hearing it all.
@@ -4301,7 +4305,7 @@
 
         Then silence.
 
-        INT. MESS
+INT. MESS
 
         Dallas' flamethrower on the table surface.
 
@@ -4415,13 +4419,13 @@
         Lambert shrugs.
         They start to leave.
 
-        INT. MAINTENANCE AREA - "C" DECK
+INT. MAINTENANCE AREA - "C" DECK
 
         Parker selects two full methane cylinders.
         He tests them.
         Moves out.
 
-        INT. CORRIDOR TO BRIDGE
+INT. CORRIDOR TO BRIDGE
 
                                  RIPLEY
                   Did you ever sleep with Ash?
@@ -4436,7 +4440,7 @@
                   I never got the impression he
                   was particularly interested...
    
-        INT. PASSAGEWAY - "B" LEVEL
+INT. PASSAGEWAY - "B" LEVEL
 
         Parker returning with methane cylinder.
         Turns a corner.
@@ -4445,7 +4449,7 @@
         He hesitates.
         Then another shadowy movement...
 
-        INT. BRIDGE
+INT. BRIDGE
 
         Ripley and Lambert.
         Parker's voice on voice-amp.
@@ -4455,7 +4459,7 @@
                                  RIPLEY
                   Ripley.
 
-        INT. PASSAGEWAY - "B" LEVEL
+INT. PASSAGEWAY - "B" LEVEL
 
         Parker covers the wall communication with his hand.
 
@@ -4464,12 +4468,12 @@
 
         Up the corridor, the movement stops.
 
-        INT. BRIDGE
+INT. BRIDGE
 
                                  RIPLEY
                   Can't hear you...Repeat...
 
-        INT. PASSAGEWAY - "B" LEVEL
+INT. PASSAGEWAY - "B" LEVEL
 
         Parker whispering.
 
@@ -4479,24 +4483,24 @@
                   door slowly...When I shout...
                   close it fast.
 
-        INT. BLISTER
+INT. BLISTER
 
         Ash listens.
 
-        INT. PASSAGEWAY - "B" LEVEL
+INT. PASSAGEWAY - "B" LEVEL
 
         Parker still whispering.
 
                                  PARKER
                   Open it...slowly.
 
-        INT. BRIDGE
+INT. BRIDGE
 
         Ripley hesitates.
         Starts to reply.
         Throws switch.
 
-        INT. AIR LOCK - "B" DECK
+INT. AIR LOCK - "B" DECK
 
         Low servo whine.
         Door opens.
@@ -4505,27 +4509,27 @@
         Creature looks curiously at it.
         Moves onto the threshold.
 
-        INT. PASSAGEWAY - "B" LEVEL
+INT. PASSAGEWAY - "B" LEVEL
    
         Parker watches...
 
-        INT. AIR LOCK
+INT. AIR LOCK
    
         Creature move further into air lock.
         Fascinated by green light.
 
-        INT. PASSAGEWAY - "B" LEVEL
+INT. PASSAGEWAY - "B" LEVEL
    
         Urgent whisper into voice-amp.
 
                                  PARKER
                   Now...Now...
 
-        INT. BRIDGE
+INT. BRIDGE
 
         As Ripley moves to throw switch...
 
-        INT. AIR LOCK
+INT. AIR LOCK
 
         Suddenly, from out of nowhere a klaxon wails.
         The Creature leaps back across the threshold of the air lock.
@@ -4536,7 +4540,7 @@
         The acid bubbles.
         Metal boils in door.
 
-        INT. PASSAGEWAY - "B" LEVEL
+INT. PASSAGEWAY - "B" LEVEL
 
         Parker watches.
         Frozen.
@@ -4548,12 +4552,12 @@
 
                                  "Inner Hatch Closed"
 
-        INT. AIR LOCK
+INT. AIR LOCK
 
         Metal still boiling.
         The outer hatch begins to open.
 
-        INT. BRIDGE
+INT. BRIDGE
 
                                  RIPLEY
                   Parker...
@@ -4579,35 +4583,35 @@
 
         Ripley bolts out of the bridge.
 
-        EXT. NOSTROMO
+EXT. NOSTROMO
 
         Air lock open.
 
-        INT. PASSAGE NEAR AIR LOCK - "B" LEVEL
+INT. PASSAGE NEAR AIR LOCK - "B" LEVEL
 
         Parker unconscious.
 
-        INT. AIR LOCK
+INT. AIR LOCK
 
         The inner hatch still closed.
         Metal boils.
         The hole growing deeper.
 
-        INT. PASSAGEWAY - "A" LEVEL
+INT. PASSAGEWAY - "A" LEVEL
 
         Ripley runs toward the air lock corridor.
 
-        INT. AIR LOCK
+INT. AIR LOCK
 
         Metal boiling in door.
 
-        INT. PASSAGEWAYS - "B" DECK
+INT. PASSAGEWAYS - "B" DECK
 
         Ripley slams to a momentary halt against a bulkhead.
         Regains her balance.
         Starts running.
 
-        INT. PASSAGE NEAR AIR LOCK - "B" LEVEL
+INT. PASSAGE NEAR AIR LOCK - "B" LEVEL
 
         Parker now half conscious.
         Ripley arrives as the hole in door blows open.
@@ -4627,7 +4631,7 @@
         Cylinder finally is driven out.
         The door slams closed.
 
-        INT. BRIDGE
+INT. BRIDGE
 
         Lambert watches.
         Emergency light readings.
@@ -4642,7 +4646,7 @@
         Rushes out.
         Down corridor.
    
-        INT. PASSAGEWAY NEAR AIR LOCK - "B" LEVEL
+INT. PASSAGEWAY NEAR AIR LOCK - "B" LEVEL
 
         Ripley staggers toward an emergency panel.
         At far end of corridor.
@@ -4654,11 +4658,11 @@
         Activates door from outside.
         Rush of oxygen.
    
-        EXT. NOSTROMO
+EXT. NOSTROMO
 
         Plume of vapor freezes in the vacuum.
 
-        INT. PASSAGE NEAR AIR LOCK - "B" LEVEL
+INT. PASSAGE NEAR AIR LOCK - "B" LEVEL
 
         Repressurization sounds.
         Parker regains consciousness.
@@ -4735,12 +4739,12 @@
                                  RIPLEY
                   Thanks.
 
-        INT. BLISTER STAIRCASE
+INT. BLISTER STAIRCASE
 
         Ripley cautiously descends the stairs to the blister.
         Carrying a flamethrower.
 
-        INT. ASH'S BLISTER
+INT. ASH'S BLISTER
 
         Looks around the blister.
         Satisfied it's deserted.
@@ -4762,7 +4766,7 @@
         Beneath her.
         She grabs the key and bolts up companionway.
 
-        INT. COMPUTER ANNEX
+INT. COMPUTER ANNEX
 
         Ripley plugs the key into the board.
         Data banks come to life.
@@ -5043,7 +5047,7 @@
 
         Ripley exits to the bridge.
 
-        INT. BRIDGE
+INT. BRIDGE
 
         Ripley in the Computer Annex.
         Lambert and Parker enter.
@@ -5085,7 +5089,7 @@
                   We leave in the shuttle and
                   then blow up the ship.
 
-        INT. AIR LOCK - NARCISSUS
+INT. AIR LOCK - NARCISSUS
 
         Ripley, Lambert and Parker loading oxygen tanks onto the
         Narcissus.
@@ -5121,7 +5125,7 @@
 
         They move out.
 
-        INT. BRIDGE
+INT. BRIDGE
 
         Jones lying on Dallas' console.
         Ripley comes in.
@@ -5149,7 +5153,7 @@
 
                                                      CUT TO:
 
-        INT. FOOD LOCKER NUMBER 6 - "B" LEVEL
+INT. FOOD LOCKER NUMBER 6 - "B" LEVEL
 
         Parker and Lambert loading food.
 
@@ -5162,7 +5166,7 @@
                          (voice over)
                   God damn it, Jones.  Come here.
               
-        INT. BRIDGE
+INT. BRIDGE
 
         Ripley furious but still speaking gently.
 
@@ -5171,14 +5175,14 @@
               
         Jones moves away.
 
-        INT. FOOD LOCKER NUMBER 6 - "B" DECK
+INT. FOOD LOCKER NUMBER 6 - "B" DECK
 
         Arms full, Parker moves out of the locker.
         Lambert is still making her selection.
         A faint light on the tracker.
         Unnoticed.
 
-        INT. BRIDGE
+INT. BRIDGE
 
         Ripley finally corners Jones.
         Finds his box.
@@ -5186,7 +5190,7 @@
         Jones resists.
         Ultimately futile.
                                                            
-        INT. FOOD LOCKER CORRIDOR - OUTSIDE
+INT. FOOD LOCKER CORRIDOR - OUTSIDE
 
         Parker attempts to pick up the flamethrower.
         Can't manage it and the food.
@@ -5218,11 +5222,11 @@
         Screams.
         Unfolding, the Alien grabs for her.
 
-        INT. BRIDGE
+INT. BRIDGE
 
         Ripley freezes as she hears Lambert's screams.
 
-        INT. CORRIDOR - OUTSIDE
+INT. CORRIDOR - OUTSIDE
 
         Parker looks back into the locker.
         Unable to use the flamethrower without hitting Lambert.
@@ -5232,7 +5236,7 @@
                                  PARKER
                   Goddamn you.
 
-        INT. FOOR LOCKER NUMBER 6
+INT. FOOR LOCKER NUMBER 6
 
         The Alien drops Lambert.
         Parker lands a blow with the flamethrower.
@@ -5241,7 +5245,7 @@
         Killing him instantly.
         He now moves to Lambert.
 
-        INT. BRIDGE
+INT. BRIDGE
 
         Ripley listening on the communicator.
         Lambert's dying shrieks.
@@ -5257,18 +5261,18 @@
         Expectation fulfilled.
         Nightmare without end.
 
-        INT. "B" LEVEL - COMPANIONWAY
+INT. "B" LEVEL - COMPANIONWAY
 
         Ripley descends, cautiously, holding flamethrower.
         Jones left above, squalling.
    
-        INT. CORRIDOR - "B" DECK
+INT. CORRIDOR - "B" DECK
 
         Ripley moving warily, carrying flamethrower.
         Nears entrance to food locker, looks in.
         Sees carnage.
 
-        INT. OILY CORRIDOR - "C" DECK
+INT. OILY CORRIDOR - "C" DECK
 
         Ripley running toward engine room.
         Out of breath.
@@ -5279,7 +5283,7 @@
         She is standing on a round metal plate.
         Ripley starts to remove the disc.
    
-        INT. UNDERCARRIAGE MAINTENANCE ROOM NUMBER 4
+INT. UNDERCARRIAGE MAINTENANCE ROOM NUMBER 4
 
         The round opening illuminates a dakr ladderway.
         Still carrying flamethrower, Ripley starts downwards.
@@ -5340,19 +5344,19 @@
         The entire compartment bursts into flames.
         Ripley turns and scrambles back up the ladderway.
 
-        INT. OILY CORRIDOR - "C" LEVEL
+INT. OILY CORRIDOR - "C" LEVEL
 
         Ripley emerges from below.
         Gasps for breath.
         Regains control of herself.
 
-        EXT. OUTER SPACE
+EXT. OUTER SPACE
 
         At light speed.
         The Nostromo and refinery appear to hang motionless.
         Star clusters rolling past in the infinite distance.
    
-        INT. ENGINE ROOM - CUBICLE
+INT. ENGINE ROOM - CUBICLE
 
         Ripley enters the power center.
         Stares at the massive light-plus engines.
@@ -5369,22 +5373,22 @@
                   functioning.  Engines will over-
                   load in four minutes, fifty seconds...
 
-        INT. OILY CORRIDOR - "C" LEVEL
+INT. OILY CORRIDOR - "C" LEVEL
 
         Ripley running toward the "B" deck companionway.
 
-        INT. "B" LEVEL - CORRIDOR
+INT. "B" LEVEL - CORRIDOR
 
         Ripley starts toward Narcissus.
         Remembers Jones.
 
-        INT. "A" TO "B" LEVELS - COMPANIONWAY
+INT. "A" TO "B" LEVELS - COMPANIONWAY
 
         Jones howling.
         In his box.
         Ripley reaches up and grabs him.
 
-        INT. "B" LEVEL - CORRIDOR LEADING TO AIR LOCK
+INT. "B" LEVEL - CORRIDOR LEADING TO AIR LOCK
 
         Ripley carrying Jones, holding flamethrower.
         Jones hisses.
@@ -5394,7 +5398,7 @@
         Ripley turns and bolts toward the engine room, leaving
         Jones on "B" level companionway.
 
-        INT. COMPANIONWAY TO OILY CORRIDOR - "E" LEVEL
+INT. COMPANIONWAY TO OILY CORRIDOR - "E" LEVEL
    
         Ripley bounds down the companionway.
         Her footsteps clanging metallically throughout the ship.
@@ -5405,7 +5409,7 @@
                   Attention.  Engines will overload
                   in three minutes, twenty seconds.
 
-        INT. ENGINE ROOM - CUBICLE
+INT. ENGINE ROOM - CUBICLE
 
         The door crashes open, Ripley comes pounding in.
         The chamber filled with smoke.
@@ -5436,7 +5440,7 @@
         A moment.
         The Ripley turns and runs from the engine room.
    
-        INT. OILY CORRIDOR - COMPANIONWAY
+INT. OILY CORRIDOR - COMPANIONWAY
 
         Ripley runs back down the corridor.
         Up the companionway, exhausted, stumbling...
@@ -5446,12 +5450,12 @@
                   Attention.  Engines will overload
                   in two minutes.
 
-        INT. "B" LEVEL - COMPANIONWAY
+INT. "B" LEVEL - COMPANIONWAY
 
         She reaches companionway.
         Picks up Jones.
 
-        INT. "B" LEVEL - CORRIDOR LEADING TO NARCISSUS
+INT. "B" LEVEL - CORRIDOR LEADING TO NARCISSUS
 
         Ripley staggers towards the air lock.
         The Narcissus berthed beyond.
@@ -5468,11 +5472,11 @@
         She makes it to the vestibule.
         Looks into the shuttle.
 
-        INT. NARCISSUS
+INT. NARCISSUS
 
         Ripley scans the narrow deck...empty.
 
-        INT. VESTIBULE
+INT. VESTIBULE
 
         She turns and dashes back.
         Grabs the cat box.
@@ -5483,31 +5487,31 @@
                   Attention.  The engines will
                   explode in sixty seconds.
                                                            
-        INT. NARCISSUS
+INT. NARCISSUS
 
         Ripley enters on the run.
         Hurls the cat box toward the front.
         She dives into the control chair.
         Hits the "launch" button.
    
-        EXT. NOSTROMO - OUTER SPACE
+EXT. NOSTROMO - OUTER SPACE
 
         The retainer clips drop away.
         A blast of ram jets.
         The shuttle is launched from the mother ship.
 
-        INT. NARCISSUS
+INT. NARCISSUS
 
         Ripley frantically straps herself in.
         G-forces from the shuttles acceleration pulling against her.
 
-        EXT. SPACE
+EXT. SPACE
 
         The Narcissus continues to power away from the mother ship.
         The larger bulk of the Nostromo quietly receding.
         All is strangely serene.
 
-        INT. NARCISSUS
+INT. NARCISSUS
 
         Ripley finishes strapping herself in.
         Reaches and grabs the cat box.
@@ -5515,7 +5519,7 @@
         Ripley hugs the box to her chest.
         Hunches her head down over the container.
 
-        EXT. SPACE
+EXT. SPACE
 
         The Nostromo drifts farther away from the shuttle-craft.
         Finally becomes a small point of light.
@@ -5525,7 +5529,7 @@
         And then the refinery explodes.
         200,000,000 tons of fuel blasting silently into the cosmos.
 
-        INT. NARCISSUS
+INT. NARCISSUS
 
         The shockwave hits the shuttle craft.
         Jolting and rattling everything within.
@@ -5535,13 +5539,13 @@
         Stares out through the porthole.
         Face bathed in orange light.
 
-        EXT. SPACE
+EXT. SPACE
 
         Piece of debris float past.
         The boiling fireball fades into nothingness.
         The Nostromo has ceased to exist.
 
-        INT. NARCISSUS
+INT. NARCISSUS
 
         Ripley watching the final destiny of her ship and crew mates.
         A very long moment.
@@ -5564,7 +5568,7 @@
         Hurls herself inside.
         Slams it shut.
 
-        INT. LOCKER
+INT. LOCKER
 
         A clear glass panel in the door.
         The Alien puts its head up to the window.
@@ -5573,13 +5577,13 @@
         The Alien looking at Ripley almost in curiosity.
         The moaning of the cat distracts it.
 
-        INT. NARCISSUS
+INT. NARCISSUS
 
         The Alien moves to the pressurized cat box.
         Bends down and peers inside.
         The cat yowls louder as his container is lifted.
    
-        INT. LOCKER
+INT. LOCKER
 
         Ripley knocks on the glass.
         Trying to distract the Creature from the cat.
@@ -5590,17 +5594,17 @@
         Sees the pressure suit.
         Quickly begins to pull it on.
 
-        INT. NARCISSUS
+INT. NARCISSUS
 
         The Alien picks up the cat box.
         Shakes it.
         The cat moans.
 
-        INT. LOCKER
+INT. LOCKER
 
         Ripley is halfway into a pressure suit.
 
-        INT. NARCISSUS
+INT. NARCISSUS
 
         The Creature throws the cat box down.
         Very hard.
@@ -5610,7 +5614,7 @@
         Begins to pound the container into the opening.
         The cat now beyond all hysteria.
    
-        INT. LOCKER
+INT. LOCKER
 
         Ripley pulls on the helmet, latches it into place.
         Turns the oxygen valve.
@@ -5619,12 +5623,12 @@
         Ripley peels off the rubber tip.
         Revealing a sharp metal point.
 
-        INT. SPACE SUIT LOCKER
+INT. SPACE SUIT LOCKER
 
         Ripley inhales.
         Kicks the door open.
    
-        INT. NARCISSUS
+INT. NARCISSUS
 
         The Creature rises.
         Faces the locker.
@@ -5640,34 +5644,34 @@
         The Alien shoots past her.
         Grab's Ripley's ankle with an appendage.
 
-        EXT. NARCISSUS
+EXT. NARCISSUS
 
         Ripley now hanging halfway out of the shuttle-craft.
         The Alien clinging to her leg.
         She kicks at it with her free foot.
         The Creature holds fast.
    
-        INT. NARCISSUS
+INT. NARCISSUS
 
         Ripley looks for any salvation.
         Grabs the hatch level.
         Yanks it.
         The hatch slams shut, closing Ripley safely inside.
    
-        EXT. NARCISSUS
+EXT. NARCISSUS
 
         The Alien still outside the shuttle-craft.
         Within the vacuum of space.
         The top of its appendage mashed into the closed hatch.
 
-        INT. NARCISSUS
+INT. NARCISSUS
 
         Acid starts to foam along the base of the hatch.
         Eats away at the metal.
         Ripley stumbles forward to the controls.
         Pushes the ram jet lever.
 
-        EXT. NARCISSUS - OUTER SPACE
+EXT. NARCISSUS - OUTER SPACE
    
         The Creature struggling.
         Jet exhaust located at the rear of the craft.
@@ -5675,12 +5679,12 @@
         Then shut off.
         Incinerating, the Alien tumbles slowly away into space.
 
-        INT. NARCISSUS
+INT. NARCISSUS
 
         Ripley hurries to the rear hatch.
         Peers through the glass.
 
-        EXT. OUTER SPACE
+EXT. OUTER SPACE
 
         The burned mass of the Alien drifts slowly away.
         Writhing, smoking.
@@ -5690,7 +5694,7 @@
         Spray of particles in all directions.
         Then smoldering fragments dwindle into infinity.
 
-        INT. NARCISSUS - LATER
+INT. NARCISSUS - LATER
 
         Now repressurized.
         Ripley is seated in the control chair.
@@ -5712,7 +5716,7 @@
         She switches off the recorder.
         Stares into space.
 
-        EXT. OUTER SPACE
+EXT. OUTER SPACE
 
         The shuttle-craft Narcissus sails into the distance.
 
