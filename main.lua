@@ -15,6 +15,8 @@ game.inv = 'ERROR: "inv" undefined';
 game.use = 'ERROR: "use" undefined';
 game.forcedsc = true;
 
+dofile('scene1.lua');
+dofile('scene2.lua');
 dofile('alien.lua');
 
 main = room {

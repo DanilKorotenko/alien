@@ -206,6 +206,10 @@ INT. HYPERSLEEP VAULT
 * End of Scene 1
 ********************************************************************
 
+********************************************************************
+* Scene 2
+********************************************************************
+
 INT. MESS
 
         The crew of the United States commercial starship Nostromo
@@ -281,6 +285,10 @@ INT. MESS
                   eyes only...Now, everybody hit
                   their stations.
 
+********************************************************************
+* End of Scene 2
+********************************************************************
+
 INT. COMPUTER ROOM ANNEX
    
         Floor to ceiling data banks.
@@ -310,7 +318,7 @@ INT. COMPUTER ROOM ANNEX
         Immediately start getting a readout.
 
                                                        CUT TO:
-                                                           
+
 INT. BRIDGE
 
         Above eye level the room is ringed by viewscreens.
