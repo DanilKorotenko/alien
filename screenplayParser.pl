@@ -29,6 +29,7 @@ foreach $line (@allLines)
 	}
 	else
 	{
+		$currentLines .= "^";
 		$currentLines .= $line;
 	}
 	
@@ -59,7 +60,5 @@ foreach $roomName (keys %rooms)
 	$roomID =~ s/__/_/g;
 	print "$roomID = room\n{\n\tnam = \"$roomName\",\n\tdsc = [[$rooms{$roomName}]],\n\tway = {$roomIDSString}\n}\n\n";
 }
-
-#print $roomIDSString;
 
 print "\n";
